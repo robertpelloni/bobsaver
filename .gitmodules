@@ -1,3 +1,18 @@
 [submodule "JWildfire"]
 	path = JWildfire
 	url = https://github.com/robertpelloni/JWildfire
+[submodule "apophysis-j"]
+	path = apophysis-j
+	url = https://github.com/robertpelloni/apophysis-j
+[submodule "electricsheep"]
+	path = electricsheep
+	url = https://github.com/robertpelloni/electricsheep
+[submodule "geiss"]
+	path = geiss
+	url = https://github.com/robertpelloni/geiss
+[submodule "MilkDrop3"]
+	path = MilkDrop3
+	url = https://github.com/robertpelloni/MilkDrop3
+[submodule "projectm"]
+	path = projectm
+	url = https://github.com/robertpelloni/projectm
