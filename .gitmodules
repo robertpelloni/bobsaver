@@ -3,19 +3,19 @@
 	url = https://github.com/robertpelloni/JWildfire
 [submodule "apophysis-j"]
 	path = apophysis-j
-	url = https://www.github.com/mebigfatguy/apophysis-j
+	url = https://github.com/robertpelloni/apophysis-j
 [submodule "electricsheep"]
 	path = electricsheep
-	url = https://www.github.com/scottdraves/electricsheep
+	url = https://github.com/robertpelloni/electricsheep
 [submodule "geiss"]
 	path = geiss
-	url = https://www.github.com/geissomatik/geiss
+	url = https://github.com/robertpelloni/geiss
 [submodule "MilkDrop3"]
 	path = MilkDrop3
-	url = https://www.github.com/milkdrop2077/MilkDrop3
+	url = https://github.com/robertpelloni/MilkDrop3
 [submodule "projectm"]
 	path = projectm
-	url = https://www.github.com/projectM-visualizer/projectm
+	url = https://github.com/robertpelloni/projectm
 [submodule "BeatDrop"]
 	path = BeatDrop
-	url = https://www.github.com/OfficialIncubo/BeatDrop-Music-Visualizer
+	url = https://github.com/robertpelloni/BeatDrop
