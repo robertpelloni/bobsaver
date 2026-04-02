@@ -2,6 +2,13 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.7] - 2026-04-01
+
+### Added
+- **Visions of Chaos Integration (JWildfire)**:
+    - Implemented **Gray-Scott Reaction-Diffusion** engine in `org.jwildfire.ca`.
+    - Added Laplacian computation kernel for 2D chemical reaction simulations.
+
 ## [1.0.6] - 2026-04-01
 
 ### Added
