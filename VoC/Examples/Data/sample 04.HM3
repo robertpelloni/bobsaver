@@ -1,0 +1,11 @@
+[Settings]
+Q=100
+K1=4
+K2=12
+G=34
+Min Visible State=0
+Max Visible State=99
+Coloring=0
+Color Palette=coolors painting5.MAP
+State 1 Color=clYellow
+Final State Color=clRed

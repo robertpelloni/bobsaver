@@ -1,0 +1,16 @@
+[GA Rule]
+Rule=DCYa
+[Image Options]
+Palette File=Genetic09.MAP
+Smooth Colors=0
+Random Offsets=1
+Coordinate Width=7
+[Gene Character Offsets]
+Xoffset1=-5
+Yoffset1=-5
+Xoffset2=-2
+Yoffset2=-15
+Xoffset3=-1
+Yoffset3=3
+Xoffset4=-14
+Yoffset4=1

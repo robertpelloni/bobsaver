@@ -1,0 +1,7 @@
+[Settings]
+Formula=frac((x)+cos(y-x)-cos(pi))
+Palette=FIRECOD2.MAP
+Xmin=-8.25
+Xmax=5.84375
+Ymin=-6.64583333333333
+Ymax=7.5625

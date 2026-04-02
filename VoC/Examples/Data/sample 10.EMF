@@ -1,0 +1,16 @@
+[Settings]
+Inlets=9
+Inlet Shape=0
+Inlet Size=0.02
+Inlet Density=1
+Inlet Velocity=3
+Inlet Stop After=0
+Density=0.01
+Time Step=0.005
+Substeps=1
+Interpolation=1
+Integration=1
+Projection=0
+Projection Iterations=500
+Display=0
+Palette=Jason41.MAP

@@ -1,0 +1,12 @@
+[Settings]
+Formula=5
+Root Finding Method=4
+Palette Step Amount=7
+Genralized Newton Factor=1
+Genralized Newton I=0
+Coloring=2
+Palette=image h giger 2.MAP
+Xmin=-3.38858798828125
+Xmax=2.62697685546875
+Ymin=-3.04679453125
+Ymax=2.9687703125

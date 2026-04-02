@@ -1,0 +1,6 @@
+[Settings]
+Max States=100
+K1=2
+K2=3
+G=25
+Palette=coolors yum.MAP

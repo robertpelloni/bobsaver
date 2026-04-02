@@ -1,0 +1,59 @@
+[Eye]
+X=0.05
+Y=0
+Z=1.3
+[Look At]
+X=0.05
+Y=0
+Z=0.3
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=51
+[Light]
+X=6.08391713667626
+Y=2.01133212444581
+Z=6.98233452071935
+[Rotation]
+X=299
+Y=265
+Z=333
+[Settings]
+Iterations=7
+Epsilon=0.00005
+Power=9
+Gamma=76
+Contrast=0
+Shading=2
+Formula=1
+Bailout=4
+Palette=kuler sognefjord.MAP
+Spikes=0
+Spikes Y Maximum=0.969651838066056
+Juliabulb=0
+Julia Real=0.0882497836889566
+Julia Imaginary=0.775691809253035
+Julia Imaginary 2=-0.422452778089792
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=clBlue
+Glow Threshold=150
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.4
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Phase=0
+Theta Scale=-0.856279251631349
+Phi Scale=-0.293646681122482

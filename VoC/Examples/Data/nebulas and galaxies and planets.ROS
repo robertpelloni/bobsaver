@@ -1,0 +1,13 @@
+[Settings]
+prompt=nebulas and galaxies and planets in space
+negative_prompt=
+initimage=
+border_size=200
+zoom_factor=0.9
+noise=10
+steps=25
+total_frames=250
+randomseed=0
+increment_seed_each_frame=1
+check_for_black_borders=1
+border_threshold=30

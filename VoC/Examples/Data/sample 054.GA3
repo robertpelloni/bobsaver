@@ -1,0 +1,30 @@
+[Settings]
+Formula=(((((pi-ln(pi))*sin((pi+x)))%((2.4*sgn(pi))+cos((y+pi))))%((2.9*sgn(pi))+cos((y+pi))))-((((pi-ln(pi))*sin((pi+x)))%((1.8*sgn(pi))+cos((y+pi))))-((6.4-ceil(pi))*cos((y+x)))))
+Color Palette=kuler fleshtones.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(pi-y)
+Gene1=((pi-ln(pi))*sin((pi+x)))
+Gene2=((6.7*sgn(y))+cos((y+pi)))
+Gene3=(((y%arctan(x))+sqr((y*sin(x))))/((1.7*frac(7.5))%(pi-frac(x))))
+Gene4=((6.4-ceil(pi))*arctan((y+x)))
+Gene5=(((pi-ln(pi))*sin((pi+x)))*((6.7*sgn(y))+cos((y+pi))))
+Gene6=(((pi-ln(pi))*sin((pi+x)))+((6.7*sgn(y))+cos((y+pi))))
+Gene7=(((pi-ln(pi))*sin((pi+x)))/((2.9*sgn(pi))+cos((y+pi))))
+Gene8=(((pi-ln(pi))*sin((pi+x)))%((2.9*sgn(pi))+cos((y+pi))))
+Gene9=((((pi-ln(pi))*sin((pi+x)))%((2.9*sgn(pi))+cos((y+pi))))-((6.4-ceil(pi))*arctan((y+x))))
+Gene10=((((pi-ln(pi))*sin((pi+x)))+((6.7*sgn(y))+cos((y+pi))))%((((pi-ln(pi))*sin((pi+x)))%((2.9*sgn(pi))+cos((y+pi))))-((6.4-ceil(pi))*arctan((y+x)))))
+Gene11=((((pi-ln(pi))*sin((pi+x)))+((6.7*sgn(y))+cos((y+pi))))%((2.9*sgn(pi))+cos((y+pi))))
+Gene12=((((pi-ln(pi))*sin((pi+x)))%((2.9*sgn(pi))+cos((y+pi))))+((2.9*sgn(pi))+cos((y+pi))))
+Gene13=(((((pi-ln(pi))*sin((pi+x)))%((2.9*sgn(pi))+cos((y+pi))))+((2.9*sgn(pi))+cos((y+pi))))%((((pi-ln(pi))*sin((pi+x)))%((2.9*sgn(pi))+cos((y+pi))))-((6.4-ceil(pi))*arctan((y+x)))))
+Gene14=((((pi-ln(pi))*sin((pi+x)))%((2.4*sgn(pi))+cos((y+pi))))%((2.9*sgn(pi))+cos((y+pi))))
+Gene15=(((((pi-ln(pi))*sin((pi+x)))%((2.4*sgn(pi))+cos((y+pi))))%((2.9*sgn(pi))+cos((y+pi))))+(((((pi-ln(pi))*sin((pi+x)))%((2.9*sgn(pi))+cos((y+pi))))+((2.9*sgn(pi))+cos((y+pi))))%((((pi-ln(pi))*sin((pi+x)))%((2.9*sgn(pi))+cos((y+pi))))-((6.4-ceil(pi))*arctan((y+x))))))
+Gene16=(((((pi-ln(pi))*sin((pi+x)))%((8.8*sgn(pi))/cos((y+pi))))+((1.9*sgn(pi))+cos((y+pi))))*((((pi-ln(pi))*sin((pi+x)))%((2.9*sgn(pi))+cos((y+pi))))-((6.4-ceil(pi))*cos((y+x)))))
+Gene17=(((((pi-ln(pi))*sin((pi+x)))%((2.4*sgn(pi))+cos((y+pi))))%((2.9*sgn(pi))+cos((y+pi))))*(((((pi-ln(pi))*sin((pi+x)))%((8.8*sgn(pi))/cos((y+pi))))+((1.9*sgn(pi))+cos((y+pi))))*((((pi-ln(pi))*sin((pi+x)))%((2.9*sgn(pi))+cos((y+pi))))-((6.4-ceil(pi))*cos((y+x))))))
+Gene18=(((((pi-ln(pi))*sin((pi+x)))%((2.4*sgn(pi))+cos((y+pi))))%((2.9*sgn(pi))+cos((y+pi))))+(((((pi-ln(pi))*sin((pi+x)))%((8.8*sgn(pi))/cos((y+pi))))+((1.9*sgn(pi))+cos((y+pi))))*((((pi-ln(pi))*sin((pi+x)))%((2.9*sgn(pi))+cos((y+pi))))-((6.4-ceil(pi))*cos((y+x))))))
+Gene19=(((((pi-ln(pi))*sin((pi+x)))%((2.4*sgn(pi))+cos((y+pi))))%((2.9*sgn(pi))+cos((y+pi))))+((((pi-ln(pi))*sin((pi+x)))%((2.9*sgn(pi))+cos((y+pi))))-((6.4-ceil(pi))*cos((y+x)))))
+Gene20=(((((pi-ln(pi))*sin((pi+x)))%((2.4*sgn(pi))+cos((y+pi))))%((2.9*sgn(pi))+cos((y+pi))))*((((pi-ln(pi))*sin((pi+x)))%((1.8*sgn(pi))+cos((y+pi))))-((6.4-ceil(pi))*cos((y+x)))))
+Gene21=(((((pi-ln(pi))*sin((pi+x)))%((2.4*sgn(pi))+cos((y+pi))))%((2.9*sgn(pi))+cos((y+pi))))-((((pi-ln(pi))*sin((pi+x)))%((1.8*sgn(pi))+cos((y+pi))))-((6.4-ceil(pi))*cos((y+x)))))

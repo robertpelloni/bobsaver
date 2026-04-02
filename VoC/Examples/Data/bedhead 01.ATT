@@ -1,0 +1,12 @@
+[Settings]
+Attractor Name=Bedhead
+Palette=IFS22.MAP
+Brightness=100
+Contrast=0
+A=0.65343
+B=0.7345345
+[Coordinates]
+Xmin=-8.88888888888889
+Xmax=8.88888888888889
+Ymin=-5.15
+Ymax=5.15

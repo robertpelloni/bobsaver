@@ -1,0 +1,39 @@
+Global Script Settings
+	Palette=JACCO244.MAP
+	Fractal Type=Lyapunov
+	RulString=AAAABAAABAB
+Point 1
+	XMin=1
+	XMax=4
+	YMin=1
+	YMax=4
+	Iterations=256
+	Tween Steps=0
+Point 2
+	XMin=2.63125
+	XMax=2.93125
+	YMin=3.5375
+	YMax=3.8375
+	Iterations=256
+	Tween Steps=30
+Point 3
+	XMin=2.85625
+	XMax=2.88625
+	YMin=3.78125
+	YMax=3.81125
+	Iterations=256
+	Tween Steps=30
+Point 4
+	XMin=2.866
+	XMax=2.869
+	YMin=3.8075
+	YMax=3.8105
+	Iterations=256
+	Tween Steps=30
+Point 5
+	XMin=2.86735
+	XMax=2.86765
+	YMin=3.8088125
+	YMax=3.8091125
+	Iterations=256
+	Tween Steps=30

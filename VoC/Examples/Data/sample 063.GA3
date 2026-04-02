@@ -1,0 +1,22 @@
+[Settings]
+Formula=(((((x/arctan(x))-sin((pi%exp(9.8))))+(((pi-sin(x))-cos((pi/0.9)))-((6.7+y)+(2.6%2.4))))%(6.2+cos(x)))+(((((x/arctan(x))-cos((y%exp(9.8))))-(((pi-sin(x))-cos((pi/0.9)))-((1.2+y)+(2.6%2.4))))%(5.7+cos(x)))+((((x/arctan(x))-cos((y%exp(9.8))))-(((pi-sin(x))-cos((pi/0.9)))-((1.2+y)+(2.6%2.4))))*cos(x))))
+Color Palette=colorschemer cobalt.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((x/arctan(x))-cos((y%exp(9.8))))
+Gene1=(((pi-sin(x))-cos((pi/0.9)))-((1.2+y)+(2.6%2.4)))
+Gene2=(5.7+cos(x))
+Gene3=((y+sqr(pi))%sqrt((pi+7.6)))
+Gene4=(((9.2/exp(1))-ln((pi%cos(y))))*((0.8-sqr(6.1))%(y/sqr(x))))
+Gene5=(((x/arctan(x))-cos((y%exp(9.8))))-(((pi-sin(x))-cos((pi/0.9)))-((1.2+y)+(2.6%2.4))))
+Gene6=((((x/arctan(x))-cos((y%exp(9.8))))-(((pi-sin(x))-cos((pi/0.9)))-((1.2+y)+(2.6%2.4))))*(((pi-sin(x))-cos((pi/0.9)))-((1.2+y)+(2.6%2.4))))
+Gene7=(((((x/arctan(x))-cos((y%exp(9.8))))-(((pi-sin(x))-cos((pi/0.9)))-((1.2+y)+(2.6%2.4))))*(((pi-sin(x))-cos((pi/0.9)))-((1.2+y)+(2.6%2.4))))%(5.7+cos(x)))
+Gene8=((((x/arctan(x))-cos((y%exp(9.8))))-(((pi-sin(x))-cos((pi/0.9)))-((1.2+y)+(2.6%2.4))))-(5.7+cos(x)))
+Gene9=((((x/arctan(x))-cos((y%exp(9.8))))-(((pi-sin(x))-cos((pi/0.9)))-((1.2+y)+(2.6%2.4))))*cos(x))
+Gene10=((((x/arctan(x))-cos((y%exp(9.8))))-(((pi-sin(x))-cos((pi/0.9)))-((1.2+y)+(2.6%2.4))))%(5.7+cos(x)))
+Gene11=(((((x/arctan(x))-cos((y%exp(9.8))))-(((pi-sin(x))-cos((pi/0.9)))-((1.2+y)+(2.6%2.4))))%(5.7+cos(x)))+((((x/arctan(x))-cos((y%exp(9.8))))-(((pi-sin(x))-cos((pi/0.9)))-((1.2+y)+(2.6%2.4))))*cos(x)))
+Gene12=((((x/arctan(x))-sin((pi%exp(9.8))))+(((pi-sin(x))-cos((pi/0.9)))-((6.7+y)+(2.6%2.4))))%(6.2+cos(x)))
+Gene13=(((((x/arctan(x))-sin((pi%exp(9.8))))+(((pi-sin(x))-cos((pi/0.9)))-((6.7+y)+(2.6%2.4))))%(6.2+cos(x)))+(((((x/arctan(x))-cos((y%exp(9.8))))-(((pi-sin(x))-cos((pi/0.9)))-((1.2+y)+(2.6%2.4))))%(5.7+cos(x)))+((((x/arctan(x))-cos((y%exp(9.8))))-(((pi-sin(x))-cos((pi/0.9)))-((1.2+y)+(2.6%2.4))))*cos(x))))

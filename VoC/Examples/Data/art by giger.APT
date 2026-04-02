@@ -1,0 +1,21 @@
+[Prompt]
+Line0="0":  "art by giger"
+[Settings]
+headprompt=
+tailprompt=
+negativeprompt=
+scheduler=k_dpmpp_sde
+motionmodule=mm_sd_v15_v2.ckpt
+motionlora=v2_lora_ZoomIn.ckpt
+motionlorastrength=1.0
+lora=dreamshaper_8.safetensors
+controlnet=
+seed=1523491514
+steps=25
+frames=16
+lengthparameter=500
+guidancescale=7.5
+w=512
+h=512
+format=mp4
+loopmovie=0

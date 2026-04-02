@@ -1,0 +1,7 @@
+[Settings]
+Formula=sin(((pi*pi))-tan(x/4.9)-round(((x+y*y+sin(((x+y)+cos(y+x-pi))+cos(((y-x))-cos(x+pi))-cos(x-y))-cos(y+x)+x+cos(((x-y)+cos(y-pi))+cos(pi-pi)-sin(pi)-sin(y)+sin((y))+y+sin(y))+x+cos(x+y-pi)+y-cos(pi)+x-cos(x-y)-cos(((y)+cos((x+pi)+sin(y-2)-sin(y+x)-x-cos(x+y+7)+cos(pi-pi)+sin(pi+5.2)-cos(x))-x-cos(y-0.6))-cos(x))+sin(x)+sin((y+x+pi)+sin(y-2.8)-sin(x-y+pi)+x-sin(((x+y)))))
+Palette=REDS.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

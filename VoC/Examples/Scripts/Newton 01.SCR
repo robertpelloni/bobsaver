@@ -1,0 +1,54 @@
+Global Script Settings
+	Palette=sinpal28.MAP
+	Fractal Type=Newton
+	Formula=5
+	Coloring=2
+Point 1
+	XMin=-4.9999
+	XMax=5
+	YMin=-4.9999
+	YMax=5
+	Iterations=256
+	Tween Steps=0
+Point 2
+	XMin=-0.5311946875
+	XMax=0.4687953125
+	YMin=-0.54161125
+	YMax=0.45837875
+	Iterations=256
+	Tween Steps=30
+Point 3
+	XMin=-0.0499495
+	XMax=0.0500495000000001
+	YMin=-0.0457828750000001
+	YMax=0.0542161249999998
+	Iterations=256
+	Tween Steps=30
+Point 4
+	XMin=-0.015887340625
+	XMax=-0.00588744062499998
+	YMin=-0.000366662500000135
+	YMax=0.00963323749999986
+	Iterations=256
+	Tween Steps=30
+Point 5
+	XMin=-0.012262376875
+	XMax=-0.011262386875
+	YMin=0.00450828874999986
+	YMax=0.00550827874999986
+	Iterations=256
+	Tween Steps=30
+Point 6
+	XMin=-0.01190300546875
+	XMax=-0.01180300646875
+	YMin=0.00501245037499986
+	YMax=0.00511244937499986
+	Iterations=256
+	Tween Steps=30
+Point 7
+	XMin=-0.011860818390625
+	XMax=-0.011850818490625
+	YMin=0.00505744992499986
+	YMax=0.00506744982499986
+	Iterations=256
+	Tween Steps=30

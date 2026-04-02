@@ -1,0 +1,195 @@
+Text To Image\VQGAN+CLIP\vqgan_imagenet_f16_1024.yaml	645	https://heibox.uni-heidelberg.de/d/8088892a516d4e3baf92/files/?p=%2Fconfigs%2Fmodel.yaml&dl=1	ECB71C97B3C2EA610FA54DA63B9812F0
+Text To Image\VQGAN+CLIP\vqgan_imagenet_f16_1024.ckpt	957954257	https://heibox.uni-heidelberg.de/d/8088892a516d4e3baf92/files/?p=%2Fckpts%2Flast.ckpt&dl=1	98C961EB86B109C8AE0B98B6EE51B82A
+Text To Image\VQGAN+CLIP\vqgan_imagenet_f16_16384.yaml	692	https://heibox.uni-heidelberg.de/d/a7530b09fed84f80a887/files/?p=%2Fconfigs%2Fmodel.yaml&dl=1	7ADD3A8562852C1ED1D41B91274AB524
+Text To Image\VQGAN+CLIP\vqgan_imagenet_f16_16384.ckpt	980092370	https://heibox.uni-heidelberg.de/d/a7530b09fed84f80a887/files/?p=%2Fckpts%2Flast.ckpt&dl=1	229B53CA2F1E5878D593B9021A5442C9
+Text To Image\VQGAN+CLIP\coco.yaml	458	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/coco_first_stage.yaml	CA66F6FC4C0F56038A66CE753574D5A4
+Text To Image\VQGAN+CLIP\coco.ckpt	296030214	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/coco_first_stage.ckpt	1D9A15867F623EAE897D4C58021FC4BF
+Text To Image\VQGAN+CLIP\gumbel_f8-8192.yaml	745	https://heibox.uni-heidelberg.de/d/2e5662443a6b4307b470/files/?p=%2Fconfigs%2Fmodel.yaml&dl=1	8DD5B344CC5140B89EF486C48642DF91
+Text To Image\VQGAN+CLIP\gumbel_f8-8192.ckpt	376581823	https://heibox.uni-heidelberg.de/d/2e5662443a6b4307b470/files/?p=%2Fckpts%2Flast.ckpt&dl=1	2D7220686A3392D0E2FEE03239CA4B81
+Text To Image\VQGAN+CLIP\transformer_cond_2_00003_090000_modelonly.pth	1348087477	https://the-eye.eu/public/AI/models/cond_transformer_2/transformer_cond_2_00003_090000_modelonly.pth	A68E9187D077939420661984306AB24A
+Text To Image\VQGAN+CLIP\wikiart_1024.yaml	933	https://softology.pro/models/wikiart_1024.yaml	B5F6437F9D9F7F2FA1B4B11E727F60BD
+Text To Image\VQGAN+CLIP\wikiart_1024.ckpt	958144949	https://softology.pro/models/wikiart_1024.ckpt	CC024F5E72D1B6AEE46F34F38AAFEA3F
+Text To Image\VQGAN+CLIP\wikiart_16384.yaml	920	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/wikiart_16384.yaml	3C5E3E4589126FC0B304CDAF712CFB7F
+Text To Image\VQGAN+CLIP\wikiart_16384.ckpt	1005327541	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/wikiart_16384.ckpt	37E0C8E16B7D562391E88BCB92E42E2C
+Text To Image\VQGAN+CLIP\sflckr.yaml	1603	https://heibox.uni-heidelberg.de/d/73487ab6e5314cb5adba/files/?p=%2Fconfigs%2F2020-11-09T13-31-51-project.yaml&dl=1	34BE2275498DF91EC503604351B7C720
+Text To Image\VQGAN+CLIP\sflckr.ckpt	4263525412	https://heibox.uni-heidelberg.de/d/73487ab6e5314cb5adba/files/?p=%2Fcheckpoints%2Flast.ckpt&dl=1	F4D8F392986698F4D5EA03EAFDEFAD5B
+Text To Image\VQGAN+CLIP\vqgan_openimages_f16_8192.yaml	745	https://dl.nmkd.de/ai/clip/vqgan/8k-2021-06/vqgan-f8-8192.yaml	8DD5B344CC5140B89EF486C48642DF91
+Text To Image\VQGAN+CLIP\vqgan_openimages_f16_8192.ckpt	376581823	https://dl.nmkd.de/ai/clip/vqgan/8k-2021-06/vqgan-f8-8192.ckpt	2D7220686A3392D0E2FEE03239CA4B81
+Text To Image\VQGAN+CLIP\rudalle.yaml	745	https://huggingface.co/shonenkov/rudalle-utils/resolve/main/vqgan.gumbelf8-sber.config.yml	8DD5B344CC5140B89EF486C48642DF91
+Text To Image\VQGAN+CLIP\rudalle.ckpt	346054435	https://huggingface.co/shonenkov/rudalle-utils/resolve/main/vqgan.gumbelf8-sber.model.ckpt	38C4220AE3339A2E8719541592FD799C
+Text To Image\VQGAN+CLIP\AudioCLIP-Full-Training.pt	537302068	https://github.com/AndreyGuzhov/AudioCLIP/releases/download/v0.1/AudioCLIP-Full-Training.pt	2124F5349BC7A254F13D0D7A6D002D99
+Text To Image\VQGAN+CLIP\wikiart_7mil.yaml	933	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/wikiart_7mil.yaml	B5F6437F9D9F7F2FA1B4B11E727F60BD
+Text To Image\VQGAN+CLIP\wikiart_7mil.ckpt	958144949	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/wikiart_7mil.ckpt	CC024F5E72D1B6AEE46F34F38AAFEA3F
+Text To Image\VQGAN+CLIP\coco_first_stage.yaml	458	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/coco_first_stage.yaml	CA66F6FC4C0F56038A66CE753574D5A4
+Text To Image\VQGAN+CLIP\coco_first_stage.ckpt	296030214	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/coco_first_stage.ckpt	1D9A15867F623EAE897D4C58021FC4BF
+Text To Image\VQGAN Gumbel\gumbel_8192.yaml	745	https://heibox.uni-heidelberg.de/d/2e5662443a6b4307b470/files/?p=%2Fconfigs%2Fmodel.yaml&dl=1	8DD5B344CC5140B89EF486C48642DF91
+Text To Image\VQGAN Gumbel\gumbel_8192.ckpt	376581823	https://heibox.uni-heidelberg.de/d/2e5662443a6b4307b470/files/?p=%2Fckpts%2Flast.ckpt&dl=1	2D7220686A3392D0E2FEE03239CA4B81
+Text To Image\Aleph2Image\decoder.pkl	175360231	https://cdn.openai.com/dall-e/decoder.pkl	6A34497AFA4E3A3729C1F5628A9E0365
+Text To Image\Aleph2Image\encoder.pkl	215185363	https://cdn.openai.com/dall-e/encoder.pkl	14EBDF4F618BF4899107EBE4BFF4B55C
+Text To Image\OpenAI DVAE+CLIP\decoder.pkl	175360231	https://cdn.openai.com/dall-e/decoder.pkl	6A34497AFA4E3A3729C1F5628A9E0365
+Text To Image\OpenAI DVAE+CLIP\encoder.pkl	215185363	https://cdn.openai.com/dall-e/encoder.pkl	14EBDF4F618BF4899107EBE4BFF4B55C
+Text To Image\CLIP Guided Diffusion\256x256_diffusion_uncond.pt	2211383297	https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffusion_uncond.pt	FD9DD2335B8736D521DE0AED54BD90CA
+Text To Image\CLIP Guided Diffusion\512x512_diffusion.pt	2236135873	https://openaipublic.blob.core.windows.net/diffusion/jul-2021/512x512_diffusion.pt	8C19AF8F0100D97FE8283B721A0AC1AE
+Text To Image\CLIP Guided Diffusion\512x512_diffusion_uncond_finetune_008100.pt	2232025447	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/512x512_diffusion_uncond_finetune_008100.pt	B9391DE42D7f31F5F1EFAB49B19133FB
+Text To Image\CLIP Guided Diffusion\slip_base_100ep.pt	2047767787	https://dl.fbaipublicfiles.com/slip/slip_base_100ep.pt	6D7DA9B1F4ED4D8CA04FA9DE3E992B45
+Text To Image\CLIP Guided Diffusion\slip_large_100ep.pt	4672106982	https://dl.fbaipublicfiles.com/slip/slip_large_100ep.pt	326391CD1406708D9E8784338CE8640C
+Text To Image\CLIP Guided Diffusion\i2ts1.pt	4206839	https://softology.pro/models/i2ts1.pt	B3FC0D4FA038CC03FB3987503BCC6047
+Text To Image\CLIP Guided Diffusion\t2is1.pt	4206839	https://softology.pro/models/t2is1.pt	3BC68C0E2FE1B37CBE60EAC72D7678E2
+Text To Image\CLIP Guided Diffusion\secondary_model_imagenet.pth	21744014	https://the-eye.eu/public/AI/models/v-diffusion/secondary_model_imagenet.pth	25E49EC806BA6A4CE45A6471625A3186
+Text To Image\CLIP Guided Diffusion\secondary_model_imagenet_2.pth	55380626	https://the-eye.eu/public/AI/models/v-diffusion/secondary_model_imagenet_2.pth	37A18B5770A7C250C92A5FE47F36A407
+Text To Image\CLIP Guided Diffusion\yfcc_1.pth	1925893569	https://the-eye.eu/public/AI/models/v-diffusion/yfcc_1.pth	37181B7825C9FEC12B373F6EA58A251A
+Text To Image\CLIP Guided Diffusion\yfcc_2.pth	3873078669	https://the-eye.eu/public/AI/models/v-diffusion/yfcc_2.pth	DE4D20CBFC1D819786901D6BDD61458D
+Text To Image\CLIP Guided Diffusion\openimages.pth	2232095737	https://set.zlkj.in/models/diffusion/512x512_diffusion_uncond_openimages_epoch28_withfilter.pt	6BAF240E9C46C88C3E1655DEBABBBAD8
+Text To Image\CLIP Guided Diffusion\dpt_large-midas-2f21e586.pt	1376378527	https://github.com/intel-isl/DPT/releases/download/1_0/dpt_large-midas-2f21e586.pt	192A869BAF0664F3898175FE8F312860
+Text To Image\CLIP Guided Diffusion\AdaBins_nyu.pt	940558786	https://softology.pro/models/AdaBins_nyu.pt	83F29131CD84544E80B50C97A636B255
+Text To Image\CLIP Guided Diffusion\i2t_media.pt	4206223	https://softology.pro/models/i2t_media.pt	50CEDC110AA5E5663B82542F35D89A67
+Text To Image\CLIP Guided Diffusion\i2t_nothing2.pt	4206223	https://softology.pro/models/i2t_nothing2.pt	DFE720C7D76C66778F66571E586CC5FE
+Text To Image\CLIP Guided Diffusion\i2t_sampo.pt	4206223	https://softology.pro/models/i2t_sampo.pt	85501DB9314D68ECEF51BAD8FE5C1B97
+Text To Image\CLIP Guided Diffusion\i2ts2.pt	4206223	https://softology.pro/models/i2ts2.pt	601B346E2A3ECFC839148B998FFA3580
+Text To Image\CLIP Guided Diffusion\i2ts3.pt	4206223	https://softology.pro/models/i2ts3.pt	25CD93A244DA32A8454555AE2BF33C89
+Text To Image\CLIP Guided Diffusion\t2i_media.pt	4206223	https://softology.pro/models/t2i_media.pt	36CA88F872A3EE7E8A75169093AA2515
+Text To Image\CLIP Guided Diffusion\t2i_nothing2.pt	4206223	https://softology.pro/models/t2i_nothing2.pt	C1DD5EEF0A8AA7BA726C6036C5466D23
+Text To Image\CLIP Guided Diffusion\t2i_sampo.pt	4206223	https://softology.pro/models/t2i_sampo.pt	C0508129A03C5751D09DD303B5C4ED31
+Text To Image\CLIP Guided Diffusion\t2is2.pt	4206223	https://softology.pro/models/t2is2.pt	320A30D10A376B51B307518496153BF6
+Text To Image\CLIP Guided Diffusion\t2is3.pt	4206223	https://softology.pro/models/t2is3.pt	64BFD1539E310F2735445C9D5E2FE2AF
+Text To Image\CLIP Guided Diffusion\model.ckpt	6152314307	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/cgd_model.ckpt	5081803CD848B8EEA86FBEFE9027769C
+Text To Image\CLIP Guided Diffusion\RAFT\models\raft-chairs.pth	21108000	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/raft-chairs.pth	37D7C11DCCC199C915580562651D85DD
+Text To Image\CLIP Guided Diffusion\RAFT\models\raft-kitti.pth	21108000	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/raft-kitti.pth	E5882FE9B35E1A7CB80537F6F859179F
+Text To Image\CLIP Guided Diffusion\RAFT\models\raft-sintel.pth	21108000	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/raft-sintel.pth	CC69E5DA1F38673AB10D1849859EBE91
+Text To Image\CLIP Guided Diffusion\RAFT\models\raft-small.pth	3984814	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/raft-small.pth	925642262ACC623B3996690EAC7D14C9
+Text To Image\CLIP Guided Diffusion\RAFT\models\raft-things.pth	21108000	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/raft-things.pth	55B58DE5D9022EB37893916D246E14A3
+Text To Image\CLIP Guided Diffusion\256x256_diffusion_uncond_kdiffusion.pt	2211383297	https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffusion_uncond.pt	FD9DD2335B8736D521DE0AED54BD90CA
+Text To Image\CLIP Guided Diffusion\architecture.pt	454885741	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/architecture.pt	FAF16AFD46F0CA0C1AB2857E79029EE4
+Text To Image\CLIP Guided Diffusion\deep_space.pt	553273895	https://huggingface.co/laproper/diffusion-deepspace-256/resolve/main/ema_0.9999_102000.pt	B0D254FE895D8B67BEDA3199BB5F3FBE
+Text To Image\CLIP Guided Diffusion\comics_faces.pt	454882797	https://github.com/Sxela/DiscoDiffusion-Warp/releases/download/v0.1.1/256x256_openai_comics_faces_v2.by_alex_spirin_114k.pt	AC2690397B97DF6019FB66A8E578CFFA
+Text To Image\CLIP Guided Diffusion\fantasy.pt	454885741	https://huggingface.co/LaVista/fantasydiffusion/resolve/main/fantasy26.pt	CAA12A8B4A4B8BE1745D5E8D6ED12026
+Text To Image\CLIP Guided Diffusion\floral.pt	454885741	https://huggingface.co/jags/floraldiffusion/resolve/main/floraldiffusion.pt	CB721CDC92C10EBE15EC92A0DD64A603
+Text To Image\CLIP Guided Diffusion\great_magazine_art.pt	454885741	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/great_magazine_art.pt	A5B7DF4DDAA5FBF95B5D7F58FA7459A5
+Text To Image\CLIP Guided Diffusion\handpainted.pt	2236121575	https://huggingface.co/Feiart/FeiArt-Handpainted-CG-Diffusion/resolve/main/FeiArt-Handpainted-CG-Diffusion.pt	4FEF2147F228C53ED9DFF31A2009EC90
+Text To Image\CLIP Guided Diffusion\isometric.pt	2232025447	https://huggingface.co/Revrart/IsometricDiffusionRevrart512px/resolve/main/IsometricDiffusionRevrart512px.pt	BC224E5E34203E8F2CD268AEF36CC0C7
+Text To Image\CLIP Guided Diffusion\liminal_spaces.pt	454885741	https://huggingface.co/BrainArtLabs/liminal_diffusion/resolve/main/liminal_diffusion_v1.pt	A0C20F96F657C7AD1FECBB88B7285ECB
+Text To Image\CLIP Guided Diffusion\liminal_source.pt	454885741	https://huggingface.co/BrainArtLabs/liminal_diffusion/resolve/main/liminal_diffusion_source.pt	8702D7E06A6DA585596AB4927FC4C902
+Text To Image\CLIP Guided Diffusion\lithography.pt	454885741	https://huggingface.co/KaliYuga/lithographydiffusion/resolve/main/lithographydiffusion.pt	5EC4485EEF4994F89233CE4979BB7A71
+Text To Image\CLIP Guided Diffusion\medieval_art.pt	454885741	https://huggingface.co/KaliYuga/medievaldiffusion/resolve/main/medievaldiffusion.pt	794AABF0FD889C761CC642BC3F4CA6B5
+Text To Image\CLIP Guided Diffusion\nes_160k.pt	454885741	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/nes_160k.pt	AE241785F66DEE640712AA35194DB37E
+Text To Image\CLIP Guided Diffusion\nes_200k.pt	454885741	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/nes_200k.pt	6FECF750223E845D4357157E3701B79F
+Text To Image\CLIP Guided Diffusion\nes_350k.pt	454885741	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/nes_350k.pt	657B8AFAB30E5D9624922DA038D861E2
+Text To Image\CLIP Guided Diffusion\ngpx2022.pt	2211370791	https://huggingface.co/oculardegen/ngpx2022/resolve/main/ngpx2022.pt	D65BF1ECDD45620080CEDC6562700C72
+Text To Image\CLIP Guided Diffusion\paintpour_v1.0.pt	2211370791	https://huggingface.co/EclecticBeams/PaintPour_diffusion/resolve/main/paintpour_v1.0_ema_0.9999_031000.pt	D695DC89AC58D76BE227EA8B15E72D02
+Text To Image\CLIP Guided Diffusion\paintpour_v1.1.pt	553273895	https://huggingface.co/EclecticBeams/PaintPour_diffusion/resolve/main/paintpour_v1.1_ema_0.9999_071000.pt	DF13D5ECA0A375BBADAFA7BBD28EF5A0
+Text To Image\CLIP Guided Diffusion\paintpour_v1.2.pt	553273895	https://huggingface.co/EclecticBeams/PaintPour_diffusion/resolve/main/paintpour_v1.2_ema_0.9999_032000.pt	072049588CFABD0A704991B252E9F24C
+Text To Image\CLIP Guided Diffusion\paintpour_v1.3.pt	553273895	https://huggingface.co/EclecticBeams/PaintPour_diffusion/resolve/main/paintpour_v1.3_ema_0.9999_064000.pt	D042DE3B2AEF74EDF5A12C2E8E7943F6
+Text To Image\CLIP Guided Diffusion\pixelart_hard_256.pt	454885741	https://huggingface.co/KaliYuga/pixel_art_diffusion_hard_256/resolve/main/pixel_art_diffusion_hard_256.pt	15914A1FCAD981AB21CF6584A887EFC4
+Text To Image\CLIP Guided Diffusion\pixelart_soft_256.pt	454885741	https://huggingface.co/KaliYuga/pixel_art_diffusion_soft_256/resolve/main/pixel_art_diffusion_soft_256.pt	667865D6C64053147B0C307C74EE6003
+Text To Image\CLIP Guided Diffusion\pixelart_4k.pt	454885741	https://huggingface.co/KaliYuga/pixelartdiffusion4k/resolve/main/pixelartdiffusion4k.pt	EA20CBAEC7D796B62040F480BAA32846
+Text To Image\CLIP Guided Diffusion\pixelart_expanded.pt	454885741	https://huggingface.co/KaliYuga/PADexpanded/resolve/main/PADexpanded.pt	B65167E2100312A178D35E66953FA2DF
+Text To Image\CLIP Guided Diffusion\portrait_diffusion_v2.pt	558448487	https://huggingface.co/WAS/portrait-diffusion/resolve/main/ema_0.9999_430000.pt	99C164A680AFE0691458FBB512E6322A
+Text To Image\CLIP Guided Diffusion\portrait_diffusion_v2_5.pt	558448487	https://huggingface.co/WAS/portrait-diffusion/resolve/main/ema_0.9999_080000.pt	58543F52687618140F2DAFEEF55D8F19
+Text To Image\CLIP Guided Diffusion\pulp_scifi.pt	454885741	https://huggingface.co/KaliYuga/PulpSciFiDiffusion/resolve/main/PulpSciFiDiffusion.pt	CC71F1C27E30A0B7D144B42554CAFC48
+Text To Image\CLIP Guided Diffusion\retro_movie_posters.pt	454885741	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/retro_movie_posters.pt	852C94D9CC34BB8B0DA2CE701CC0B721
+Text To Image\CLIP Guided Diffusion\textiles.pt	454885741	https://huggingface.co/KaliYuga/textilediffusion/resolve/main/textilediffusion.pt	95AF0B740B61167D4EADD40478D5F91E
+Text To Image\CLIP Guided Diffusion\ukiyoe_portraits.pt	454885741	https://huggingface.co/avantcontra/ukiyoe-portrait-diffusion/resolve/main/ukiyoe_portrait_diffusion_256x256.pt	BD4787CCF84D067AE52E12FDFD606AF1
+Text To Image\CLIP Guided Diffusion\watercolor.pt	454885741	https://huggingface.co/KaliYuga/watercolordiffusion/resolve/main/watercolordiffusion.pt	6F99CB48f7C82D52f97F166A6B5F1F7A
+Text To Image\CLIP Guided Diffusion\watercolor_2.pt	454885741	https://huggingface.co/KaliYuga/watercolordiffusion_2/resolve/main/watercolordiffusion_2.pt	92B4031C004F4E69C517C3B56FABBD21
+Text To Image\CLIP Guided Diffusion\clip_prior_6_6370000.pth	347784231	https://models.rivershavewings.workers.dev/clip_prior_6_6370000.pth	0EBA9DF1F512B48D67275E52A0F55B7E
+Text To Image\CLIP Guided Diffusion\vqgan_imagenet_f16_16384.ckpt	980092370	https://heibox.uni-heidelberg.de/d/a7530b09fed84f80a887/files/?p=%2Fckpts%2Flast.ckpt&dl=1	229B53CA2F1E5878D593B9021A5442C9
+Text To Image\CLIP Guided Diffusion\vqgan_imagenet_f16_16384.yaml	692	https://heibox.uni-heidelberg.de/d/a7530b09fed84f80a887/files/?p=%2Fconfigs%2Fmodel.yaml&dl=1	7ADD3A8562852C1ED1D41B91274AB524
+Text To Image\GLID-3\ema-latest.pt	2430504167	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/ema-latest.pt	2301C3DB3DC5143D226FD2DA9A6AEFED
+Text To Image\GLID-3\vq-f8\model.ckpt	879771703	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/model.ckpt	DC4D1EF98673704F0E78F0E909160EB3
+Text To Image\Flux\ae.safetensors	335304388	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/ae.sft	5C8C2087D13D0951B36BE6DFBD3CD157
+Text To Image\Flux\flux1-dev.safetensors	23802932552	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/f1d.sft	A6BD8C16DFC23DB6AEE2F63A2EBA78C0
+Text To Image\FuseDream\BigGAN_utils\weights\biggan-512.pth	329534798	https://softology.pro/models/biggan-512.pth	45BFD0C403A314B8F1C52A0D139D8208
+Text To Image\Illustrip\pretrained\AdaBins_nyu.pt	940558786	https://softology.pro/models/AdaBins_nyu.pt	83F29131CD84544E80B50C97A636B255
+Text To Image\Velocity Diffusion\checkpoints\cc12m_1.pth	2411747217	https://the-eye.eu/public/AI/models/v-diffusion/cc12m_1.pth	6F106793AA9C3D0E43261ED4D0B23C7A
+Text To Image\Velocity Diffusion\checkpoints\cc12m_1_cfg.pth	2411747217	https://the-eye.eu/public/AI/models/v-diffusion/cc12m_1_cfg.pth	0A5BF4DD68753F1F43D6BF22B2D0D934
+Text To Image\Velocity Diffusion\checkpoints\yfcc_1.pth	1925893569	https://the-eye.eu/public/AI/models/v-diffusion/yfcc_1.pth	37181B7825C9FEC12B373F6EA58A251A
+Text To Image\Velocity Diffusion\checkpoints\yfcc_2.pth	3873078669	https://the-eye.eu/public/AI/models/v-diffusion/yfcc_2.pth	DE4D20CBFC1D819786901D6BDD61458D
+Text To Image\minDALL-E\stage1_last.ckpt	304409278	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/stage1_last.ckpt	16B0D895BE788EEED194E803EAB2168E
+Text To Image\minDALL-E\stage2_last.ckpt	5164546387	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/stage2_last.ckpt	9993C6DEE7E9081957CFE9DE5F473F41
+Text To Image\GLID-3-XL\bert.pt	2328155637	https://dall-3.com/models/glid-3-xl/bert.pt	69742A2B12D5474B8D425B7B4F48F965
+Text To Image\GLID-3-XL\finetune.pt	3493285927	https://dall-3.com/models/glid-3-xl/finetune.pt	1BA122ED6C5D8FE22DBEBF986F9DE79D
+Text To Image\GLID-3-XL\inpaint.pt	3493332007	https://dall-3.com/models/glid-3-xl/inpaint.pt	32C7BFF2BFD5408f00AB3f4ADE2A0A9E
+Text To Image\GLID-3-XL\kl-f8.pt	334732241	https://dall-3.com/models/glid-3-xl/kl-f8.pt	EAD0C2394405C741FA97BF50B6CC6A61
+Text To Image\JAX\models\256x256_diffusion_uncond.pt	2211383297	https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffusion_uncond.pt	FD9DD2335B8736D521DE0AED54BD90CA
+Text To Image\JAX\models\512x512_diffusion_uncond_finetune_008100.pt	2232025447	https://set.zlkj.in/models/diffusion/512x512_diffusion_uncond_finetune_008100.pt	B9391DE42D7F31F5F1EFAB49B19133FB
+Text To Image\JAX\models\512x512_diffusion_uncond_openimages_epoch28_withfilter.pt	2232095737	https://set.zlkj.in/models/diffusion/512x512_diffusion_uncond_openimages_epoch28_withfilter.pt	6BAF240E9C46C88C3E1655DEBABBBAD8
+Text To Image\JAX\models\ava_vit_b_16_full.pth	21479	https://the-eye.eu/public/AI/models/v-diffusion/ava_vit_b_16_full.pth	520FD3FBA221BD617A37269916C774FF
+Text To Image\JAX\models\cc12m_1.pth	2411747217	https://the-eye.eu/public/AI/models/v-diffusion/cc12m_1.pth	6F106793AA9C3D0E43261ED4D0B23C7A
+Text To Image\JAX\models\cc12m_1_cfg.pth	2411747217	https://the-eye.eu/public/AI/models/v-diffusion/cc12m_1_cfg.pth	0A5BF4DD68753F1F43D6BF22B2D0D934
+Text To Image\JAX\models\danbooru_128.pkl	2259531533	https://the-eye.eu/public/AI/models/v-diffusion/danbooru_128.pkl	7D958A51EDC91D892FE0485767D1297F
+Text To Image\JAX\models\imagenet_128.pkl	1161388366	https://the-eye.eu/public/AI/models/v-diffusion/imagenet_128.pkl	A45940F10090CA3F7F357F99D1E674E5
+Text To Image\JAX\models\jpeg-db-oi-614.pt	11651299	https://set.zlkj.in/models/diffusion/jpeg-db-oi-614.pt	D66404A87FC51E07B68ACC84F3BDE596
+Text To Image\JAX\models\pixelart-fgood_600.pt	248735465	https://set.zlkj.in/models/diffusion/pixelart/pixelart-fgood_600.pt	C7DA6993D35DDD14915162BE9BBE76BA
+Text To Image\JAX\models\pixelart-v6-aug-3000.pt	249104233	https://set.zlkj.in/models/diffusion/pixelart/pixelart-v6-aug-3000.pt	673B696538F4789B7038F6F830F82570
+Text To Image\JAX\models\pixelart-v7-large-ic-attn-600.pt	265728341	https://set.zlkj.in/models/diffusion/pixelart/pixelart-v7-large-ic-attn-600.pt	DC75EC56EB22E6618FDCE5951AB5DC8B
+Text To Image\JAX\models\secondary_model_imagenet_2.pth	55380626	https://the-eye.eu/public/AI/models/v-diffusion/secondary_model_imagenet_2.pth	37A18B5770A7C250C92A5FE47F36A407
+Text To Image\JAX\models\wikiart_128.pkl	975534150	https://the-eye.eu/public/AI/models/v-diffusion/wikiart_128.pkl	29073FE8885329B64A19CB546E4E3736
+Text To Image\JAX\models\wikiart_256.pkl	1164238121	https://the-eye.eu/public/AI/models/v-diffusion/wikiart_256.pkl	C1ED5DC2D9B5CA58BED91AF20F3A6235
+Text To Image\MMC\secondary_model_imagenet_2.pth	55380626	https://the-eye.eu/public/AI/models/v-diffusion/secondary_model_imagenet_2.pth	37A18B5770A7C250C92A5FE47F36A407
+Text To Image\MMC\ava_vit_l_14_336_linear.pth	4071	https://multimodal.art/models/ava_vit_l_14_336_linear.pth	3B076BCB50D68FC8C6F9FB7E3B633950
+Text To Image\MMC\sa_0_4_vit_l_14_linear.pth	4071	https://multimodal.art/models/sa_0_4_vit_l_14_linear.pth	46EC6A7A3A942A172D20430135301C58
+Text To Image\MMC\ava_vit_l_14_linear.pth	4071	https://multimodal.art/models/ava_vit_l_14_linear.pth	9434978466CDB37F7536E8F83409AF64
+Text To Image\MMC\ava_vit_b_16_linear.pth	3047	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/ava_vit_b_16_linear.pth	120865FE2A3716CA610678F8363431C2
+Text To Image\MMC\sa_0_4_vit_b_32_linear.pth	3047	https://multimodal.art/models/sa_0_4_vit_b_32_linear.pth	A34CC4726E293450736F321F950AB9AB
+Text To Image\MMC\openimages_512x_png_embed224.npz	2312	https://github.com/nshepperd/jax-guided-diffusion/raw/8437b4d390fcc6b57b89cedcbaf1629993c09d03/data/openimages_512x_png_embed224.npz	828EF922298CCA0BA6B8CC05359648DC
+Text To Image\MMC\imagenet_512x_jpg_embed224.npz	2312	https://github.com/nshepperd/jax-guided-diffusion/raw/8437b4d390fcc6b57b89cedcbaf1629993c09d03/data/imagenet_512x_jpg_embed224.npz	1EC54072A804B248591FBCBD043d3E3B
+Text To Image\MMC\cc12m_1_cfg.pth	2411747217	https://the-eye.eu/public/AI/models/v-diffusion/cc12m_1_cfg.pth	0A5BF4DD68753F1F43D6BF22B2D0D934
+Text To Image\MMC\cc12m_1.pth	2411747217	https://the-eye.eu/public/AI/models/v-diffusion/cc12m_1.pth	6F106793AA9C3D0E43261ED4D0B23C7A
+Text To Image\MMC\yfcc_2.pth	3873078669	https://the-eye.eu/public/AI/models/v-diffusion/yfcc_2.pth	DE4D20CBFC1D819786901D6BDD61458D
+Text To Image\MMC\openimages.pth	2232095737	https://set.zlkj.in/models/diffusion/512x512_diffusion_uncond_openimages_epoch28_withfilter.pt	6BAF240E9C46C88C3E1655DEBABBBAD8
+Text To Image\MMC\wikiart_256.pth	1164354975	https://the-eye.eu/public/AI/models/v-diffusion/wikiart_256.pth	BCC26825FF4CE14D0D7750B77D3211AE
+Text To Image\MMC\nshep_danbooru.pth	2411748177	https://set.zlkj.in/models/diffusion/danbooru/cc12m-danbooru-adam-lr5-1645.pt	ECFAC694BAEE556FC523E445B6348F20
+Text To Image\MMC\danbooru_128.pth	2259583877	https://the-eye.eu/public/AI/models/v-diffusion/danbooru_128.pth	AA5A9B315C6A01f4E58C728436FAEBF6
+Text To Image\MMC\latent_diffusion_txt2img_f8_large.ckpt	6152314307	https://ommer-lab.com/files/latent-diffusion/nitro/txt2img-f8-large/model.ckpt	5081803CD848B8EEA86FBEFE9027769C
+Text To Image\MMC\finetuned_state_dict.pt	3493245607	https://huggingface.co/multimodalart/compvis-latent-diffusion-text2img-large/resolve/main/finetuned_state_dict.pt	1886722FC9462F6335D2DFA7D651F9E9
+Text To Image\MMC\sa_0_4_vit_b_16_linear.pth	3047	https://multimodal.art/models/sa_0_4_vit_b_16_linear.pth	F3F7D942D478F394379181B92BF1FA13
+Text To Image\MMC\GFPGAN\experiments\pretrained_models\GFPGANv1.3.pth	348632874	https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.3.pth	43FC9D9E6879C5982329D7EFA587CD91
+Text To Image\MMC\GFPGAN\experiments\pretrained_models\GFPGANv1.4.pth	348632874	https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/GFPGANv1.4.pth	94D735072630AB734561130A47BC44F8
+Text To Image\MMC\txt2img-f8-large-jack000-finetuned-fp16.ckpt	3076536705	https://huggingface.co/multimodalart/compvis-latent-diffusion-text2img-large/resolve/main/txt2img-f8-large-jack000-finetuned-fp16.ckpt	D8F8D99CEE922D57398EEB7FFD95E525
+Text To Image\MMC\ongo.pt	3493332007	https://huggingface.co/laion/ongo/resolve/main/ongo.pt	C7C8CE24BF7890BC8920C532B40B075E
+Text To Image\MMC\erlich.pt	3493332007	https://huggingface.co/laion/erlich/resolve/main/model/ema_0.9999_120000.pt	652EC4B51C45EC18A0667C9D395FD925
+Text To Image\MMC\puck.pt	3493483041	https://huggingface.co/laion/puck/resolve/main/puck.pt	720DBD575B904A0B170E571347A734E0
+Text To Image\Stable Diffusion\models\ldm\stable-diffusion-v1\sd-v1-4.ckpt	4265380512	https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt	C01059060130B8242849D86E97212C84
+Text To Image\Stable Diffusion\models\ldm\stable-diffusion-v1\v1-5-pruned.ckpt	7703807346	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/v1-5-pruned.ckpt	FDE08EE6F4FAC7AB26592BF519CBB405
+Text To Image\Deforum Stable Diffusion\sd-v1-4.ckpt	4265380512	https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt	C01059060130B8242849D86E97212C84
+Text To Image\Deforum Stable Diffusion\v1-5-pruned.ckpt	7703807346	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/v1-5-pruned.ckpt	FDE08EE6F4FAC7AB26592BF519CBB405
+Text To Image\Deforum Stable Diffusion\dpt_large-midas-2f21e586.pt	1376378527	https://github.com/intel-isl/DPT/releases/download/1_0/dpt_large-midas-2f21e586.pt	192A869BAF0664F3898175FE8F312860
+Text To Image\Deforum Stable Diffusion\pretrained\AdaBins_nyu.pt	940558786	https://softology.pro/models/AdaBins_nyu.pt	83F29131CD84544E80B50C97A636B255
+Text To Image\Deforum Stable Diffusion\v2-1_768-ema-pruned.ckpt	5214865159	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/v2-1_768-ema-pruned.ckpt	CE8EE5C53ACB3A6540B44A71276C3D01
+Text To Image\Deforum Stable Diffusion\Protogen_V2.2.ckpt	4265327916	https://huggingface.co/darkstorm2150/Protogen_v2.2_Official_Release/resolve/main/Protogen_V2.2.ckpt	ACD3F6E395BD93758176C0DD8C89C1AB
+Text To Image\Deforum Stable Diffusion\deforum-stable-diffusion-071\models\v2-1_768-ema-pruned.ckpt	5214865159	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/v2-1_768-ema-pruned.ckpt	CE8EE5C53ACB3A6540B44A71276C3D01
+Text To Image\Deforum Stable Diffusion\deforum-stable-diffusion-071\models\Protogen_V2.2.ckpt	4265327916	https://huggingface.co/darkstorm2150/Protogen_v2.2_Official_Release/resolve/main/Protogen_V2.2.ckpt	ACD3F6E395BD93758176C0DD8C89C1AB
+Text To Image\Stable Diffusion v2\768-v-ema.ckpt	5214864007	https://huggingface.co/stabilityai/stable-diffusion-2/resolve/main/768-v-ema.ckpt	48CB3980EC03A370B68BD0A9D8EEFECE
+Text To Image\Stable Diffusion v2\512-base-ema.ckpt	5214864007	https://huggingface.co/stabilityai/stable-diffusion-2-base/resolve/main/512-base-ema.ckpt	ACEC06C7696A136A3A24ABD6E3EB45AC
+Text To Image\Stable Diffusion v2\v2-1_768-ema-pruned.ckpt	5214865159	https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt	CE8EE5C53ACB3A6540B44A71276C3D01
+Text To Image\Pytti\vqgan\imagenet.yaml	692	https://heibox.uni-heidelberg.de/d/a7530b09fed84f80a887/files/?p=%2Fconfigs%2Fmodel.yaml&dl=1	7ADD3A8562852C1ED1D41B91274AB524
+Text To Image\Pytti\vqgan\imagenet.ckpt	980092370	https://heibox.uni-heidelberg.de/d/a7530b09fed84f80a887/files/?p=%2Fckpts%2Flast.ckpt&dl=1	229B53CA2F1E5878D593B9021A5442C9
+Text To Image\SDXL 1.0 VoC\sd_xl_base_1.0.safetensors	6938078334	https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors	CF9D29192EF7433096A69fE5E32EFBA1
+Text To Image\SDXL 1.0 VoC\sd_xl_refiner_1.0.safetensors	6075981930	https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors	C0DF90F318ABF30FCD2CD233EA638251
+Text To Image\SDXL 1.0 VoC\sd_xl_base_1.0_0.9vae.safetensors	6938078334	https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors	86B0F3400706C97ECB8EFBED8146B373
+Text To Image\SDXL 1.0 VoC\sd_xl_refiner_1.0_0.9vae.safetensors	6075981930	https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0_0.9vae.safetensors	74D31C96097471D5D3BD93A915AD0B30
+Text To Image\SDXL 1.0 VoC\LoRAs\Alex Grey Style_al3xxl.safetensors	912556100	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Alex%20Grey%20Style_al3xxl.safetensors	C2A9755262C6A450E1F078834B7E2FA9
+Text To Image\SDXL 1.0 VoC\LoRAs\Detail Tweaker_no keywords needed.safetensors	228452344	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Detail%20Tweaker_no%20keywords%20needed.safetensors	E092DCD5BB370B9DF8FB09CE42DD4AE9
+Text To Image\SDXL 1.0 VoC\LoRAs\Enhancer_no keywords needed.safetensors	719020768	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Enhancer_no%20keywords%20needed.safetensors	D9D67A5EBC781BFEC6C8BC41A6D033E7
+Text To Image\SDXL 1.0 VoC\LoRAs\Giger Art Style_g1g3r.safetensors	912555620	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Giger%20Art%20Style_g1g3r.safetensors	AD03C91C5D22EB29FFD678ED5BBE8738
+Text To Image\SDXL 1.0 VoC\LoRAs\Moebius (Jean Giraud) Style_Moebius (Jean Giraud) Style page.safetensors	228494964	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Moebius%20(Jean%20Giraud)%20Style_Moebius%20(Jean%20Giraud)%20Style%20page.safetensors	1EF40634A3B0C0A1244F515199AC0AD9
+Text To Image\SDXL 1.0 VoC\LoRAs\Neonify_Neon Realism.safetensors	1824687596	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Neonify_Neon%20Realism.safetensors	9BC261044B4F68092A7122654AB60F44
+Text To Image\SDXL 1.0 VoC\LoRAs\Oil Painting_art by sargent.safetensors	681235220	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Oil%20Painting_art%20by%20sargent.safetensors	CD31DA73D89AAEA02A0E0F13C51404B7
+Text To Image\SDXL 1.0 VoC\LoRAs\Papercut_papercut.safetensors	340786114	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Papercut_papercut.safetensors	B76C4A356FB29A82FF1A9DCA979C63A0
+Text To Image\SDXL 1.0 VoC\LoRAs\Pixelart_pixelarfk.safetensors	170540052	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Pixelart_pixelarfk.safetensors	8168FA4699BCA517CAF33020EC27AF9E
+Text To Image\SDXL 1.0 VoC\LoRAs\Psychedelic Art Style_bangerooo.safetensors	228466292	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Psychedelic%20Art%20Style_bangerooo.safetensors	D261BFC8913F483FF59980FD2F15BD80
+Text To Image\SDXL 1.0 VoC\LoRAs\Realistic Film Photgraphy_realistic film photography.safetensors	912558260	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Realistic%20Film%20Photgraphy_realistic%20film%20photography.safetensors	28669F2396895145CD6EB7D18379FA39
+Text To Image\SDXL 1.0 VoC\LoRAs\Snow Style_snowstyle.safetensors	228454748	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Snow%20Style_snowstyle.safetensors	F88BC6298ED99D8411AE7D8790179260
+Text To Image\SDXL 1.0 VoC\LoRAs\Trypophobia_trypophobia.safetensors	46702152	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Trypophobia_trypophobia.safetensors	BF58D248C718FBFED275E4BFCBD36ECC
+Text To Image\SDXL 1.0 VoC\LoRAs\Watercolor Style_no keywords needed.safetensors	11860808	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Watercolor%20Style_no%20keywords%20needed.safetensors	BF4F5B7C6A6FA0ABCF757EA594D70007
+Text To Image\Stable Cascade\models\effnet_encoder.safetensors	81506763	https://huggingface.co/stabilityai/StableWurst/resolve/main/effnet_encoder.safetensors	74A85A947095CE6B2E780B9358F5EA68
+Text To Image\Stable Cascade\models\previewer.safetensors	15954183	https://huggingface.co/stabilityai/StableWurst/resolve/main/previewer.safetensors	7E55871A635C91BA795A7D29D265DF93
+Text To Image\Stable Cascade\models\stage_a.safetensors	73654345	https://huggingface.co/stabilityai/StableWurst/resolve/main/stage_a.safetensors	D7DCA082D08790750020CADD5E452287
+Text To Image\Stable Cascade\models\stage_b.safetensors	6251950402	https://huggingface.co/stabilityai/StableWurst/resolve/main/stage_b.safetensors	BE9A26E3441AD9EB57444DEB9D0C4d45
+Text To Image\Stable Cascade\models\stage_b_bf16.safetensors	3126069112	https://huggingface.co/stabilityai/StableWurst/resolve/main/stage_b_bf16.safetensors	AA2C536CCC43875B044CC7944B07742E
+Text To Image\Stable Cascade\models\stage_b_lite.safetensors	2797995764	https://huggingface.co/stabilityai/StableWurst/resolve/main/stage_b_lite.safetensors	0528AED18F52A0A7AD954F99645625C8
+Text To Image\Stable Cascade\models\stage_b_lite_bf16.safetensors	1399053542	https://huggingface.co/stabilityai/StableWurst/resolve/main/stage_b_lite_bf16.safetensors	23177B49F662480f4BEE75941AE6E1AE
+Text To Image\Stable Cascade\models\stage_c.safetensors	14356582818	https://huggingface.co/stabilityai/StableWurst/resolve/main/stage_c.safetensors	6BC771B0E7B1B4580B2C210018346CDB
+Text To Image\Stable Cascade\models\stage_c_bf16.safetensors	7178375922	https://huggingface.co/stabilityai/StableWurst/resolve/main/stage_c_bf16.safetensors	F2AC181FFD88CA806DD081FE98A4E865
+Text To Image\Stable Cascade\models\stage_c_lite.safetensors	4123231220	https://huggingface.co/stabilityai/StableWurst/resolve/main/stage_c_lite.safetensors	9877BEFFC78404CA8B8D32FCA5E4CB76
+Text To Image\Stable Cascade\models\stage_c_lite_bf16.safetensors	2061661425	https://huggingface.co/stabilityai/StableWurst/resolve/main/stage_c_lite_bf16.safetensors	D5A55566AD97BCADF326AC3A18B793E2

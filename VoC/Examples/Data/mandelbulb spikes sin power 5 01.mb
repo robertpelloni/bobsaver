@@ -1,0 +1,36 @@
+[Eye]
+X=0
+Y=0
+Z=1
+[Look At]
+X=0
+Y=0
+Z=0
+[Zoom]
+Zoom=1.2
+[Light]
+X=0
+Y=-5
+Z=-10
+[Rotation]
+X=140
+Y=35
+Z=0
+[Settings]
+Iterations=5
+Epsilon=0.0001
+Power=5
+Brightness=100
+Shading=0
+Negative SIN=0
+Bailout=4
+Palette=kuler drholwegneu.MAP
+Spikes=1
+Spikes Y Maximum=0.5
+Juliabulb=0
+Julia Real=-1.3347824952672
+Julia Imaginary=0.0230475389250589
+Julia Imaginary 2=-0.581756907515228
+Shadows=1
+Supersample=1
+Supersample Pixels=1

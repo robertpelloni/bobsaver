@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos(y+x)-frac((x-9.4)*int((pi*cos(((x+y)+cos(y-pi)+y+sin((x+8.8)+cos(y-pi)+cos(pi)+sin(((y-pi))-x+cos(y-x)+sin(y-x+pi)-cos(y)+sin(x))-x-sin(y-x)+y-sin(x)-y-sin(x-y-7.5)+sin(y-6.4))+sin(x)+sin(x-y)+y+cos(x+pi)-sin((x+y-9.2)+y+cos(x-pi)-cos((y)+sin(x-y-pi)+cos((y-pi)+cos(y))-cos(x+y)+x-sin(y+x-pi))-sin(x)-cos(y-x+pi)-cos(pi)-cos(((x+y-9.6)+sin(y+pi)+sin((pi)+cos((y+x+3.5)+x-sin(((y+pi))-sin(pi+pi)+cos(pi+pi)+cos(x-y)+sin(pi-1.1))-y+sin(y-6.7))+cos(y))-sin(y-pi)+x-cos(((x-y)+cos(pi))+sin((y+0.1)+x+cos(x-0.3)-cos((x-y))+x-4.7)))
+Palette=Jason39.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

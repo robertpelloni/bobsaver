@@ -1,0 +1,45 @@
+[Settings]
+Color method=3
+Color palette=Gray Scale 1.MAP
+Wrap method=2
+Start style=0
+Random seed=1
+Combined wavs=10
+Histogram=1
+Layers=5
+[Grid]
+Blur Radius 1=1
+Min Freq 1=1
+Max Freq 1=2
+Min Amp 1=1
+Max Amp 1=5
+Blur Radius 2=10
+Min Freq 2=1
+Max Freq 2=2
+Min Amp 2=1
+Max Amp 2=5
+Blur Radius 3=50
+Min Freq 3=1
+Max Freq 3=2
+Min Amp 3=1
+Max Amp 3=5
+Blur Radius 4=100
+Min Freq 4=1
+Max Freq 4=2
+Min Amp 4=1
+Max Amp 4=5
+Blur Radius 5=150
+Min Freq 5=1
+Max Freq 5=2
+Min Amp 5=1
+Max Amp 5=5
+[Color Matrix]
+00=1
+10=0.0283462768420577
+20=0.506911400239915
+01=0.0863028932362795
+11=1
+21=0.600171769503504
+02=0.174483363516629
+12=-0.827071821782738
+22=1

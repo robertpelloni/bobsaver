@@ -1,0 +1,17 @@
+[Settings]
+Speed=0.06
+Viscosity=0.03
+Contrast=30
+Grid Style=16
+Display Style=5
+Channel Height=1
+Flow Vectors Visible=0
+Initial Fluid Movement=0
+Show Tracers=0
+Tracers Spacing=8
+Tracers Size=4
+Tracers Color=clWhite
+Particle Color Style=1
+Splat Particles=0
+Splat Radius=4
+Color Palette=LBM10.MAP

@@ -1,0 +1,181 @@
+
+// Division Weighted V number
+    float[VMX] dvmd; 
+    for(int i = 0; i < VMX; i++) { dvmd[i] = ubvn[i] * 1.0; }
+
+// ---- ---- ---- ---- ---- ---- ---- ----
+// Rule Initilisation
+// ---- ---- ---- ---- ---- ---- ---- ----
+
+// Get the reference frame's origin pixel values
+    float res_r = gdv( 0.0, 0.0, 0, div );
+    float res_g = gdv( 0.0, 0.0, 1, div );
+    float res_b = gdv( 0.0, 0.0, 2, div );
+
+// Transition speed
+    float s = mnp * 24.0;
+
+// Layer interpolation rates
+    float li = mnp * 4.0;
+    float lc = mnp * 32.0;
+
+// NHs
+    float[SMX] ring_e0_r;
+    float[SMX] ring_e1_r;
+    float[SMX] ring_e0_g;
+    float[SMX] ring_e1_g;
+    float[SMX] ring_e0_b;
+    float[SMX] ring_e1_b;
+
+    vec3 ring_r;
+    vec3 ring_g;
+    vec3 ring_b;
+
+    for(int i = 0; i < SMX; i++) {
+        ring_r = nhd( vec2( float(i+1), float(i) ), vec2( 0.0, 0.0 ), psn, 0.0, 0, div );
+        ring_e0_r[i] = ring_r[0];
+        ring_e1_r[i] = ring_r[2];
+        ring_g = nhd( vec2( float(i+1), float(i) ), vec2( 0.0, 0.0 ), psn, 0.0, 1, div );
+        ring_e0_g[i] = ring_g[0];
+        ring_e1_g[i] = ring_g[2];
+        ring_b = nhd( vec2( float(i+1), float(i) ), vec2( 0.0, 0.0 ), psn, 0.0, 2, div );
+        ring_e0_b[i] = ring_b[0];
+        ring_e1_b[i] = ring_b[2]; }
+
+// ---- ---- ---- ---- ---- ---- ---- ----
+// Transition Functions
+// ---- ---- ---- ---- ---- ---- ---- ----
+
+    vec2[4] nhds = vec2[4] (
+        vec2( 2.0, 0.0 ),
+        vec2( 3.0, 0.0 ),
+        vec2( 5.0, 2.0 ),
+        vec2( 12.0, 8.0 )
+    );
+
+    float[12] nhdt;
+        nhdt[0] = split_ring_nh( nhds[0], ring_e0_r, ring_e1_r );
+        nhdt[1] = split_ring_nh( nhds[0], ring_e0_g, ring_e1_g );
+        nhdt[2] = split_ring_nh( nhds[0], ring_e0_b, ring_e1_b );
+
+        nhdt[3] = split_ring_nh( nhds[1], ring_e0_r, ring_e1_r );
+        nhdt[4] = split_ring_nh( nhds[1], ring_e0_g, ring_e1_g );
+        nhdt[5] = split_ring_nh( nhds[1], ring_e0_b, ring_e1_b );
+
+        nhdt[6] = split_ring_nh( nhds[2], ring_e0_r, ring_e1_r );
+        nhdt[7] = split_ring_nh( nhds[2], ring_e0_g, ring_e1_g );
+        nhdt[8] = split_ring_nh( nhds[2], ring_e0_b, ring_e1_b );
+
+        nhdt[9] = split_ring_nh( nhds[3], ring_e0_r, ring_e1_r );
+        nhdt[10] = split_ring_nh( nhds[3], ring_e0_g, ring_e1_g );
+        nhdt[11] = split_ring_nh( nhds[3], ring_e0_b, ring_e1_b );
+
+    if( nhdt[0] >= dvmd[0] && nhdt[0] <= dvmd[1] ) { res_r += s; }
+    if( nhdt[0] >= dvmd[2] && nhdt[0] <= dvmd[3] ) { res_r -= s; }
+    if( nhdt[1] >= dvmd[4] && nhdt[1] <= dvmd[5] ) { res_g += s; }
+    if( nhdt[1] >= dvmd[6] && nhdt[1] <= dvmd[7] ) { res_g -= s; }
+    if( nhdt[2] >= dvmd[8] && nhdt[2] <= dvmd[9] ) { res_b += s; }
+    if( nhdt[2] >= dvmd[10] && nhdt[2] <= dvmd[11] ) { res_b -= s; }
+
+    if( nhdt[3] >= dvmd[12] && nhdt[3] <= dvmd[13] ) { res_r += s; }
+    if( nhdt[3] >= dvmd[14] && nhdt[3] <= dvmd[15] ) { res_r -= s; }
+    if( nhdt[4] >= dvmd[16] && nhdt[4] <= dvmd[17] ) { res_g += s; }
+    if( nhdt[4] >= dvmd[18] && nhdt[4] <= dvmd[19] ) { res_g -= s; }
+    if( nhdt[5] >= dvmd[20] && nhdt[5] <= dvmd[21] ) { res_b += s; }
+    if( nhdt[5] >= dvmd[22] && nhdt[5] <= dvmd[23] ) { res_b -= s; }
+
+    if( nhdt[6] >= dvmd[24] && nhdt[6] <= dvmd[25] ) { res_r += s; }
+    if( nhdt[6] >= dvmd[26] && nhdt[6] <= dvmd[27] ) { res_r -= s; }
+    if( nhdt[7] >= dvmd[28] && nhdt[7] <= dvmd[29] ) { res_g += s; }
+    if( nhdt[7] >= dvmd[30] && nhdt[7] <= dvmd[31] ) { res_g -= s; }
+    if( nhdt[8] >= dvmd[32] && nhdt[8] <= dvmd[33] ) { res_b += s; }
+    if( nhdt[8] >= dvmd[34] && nhdt[8] <= dvmd[35] ) { res_b -= s; }
+
+    if( nhdt[9] >= dvmd[36] && nhdt[9] <= dvmd[37] ) { res_r += s; }
+    if( nhdt[9] >= dvmd[38] && nhdt[9] <= dvmd[39] ) { res_r -= s; }
+    if( nhdt[10] >= dvmd[40] && nhdt[10] <= dvmd[41] ) { res_g += s; }
+    if( nhdt[10] >= dvmd[42] && nhdt[10] <= dvmd[43] ) { res_g -= s; }
+    if( nhdt[11] >= dvmd[44] && nhdt[11] <= dvmd[45] ) { res_b += s; }
+    if( nhdt[11] >= dvmd[46] && nhdt[11] <= dvmd[47] ) { res_b -= s; }
+
+// ---- ---- ---- ---- ---- ---- ---- ----
+// Blur Application
+// ---- ---- ---- ---- ---- ---- ---- ----
+
+    float nhr_blur = ( split_ring_nh( vec2(1.0, 0.0), ring_e0_r, ring_e1_r ) 
+                        + split_ring_nh( vec2(3.0, 2.0), ring_e0_r, ring_e1_r )
+                        + split_ring_nh( vec2(6.0, 5.0), ring_e0_r, ring_e1_r ) ) / ( 3.0 );
+    float nhg_blur = ( split_ring_nh( vec2(1.0, 0.0), ring_e0_g, ring_e1_g ) 
+                        + split_ring_nh( vec2(3.0, 2.0), ring_e0_g, ring_e1_g )
+                        + split_ring_nh( vec2(6.0, 5.0), ring_e0_g, ring_e1_g ) ) / ( 3.0 );
+    float nhb_blur = ( split_ring_nh( vec2(1.0, 0.0), ring_e0_b, ring_e1_b ) 
+                        + split_ring_nh( vec2(3.0, 2.0), ring_e0_b, ring_e1_b )
+                        + split_ring_nh( vec2(6.0, 5.0), ring_e0_b, ring_e1_b ) ) / ( 3.0 );
+
+    res_r = (res_r + nhr_blur * s) / (1.0 + s);
+    res_g = (res_g + nhg_blur * s) / (1.0 + s);
+    res_b = (res_b + nhb_blur * s) / (1.0 + s);
+
+// ---- ---- ---- ---- ---- ---- ---- ----
+// Layer Communication
+// ---- ---- ---- ---- ---- ---- ---- ----
+
+// Interpolate
+    float inp_r = (res_r * 1.0 + res_g * li + res_b * li ) / ( 1.0 + li * 2.0 );
+    float inp_g = (res_r * li + res_g * 1.0 + res_b * li ) / ( 1.0 + li * 2.0 );
+    float inp_b = (res_r * li + res_g * li + res_b * 1.0 ) / ( 1.0 + li * 2.0 );
+    res_r = inp_r;
+    res_g = inp_g;
+    res_b = inp_b;
+/**/
+// Cycle
+/* float cyc_r = (res_r * 1.0 + res_g * lc + res_b * -lc );
+    float cyc_g = (res_r * -lc + res_g * 1.0 + res_b * lc );
+    float cyc_b = (res_r * lc + res_g * -lc + res_b * 1.0 );
+    res_r = cyc_r;
+    res_g = cyc_g;
+    res_b = cyc_b;
+
+// res_r = (res_r + nhg_blur * s) / (1.0 + s);
+// res_g = (res_g + nhb_blur * s) / (1.0 + s);
+// res_b = (res_b + nhr_blur * s) / (1.0 + s);
+
+/**/
+// Random Weights
+    float mpw0 = dvmd[48] * s * sign(dvmd[51]) * 4.0;
+    float mpw1 = dvmd[49] * s * sign(dvmd[51]) * 4.0;
+    float mpw2 = dvmd[50] * s * sign(dvmd[51]) * 4.0;
+
+    float map_r = (res_r + res_g * mpw1 + res_b * mpw2 ) / (1.0 + mpw1 + mpw2 );
+    float map_g = (res_r * mpw0 + res_g + res_b * mpw2 ) / (1.0 + mpw0 + mpw2 );
+    float map_b = (res_r * mpw0 + res_g * mpw1 + res_b ) / (1.0 + mpw0 + mpw1 );
+    res_r = map_r;
+    res_g = map_g;
+    res_b = map_b;
+
+    res_r -= mnp;
+    res_g -= mnp;
+    res_b -= mnp;
+// ---- ---- ---- ---- ---- ---- ---- ----
+// Presentation Filtering
+// ---- ---- ---- ---- ---- ---- ---- ----
+
+// ---- ---- ---- ---- ---- ---- ---- ----
+// Shader Output
+// ---- ---- ---- ---- ---- ---- ---- ----
+
+// Reseed (expensive?)
+
+// Clear
+
+// Channel Map
+    col[0] = res_r;
+    col[1] = res_g;
+    col[2] = res_b;
+
+// Mouse Interaction
+// Final output
+    //seed the first few frames
+    if(frames<3) col = vec3(reseed2(random1),reseed2(random1),reseed2(random1));
+    glFragColor = vec4(col, 1.0);
+}

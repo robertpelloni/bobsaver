@@ -1,0 +1,11 @@
+[Settings]
+Cell Shading=0
+Maximum States=3
+Color Palette=ROYGBIV9.MAP
+Random Seed=2105544542
+Rule Fill Probability=20
+Seed Style=0
+State 1 Color=clWhite
+State 2 Color=clBlue
+State 3 Color=clRed
+State 4 Color=clGreen

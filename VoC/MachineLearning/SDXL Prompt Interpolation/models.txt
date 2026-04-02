@@ -1,0 +1,12 @@
+RunDiffusion/Juggernaut-XL-v9
+UnfilteredAI/NSFW-gen-v2
+max-fofanov/RealVisXL_V4.0
+SG161222/RealVisXL_V4.0
+stabilityai/stable-diffusion-xl-base-1.0
+playgroundai/playground-v2-1024px-aesthetic
+dataautogpt3/OpenDalleV1.1
+misri/kohakuXLEpsilon_rev1
+stablediffusionapi/copax-timelessxl-sdxl10
+recoilme/ColorfulXL-Lightning
+Lykon/dreamshaper-xl-lightning
+Linaqruf/animagine-xl-2.0

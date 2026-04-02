@@ -1,0 +1,13 @@
+[Settings]
+Attractor Name=Clifford
+Palette=design-seeds zinnia hues.MAP
+Parameter A=-2.239
+Parameter B=-2.956
+Parameter C=1.272
+Parameter D=1.419
+Formula=4
+[Coordinates]
+Xmin=-1.50065660994896
+Xmax=1.39003612301084
+Ymin=-0.866773777817955
+Ymax=0.809980149021519

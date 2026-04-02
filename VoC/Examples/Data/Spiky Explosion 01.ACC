@@ -1,0 +1,10 @@
+[Settings]
+Cell Shading=1
+Maximum States=3
+Color Palette=design-seeds lanterns hues.MAP
+Random Seed=1237991814
+Rule Fill Probability=10
+State 1 Color=clWhite
+State 2 Color=clBlue
+State 3 Color=clRed
+State 4 Color=clGreen

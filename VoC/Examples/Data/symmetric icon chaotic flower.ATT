@@ -1,0 +1,14 @@
+[Settings]
+Attractor Name=Symmetric Icon
+Palette=design-seeds culinary color.MAP
+L=-2.5
+A=5
+B=-1.9
+G=1
+O=0.188
+D=5
+[Coordinates]
+Xmin=-0.939466976126035
+Xmax=0.930612809459368
+Ymin=-0.732462985974771
+Ymax=0.723343194308104

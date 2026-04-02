@@ -1,0 +1,10 @@
+[Settings]
+Formula=0
+Xmin=3.568525
+Xmax=3.5725
+Ymin=0.3423
+Ymax=0.343633333333333
+Iterations=500000
+Skip Iterations=100
+Background Color=clBlack
+Palette=sgg039.map

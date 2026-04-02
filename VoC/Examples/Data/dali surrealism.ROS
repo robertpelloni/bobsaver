@@ -1,0 +1,20 @@
+[Settings]
+prompt=surrealist imagery by dali
+negative_prompt=picture frame, border, edge
+initimage=
+border_size=200
+zoom_factor=0.9
+noise=10
+steps=25
+total_frames=250
+randomseed=0
+increment_seed_each_frame=1
+model=dataautogpt3/OpenDalleV1.1 fp16
+lora=
+loraweight=1.0
+rotation=0
+panx=0
+pany=0
+check_for_black_borders=1
+crop_edges=1
+border_threshold=30

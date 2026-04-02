@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos(1+y)-y-sqr(pi)*sin(1%x)*cos(((x-7.7)-sqr(((y-x-pi)-sqr(((y))/sqr(y+6.1)-sin(x-y))+sin(((x+0.8)-cos(y-x-8.9)+sqr((y+pi)+y+sin(y-x+3.4)+cos(x+y-9))-sin(((y+x+pi))-cos((y)+sqr(x+y+pi)+sin(((y)-sqr(((x-y-8.9)+sin(x-y-pi))-x-sin(1-x))-y-cos(1*y-pi))-sqr(x-y))-sqr(x)+sqr((y+7.7)-y-cos(y-x-8))))))))))
+Palette=JACCO198.MAP
+Xmin=-6.64583333333333
+Xmax=-1.10416666666667
+Ymin=-2.22222222222222
+Ymax=3.33333333333333

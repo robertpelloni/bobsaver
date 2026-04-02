@@ -1,0 +1,19 @@
+[Settings]
+Input Phrase=a beautiful girl in  intricate detailed color smashing fluid oilpaint, 3 d render, hyper realistic detailed, color leaves,melting wax,ice,broken mirror,fluid acrilic,thin fractal tendrils,intense colors, ruan jia, wlop. scifi, fantasy, hyper detailed,photorealistic, octane render, concept art, by peter mohrbacher,by alphonse mucha, by wlop, by ruan jia
+Script=Stable Diffusion *
+Random seed=2037517623
+Iterations=50
+Image Size=512
+[Stable Diffusion]
+Init Image=
+Init Image Strength=0.75
+Image Count=9
+Grid Columns=3
+Scale=7.5
+DDIM ETA=0
+Sampler=plms
+Latent Channels=4
+Downsampling Factor=8
+Model=models/ldm/stable-diffusion-v1/sd-v1-4.ckpt
+Custom Image Size=0
+Custom Resolution=1152x512

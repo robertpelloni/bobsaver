@@ -1,0 +1,13 @@
+[Settings]
+Attractor Name=Clifford
+Palette=design-seeds geode blues.MAP
+Parameter A=-1.7
+Parameter B=1.3
+Parameter C=-0.1
+Parameter D=-1.21
+Formula=4
+[Coordinates]
+Xmin=-3.9537037037037
+Xmax=3.93518518518519
+Ymin=-2.54638888888889
+Ymax=2.03138888888889

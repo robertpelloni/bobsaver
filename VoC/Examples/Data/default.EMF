@@ -1,0 +1,18 @@
+[Settings]
+Inlets=4
+Inlet Shape=1
+Inlet Size=0.05
+Inlet Density=1
+Inlet Velocity=3
+Density=0.01
+Time Step=0.005
+Substeps=1
+Interpolation=1
+Integration=1
+Projection=0
+Projection Iterations=100
+Display=0
+Palette=colourlovers best vacation ever.MAP
+Inlet Stop After=0
+Vorticity Confinement=0
+Vorticity Amount=10

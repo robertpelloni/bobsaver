@@ -1,0 +1,15 @@
+[Settings]
+Reynolds=3500
+Acceleration=0.07
+Grid Style=9
+Display Style=2
+Flow Style=0
+Channel Height=2
+Streamlines=0
+Reverse Streamlines=0
+Streamlines Color=clNavy
+Reverse Streamlines Color=clNavy
+Streamlines Spacing=8
+Flow Vectors Visible=0
+Color Palette=ROYGBIV3.MAP
+Detail=190

@@ -1,0 +1,63 @@
+Global Script Settings
+	Palette=FIRE2.MAP
+	Fractal Type=Newton
+	Formula=6
+	Coloring=2
+	Root Method=2
+	Palette Step=1
+	Root Finding Method=0
+	Palette Step Amount=0
+Point 1
+	XMin=-186213.356547812
+	XMax=140918.21585375
+	YMin=-169996.577745
+	YMax=161049.38954
+	Newtona=1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=0
+Point 2
+	XMin=-6290.9917269529
+	XMax=26422.1655132033
+	YMin=-16428.0318100139
+	YMax=16676.5649184861
+	Newtona=1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=120
+Point 3
+	XMin=12110.159220635
+	XMax=15381.4749446506
+	YMin=-1714.87770845831
+	YMax=1595.58196439169
+	Newtona=1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=120
+Point 4
+	XMin=13587.3627272608
+	XMax=13914.4942996623
+	YMin=-169.996527794977
+	YMax=161.049439490024
+	Newtona=1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=120
+Point 5
+	XMin=13738.1499364146
+	XMax=13770.8630936548
+	YMin=-16.4279818599904
+	YMax=16.6766148685096
+	Newtona=1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=120
+Point 6
+	XMin=13752.8197428645
+	XMax=13756.0910585885
+	YMin=-1.71482775843485
+	YMax=1.59563191441515
+	Newtona=1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=120

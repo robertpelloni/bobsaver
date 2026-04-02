@@ -1,0 +1,61 @@
+[Eye]
+X=-0.15
+Y=0
+Z=0.739
+[Look At]
+X=-0.15
+Y=0
+Z=-0.261
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=60
+[Light]
+X=0
+Y=0
+Z=-10
+[Rotation]
+X=160
+Y=0
+Z=90
+[Settings]
+Iterations=6
+Epsilon=0.0001
+Power=5
+Gamma=0
+Contrast=0
+Shading=0
+Formula=0
+Formula Variation=16
+Bailout=4
+Palette=kuler fire and ice.MAP
+Spikes=0
+Spikes Y Maximum=0.599512135377154
+Juliabulb=1
+Julia Real=-0.966482146008111
+Julia Imaginary=0.556027517759749
+Julia Imaginary 2=-0.09999232692644
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=clYellow
+Glow Threshold=150
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.4
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Phase=0.993445705389604
+Theta Scale=0.812020970974118
+Phi Scale=0.536086090840399
+Scalar Distance Estimation=1

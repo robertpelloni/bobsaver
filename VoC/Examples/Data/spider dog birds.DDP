@@ -1,0 +1,17 @@
+[Settings]
+Model=caffe-googlenet-bvlc bvlc_googlenet.pth
+Optimizer=adam
+Backend=cudnn
+Iterations=10
+Octaves=2
+Iterations Per Octave=100
+Octave Scale=0.6
+[Layers]
+1=inception_3b_relu_3x3_reduce
+2=inception_3b_relu_3x3
+3=inception_4a_pool_proj
+4=inception_4a_5x5
+5=inception_4c_relu_1x1
+6=inception_4d_1x1
+7=inception_4e_pool
+8=inception_4e_pool_proj

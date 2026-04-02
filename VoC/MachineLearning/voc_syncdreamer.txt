@@ -1,0 +1,37 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.8.0.76
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.66.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pillow==10.0.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts kornia==0.7.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts webdataset==0.2.57
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts omegaconf==2.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.6.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scikit-image==0.21.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pymcubes==0.1.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts carvekit-colab==4.1.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts open3d==0.17.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts easydict==1.10
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts nerfacc==0.5.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts matplotlib==3.8.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.33.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts taming-transformers==0.0.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts trimesh==3.23.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ninja==1.11.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tensorboard==2.14.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tensorboardx==2.6.2.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torchmetrics==0.11.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts https://softology.pro/wheels/tinycudann-1.7-cp310-cp310-win_amd64.whl
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/openai/CLIP.git@a1d071733d7111c9c014f024669f959182114e33
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip uninstall -y pytorch-lightning
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pytorch_lightning==1.9.0
+pip uninstall -y imageio
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio==2.27.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio[ffmpeg]==2.27.0
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

@@ -1,0 +1,33 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts addict==2.4.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts attrs==23.1.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts datasets==2.7.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.6.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts filelock==3.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gast==0.2.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts mmdet==2.28.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts oss2==2.17.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts open_clip_torch==2.17.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.7.0.72
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts Pillow==9.5.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pyarrow==8.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts python-dateutil==2.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pytorch-lightning==2.0.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pyyaml==6.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts requests==2.28.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy==1.10.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts setuptools==59.8.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts simplejson==3.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts sortedcontainers==2.4.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.64.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts yapf==0.33.0
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+pip uninstall -y python-dateutil
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts python-dateutil==2.7.0
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

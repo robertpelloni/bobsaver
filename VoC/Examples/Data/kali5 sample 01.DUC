@@ -1,0 +1,37 @@
+[Settings]
+Xmin=-1.55238095238095
+Xmax=1.55238095238095
+Ymin=-1.00057142857143
+Ymax=1.00057142857143
+CX=-0.591372549019608
+CY=0.393417085427136
+Power=1
+Maximum Iterations=20
+Color Scale Factor=50
+Color Palette=lkmtch17.map
+Variation=10
+Symmetry=6
+Smooth Shading=1
+Julia Set Hybrid=0
+Kali Scale=1
+Kali Min Scale=0
+[Hybrids]
+Enable Hybrids=0
+Enable Hybrid 3=0
+Enable Hybrid 4=0
+Enable Hybrid 5=0
+Variation 1=0
+Symmetry 1=0
+Power 1=1
+Variation 2=0
+Symmetry 2=0
+Power 2=1
+Variation 3=0
+Symmetry 3=0
+Power 3=1
+Variation 4=0
+Symmetry 4=0
+Power 4=1
+Variation 5=0
+Symmetry 5=0
+Power 5=1

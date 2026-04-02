@@ -1,0 +1,13 @@
+[Settings]
+Attractor Name=Jason Rampe 1
+Palette=colorbrewer2 06.MAP
+Parameter A=2.6
+Parameter B=-2.5995
+Parameter C=-2.9007
+Parameter D=0.3565
+Formula=1
+[Coordinates]
+Xmin=-4.6863425925926
+Xmax=4.3738425925926
+Ymin=-2.59779947916667
+Ymax=2.6514453125

@@ -1,0 +1,20 @@
+[Settings]
+Spheres=3
+Display Mode=2
+Line Width=2
+Time Step=0.01
+Color Mode=0
+Color Palette=kuler backyard bbq.MAP
+[Grid]
+Radius 1=78
+Rotation 1 1=-2
+Rotation 2 1=4
+Radius 2=43
+Rotation 1 2=-5
+Rotation 2 2=-7
+Radius 3=54
+Rotation 1 3=6
+Rotation 2 3=3
+Radius 4=69
+Rotation 1 4=1
+Rotation 2 4=3

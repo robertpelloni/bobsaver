@@ -1,0 +1,13 @@
+Spiral 3.ifs {
+-0.810 -0.072 0.730 -0.940 0.940 6.500 0.820
+0.340 -0.270 -0.014 -0.280 4.600 -3.000 0.180
+}
+[Settings]
+Palette=IFS07.MAP
+Xmin=-24.2242137541567
+Xmax=26.9086714954169
+Ymin=-16.3837327707206
+Ymax=23.116421084575
+Rendering Style=0
+Gamma=1
+Background Color=clBlack

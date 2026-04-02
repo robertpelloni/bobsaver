@@ -1,0 +1,60 @@
+[Eye]
+X=0.1
+Y=0
+Z=0.8
+[Look At]
+X=0.1
+Y=0
+Z=-0.2
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=45
+[Light]
+X=2
+Y=2
+Z=-10
+[Rotation]
+X=140
+Y=0
+Z=0
+[Settings]
+Iterations=5
+Epsilon=0.0001
+Power=5
+Gamma=11
+Contrast=0
+Shading=0
+Formula=3
+Formula Variation=6
+Bailout=4
+Palette=colorschemer blue clarity.MAP
+Spikes=0
+Spikes Y Maximum=0.0426543839275837
+Juliabulb=0
+Julia Real=-1.149221538367
+Julia Imaginary=0.317004660129716
+Julia Imaginary 2=0.0763646429404616
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=clYellow
+Glow Threshold=150
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.2
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Phase=0
+Theta Scale=1
+Phi Scale=1

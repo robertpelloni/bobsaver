@@ -1,0 +1,35 @@
+[Settings]
+Formula=((((y*((y-round(x))-floor((0.1%8))))%(y+y))+(y*(y%((y/sin(x))/ln((9.6%6.6))))))+(((y*((y-round(x))/floor((1%8))))%(y+y))-(y*(y%((y/sin(x))/ln((7.9%3.1)))))))
+Color Palette=Gravity 2D 01.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(x+6.1)
+Gene1=(x+abs(y))
+Gene2=(pi+int(x))
+Gene3=(((y-pi)/ceil((pi*exp(y))))*((y-sin(x))/ln((5.2%2.9))))
+Gene4=(y+x)
+Gene5=((x+6.1)%(x+abs(y)))
+Gene6=((pi+int(x))+((x+6.1)%(x+abs(y))))
+Gene7=(y%((y-sin(x))/ln((5.2%2.9))))
+Gene8=(y*((y-sin(x))/floor((5.2%2.9))))
+Gene9=((y*((y-sin(x))/floor((5.2%2.9))))%(y+x))
+Gene10=(y-((y-sin(x))/floor((1.9%8.1))))
+Gene11=(((y*((y-sin(x))/floor((5.2%2.9))))%(y+x))-(y%((y-sin(x))/ln((5.2%2.9)))))
+Gene12=((y*((y-sin(x))/floor((5.2%8))))%(y+x))
+Gene13=(y%(y%((y-sin(x))/ln((5.2%2.9)))))
+Gene14=(((y*((y-sin(x))/floor((5.2%8))))%(y+x))-(y%(y%((y-sin(x))/ln((5.2%2.9))))))
+Gene15=(y*(y%((y/sin(x))/ln((9.6%3.2)))))
+Gene16=(((y*((y-sin(x))/floor((3.2%4.4))))%(y+x))%(y%((y-sin(x))/ln((5.2%9.8)))))
+Gene17=((((y*((y-sin(x))/floor((5.2%2.9))))%(y+x))-(y%((y-sin(x))/ln((5.2%2.9)))))+(((y*((y-sin(x))/floor((5.2%8))))%(y+x))-(y%(y%((y-sin(x))/ln((5.2%2.9)))))))
+Gene18=(((y*((y-sin(x))/floor((5.2%8))))%(y+x))+(y*(y%((y/sin(x))/ln((9.6%3.2))))))
+Gene19=(pi-(pi%((y/sin(x))/ln((1.4+3.2)))))
+Gene20=(((((y*((y-sin(x))/floor((5.2%2.9))))%(y+x))-(y%((y-sin(x))/ln((5.2%2.9)))))+(((y*((y-sin(x))/floor((5.2%8))))%(y+x))-(y%(y%((y-sin(x))/ln((5.2%2.9)))))))*(pi-(pi%((y/sin(x))/ln((1.4+3.2))))))
+Gene21=(((((y*((y-sin(x))/floor((5.2%2.9))))%(y+x))-(y%((y-sin(x))/ln((5.2%2.9)))))+(((y*((y-sin(x))/floor((5.2%8))))%(y+x))-(y%(y%((y-sin(x))/ln((5.2%2.9)))))))-(pi%((y/sin(x))/ln((1.4+3.2)))))
+Gene22=((((y*((y-sin(x))/floor((5.2%8))))%(y+x))+(y*(y%((y/sin(x))/ln((9.6%3.2))))))*(pi-(pi%((y/sin(x))/ln((1.4+3.2))))))
+Gene23=(((y*((y-round(x))/floor((1%8))))%(y+y))*(y*(y%((y/sin(x))/ln((9.6%5.6))))))
+Gene24=(((y*((y-round(x))-floor((0.1%8))))%(y+y))+(y*(y%((y/sin(x))/ln((9.6%6.6))))))
+Gene25=(((y*((y-round(x))/floor((1%8))))%(y+y))-(y*(y%((y/sin(x))/ln((7.9%3.1))))))
+Gene26=((((y*((y-round(x))-floor((0.1%8))))%(y+y))+(y*(y%((y/sin(x))/ln((9.6%6.6))))))+(((y*((y-round(x))/floor((1%8))))%(y+y))-(y*(y%((y/sin(x))/ln((7.9%3.1)))))))

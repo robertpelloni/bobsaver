@@ -1,0 +1,7 @@
+ComfyUI\models\diffusion_models\hidream_e1_1_bf16.safetensors	34211675392	https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/diffusion_models/hidream_e1_1_bf16.safetensors	99e208a94c321c5fc267108f12393427
+ComfyUI\models\diffusion_models\hidream_e1_1_bf16_Q4_K.gguf	11486381760	https://huggingface.co/ND911/HiDream_E1_1_bf16_ggufs/resolve/main/hidream_e1_1_bf16_Q4_K.gguf	3bdfc151266fc9875d3414b894f4d337
+ComfyUI\models\text_encoders\clip_l_hidream.safetensors	247586528	https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/text_encoders/clip_l_hidream.safetensors	439c5f36e63ee61dcb2a577e9db5b89d
+ComfyUI\models\text_encoders\clip_g_hidream.safetensors	1389743104	https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/text_encoders/clip_g_hidream.safetensors	2d4451ce295a65394afa5a22aa164068
+ComfyUI\models\text_encoders\t5xxl_fp8_e4m3fn_scaled.safetensors	5157348688	https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/text_encoders/t5xxl_fp8_e4m3fn_scaled.safetensors	0c729ad214fe9ff802da459a13793b18
+ComfyUI\models\text_encoders\llama_3.1_8b_instruct_fp8_scaled.safetensors	9081258056	https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/text_encoders/llama_3.1_8b_instruct_fp8_scaled.safetensors	41f8f65351b5e66d3300f326ca6176c7
+ComfyUI\models\vae\ae.safetensors	335304388	https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/vae/ae.safetensors	5c8c2087d13d0951b36be6dfbd3cd157

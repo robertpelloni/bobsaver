@@ -1,0 +1,4 @@
+ComfyUI\models\diffusion_models\qwen_image_edit_2511_bf16.safetensors	40861031560	https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2511_bf16.safetensors	973e2980449cf103354bb68c65414f58
+ComfyUI\models\loras\Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors	849608296	https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning/resolve/main/Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors	e808a50db5b1c0df07ae6aff5652e161
+ComfyUI\models\text_encoders\qwen_2.5_vl_7b_fp8_scaled.safetensors	9384670680	https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors	b89822a44279e6d83c06a5061d7b1ca6
+ComfyUI\models\vae\qwen_image_vae.safetensors	253806246	https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors	5f09a128b4c05c9998b9f218dc137b7b

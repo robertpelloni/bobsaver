@@ -1,0 +1,28 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==3.27.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts openai==0.27.4
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pillow==9.5.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts langchain==0.0.101
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/huggingface/transformers.git@4e1522d65ac5ff5a4a90dc2a223fc20078a85744
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ftfy==6.1.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts regex==2023.3.23
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.65.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/openai/CLIP.git@a9b1bf5920416aaeaec965c25dd9e8f98c864f16
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/facebookresearch/segment-anything.git@567662b0fd33ca4b022d94d3b8de896628cd32dd
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.7.0.72
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pycocotools==2.0.6
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts onnxruntime==1.14.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts onnx==1.13.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.18.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts bitsandbytes==0.38.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts packaging==23.1
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+pip uninstall -y Pillow
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts Pillow==9.5.0
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

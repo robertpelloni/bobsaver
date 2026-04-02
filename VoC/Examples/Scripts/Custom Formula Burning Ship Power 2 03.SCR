@@ -1,0 +1,167 @@
+Global Script Settings
+	Palette=design-seeds rustic winter x3.MAP
+	Fractal Type=Custom Formula
+	Bailout=8
+	Samplepixels=4
+	Total Shader Lines=70
+	Line 0=#version 400
+	Line 1=
+	Line 2=//the following uniform values are set by Visions of Chaos prior to shader execution
+	Line 3=uniform vec2 resolution;
+	Line 4=uniform vec3 palette[256];
+	Line 5=uniform double xmin;
+	Line 6=uniform double xmax;
+	Line 7=uniform double ymin;
+	Line 8=uniform double ymax;
+	Line 9=uniform double bailout;
+	Line 10=uniform int maxiters;
+	Line 11=uniform int samplepixels;
+	Line 12=
+	Line 13=double sqrsamplepixels=double(samplepixels*samplepixels);
+	Line 14=double bailout_squared=double(bailout*bailout);
+	Line 15=double magnitude,r1,r2,g1,g2,b1,b2,tweenval;
+	Line 16=float realiters;
+	Line 17=vec4 finalcol,col;
+	Line 18=int superx,supery;
+	Line 19=double stepx=(xmax-xmin)/resolution.x/double(samplepixels);
+	Line 20=double stepy=(ymax-ymin)/resolution.y/double(samplepixels);
+	Line 21=int index,colval,colval2;
+	Line 22=dvec2 z,c;
+	Line 23=
+	Line 24=void main(void)
+	Line 25={
+	Line 26=	finalcol=vec4(0,0,0,0);
+	Line 27=	for (supery=0;supery<samplepixels;supery++)
+	Line 28=	{
+	Line 29=		for (superx=0;superx<samplepixels;superx++)
+	Line 30=		{
+	Line 31=			c.x = xmin+gl_FragCoord.x/resolution.x*(xmax-xmin)+(stepx*double(superx));
+	Line 32=			c.y = ymin+gl_FragCoord.y/resolution.y*(ymax-ymin)+(stepy*double(supery));
+	Line 33=			int i;
+	Line 34=			z = dvec2(0.0,0.0);
+	Line 35=			for(i=0; i<maxiters; i++) 
+	Line 36=			{
+	Line 37=				//START OF FRACTAL FORMULA
+	Line 38=				double x = z.x * z.x - z.y * z.y -c.x;
+	Line 39=				double y = -2.0 * abs(z.y * z.x) - c.y;
+	Line 40=				//END OF FRACTAL FORMULA
+	Line 41=				
+	Line 42=				magnitude=(x * x + y * y);
+	Line 43=				if(magnitude>bailout_squared) break;
+	Line 44=				z.x = x;
+	Line 45=				z.y = y;
+	Line 46=			}
+	Line 47=
+	Line 48=			if (i==maxiters) {
+	Line 49=				col=vec4(0.0,0.0,0.0,1.0);
+	Line 50=			} else {
+	Line 51=				//CPM smooth colors
+	Line 52=				//note that double precision does not support log so it needs to be cast as float
+	Line 53=				realiters=float(i+1-((log(log(sqrt(float(magnitude))))/log(2.0))));
+	Line 54=				colval=int(mod(realiters,255));
+	Line 55=				colval2=int(mod(colval+1,255));
+	Line 56=				tweenval=realiters-int(realiters);
+	Line 57=				r1=palette[colval].r;
+	Line 58=				g1=palette[colval].g;
+	Line 59=				b1=palette[colval].b;
+	Line 60=				r2=palette[colval2].r;
+	Line 61=				g2=palette[colval2].g;
+	Line 62=				b2=palette[colval2].b;
+	Line 63=				col=vec4(r1+((r2-r1)*tweenval),g1+((g2-g1)*tweenval),b1+((b2-b1)*tweenval),1.0);
+	Line 64=			}
+	Line 65=			finalcol+=col;
+	Line 66=		}
+	Line 67=	}
+	Line 68=	gl_FragColor = vec4(finalcol/double(sqrsamplepixels));
+	Line 69=}
+Point 1
+	XMin=-2.00492157407407
+	XMax=2.4823687962963
+	YMin=-1.92542737361111
+	YMax=0.674396484722223
+	Iterations=512
+	Tween Steps=0
+Point 2
+	XMin=1.52559435263889
+	XMax=1.98778526078704
+	YMin=-0.167224272083795
+	YMax=0.100557585324538
+	Iterations=512
+	Tween Steps=120
+Point 3
+	XMin=1.91559681832065
+	XMax=1.96320248185991
+	YMin=-0.0147671345993177
+	YMax=0.0128143967137407
+	Iterations=512
+	Tween Steps=120
+Point 4
+	XMin=1.92467462328679
+	XMax=1.92957800663134
+	YMin=-0.00201374098161851
+	YMax=0.000827156743626498
+	Iterations=512
+	Tween Steps=120
+Point 5
+	XMin=1.9268814522533
+	XMax=1.92738650073779
+	YMin=-0.000226658484787997
+	YMax=6.59539809122387E-5
+	Iterations=512
+	Tween Steps=120
+Point 6
+	XMin=1.92716241703833
+	XMax=1.92721443703223
+	YMin=-6.04708605183577E-5
+	YMax=-3.03317765512334E-5
+	Iterations=512
+	Tween Steps=120
+Point 7
+	XMin=1.92716839446075
+	XMax=1.92717375252013
+	YMin=-3.55676051937444E-5
+	YMax=-3.24632795451306E-5
+	Iterations=512
+	Tween Steps=120
+Point 8
+	XMin=1.92717067197087
+	XMax=1.92717122385098
+	YMin=-3.48824115380809E-5
+	YMax=-3.45626659962737E-5
+	Iterations=512
+	Tween Steps=120
+Point 9
+	XMin=1.9271708720619
+	XMax=1.92717092890555
+	YMin=-3.46568488219771E-5
+	YMax=-3.4623915031171E-5
+	Iterations=512
+	Tween Steps=120
+Point 10
+	XMin=1.92717089742305
+	XMax=1.92717090327795
+	YMin=-3.46423524650573E-5
+	YMax=-3.46389602846042E-5
+	Iterations=512
+	Tween Steps=120
+Point 11
+	XMin=1.92717090012216
+	XMax=1.92717090072521
+	YMin=-3.4640868763018E-5
+	YMax=-3.46405193684313E-5
+	Iterations=512
+	Tween Steps=120
+Point 12
+	XMin=1.9271709003931
+	XMax=1.92717090045521
+	YMin=-3.46407101184648E-5
+	YMax=-3.46406741308224E-5
+	Iterations=512
+	Tween Steps=120
+Point 13
+	XMin=1.92717090042105
+	XMax=1.92717090042745
+	YMin=-3.46406942779042E-5
+	YMax=-3.46406905711771E-5
+	Iterations=512
+	Tween Steps=120

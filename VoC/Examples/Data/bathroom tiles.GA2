@@ -1,0 +1,7 @@
+[Settings]
+Formula=tan(y)-tan(x)+sin(x-y)-int(x-y)-sin(y-x)
+Palette=sinpal29.MAP
+Xmin=-5
+Xmax=5
+ymin=-5
+ymax=5

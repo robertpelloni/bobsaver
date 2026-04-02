@@ -1,0 +1,18 @@
+python -m pip install -U pip
+rem python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.43.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.27.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts diffusers==0.26.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts moviepy==1.0.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.38.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts omegaconf==2.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.9.0.80
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio==2.34.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==4.25.0
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.2.1+cu118 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

@@ -1,0 +1,35 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts mmcv==1.7.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts diffusers==0.23.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts timm==0.6.12
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.24.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tensorboard==2.15.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tensorboardX==2.6.2.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.30.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts sentencepiece==0.1.99
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ftfy==6.1.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts beautifulsoup4==4.12.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts protobuf==3.20.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==4.1.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts yapf==0.40.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.8.1.78
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts bs4==0.0.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.7.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.21
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts optimum==1.14.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts chardet==5.2.0
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip uninstall -y tokenizers
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tokenizers==0.14.1
+pip uninstall -y typing_extensions
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts typing_extensions==4.8.0
+pip uninstall -y huggingface_hub
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.19.4
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

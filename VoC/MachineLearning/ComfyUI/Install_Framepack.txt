@@ -1,0 +1,6 @@
+ComfyUI\models\clip_vision\llava_llama3_vision.safetensors	649022376	https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/clip_vision/llava_llama3_vision.safetensors	74f9ea5c3e40cabcaa1231ee8784c9a8
+ComfyUI\models\clip_vision\sigclip_vision_patch14_384.safetensors	856505640	https://huggingface.co/Comfy-Org/sigclip_vision_384/resolve/main/sigclip_vision_patch14_384.safetensors	fa294780b168c7d435b1c42b98b4aa6d
+ComfyUI\models\diffusion_models\FramePackI2V_HY_fp8_e4m3fn.safetensors	16331849976	https://huggingface.co/Kijai/HunyuanVideo_comfy/resolve/main/FramePackI2V_HY_fp8_e4m3fn.safetensors	3f68f57682de0f506ae1f65961f9b199
+ComfyUI\models\diffusion_models\FramePackI2V_HY_bf16.safetensors	25748783136	https://huggingface.co/Kijai/HunyuanVideo_comfy/resolve/main/FramePackI2V_HY_bf16.safetensors	90fc7d2cc46a6a75c1eeaf3fed5bdb56
+ComfyUI\models\text_encoders\llava_llama3_fp16.safetensors	16070690787	https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/text_encoders/llava_llama3_fp16.safetensors	be0a7a39107f31e8ae44fd4505a02c71
+ComfyUI\models\vae\hunyuan_video_vae_bf16.safetensors	492984198	https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/vae/hunyuan_video_vae_bf16.safetensors	ea483c6d4553f22e4795dac68a1088c0

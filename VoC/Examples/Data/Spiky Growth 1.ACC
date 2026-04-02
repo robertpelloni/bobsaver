@@ -1,0 +1,11 @@
+[Settings]
+Cell Shading=1
+Maximum States=2
+Color Palette=kuler baby blue.MAP
+Random Seed=-750536717
+State 1 Color=clWhite
+State 2 Color=clBlue
+State 3 Color=clRed
+State 4 Color=clYellow
+Rule Fill Probability=20
+Seed Style=0

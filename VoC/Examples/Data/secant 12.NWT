@@ -1,0 +1,12 @@
+[Settings]
+Formula=12
+Root Finding Method=4
+Palette Step Amount=5
+Genralized Newton Factor=1
+Genralized Newton I=0
+Coloring=2
+Palette=image frequency green marble.MAP
+Xmin=-1.312436875
+Xmax=1.229204375
+Ymin=-4.77768
+Ymax=-2.22215

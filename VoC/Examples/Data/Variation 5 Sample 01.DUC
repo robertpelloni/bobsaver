@@ -1,0 +1,35 @@
+[Settings]
+Xmin=-1.3671875
+Xmax=1.34114583333333
+Ymin=-3.339453125
+Ymax=-1.247265625
+CX=0.0117647058823529
+CY=0.0756281407035176
+Maximum Iterations=40
+Color Scale Factor=50
+Color Palette=Flame 576_Gold_and_Blue.map
+Variation=5
+Power=1
+Symmetry=2
+Smooth Shading=0
+Julia Set Hybrid=0
+[Hybrids]
+Enable Hybrids=0
+Enable Hybrid 3=0
+Enable Hybrid 4=0
+Enable Hybrid 5=0
+Variation 1=0
+Symmetry 1=0
+Power 1=1
+Variation 2=0
+Symmetry 2=0
+Power 2=1
+Variation 3=0
+Symmetry 3=0
+Power 3=1
+Variation 4=0
+Symmetry 4=0
+Power 4=1
+Variation 5=0
+Symmetry 5=0
+Power 5=1

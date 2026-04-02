@@ -1,0 +1,13 @@
+[MIDI]
+Instrument=38
+Lower Octave=1
+Upper Octave=3
+Scale Type=5
+Delay=100
+[L-System Parameters]
+Turn Angle=6
+Stages=5
+Axiom=F-X+X+FX+X+F-X+X+FX+X+F-X
+[L-System Rule]
+LRule0=F=F[+++@1F-]
+LRule1=X=[+-+@I1F@.4F!X!@I.6F-]

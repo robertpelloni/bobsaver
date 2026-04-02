@@ -1,0 +1,26 @@
+[Settings]
+R Sense Angle=41
+R Sense Distance=6.050
+R Turn Angle=82
+R Eat Amount=0
+R Move Speed=9.160
+R Deposit Amount=0.880
+R Evaporation Rate=0.463
+G Sense Angle=191
+G Sense Distance=9.490
+G Turn Angle=38
+G Eat Amount=0
+G Move Speed=7.750
+G Deposit Amount=0.447
+G Evaporation Rate=0.460
+B Sense Angle=231
+B Sense Distance=7.170
+B Turn Angle=85
+B Eat Amount=0
+B Move Speed=6.120
+B Deposit Amount=0.871
+B Evaporation Rate=0.975
+R Blur Radius=4
+G Blur Radius=4
+B Blur Radius=4
+Particles Move Towards=0

@@ -1,0 +1,22 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.40.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.66.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts psutil==5.9.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numexpr==2.8.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.8.0.76
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pillow==9.5.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scikit-learn==1.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts fastcluster==1.2.6
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts matplotlib==3.7.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio==2.31.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio-ffmpeg==0.4.8
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ffmpy==0.3.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pywin32==306
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts nvidia-ml-py==12.535.108
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tensorflow==2.10.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

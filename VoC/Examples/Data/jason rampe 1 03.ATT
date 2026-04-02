@@ -1,0 +1,12 @@
+[Settings]
+Attractor Name=Jason Rampe 1
+Palette=COLDFIRE.MAP
+Parameter A=2.5425
+Parameter B=2.8358
+Parameter C=-0.8721
+Parameter D=2.7044
+[Coordinates]
+Xmin=-6.83333333333333
+Xmax=6.66666666666667
+Ymin=-3.91972222222222
+Ymax=3.91972222222222

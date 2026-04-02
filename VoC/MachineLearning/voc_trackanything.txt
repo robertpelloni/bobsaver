@@ -1,0 +1,28 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==3.25.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio_client==0.1.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts progressbar2==4.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gdown==4.7.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gitpython==3.1.31
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/cheind/py-thin-plate-spline@f6995795397118b7d0ac01aecd3f39ffbfad9dee
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts hickle==5.0.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tensorboard==2.12.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/facebookresearch/segment-anything.git@567662b0fd33ca4b022d94d3b8de896628cd32dd
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.7.0.72
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pycocotools==2.0.6
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pyyaml==6.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts av==10.0.0
+pip install openmim==0.3.7
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.65.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts psutil==5.9.5
+python.exe -m pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts openmim==0.3.7
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+pip uninstall -y Pillow
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts Pillow==9.5.0
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

@@ -1,0 +1,45 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=68129418
+Iterations=50
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Model Version=v2
+Playgroundv2NegativePrompt=blurry, out of focus, tiltshift, low depth of field
+Playgroundv2GuidanceScale=10
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.1
+PlaygroundV2Scheduler=DDPMScheduler
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1
+In Script Movie Zoom Method=INTER_AREA
+In Script Movie Rotate=0:0,30:-0.488,60:0.656,90:0.754,120:-0.243,150:-0.721,180:0.508,210:-0.095,240:0.141,270:-0.787,300:0.442,330:0.384,360:-0.618,390:0.024,420:-0.875,450:-0.014,480:0.280,510:-0.806,540:0.634,570:-0.201,600:0.840,630:-0.877,660:0.496,690:-0.602,720:0.699,750:-0.757,780:0.299,810:0.001,840:-0.082,870:0.213,900:-0.613
+In Script Movie Pan X=0:0,30:-0.158,60:0.613,90:-0.490,120:-0.812,150:0.519,180:-0.013,210:-0.680,240:0.922,270:-0.833,300:0.731,330:0.321,360:0.960,390:-0.305,420:0.153,450:-0.604,480:-0.297,510:-0.531,540:0.069,570:0.455,600:-0.275,630:-0.075,660:0.079,690:-0.641,720:0.898,750:-0.606,780:0.057,810:0.441,840:-0.574,870:0.601,900:-0.681
+In Script Movie Pan Y=0:0,30:0.966,60:0.909,90:-0.884,120:0.933,150:-0.568,180:0.190,210:-0.603,240:0.812,270:0.460,300:-0.447,330:-0.105,360:0.337,390:-0.804,420:0.400,450:-0.054,480:0.366,510:0.811,540:-0.256,570:0.426,600:-0.766,630:-0.975,660:0.328,690:-0.896,720:-0.930,750:0.105,780:-0.956,810:-0.024,840:0.615,870:0.175,900:-0.753
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.4
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Noise=5
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=1
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:escher architecture

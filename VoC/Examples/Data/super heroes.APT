@@ -1,0 +1,36 @@
+[Settings]
+headprompt=
+tailprompt=drckgrfk style
+negativeprompt=
+scheduler=k_dpmpp_sde
+motionmodule=improved3DMotion_improved3DV1.ckpt
+motionlora=v2_lora_ZoomOut.ckpt
+motionlorastrength=1.0
+lora=epicphotogasm_v4One4All.safetensors
+controlnet=
+seed=573668030
+steps=25
+frames=16
+lengthparameter=650
+guidancescale=7.5
+w=512
+h=512
+format=mp4
+loopmovie=0
+[Prompt]
+Line0="0": "superman",
+Line1="50": "batman",
+Line2="100": "spiderman",
+Line3="150": "the incredible hulk",
+Line4="200": "wonder woman",
+Line5="250": "iron man",
+Line6="300": "catwoman",
+Line7="350": "thor",
+Line8="400": "wolverine",
+Line9="450": "captain america",
+Line10="500": "green lantern",
+Line11="550": "the flash",
+Line12="600": "supergirl"
+[Style Loras]
+Line0=
+Line1="models/Lora/Print Graphic_drckgrfk style.safetensors" : 1.0,

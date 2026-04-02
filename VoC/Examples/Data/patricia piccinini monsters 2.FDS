@@ -1,0 +1,12 @@
+[Settings]
+randomseed=260597716
+resolution=512x512
+guidance_scale=12
+video_length=16
+num_partitions=4
+eta=1
+num_inference_steps=16
+fps=8
+new_video_length=300
+[Prompt]
+Line0=zooming into Patricia Piccinini monsters, 8K 4K HD

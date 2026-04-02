@@ -1,0 +1,18 @@
+[GA Rule]
+Rule=zyyYN
+[Image Options]
+Palette File=Jason12.MAP
+Smooth Colors=0
+Random Offsets=1
+Coordinate Width=1
+[Gene Character Offsets]
+Xoffset1=0
+Yoffset1=-1
+Xoffset2=-1
+Yoffset2=0
+Xoffset3=0
+Yoffset3=-1
+Xoffset4=-1
+Yoffset4=0
+Xoffset5=-1
+Yoffset5=0

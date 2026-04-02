@@ -1,0 +1,12 @@
+[Settings]
+Attractor Name=Fractal Dream
+Palette=kuler october sky.MAP
+Parameter A=-2.9585
+Parameter B=-2.2965
+Parameter C=-2.8829
+Parameter D=-0.1622
+[Coordinates]
+Xmin=-4.11111111111111
+Xmax=4.05555555555556
+Ymin=-2.37472222222222
+Ymax=2.37472222222222

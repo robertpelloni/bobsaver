@@ -1,0 +1,26 @@
+[Settings]
+Formula=(((((pi-y)/(3.1+sin(y)))%((pi-y)/(7.5+sin(x))))*((((pi-y)/(3.1+sin(y)))-(6.2+sin(x)))*(((pi-y)/(3.2+sin(x)))+(6.2+sin(x)))))%(((((pi-y)/(5.7+sin(y)))-(2.2+sin(x)))*(((pi-y)/(3.2+sin(x)))+(0.9+sin(x))))+(((pi-y)/(3.2+sin(x)))+(6.2+sin(x)))))
+Color Palette=Genetic12.MAP
+Xmin=-4.1796875
+Xmax=0.9765625
+Ymin=-7.34375
+Ymax=-2.1875
+[Gene Pool]
+Gene0=(pi-round(x))
+Gene1=((x+pi)*(y*x))
+Gene2=((4.8%tan(x))%(6.8*y))
+Gene3=((9.4*x)*(y%5.5))
+Gene4=((pi-y)/(7.5+sin(x)))
+Gene5=(((pi-y)/(7.5+sin(x)))-((4.8%tan(x))%(6.8*y)))
+Gene6=((pi-round(x))-((pi-y)/(7.5+sin(x))))
+Gene7=(((pi-y)/(7.5+sin(x)))-(7.5+sin(x)))
+Gene8=(((pi-y)/(3.2+sin(x)))+(6.2+sin(x)))
+Gene9=(((pi-y)/(3.1+sin(y)))-(6.2+sin(x)))
+Gene10=((((pi-y)/(3.1+sin(y)))-(6.2+sin(x)))*(((pi-y)/(3.2+sin(x)))+(6.2+sin(x))))
+Gene11=(((pi-y)/(3.1+sin(y)))%((pi-y)/(7.5+sin(x))))
+Gene12=(((((pi-y)/(3.1+sin(y)))-(6.2+sin(x)))*(((pi-y)/(3.2+sin(x)))+(6.2+sin(x))))%(((pi-y)/(3.2+sin(x)))+(6.2+sin(x))))
+Gene13=(((((pi-y)/(5.7+sin(y)))-(2.2+sin(x)))*(((pi-y)/(3.2+sin(x)))+(0.9+sin(x))))+(((pi-y)/(3.2+sin(x)))+(6.2+sin(x))))
+Gene14=((((pi-y)/(3.1+sin(y)))%((pi-y)/(7.5+sin(x))))*((((pi-y)/(3.1+sin(y)))-(6.2+sin(x)))*(((pi-y)/(3.2+sin(x)))+(6.2+sin(x)))))
+Gene15=(((((pi-y)/(5.7+sin(y)))-(2.2+sin(x)))*(((pi-y)/(3.2+sin(x)))+(0.9+sin(x))))/((pi-y)/(7.5+sin(x))))
+Gene16=((((pi-y)/(7.5+sin(y)))%((pi-y)/(7.5+sin(x))))*((((pi-y)/(9.9+sin(y)))-(6.2+sin(x)))*(((pi-y)/(3.2+sin(x)))+(6.2+sin(x)))))
+Gene17=(((((pi-y)/(3.1+sin(y)))%((pi-y)/(7.5+sin(x))))*((((pi-y)/(3.1+sin(y)))-(6.2+sin(x)))*(((pi-y)/(3.2+sin(x)))+(6.2+sin(x)))))%(((((pi-y)/(5.7+sin(y)))-(2.2+sin(x)))*(((pi-y)/(3.2+sin(x)))+(0.9+sin(x))))+(((pi-y)/(3.2+sin(x)))+(6.2+sin(x)))))

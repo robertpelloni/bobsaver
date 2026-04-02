@@ -1,0 +1,33 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.41.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts decord==0.6.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio==2.9.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts omegaconf==2.1.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv_python==4.9.0.80
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pandas==2.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts Pillow==9.5.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pytorch_lightning==1.8.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts PyYAML==6.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts setuptools==65.6.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.65.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.25.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts moviepy==1.0.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts av==11.0.0
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.25 --index-url https://download.pytorch.org/whl/cu118
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.30
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==4.21.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts timm==0.9.16
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scikit-learn==1.4.1.post1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts open_clip_torch==2.22.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts kornia==0.7.2
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.2.1+cu118 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y charset-normalizer
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts charset-normalizer==3.3.2
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

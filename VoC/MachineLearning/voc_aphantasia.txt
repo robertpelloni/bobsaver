@@ -1,0 +1,25 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ftfy==6.0.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio==2.9.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ipywidgets==7.6.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts https://softology.pro/wheels/regex-2021.3.17-cp310-cp310-win_amd64.whl
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.59.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts googletrans==3.1.0a0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.5.5.62
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts sentence_transformers==2.2.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.21.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts kornia==0.5.10
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts lpips==0.1.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts omegaconf==2.1.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pytorch-lightning==1.8.6
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.6.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts matplotlib==3.6.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts PyWavelets==1.4.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/fbcotter/pytorch_wavelets
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.23.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

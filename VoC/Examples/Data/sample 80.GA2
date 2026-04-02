@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos((x+pi)+arctan(y+3.8)/tan(pi))
+Palette=kuler lazy plethora.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

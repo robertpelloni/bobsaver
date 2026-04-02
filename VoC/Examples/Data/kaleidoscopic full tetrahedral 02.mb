@@ -1,0 +1,154 @@
+[Version]
+Version=2
+[Eye]
+X=0
+Y=0
+Z=3
+[Look At]
+X=0
+Y=0
+Z=0
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=25
+[Light]
+On=1
+X=-1.62420502667864
+Y=2.30659577215358
+Z=-2.85835161853735
+Color=$008C7165
+Intensity=7
+[Light 2]
+On=1
+X=-2.42401710276796
+Y=2.00853651275519
+Z=2.84070803892579
+Color=$0007C61E
+Intensity=3
+[Light 3]
+On=0
+X=1.29979259263934
+Y=-4.08572084133578
+Z=0.375132540303221
+Color=$0008E5FA
+Intensity=9
+[Light 4]
+On=0
+X=-3.43805961296232
+Y=-1.11064411424453
+Z=-2.00097869784048
+Color=$00B79B19
+Intensity=1
+[Light 5]
+On=1
+X=0.107299428960091
+Y=-3.37465013689338
+Z=-0.0769628878766253
+Color=$003C837D
+Intensity=4
+[Light 6]
+On=0
+X=-2.69784152813924
+Y=0.19908688138933
+Z=-1.36653412057877
+Color=$00675E28
+Intensity=6
+[Camera Light]
+On=0
+Color=clSilver
+Intensity=1
+[Light Bloom]
+On=0
+Threshold=200
+Radius=3
+[Rotation]
+X=130
+Y=0
+Z=48
+[Settings]
+Iterations=11
+Epsilon=0.0001
+DE Scale Factor=1
+Power=2
+Gamma=0
+Contrast=0
+Shading=3
+Formula=7
+Formula Variation=0
+Bailout=400
+Palette=sinpal14.map
+Spikes=0
+Spikes Y Maximum=0.5
+Juliabulb=0
+Julia Real=0
+Julia Imaginary=0
+Julia Imaginary 2=0
+Shadows=1
+Shadow Intensity=60
+Specularity Amount=200
+Show Specularity=1
+Glow Effect=0
+Glow Color=clYellow
+Glow Threshold=750
+Outside Glow=0
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0
+Ambient Occlusion Max Orbit=0.8
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Ambient Amount=0.3
+Phase=0
+Theta Scale=1
+Phi Scale=1
+Kaleidoscope Rotation 1 X=0
+Kaleidoscope Rotation 1 Y=0
+Kaleidoscope Rotation 1 Z=0
+Kaleidoscope Rotation 2 X=1
+Kaleidoscope Rotation 2 Y=0
+Kaleidoscope Rotation 2 Z=0
+Kaleidoscope Center X=1
+Kaleidoscope Center Y=1
+Kaleidoscope Center Z=1
+Kaleidoscope Fold Style=2
+Kaleidoscope Z Wrap=1
+Kaleidoscope Normailze C=1
+Kaleidoscope Rotate Around Origin=1
+Kaleidoscope Pre Rotate=1
+Fog=0
+Fog Color=clSilver
+Fog Cutoff=5
+Depth Of Field=0
+Depth Of Field Focal Point=2
+Version=2
+Box Folding=0
+ABS Box Folding=0
+Min Box Folding=1
+Max Box Folding=2
+Sphere Folding=0
+Min Sphere Folding=0.5
+Max Sphere Folding=1
+[Hybrids]
+Enabled=0
+Hybrid 1 Formula=0
+Hybrid 1 Variation=0
+Hybrid 1 Power=8
+Hybrid 2 Formula=0
+Hybrid 2 Variation=0
+Hybrid 2 Power=8
+Hybrid 3 Enabled=0
+Hybrid 3 Formula=0
+Hybrid 3 Variation=0
+Hybrid 3 Power=8
+Hybrid 4 Enabled=0
+Hybrid 4 Formula=0
+Hybrid 4 Variation=0
+Hybrid 4 Power=8

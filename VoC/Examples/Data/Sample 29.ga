@@ -1,0 +1,16 @@
+[GA Rule]
+Rule=QQND
+[Image Options]
+Palette File=Genetic09.MAP
+Smooth Colors=0
+Random Offsets=1
+Coordinate Width=5
+[Gene Character Offsets]
+Xoffset1=1
+Yoffset1=1
+Xoffset2=-1
+Yoffset2=3
+Xoffset3=1
+Yoffset3=1
+Xoffset4=-5
+Yoffset4=3

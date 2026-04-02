@@ -1,0 +1,61 @@
+[Settings]
+Particle Count=500000
+Rest Density=80
+Stiffness=0.08
+Near Stiffness=0.1
+Surface Tension=0.0005
+Linear Viscosity=0.5
+Quadratic Viscosity=1
+Delta Time=0.001
+Sub Steps=15
+Gravity=9.8
+View Width Scale=1.0
+Grid Size=250
+Wall Bounce Factor=0.5
+Initial Setup=0
+Hide Particle Count=0
+Display Radius=1
+[Emitter 1]
+Color=$0000FF80
+Mass=1
+Position=5
+X Direction=4
+Y Direction=1
+Size=1
+Speed=2
+Rate=7
+[Emitter 2]
+Color=clAqua
+Enabled=1
+Mass=3
+Position=2
+X Direction=0
+Y Direction=-1
+Size=1
+Speed=2
+Rate=5
+[Emitter 3]
+Color=$00FF8080
+Enabled=1
+Mass=2
+Position=8
+X Direction=-4
+Y Direction=1
+Size=1
+Speed=2
+Rate=7
+[Emitter 4]
+Color=clWhite
+Enabled=1
+Mass=4
+Position=13
+X Direction=0
+Y Direction=1
+Size=1
+Speed=15
+Rate=8
+[Rayleigh-Taylor]
+Enabled=0
+Start Pattern=0
+Clamped=0
+Clamp Amount=10

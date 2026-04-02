@@ -1,0 +1,46 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=1922866289
+Iterations=30
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Model Version=v2.5
+Playgroundv2NegativePrompt=blurry, out of focus, tiltshift, low depth of field
+Playgroundv2GuidanceScale=5
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.3
+PlaygroundV2Scheduler=DDPMScheduler
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Movie Rotate=0:0,30:0.031,60:0.085,90:-0.097,120:0.051,150:-0.098,180:0.093,210:-0.016,240:0.003,270:-0.088,300:0.023,330:-0.059,360:0.070,390:-0.088,420:0.051,450:-0.074,480:-0.044,510:0.072,540:-0.037,570:-0.013,600:0.036,630:0.046,660:-0.094,690:0.068,720:0.014,750:-0.017,780:0.038,810:0.030,840:-0.017,870:0.002,900:0.022
+In Script Movie Pan X=0:0,30:0.073,60:-0.052,90:0.055,120:-0.023,150:0.034,180:0.065,210:0.051,240:0.039,270:-0.044,300:0.083,330:-0.023,360:-0.028,390:0.006,420:-0.049,450:-0.017,480:-0.079,510:0.097,540:-0.056,570:0.020,600:-0.070,630:0.083,660:-0.052,690:0.026,720:-0.099,750:-0.099,780:0.047,810:-0.072,840:0.022,870:-0.080,900:0.032
+In Script Movie Pan Y=0:0,30:-0.065,60:-0.100,90:0.032,120:0.076,150:0.075,180:-0.044,210:-0.050,240:0.013,270:0.054,300:-0.053,330:0.065,360:0.083,390:-0.017,420:-0.093,450:0.067,480:0.027,510:-0.090,540:0.029,570:0.042,600:-0.039,630:-0.047,660:0.092,690:-0.019,720:-0.033,750:0.020,780:-0.089,810:0.003,840:-0.035,870:0.006,900:0.040
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.1
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Noise=10
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=600
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+In Script Movie Color Matching=1
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:giger surrealism

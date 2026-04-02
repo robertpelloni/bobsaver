@@ -1,0 +1,25 @@
+[Settings]
+Delta Time=0.1
+Diffusion=0
+Viscosity=0
+Iterations=10
+Grid Size=150
+Grid Slice=0
+Object Size=0.5
+Cell Shape=1
+Hide Velocity Threshold=0.01
+Color Method=1
+Starting Configuration=3
+Billboard Alpha=0.4
+Strip Billboard Internal=1
+Vorticity Confinement=0
+Buoyancy=0
+Color palette=ROYGBIV2.MAP
+[Source]
+Velocity From=10
+Velocity To=10
+Density From=100
+Density To=100
+Radius=3
+Stop Flow After=0
+Shape=1

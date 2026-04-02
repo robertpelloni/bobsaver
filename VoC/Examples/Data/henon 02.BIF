@@ -1,0 +1,10 @@
+[Settings]
+Formula=1
+Xmin=1.23759125
+Xmax=1.36450125
+Ymin=-0.0843333333333334
+Ymax=0.00693333333333335
+Iterations=500000
+Skip Iterations=100
+Background Color=clBlack
+Palette=colorschemer african sunset.MAP

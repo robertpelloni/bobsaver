@@ -1,0 +1,11 @@
+[Settings]
+Xmin=3.73333333333333
+Xmax=5.6
+Ymin=-3.02133333333333
+Ymax=-1.57933333333333
+CX=0.250980392156863
+CY=2.30301507537688
+Maximum Iterations=60
+Color Scale Factor=927
+Color Palette=image frequency clouds.MAP
+Variation=2

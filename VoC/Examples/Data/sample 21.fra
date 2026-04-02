@@ -1,0 +1,22 @@
+[Settings]
+Version=2
+Fractal Type=Mandelbrot
+Re min=-0.373696061831295
+Re max=-0.373696061727939
+Im min=-0.659139600349171
+Im max=-0.659139600289289
+Julia X=0
+Julia Y=0
+Angle=0
+Maximum Iterations=4096
+Display Style=1
+Color Palette=C:\code\Delphi\Chaos\Examples\Palettes\Jason47.MAP
+[Orbit Traps]
+Style=0
+Num Pals=1
+Palette 1=orbit traps silver 01.MAP
+Palette 2=orbit traps gold 01.MAP
+Palette 3=orbit traps red 01.MAP
+Palette 4=orbit traps green 01.MAP
+Palette 5=orbit traps blue 01.MAP
+Only Show Traps=0

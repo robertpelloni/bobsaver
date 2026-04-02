@@ -1,0 +1,7 @@
+[Settings]
+Formula=sqr(y*pi)*sqr(pi*3.7)*sqr(x-y)%tan(y)%x%tan(y-x)
+Palette=Gravity 2D 02.MAP
+Xmin=-5.775
+Xmax=5.5
+Ymin=-2.75
+Ymax=8.61666666666667

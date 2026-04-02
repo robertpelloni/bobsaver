@@ -1,0 +1,12 @@
+[Settings]
+Formula=10
+Root Finding Method=2
+Palette Step Amount=9
+Genralized Newton Factor=1.3
+Genralized Newton I=0
+Coloring=2
+Palette=carr516.map
+Xmin=-1.26556234375
+Xmax=1.23441265625
+Ymin=-1.2499375
+Ymax=1.2500375

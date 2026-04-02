@@ -1,0 +1,21 @@
+[Settings]
+Formula=((((y+x)*arctan((y*round(pi))))-cos((x*5.4)))-((((y+x)*arctan((y*round(pi))))-cos((x+5.4)))%(((x%y)-y)%(2.7*4.5))))
+Color Palette=colorschemer animals.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((y%8.3)+((y%sin(x))%exp((x*frac(y)))))
+Gene1=(((x%y)+y)%(2.7*4.5))
+Gene2=(((y+x)*arctan((y*round(pi))))-cos((x*5.4)))
+Gene3=((pi/tan(pi))*(x-frac(x)))
+Gene4=((y*3.1)%(6.3/x))
+Gene5=(((y+x)*arctan((y*round(pi))))-cos((x-5.4)))
+Gene6=((((y+x)*arctan((y*round(pi))))-cos((x-5.4)))%(((x%y)+y)%(2.7*4.5)))
+Gene7=((((y+x)*arctan((y*round(pi))))-cos((x*5.4)))-((((y+x)*arctan((y*round(pi))))-cos((x-5.4)))%(((x%y)+y)%(2.7*4.5))))
+Gene8=(((y+x)*arctan((x*round(pi))))+cos((x-5.4)))
+Gene9=((((y+x)*arctan((y*round(pi))))-cos((x*5.4)))+cos((x-5.4)))
+Gene10=((((y+x)*arctan((x*round(pi))))+cos((x-5.4)))%((((y+x)*arctan((y*round(pi))))-cos((x*5.4)))+cos((x-5.4))))
+Gene11=((((y+x)*arctan((y*round(pi))))-cos((x*5.4)))-((((y+x)*arctan((y*round(pi))))-cos((x+5.4)))%(((x%y)-y)%(2.7*4.5))))
+Gene12=(((y+x)*arctan((x*round(pi))))-((((y+x)*arctan((y*round(pi))))-cos((x+5.4)))%(((x%y)-y)%(2.7*4.5))))

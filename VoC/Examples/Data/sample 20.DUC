@@ -1,0 +1,14 @@
+[Settings]
+Xmin=-0.435533333333333
+Xmax=0.433166666666667
+Ymin=-1.19121216666667
+Ymax=-0.517077166666667
+CX=0.780392156862745
+CY=0.0798994974874372
+Power=1
+Maximum Iterations=100
+Color Scale Factor=150
+Color Palette=lindaa12.map
+Variation=0
+Symmetry=2
+Smooth Shading=1

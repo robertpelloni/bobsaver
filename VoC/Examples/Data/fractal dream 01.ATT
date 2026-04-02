@@ -1,0 +1,13 @@
+[Settings]
+Attractor Name=Fractal Dream
+Palette=kuler drholwegneu.MAP
+Parameter A=-0.966918
+Parameter B=2.879879
+Parameter C=0.765145
+Parameter D=0.744728
+Formula=0
+[Coordinates]
+Xmin=-3.55555555555556
+Xmax=3.55555555555556
+Ymin=-2.06
+Ymax=2.06

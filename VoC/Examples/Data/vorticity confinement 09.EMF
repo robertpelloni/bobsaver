@@ -1,0 +1,17 @@
+[Settings]
+Inlets=9
+Inlet Shape=1
+Inlet Size=0.02
+Inlet Density=1
+Inlet Velocity=3
+Inlet Stop After=0
+Density=0.001
+Time Step=0.005
+Interpolation=1
+Integration=1
+Projection=0
+Projection Iterations=500
+Display=0
+Vorticity Confinement=1
+Vorticity Amount=5
+Palette=colourlovers trance.MAP

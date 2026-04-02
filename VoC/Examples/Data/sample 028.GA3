@@ -1,0 +1,30 @@
+[Settings]
+Formula=((((((pi%(6.8/abs(0.4)))%arctan(((x%x)+(x*y))))/((pi%(6.8/tan(0.4)))/arctan(((y/x)+(pi*y)))))%((x-sin(y))%((x/x)+(pi%pi))))+(((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(pi*y))))))+(((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(pi*y))))))
+Color Palette=kuler dead presidents.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((x-sin(y))*(x-pi))
+Gene1=((x+(8.6%x))+((y+log(pi))%(8.9/y)))
+Gene2=(((4.3%6.5)%(y+2.5))%((x/y)+(pi%y)))
+Gene3=(((2.9%y)/(3.9/1.7))%sqr(((x*pi)+y)))
+Gene4=((pi%(6.8/abs(0.4)))/arctan(((y/x)+(x/y))))
+Gene5=((x-sin(y))%((y+log(pi))%(8.9/y)))
+Gene6=((pi%(6.8/abs(0.4)))+arctan(((y/x)+(x*y))))
+Gene7=((x-sin(y))%((x/y)+(pi%y)))
+Gene8=((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))
+Gene9=((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))
+Gene10=(((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(x*y)))))
+Gene11=((x-sin(y))%((pi%(6.8/abs(0.4)))+arctan(((y/x)+(x*y)))))
+Gene12=((((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(x*y)))))%((x-sin(y))%((x/y)+(pi%y))))
+Gene13=(((((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(x*y)))))%((x-sin(y))%((x/y)+(pi%y))))-(((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(x*y))))))
+Gene14=(((x-sin(y))%((pi%(6.8/abs(0.4)))+arctan(((y/x)+(x*y)))))%((((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(x*y)))))%((x-sin(y))%((x/y)+(pi%y)))))
+Gene15=(((((pi%(6.8/abs(0.4)))%arctan(((x/x)+(x*y))))/((pi%(6.8/tan(0.4)))+arctan(((y/x)+(pi*y)))))%((x-sin(y))%((x/x)+(pi%pi))))-(((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(pi*y))))))
+Gene16=(((x-sin(y))%((pi%(6.8/abs(0.4)))+int(((y/x)+(x*y)))))-((((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(x*y)))))%((y-sin(y))%((x/y)+(pi%y)))))
+Gene17=(((((pi%(6.8/abs(0.4)))%arctan(((x%x)+(x*y))))/((pi%(6.8/tan(0.4)))/arctan(((y/x)+(pi*y)))))%((x-sin(y))%((x/x)+(pi%pi))))+(((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(pi*y))))))
+Gene18=((((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(x*y)))))+((((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(x*y)))))%((x-sin(y))%((x/y)+(pi%y)))))
+Gene19=((((((pi%(6.8/abs(0.4)))%arctan(((x%x)+(x*y))))/((pi%(6.8/tan(0.4)))/arctan(((y/x)+(pi*y)))))%((x-sin(y))%((x/x)+(pi%pi))))+(((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(pi*y))))))-(((x-sin(y))%((pi%(6.8/abs(0.4)))+arctan(((y/x)+(x*y)))))%((((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(x*y)))))%((x-sin(y))%((x/y)+(pi%y))))))
+Gene20=(((((((pi%(6.8/abs(0.4)))%arctan(((x%x)+(x*y))))/((pi%(6.8/tan(0.4)))/arctan(((y/x)+(pi*y)))))%((x-sin(y))%((x/x)+(pi%pi))))+(((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(pi*y))))))-(((x-sin(y))%((pi%(6.8/abs(0.4)))+arctan(((y/x)+(x*y)))))%((((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(x*y)))))%((x-sin(y))%((x/y)+(pi%y))))))*((((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(x*y)))))+((((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(x*y)))))%((x-sin(y))%((x/y)+(pi%y))))))
+Gene21=((((((pi%(6.8/abs(0.4)))%arctan(((x%x)+(x*y))))/((pi%(6.8/tan(0.4)))/arctan(((y/x)+(pi*y)))))%((x-sin(y))%((x/x)+(pi%pi))))+(((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(pi*y))))))+((((pi%(6.8/abs(0.4)))%arctan(((y/x)+(x*y))))/((pi%(6.8/abs(0.4)))+arctan(((y/x)+(x*y)))))%((x-sin(y))%((x/y)+(pi%y)))))

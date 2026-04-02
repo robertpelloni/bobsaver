@@ -1,0 +1,7 @@
+[Settings]
+Formula=y-arctan((y)-arctan(y-x)-sin(y*pi)-sqr(y)*y-sin(y*x-0.3))
+Palette=kuler espresso shot.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

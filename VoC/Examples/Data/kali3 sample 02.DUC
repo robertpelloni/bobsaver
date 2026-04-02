@@ -1,0 +1,37 @@
+[Settings]
+Xmin=-4.8
+Xmax=4.8
+Ymin=-3.09
+Ymax=3.09
+CX=0.505882352941176
+CY=0.0756281407035176
+Power=1
+Maximum Iterations=20
+Color Scale Factor=50
+Color Palette=FIRECOD2.MAP
+Variation=8
+Symmetry=0
+Smooth Shading=1
+Julia Set Hybrid=0
+Kali Scale=1
+Kali Min Scale=0
+[Hybrids]
+Enable Hybrids=0
+Enable Hybrid 3=0
+Enable Hybrid 4=0
+Enable Hybrid 5=0
+Variation 1=0
+Symmetry 1=0
+Power 1=1
+Variation 2=0
+Symmetry 2=0
+Power 2=1
+Variation 3=0
+Symmetry 3=0
+Power 3=1
+Variation 4=0
+Symmetry 4=0
+Power 4=1
+Variation 5=0
+Symmetry 5=0
+Power 5=1

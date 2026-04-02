@@ -1,0 +1,37 @@
+[Settings]
+Formula=((((y*sin(pi))+(pi+cos(x)))%((x*tan(x))-(y+abs(x))))%((((y*sin(pi))+(pi+cos(x)))%((x*sin(x))-(y+abs(x))))%((x*sin(x))-(y+abs(x)))))
+Color Palette=Jason3.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((y/sqrt(2.2))*(y-x))
+Gene1=((0.7+y)*(x*ceil(3.4)))
+Gene2=(x*sin(y))
+Gene3=(pi*ceil(y))
+Gene4=(y+abs(x))
+Gene5=((x*sin(y))-(y+abs(x)))
+Gene6=((y*sin(y))-(y+abs(x)))
+Gene7=((y*sin(y))+(y+cos(x)))
+Gene8=(pi%(y+cos(x)))
+Gene9=(((y*sin(y))+(y+cos(x)))%((x*sin(y))-(y+abs(x))))
+Gene10=((pi%(y+cos(x)))+((x*sin(y))-(y+abs(x))))
+Gene11=(((y*sin(y))+(y+cos(x)))*((x*sin(y))-(y+abs(x))))
+Gene12=(((y*sin(y))/(y+cos(x)))%((x*sin(y))-(y+abs(x))))
+Gene13=(((y*sin(y))+(y+cos(x)))+((x*sin(y))-(y+abs(x))))
+Gene14=(((y*sin(pi))+(y+cos(x)))%((x*sin(y))-(y+abs(x))))
+Gene15=(((y*sin(y))/(y+cos(y)))%((x*sin(pi))-(y+abs(x))))
+Gene16=(((y*sin(pi))+(y+cos(x)))+((x*sin(y))-(y+abs(x))))
+Gene17=((((y*sin(pi))+(y+cos(x)))+((x*sin(y))-(y+abs(x))))%(((y*sin(y))/(y+cos(y)))%((x*sin(pi))-(y+abs(x)))))
+Gene18=((((y*sin(pi))+(y+cos(x)))+((x*sin(y))-(y+abs(x))))+((((y*sin(pi))+(y+cos(x)))+((x*sin(y))-(y+abs(x))))%(((y*sin(y))/(y+cos(y)))%((x*sin(pi))-(y+abs(x))))))
+Gene19=(((y*sin(pi))+(x+cos(x)))%((x*sin(x))-(y+abs(x))))
+Gene20=(((y*sin(pi))-(y+cos(x)))%((y*sin(y))-(y+abs(x))))
+Gene21=((((y*sin(pi))+(y+cos(x)))+((x*sin(y))-(y+abs(x))))+(((y*round(y))/(y%cos(y)))%((x*sin(pi))-(y+abs(x)))))
+Gene22=((((y*sin(pi))+(x+cos(x)))%((x*sin(x))-(y+abs(x))))+((((y*sin(pi))+(y+cos(x)))+((x%sin(y))-(y+abs(x))))%(((x*round(x))/(y%cos(y)))+((x*sin(pi))-(y+abs(x))))))
+Gene23=((((y*sin(pi))+(x+cos(x)))%((x*sin(x))-(y+abs(x))))/((x*sin(x))-(y+abs(x))))
+Gene24=((((y*sin(pi))+(x+cos(x)))%((x*sin(x))-(y*abs(x))))-((x*sin(x))-(y+abs(x))))
+Gene25=((((y*sin(pi))+(pi+cos(x)))%((x*tan(x))-(y+abs(x))))+((x*sin(x))-(y+abs(x))))
+Gene26=((((y*sin(pi))+(x+cos(x)))%((x*sin(x))-(y+abs(x))))-((x*sqr(pi))-(y+abs(x))))
+Gene27=((((y*sin(pi))+(pi+cos(x)))%((x*tan(x))-(y+abs(x))))%((x*sin(x))-(y+abs(x))))
+Gene28=((((y*sin(pi))+(pi+cos(x)))%((x*tan(x))-(y+abs(x))))%((((y*sin(pi))+(pi+cos(x)))%((x*sin(x))-(y+abs(x))))%((x*sin(x))-(y+abs(x)))))

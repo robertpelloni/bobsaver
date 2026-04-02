@@ -1,0 +1,44 @@
+[Emitter 1]
+Active=1
+Xpos=-100
+Ypos=-100
+Amplitude=1
+Frequency=0.2
+Shift=0
+Amplitude Change=0
+Frequency Change=0
+Shift Change=0
+[Emitter 2]
+Active=1
+Xpos=-100
+Ypos=100
+Amplitude=1
+Frequency=0.2
+Shift=0
+Amplitude Change=0
+Frequency Change=0
+Shift Change=0
+[Emitter 3]
+Active=1
+Xpos=100
+Ypos=-100
+Amplitude=1
+Frequency=0.2
+Shift=0
+Amplitude Change=0
+Frequency Change=0
+Shift Change=0
+[Emitter 4]
+Active=1
+Xpos=100
+Ypos=100
+Amplitude=1
+Frequency=0.2
+Shift=0
+Amplitude Change=0
+Frequency Change=0
+Shift Change=0
+[Settings]
+Display Speed=10
+Display Mode=0
+Palette=IFS20.MAP

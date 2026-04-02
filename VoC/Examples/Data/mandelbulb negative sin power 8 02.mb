@@ -1,0 +1,46 @@
+[Eye]
+X=0.15
+Y=0
+Z=0.4
+[Look At]
+X=0.15
+Y=0
+Z=-0.6
+[Zoom]
+Zoom=0.8
+[Light]
+X=-3
+Y=-3
+Z=-10
+[Rotation]
+X=140
+Y=0
+Z=0
+[Settings]
+Iterations=9
+Epsilon=0.000005
+Power=8
+Gamma=0
+Contrast=0
+Shading=2
+Negative SIN=1
+Bailout=4
+Palette=kuler moonlight sonata.MAP
+Spikes=0
+Spikes Y Maximum=0.5
+Juliabulb=0
+Julia Real=0
+Julia Imaginary=0
+Julia Imaginary 2=0
+Shadows=0
+Specularity=0.45
+Glow Effect=0
+Glow Color=clBlue
+Glow Threshold=221
+Outside Glow=1
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.4
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=1

@@ -1,0 +1,11 @@
+[Settings]
+Xmin=-2.6
+Xmax=-1.26666666666667
+Ymin=-3.94833333333333
+Ymax=-2.91833333333333
+CX=0.368627450980392
+CY=1.5713567839196
+Maximum Iterations=45
+Color Scale Factor=200
+Color Palette=image frequency starry night.MAP
+Variation=1

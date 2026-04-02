@@ -1,0 +1,18 @@
+[Settings]
+Input Phrase=A fantasy landscape by Greg Rutkowski A lush mountain Trending on ArtStation unreal engine 4K HD realism
+Script=Hypertron *
+Random seed=1862679851
+Iterations=200
+Image Size=512
+[Hypertron]
+VQGAN Model=vqgan_imagenet_f16_16384
+CLIP Model=ViT-B/32
+Flavor=holywater
+Seed Image=
+Custom Image Size=1
+Custom Resolution=854x480 16:9 480p
+[Hypertron *]
+VQGAN Model=vqgan_imagenet_f16_16384
+CLIP Model=ViT-B/32
+Flavor=holywater
+Seed Image=

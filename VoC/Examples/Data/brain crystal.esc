@@ -1,0 +1,9 @@
+[Settings]
+Parameter String=KYLILTPKOREL
+Palette=Jason26.MAP
+ESCMaxIters=255
+[Coordinates]
+ESCXmin=-2.65151515151515
+ESCXmax=3.96464646464646
+ESCYmin=-3.125
+ESCYmax=3.5054347826087

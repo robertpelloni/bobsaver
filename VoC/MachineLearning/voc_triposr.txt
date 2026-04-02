@@ -1,0 +1,27 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.42.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts omegaconf==2.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts Pillow==10.1.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.7.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.35.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts trimesh==4.0.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts rembg==2.0.55
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface-hub==0.21.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio[ffmpeg]==2.34.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==4.20.0
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.2.0+cu118 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+rem pip install --pre torch==2.7.0.dev20250311 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/tatsy/torchmcubes.git@3aef8afa5f21b113afc4f4ea148baee850cbd472
+pip uninstall -y charset-normalizer
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts charset-normalizer==3.3.2
+pip uninstall -y typing_extensions
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts typing_extensions==4.8.0
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0
+pip uninstall -y fastapi
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts fastapi==0.111.0

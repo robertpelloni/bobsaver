@@ -1,0 +1,14 @@
+[Settings]
+Attractor Name=Jason Rampe 2
+Palette=kuler warm green.MAP
+Brightness=100
+Contrast=0
+Parameter A=-2.9581
+Parameter B=0.927
+Parameter C=2.7842
+Parameter D=0.6267
+[Coordinates]
+Xmin=-2.69444444444444
+Xmax=3.91666666666667
+Ymin=-1.8025
+Ymax=2.03138888888889

@@ -1,0 +1,28 @@
+[Eye]
+X=-0.25
+Y=0
+Z=1
+[Look At]
+X=-0.25
+Y=0
+Z=0
+[Zoom]
+Zoom=0
+[Light]
+X=-5
+Y=-5
+Z=-2
+[Rotation]
+X=90
+Y=0
+Z=0
+[Settings]
+Iterations=10
+Power=8
+Palette=kuler mossy slate.MAP
+Supersample=1
+Supersample Pixels=1
+Shadows=1
+Brightness=40
+Negative SIN=0
+Bailout=4

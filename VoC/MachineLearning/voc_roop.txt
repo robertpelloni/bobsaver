@@ -1,0 +1,29 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.40.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.23.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.8.0.74
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts onnx==1.14.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts insightface==0.7.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts psutil==5.9.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tk==0.1.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts customtkinter==5.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tkinterdnd2==0.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pillow==10.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tensorflow==2.13.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opennsfw2==0.10.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts protobuf==4.23.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.65.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gfpgan==1.3.8
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts onnxruntime-gpu==1.15.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts face-recognition==1.3.0
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.1+cu118 torchvision==0.15.2+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y opencv-python
+pip uninstall -y opencv-python-headless
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.8.0.74
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

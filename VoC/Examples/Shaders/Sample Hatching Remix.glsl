@@ -1,0 +1,240 @@
+#version 420
+
+// original https://www.shadertoy.com/view/WdfXWl
+
+uniform float time;
+uniform vec2 mouse;
+uniform vec2 resolution;
+
+out vec4 glFragColor;
+
+#define ITR 80
+#define FAR 15.
+#define time time
+
+mat2 mm2(in float a){float c = cos(a), s = sin(a);return mat2(c,-s,s,c);}
+
+float torus(in vec3 p, in vec2 t){
+  return length( vec2(length(p.xz)-t.x,p.y) )-t.y;
+}
+
+float map(vec3 p)
+{
+    float d = torus(p,vec2(.9,0.33));
+    d = min(d, -length(p)+5.);   
+    return d;
+}
+
+float march(in vec3 ro, in vec3 rd)
+{
+    float precis = 0.001;
+    float h=precis*2.;
+    float d = 0.;
+    for( int i=0; i<ITR; i++ )
+    {
+        if( abs(h)<precis || d>FAR ) break;
+        d += h;
+        float res = map(ro+rd*d);
+        h = res;
+    }
+    return d;
+}
+//iq noise https://www.shadertoy.com/view/lsf3WH
+
+float hash(vec2 p)  // replace this by something better
+{
+    p  = 50.0*fract( p*0.3183099 + vec2(0.71,0.113));
+    return -1.0+2.0*fract( p.x*p.y*(p.x+p.y) );
+}
+
+float noise( in vec2 p )
+{
+    vec2 i = floor( p );
+    vec2 f = fract( p );
+    
+    vec2 u = f*f*(3.0-2.0*f);
+
+    return mix( mix( hash( i + vec2(0.0,0.0) ), 
+                     hash( i + vec2(1.0,0.0) ), u.x),
+                mix( hash( i + vec2(0.0,1.0) ), 
+                     hash( i + vec2(1.0,1.0) ), u.x), u.y);
+}
+
+float hash11(float p)
+{
+    vec2 p2 = fract(vec2(p * 5.3983, p * 5.4427));
+    p2 += dot(p2.yx, p2.xy + vec2(21.5351, 14.3137));
+    return fract(p2.x * p2.y * 95.4337);
+}
+
+float noise(float x)
+{
+    float i=floor(x);
+    float f=fract(x);
+    f=f*f*(3.0-2.0*f);
+    float y=3.0*mix(hash11(i), hash11(i+1.), f);
+    return y;
+}
+//---------------------------------------------------------
+
+vec2 rot (vec2 p ,float a){
+    float c = cos(a);
+    float s=sin(a);
+    return vec2(p.x*c -p.y*s,p.x*s + p.y*c);
+}
+
+float sdCircunf(vec2 p,float r,float t){
+
+    return abs(length(p)-r)-t;
+}
+
+vec2 fMod(inout vec2 p, vec2 cellsize){
+    vec2 cell =  floor(p/cellsize);
+    p = mod(p,cellsize)-cellsize*0.5;
+    return cell;
+}
+
+float scribbleTexture(vec2 uv,int str,float ink){
+    
+    float cs;
+    float c,ln,m;
+    float fc=0.;
+    vec2 duv,cell;
+    
+    for(int i=0;i<str;i++){
+    
+         cs= float(str-i+1)/float(str);
+        float h =noise(float(i*2));
+        duv = uv +sin(float(i)) ;
+        cell =fMod(duv,vec2(cs));
+        
+        ln =noise(duv *10./cs +cell.x/cs +cell.y);
+        c = sdCircunf(duv,mix(cs*0.45,cs*0.49,ln),mix(0.02*cs,0.006*cs,ln));
+        m =1.- round(smoothstep(c,cs*0.001,-cs*0.01));
+        
+        float d =float(i)/float(str);
+        fc +=(1.-c)*m *ink;
+
+        
+    }
+
+    return 1.-fc;
+    
+   
+}
+float texh(in vec2 p, in float str)
+{
+    p*= .7;
+    float rz= 1.;
+    for (int i=0;i<10;i++)
+    {
+        float g = 0.0; //texture(iChannel0,vec2(0.025,.5)*p).x;
+        g = smoothstep(0.-str*0.1,2.3-str*0.1,g);
+        rz = min(1.-g,rz);
+        p.xy = p.yx;
+        p += .07;
+        p *= 1.2;
+        if (float(i) > str)break;
+    }
+    return rz*1.05;
+}
+
+vec3 cubeproj(in vec3 p, in float str,float ink)
+{
+    vec3 x = vec3(scribbleTexture(p.zy/p.x,int(str),ink));
+    vec3 y = vec3(scribbleTexture(p.xz/p.y,int(str),ink));
+    vec3 z = vec3(scribbleTexture(p.xy/p.z,int(str),ink));
+    
+    p = abs(p);
+    if (p.x > p.y && p.x > p.z) return x;
+    else if (p.y > p.x && p.y > p.z) return y;
+    else return z;
+}
+
+float texcube(in vec3 p, in vec3 n, in float str,float ink)
+{
+    float x = scribbleTexture(p.yz,int(str),ink);
+    float y = scribbleTexture(p.zx,int(str),ink);
+    float z = scribbleTexture(p.xy,int(str),ink);
+    n *= n;
+    return x*abs(n.x) + y*abs(n.y) + z*abs(n.z);
+}
+
+vec3 normal(in vec3 p, in vec3 rd)
+{  
+    vec2 e = vec2(-1., 1.)*0.005;
+    vec3 n = (e.yxx*map(p + e.yxx) + e.xxy*map(p + e.xxy) + e.xyx*map(p + e.xyx) + e.yyy*map(p + e.yyy) );
+    n -= max(.0, dot (n, rd))*rd;
+    return normalize(n);
+}
+
+float shadow( in vec3 ro, in vec3 rd, in float mint, in float tmax )
+{
+    float res = 1.0;
+    float t = mint;
+    for( int i=0; i<21; i++ )
+    {
+        float h = map( ro + rd*t );
+        res = min( res, 6.0*h/t );
+        t += clamp( h, 0.03, 0.2 );
+        if( abs(h)<0.005 || t>tmax ) break;
+    }
+    return clamp( res, 0.0, 1.0 );
+
+}
+
+vec3 sepia(in vec3 col)
+{
+    return vec3(dot(col, vec3(0.393,0.769,0.189)),
+                dot(col, vec3(0.349,0.686,0.168)),
+                dot(col, vec3(0.272,0.534,0.131)));
+}
+
+void main(void)
+{    
+    vec2 q = gl_FragCoord.xy/resolution.xy;
+    vec2 p = q-0.5;
+    p.x*=resolution.x/resolution.y;
+    vec2 mo = mouse*resolution.xy.xy / resolution.xy-.5;
+    mo.x *= resolution.x/resolution.y;
+    
+    vec3 ro = vec3(0,2.+sin(time*0.5)-.7,0.);
+    ro.x += sin(time*.5)*4.;
+    ro.z += cos(time*.5)*4.;
+    
+    vec3 tgt = vec3(0,0,.5+sin(time));
+    vec3 eye = normalize( tgt - ro);
+    vec3 rgt = normalize(cross( vec3(0.0,1.0,0.0), eye ));
+    vec3 up = normalize(cross(eye,rgt));
+    vec3 rd = normalize( p.x*rgt + p.y*up + 1.5*eye );
+
+    float rz = march(ro,rd);
+    
+    vec3 col = vec3(0.);
+    vec3 ligt = vec3(1,2,3);
+    
+    if ( rz < FAR )
+    {
+        vec3 pos = ro+rz*rd;
+        vec3 nor= normal(pos,rd);
+        float nl  = max(dot(nor,normalize(ligt)),0.);
+        float sh = shadow(pos,normalize(ligt-pos),0.1,distance(pos,ligt));
+        nl *= sh*0.8+0.2;
+        nl = 1.-nl;
+        nl = clamp(nl,0.,1.);
+        const float st = 15.;
+        vec3 col1 = vec3(texcube (pos/1.1,nor,st,nl));
+        vec3 col2 =      cubeproj(pos/1.1,st,nl);
+        col = mix(col1,col2, .5)*(1.-nl);
+    }
+    
+    if (distance(ro,ligt) < rz)
+    {
+        float lball = pow(max(dot(normalize(rd), normalize(ligt-ro)),0.), 4000.0);
+        col += lball*vec3(1)*2.;
+    }
+    
+    col = sepia(col);
+    col *= pow( 16.0*q.x*q.y*(1.0-q.x)*(1.0-q.y), 0.12 )*0.5+0.5; //form iq
+    glFragColor = vec4( col, 1.0 );
+}

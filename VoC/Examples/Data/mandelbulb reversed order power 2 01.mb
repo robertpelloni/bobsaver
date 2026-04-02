@@ -1,0 +1,59 @@
+[Eye]
+X=0.057
+Y=-0.04
+Z=0.5
+[Look At]
+X=0.057
+Y=-0.04
+Z=-0.5
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=38
+[Light]
+X=-8.52971682713123
+Y=-1.48462364098108
+Z=-0.19955824611995
+[Rotation]
+X=114
+Y=221
+Z=135
+[Settings]
+Iterations=5
+Epsilon=0.0001
+Power=2
+Gamma=0
+Contrast=0
+Shading=1
+Formula=4
+Bailout=4
+Palette=Gravity 2D 03.MAP
+Spikes=0
+Spikes Y Maximum=0.46951488009654
+Juliabulb=0
+Julia Real=0.389899398127578
+Julia Imaginary=-0.144948545959125
+Julia Imaginary 2=-0.39800127921626
+Shadows=1
+Specularity=0.45
+Glow Effect=1
+Glow Color=clBlue
+Glow Threshold=150
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.4
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Phase=0.813040742184967
+Theta Scale=1
+Phi Scale=1

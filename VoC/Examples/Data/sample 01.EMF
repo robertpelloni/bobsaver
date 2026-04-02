@@ -1,0 +1,15 @@
+[Settings]
+Inlets=0
+Density=0.01
+Time Step=0.0025
+Substeps=1
+Palette=VOLCANO.MAP
+Interpolation=0
+Inlet Shape=0
+Inlet Size=0.05
+Inlet Density=1
+Inlet Velocity=3
+Integration=0
+Projection=0
+Projection Iterations=600
+Display=0

@@ -1,0 +1,13 @@
+[Settings]
+Attractor Name=Peter DeJong
+Palette=design-seeds woodsy hue.MAP
+Parameter A=0.970
+Parameter B=-1.899
+Parameter C=1.381
+Parameter D=-1.506
+Formula=5
+[Coordinates]
+Xmin=-3.69155092592593
+Xmax=3.33622685185185
+Ymin=-2.09814814814815
+Ymax=2.00701646090535

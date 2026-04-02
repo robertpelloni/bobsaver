@@ -1,0 +1,7 @@
+[Settings]
+Formula=x-round((y)-y-sin(x-y+3.1)*ceil(pi/pi)+cos(pi)+sin(y+x))
+Palette=kuler plumb purple.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

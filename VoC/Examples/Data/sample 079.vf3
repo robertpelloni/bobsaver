@@ -1,0 +1,42 @@
+[Settings]
+Rotataion=0
+Zoom=10
+HSL Pixel Flow=0
+Angle Formula=s/704/s*34
+Length Formula=h*9
+Zoom Style=4
+Blend Mode=4
+Sharpening Strength=2
+Blur Strength=1
+Random Seed=1
+Contrast=59
+Brightness=79
+Noise=7
+Vertical Mirror=1
+Horizontal Mirror=0
+Histogram=1
+Histogram Frames=1
+Hue Shift=92
+[Effects Order]
+0=Rotate
+1=Stretch
+2=Contrast
+3=Sharpen
+4=Noise
+5=Blur
+6=HSL Flow
+7=Histogram
+8=Blend
+9=Brightness
+[Color Matrix]
+Enabled=1
+00=0.0900866044685245
+10=-3.39356272481382
+20=4.79672228451818
+01=5.63115533441305
+11=-4.64234517887235
+21=-1.67519408743829
+02=-5.06728799082339
+12=1.33164133410901
+22=-5.70915096905082
+Scaling=0

@@ -1,0 +1,13 @@
+[GA Rule]
+Rule=Pj
+[Image Options]
+Palette File=FIRE2.MAP
+Smooth Colors=0
+Random Offsets=1
+Overlay Mode=0
+Coordinate Width=10
+[Gene Character Offsets]
+Xoffset1=8
+Yoffset1=7
+Xoffset2=-6
+Yoffset2=-9

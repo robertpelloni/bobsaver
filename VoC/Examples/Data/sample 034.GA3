@@ -1,0 +1,29 @@
+[Settings]
+Formula=(((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))*((((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))%(((y-sin(y))%(x*sqrt(pi)))-(((1.2-pi)%sgn((x/4.2)))*abs((x+y)))))-((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))))
+Color Palette=colorschemer tree frog.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(((x*log2(pi))*tan((y%x)))%(9.4/x))
+Gene1=((y%4.2)-frac(((x/sgn(x))+arctan((y%x)))))
+Gene2=((y-(x*9.4))+abs((x*y)))
+Gene3=(((1.2-pi)%sgn((x/4.2)))-arctan(((x*pi)+sin((y-tan(7.2))))))
+Gene4=((y-sin(y))%(x*sqrt(pi)))
+Gene5=((y%4.2)*arctan(((x*pi)+sin((y-tan(7.2))))))
+Gene6=((y-sin(y))-(x*sqrt(pi)))
+Gene7=(((1.2-pi)%sgn((x/4.2)))*abs((x*y)))
+Gene8=(((y-sin(y))%(x*sqrt(pi)))-(((1.2-pi)%sgn((x/4.2)))*abs((x*y))))
+Gene9=((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))
+Gene10=(((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))%(((y-sin(y))%(x*sqrt(pi)))-(((1.2-pi)%sgn((x/4.2)))*abs((x*y)))))
+Gene11=((pi%4.2)*arctan(((x*x)+sin((y*tan(7.2))))))
+Gene12=(((pi%4.2)*arctan(((x*x)+sin((y*tan(7.2))))))%(((y-sin(y))%(x*sqrt(pi)))-(((1.2-pi)%sgn((x/4.2)))*abs((x*y)))))
+Gene13=(((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))%(((y-sin(y))%(x*sqrt(pi)))-(((1.2-pi)%sgn((x/4.2)))*abs((x*y)))))
+Gene14=((((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))%(((y-sin(y))%(x*sqrt(pi)))-(((1.2-pi)%sgn((x/4.2)))*abs((x*y)))))-((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2)))))))
+Gene15=(((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))%(((y-sin(y))%(x*sqrt(pi)))-(((1.2-pi)%sgn((x/4.2)))*abs((x/y)))))
+Gene16=((((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))%(((y-sin(y))%(x*sqrt(pi)))-(((1.2-pi)%sgn((x/4.2)))*abs((x/y)))))+((((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))%(((y-sin(y))%(x*sqrt(pi)))-(((1.2-pi)%sgn((x/4.2)))*abs((x*y)))))-((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))))
+Gene17=((((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))%(((y-sin(y))%(x*sqrt(pi)))-(((1.2-pi)%sgn((x/4.2)))*abs((x/y)))))-((((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))%(((y-sin(y))%(x*sqrt(pi)))-(((1.2-pi)%sgn((x/4.2)))*abs((x+y)))))-((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))))
+Gene18=(((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))-((((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))%(((y-sin(y))%(x*sqrt(pi)))-(((1.2-pi)%sgn((x/4.2)))*abs((x+y)))))-((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))))
+Gene19=((((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))%(((y-sin(y))%(x*sqrt(pi)))-(((1.2-pi)%sgn((x/4.2)))*abs((x/y)))))*((((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))%(((y-sin(y))%(x*sqrt(pi)))-(((1.2-pi)%sgn((x/4.2)))*abs((x+y)))))-((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))))
+Gene20=((((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))-((((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))%(((y-sin(y))%(x*sqrt(pi)))-(((1.2-pi)%sgn((x/4.2)))*abs((x+y)))))-((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))))+((((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))%(((y-sin(y))%(x*sqrt(pi)))-(((1.2-pi)%sgn((x/4.2)))*abs((x/y)))))-((((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2))))))%(((y-sin(y))%(x*sqrt(pi)))-(((1.2-pi)%sgn((x/4.2)))*abs((x+y)))))-((pi%4.2)*arctan(((x*y)+sin((y*tan(7.2)))))))))

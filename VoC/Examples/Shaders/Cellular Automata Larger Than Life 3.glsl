@@ -1,0 +1,80 @@
+#version 420
+
+uniform float time;
+uniform vec2 mouse;
+uniform vec2 resolution;
+uniform sampler2D backbuffer;
+
+out vec4 glFragColor;
+
+const float ir = 1.;
+const float or = 10.0;
+
+#define LOOP 
+
+float pi = 3.14159;
+
+vec4 get(vec2 p)
+{
+    #ifdef LOOP
+    return texture2D(backbuffer,mod(p/resolution,1.));    
+    #else
+    return texture2D(backbuffer,p/resolution);
+    #endif
+}
+
+vec2 weight(vec2 p,float l)
+{
+    vec2 nm;
+    nm.y = step(l,9.) - step(l,5.);
+    nm.x = step(l,5.);
+    
+    return nm;
+}
+
+float lf(vec2 nm)
+{
+    float sn = smoothstep(0.18,0.3,nm.x)-smoothstep(0.4,0.6,nm.x);
+    float ln = smoothstep(0.3,0.55,nm.x)-smoothstep(0.6,0.7,nm.x);
+    
+    return mix(sn,ln,smoothstep(0.1,0.4,nm.y));
+}
+
+vec2 kernel(vec2 p)
+{
+    vec2 w=vec2(0.0,0.0);
+    vec2 tw=vec2(0.0,0.0);
+    for(float y = -or;y <= or;y++)
+    {
+        for(float x = -or;x <= or;x++)
+        {
+            vec2 tmpw = weight(p+vec2(x,y),length(vec2(x,y)));
+            w += tmpw*get(p+vec2(x,y)).w;
+            tw += tmpw;
+        }
+    }
+    return w/tw;
+}
+
+float randb(vec2 co){
+    return (fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453) > 0.75) ? 1.0 : 0.0;
+}
+
+void main( void ) {
+
+    vec2 p = ( gl_FragCoord.xy );
+
+    float c = get(p).w;
+    vec2 k = kernel(p);
+    
+    c = lf(k);
+    
+    
+    if(length(mouse*resolution-p) < 16. )
+    {
+        c = 1.-randb(p+time);
+    }
+     
+    glFragColor = vec4( vec3( 0 , c, k), c );
+
+}

@@ -1,0 +1,7 @@
+[Settings]
+Formula=x%arctan((y/x))+y*round(pi)%x+cos(y-x)+round(pi+pi)-frac(((x/y)))
+Palette=Jason39.MAP
+Xmin=-7.5
+Xmax=7.5
+ymin=-7.5
+ymax=7.5

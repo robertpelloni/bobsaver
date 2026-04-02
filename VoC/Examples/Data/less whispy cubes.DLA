@@ -1,0 +1,12 @@
+[Settings]
+Stick Method=0
+The Edit=1
+Min Neighbors=1
+Diagonal Neighbors=0
+Display Style=0
+Grid Size=1000
+Palette Shading=1
+Ambient Occlusion=1
+Ambient Occlusion Radius=5
+Color Palette=colorschemer sunshine.MAP
+Particle Color=clSilver

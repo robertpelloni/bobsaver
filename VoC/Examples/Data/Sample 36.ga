@@ -1,0 +1,16 @@
+[GA Rule]
+Rule=KzaP
+[Image Options]
+Palette File=Genetic09.MAP
+Smooth Colors=0
+Random Offsets=1
+Coordinate Width=2
+[Gene Character Offsets]
+Xoffset1=0
+Yoffset1=-1
+Xoffset2=-1
+Yoffset2=-2
+Xoffset3=-1
+Yoffset3=0
+Xoffset4=-2
+Yoffset4=1

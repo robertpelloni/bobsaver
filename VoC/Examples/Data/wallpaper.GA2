@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos(((y%pi)%sqr(x%pi)-int(pi%pi)))
+Palette=Jason17.MAP
+Xmin=-5
+Xmax=5
+ymin=-5
+ymax=5

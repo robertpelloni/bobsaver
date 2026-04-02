@@ -1,0 +1,7 @@
+[Settings]
+Formula=arctan(((y)+tan((x+y)-sin(x+pi)-sin(x*y/pi)*sin(((y*x+pi))))))
+Palette=kuler candy corn.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

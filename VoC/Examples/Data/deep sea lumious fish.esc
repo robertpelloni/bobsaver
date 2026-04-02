@@ -1,0 +1,9 @@
+[Settings]
+Parameter String=KYLIGEFPJREV
+Palette=Jason13.MAP
+ESCMaxIters=255
+[Coordinates]
+ESCXmin=-0.681818181818182
+ESCXmax=7.34848484848485
+ESCYmin=-5.54347826086957
+ESCYmax=2.5

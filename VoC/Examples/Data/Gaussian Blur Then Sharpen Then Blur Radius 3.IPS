@@ -1,0 +1,6 @@
+[Effects Order]
+Effect0=Gaussian 3 1
+Effect1=Sharpen 7 2
+Effect2=Convolution 1 2 1 2 4 2 1 2 1 1
+[Settings]
+Passes=1

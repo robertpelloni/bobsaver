@@ -1,0 +1,56 @@
+[Eye]
+X=-0.0866025403784439
+Y=0
+Z=1.05
+[Look At]
+X=-0.586602540378444
+Y=0
+Z=0.183974596215561
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=23
+[Light]
+X=3.15867617231565
+Y=8.06252431555293
+Z=0.135891499230542
+[Rotation]
+X=53
+Y=301
+Z=260
+[Settings]
+Iterations=7
+Epsilon=0.00005
+Power=9
+Gamma=0
+Contrast=0
+Shading=1
+Formula=4
+Bailout=4
+Palette=sinpal29.MAP
+Spikes=0
+Spikes Y Maximum=0.109920169226825
+Juliabulb=0
+Julia Real=-0.843008709404398
+Julia Imaginary=0.267268236358397
+Julia Imaginary 2=-0.271964620333165
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=clBlue
+Glow Threshold=150
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.7
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=4
+Anaglyph Tilt=3
+Background Color=clBlack

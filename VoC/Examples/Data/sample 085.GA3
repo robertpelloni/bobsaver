@@ -1,0 +1,30 @@
+[Settings]
+Formula=((((y%pi)/(y/ceil(2.2)))%sqr(((pi/9.6)/cos((3.2-cos(x))))))%(((y%pi)/(y/ceil(0.8)))%sqr(((pi/2.1)+cos((2.1-cos(x)))))))
+Color Palette=REVLYP.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((pi-frac(pi))/abs((y/round(9.4))))
+Gene1=(2.4/y)
+Gene2=(((y+log(8.8))/x)*(x/y))
+Gene3=(pi*(7.3/y))
+Gene4=(((y%pi)/(y/ceil(2.1)))%sqr(((pi/9.1)+tan((5.8-cos(x))))))
+Gene5=(((y%pi)/(y/ceil(3.4)))*sqr(((pi/4.7)+tan((5.8-cos(x))))))
+Gene6=(((y%pi)/(y/ceil(2.1)))%sqr(((pi/4.5)+cos((5.8-cos(x))))))
+Gene7=(((y+log(8.8))/x)%sqr(((pi/4.5)+cos((5.8-cos(x))))))
+Gene8=(((y%pi)/(y/ceil(3.8)))*sqr(((pi/6.3)+floor((5.8-cos(x))))))
+Gene9=(((y%pi)/(y/ceil(2.1)))+sqr(((pi/2.1)+cos((6.5-cos(x))))))
+Gene10=(((y%pi)/(y/ceil(2.1)))%sqr(((pi/9.5)+cos((8.8-cos(x))))))
+Gene11=((((y%pi)/(y/ceil(2.1)))%sqr(((pi/4.5)+cos((5.8-cos(x))))))+(((y%pi)/(y/ceil(2.1)))%sqr(((pi/9.5)+cos((8.8-cos(x)))))))
+Gene12=(((y%pi)/(y/ceil(2.1)))/sqr(((pi/3)+cos((3-cos(x))))))
+Gene13=(((y%pi)/(y/ceil(6.3)))%sqr(((pi/5.6)+cos((8.8-cos(x))))))
+Gene14=((((y%pi)/(y/ceil(2.1)))%sqr(((pi/2.2)+cos((5.8-cos(x))))))*(((y%x)/(y/ceil(2.1)))%sqr(((pi/2.1)+cos((8.8-cos(x)))))))
+Gene15=(((((y%pi)/(y/ceil(2.1)))%sqr(((pi/4.5)+cos((5.8-cos(x))))))+(((y%pi)/(y/ceil(2.1)))%sqr(((pi/9.5)+cos((8.8-cos(x)))))))+((((y%pi)/(y/ceil(2.1)))%sqr(((pi/2.2)+cos((5.8-cos(x))))))*(((y%x)/(y/ceil(2.1)))%sqr(((pi/2.1)+cos((8.8-cos(x))))))))
+Gene16=((((y%pi)/(y/ceil(2.1)))%sqr(((pi/3.5)+cos((5.8-cos(x))))))+(((y%x)/(x/ceil(2.1)))%sqr(((pi/2)+cos((8.8-cos(x)))))))
+Gene17=(((((x%pi)/(y/ceil(2.1)))%sqr(((pi/4.5)+cos((5.8-cos(x))))))+(((y%pi)/(y/ceil(7.7)))%sqr(((pi/4.6)+sqrt((8.8-cos(x)))))))-((((y%pi)/(y/ceil(4.3)))%sqr(((pi/2.2)+cos((5.8-cos(x))))))*(((y%x)/(y/ceil(2.1)))%sqr(((pi/2.1)+cos((7.6-cos(x))))))))
+Gene18=((((y%pi)/(y/ceil(0.5)))%sqr(((pi/2.2)+cos((3.2-cos(x))))))-(((y%pi)/(y/ceil(0.8)))%sqr(((pi/2.1)+cos((2.1-cos(x)))))))
+Gene19=(((((x%pi)/(y/ceil(2.1)))%sqr(((pi/4.5)+cos((5.8-cos(x))))))+(((y%pi)/(y/ceil(7.7)))%sqr(((pi/4.6)+sqrt((8.8-cos(x)))))))%(((y%pi)/(y/ceil(0.8)))%sqr(((pi/2.1)+cos((2.1-cos(x)))))))
+Gene20=((((y%pi)/(y/ceil(2.2)))%sqr(((pi/9.6)/cos((3.2-cos(x))))))%(((y%pi)/(y/ceil(0.8)))%sqr(((pi/2.1)+cos((2.1-cos(x)))))))
+Gene21=((((y%pi)/(y/ceil(2.4)))%sqr(((pi/0.1)/cos((4.2-cos(x))))))*(((y%pi)/(y/ceil(0.8)))-sqr(((pi/2.1)+cos((1.4-cos(x)))))))

@@ -1,0 +1,9 @@
+[Settings]
+Parameter String=SQAGLNCYMAJH
+Palette=JACCO200.MAP
+ESCMaxIters=255
+[Coordinates]
+ESCXmin=0.03125
+ESCXmax=1.03125
+ESCYmin=-0.666666666666666
+ESCYmax=0.333333333333333

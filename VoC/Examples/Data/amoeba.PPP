@@ -1,0 +1,8 @@
+[Settings]
+Particle Count=800
+Radius=55
+Velocity=6
+Alpha=120
+Beta=-6
+Palette=kuler afternoon heat.MAP
+World Width=1000

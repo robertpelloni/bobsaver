@@ -1,0 +1,10 @@
+[Settings]
+Parameter String=XNCDSKHONVAR
+Palette=Lorenz3.MAP
+ESCMaxIters=255
+[Coordinates]
+ESCXmin=-3.3064453125
+ESCXmax=4.4021484375
+ESCYmin=-3.24652777777778
+ESCYmax=4.69791666666666
+

@@ -1,0 +1,7 @@
+[Settings]
+Formula=(((y/pi)-(6.2%ln(pi)))+round((((2.1*x)%(9.2/ln(6)))*sin(((5.1%pi)*tan((pi/ln(pi))))))))
+Color Palette=Jason39.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10

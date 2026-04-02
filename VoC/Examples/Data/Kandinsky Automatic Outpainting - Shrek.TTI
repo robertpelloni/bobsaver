@@ -1,0 +1,16 @@
+[Settings]
+Input Phrase=Shrek in his swamp
+Script=Kandinsky Automatic Outpainting *
+Random seed=457783640
+Iterations=100
+Image Size=512
+[Kandinsky Automatic Outpainting]
+Outpainting Prompt=a swamp
+Image Size 1=768x768
+Image Size 2=1536x768
+Guidance Scale=4
+Prior CF Scale=4
+Prior Steps=5
+Position=center
+Sampler=p_sampler
+Model Version=2.1

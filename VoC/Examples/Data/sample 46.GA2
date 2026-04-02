@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos((x)+cos(pi)+sin(y)+cos(x)+y+cos(x+y)+sin(y-x+4.9)-x-cos(y)+cos(x+y+9.4)+sin(pi)+sin((pi)-y-cos(((y)-sin(y+5)-sin(x+y))+sin(y-x-pi)-cos(pi))+sin(y+x-pi)+cos((x-y))-cos(y-x)-x+cos(x-y)-sin(y+x-6)+cos(y-x)+sin(y+x+5)-cos(x)-x+sin(x-y+pi))-sin(x+7.6))
+Palette=WORMS.MAP
+Xmin=-4.006640625
+Xmax=3.830859375
+Ymin=-2.93802083333333
+Ymax=4.89947916666667

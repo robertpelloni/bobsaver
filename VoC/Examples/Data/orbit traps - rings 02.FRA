@@ -1,0 +1,36 @@
+[Settings]
+Version=2
+Fractal Type=Mandelbrot
+Re min=-1.77737605811383
+Re max=-1.77736829763033
+Im min=-0.00128893852426508
+Im max=-0.00128290849243674
+Julia X=0
+Julia Y=0
+Angle=0
+Maximum Iterations=1024
+Supersample Pixels=0
+Display Style=1
+Fake Emboss=0
+Interior Color=clBlack
+Color Palette=C:\CODE\DELPHI2010\CHAOS\PALETTES\Jason10.MAP
+[Orbit Traps]
+Style=4
+Num Pals=1
+Palette 1=FLAMEY.MAP
+Palette 2=CLOUDS.MAP
+Palette 3=fadeblue.MAP
+Palette 4=fadegreen.MAP
+Palette 5=fadeyellow.MAP
+Only Show Traps=1
+[Buddhabrot]
+Enable=0
+Rendering Style=0
+Minimum Iterations=10
+Maximum Iterations=4096
+R Start=40
+R Finish=100
+G Start=20
+G Finish=60
+B Start=0
+B Finish=30

@@ -1,0 +1,28 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pillow==10.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts diffusers==0.20.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ftfy==6.1.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.33.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.8.0.76
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.66.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pyyaml==6.0.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.22.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.30
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tensorboard==2.14.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts kornia==0.7.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts av==10.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==3.40.0
+pip uninstall -y torch
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.1+cu118 torchvision==0.15.2+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y typing_extensions
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts typing_extensions==4.11.0
+pip uninstall -y psutil
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts psutil==5.9.5
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

@@ -1,0 +1,19 @@
+[GA Rule]
+Rule=XvZSw
+[Image Options]
+Palette File=Genetic09.MAP
+Smooth Colors=0
+Random Offsets=1
+Overlay Mode=0
+Coordinate Width=3
+[Gene Character Offsets]
+Xoffset1=-1
+Yoffset1=0
+Xoffset2=2
+Yoffset2=-2
+Xoffset3=-2
+Yoffset3=-1
+Xoffset4=2
+Yoffset4=0
+Xoffset5=1
+Yoffset5=-1

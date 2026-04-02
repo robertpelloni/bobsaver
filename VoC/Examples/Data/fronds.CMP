@@ -1,0 +1,13 @@
+[Settings]
+Formula=5
+Function=0
+Power=-1000
+Outside=0
+Inside=0
+Bailout=0
+Iterations=32
+Palette=sinpal37.MAP
+Xmin=-0.991375
+Xmax=-0.985775
+Ymin=-0.1842155
+Ymax=-0.1798895

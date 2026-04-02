@@ -1,0 +1,4 @@
+ComfyUI\models\diffusion_models\flux2_dev_fp8mixed.safetensors	35455599592	https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/diffusion_models/flux2_dev_fp8mixed.safetensors	47c23abe3fde26e8f8bf87a5d6e216f6
+ComfyUI\models\loras\flux2_berthe_morisot.safetensors	390112256	https://huggingface.co/ostris/flux2_berthe_morisot/resolve/main/flux2_berthe_morisot.safetensors	751fd5dce6236cfd22371b2f0a800473
+ComfyUI\models\text_encoders\mistral_3_small_flux2_bf16.safetensors	35584897447	https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/text_encoders/mistral_3_small_flux2_bf16.safetensors	1b1dd82f9e7076ed0bff0c07f270ab5d
+ComfyUI\models\vae\flux2-vae.safetensors	336213556	https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/vae/flux2-vae.safetensors	1f01ec904ab02e44c0b4d04c83dc856d

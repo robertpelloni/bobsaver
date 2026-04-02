@@ -1,0 +1,9 @@
+[Settings]
+Cell Shading=1
+Maximum States=3
+Color Palette=kuler day into night.MAP
+Random Seed=42144939
+State 1 Color=clWhite
+State 2 Color=clBlue
+State 3 Color=clRed
+State 4 Color=clGreen

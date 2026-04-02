@@ -1,0 +1,12 @@
+[Settings]
+Attractor Name=Fractal Dream
+Palette=design-seeds moody hues.MAP
+Parameter A=-2.8276
+Parameter B=1.2813
+Parameter C=1.9655
+Parameter D=0.597
+[Coordinates]
+Xmin=-3.34548611111111
+Xmax=3.22612847222223
+Ymin=-1.84700617283951
+Ymax=1.97893518518519

@@ -1,0 +1,20 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy==1.9.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scikit-image==0.19.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts diffusers==0.6.0 
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.18.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ftfy==6.1.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.6.0.66
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==3.45.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pytorch-lightning==1.7.7
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.4.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts omegaconf==2.2.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts timm==0.6.7
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

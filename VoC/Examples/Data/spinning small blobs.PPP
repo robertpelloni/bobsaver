@@ -1,0 +1,7 @@
+[Settings]
+Particle Count=1500
+Radius=35
+Velocity=4
+Alpha=106
+Beta=-5
+Palette=Glyph4.map

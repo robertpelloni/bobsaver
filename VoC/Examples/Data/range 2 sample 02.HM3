@@ -1,0 +1,12 @@
+[Settings]
+Q=100
+K1=18
+K2=23
+G=43
+Range=2
+Min Visible State=0
+Max Visible State=99
+Coloring=0
+Color Palette=Flame 694_040412-011.map
+State 1 Color=clYellow
+Final State Color=clRed

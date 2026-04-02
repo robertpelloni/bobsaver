@@ -1,0 +1,7 @@
+[Settings]
+Formula=arctan(x*y%2.93)*sqr(pi-2.25)*frac(y-x*2.69)
+Palette=Gravity 2D 02.MAP
+Xmin=-5
+Xmax=5
+ymin=-5
+ymax=5

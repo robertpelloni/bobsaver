@@ -1,0 +1,17 @@
+[Settings]
+Spheres=2
+Display Mode=2
+Line Width=1
+Time Step=0.01
+Color Mode=0
+Color Palette=FIRECOD2.MAP
+[Grid]
+Radius 1=25
+Rotation 1 1=-1
+Rotation 2 1=-2
+Radius 2=5
+Rotation 1 2=11
+Rotation 2 2=-5
+Radius 3=150
+Rotation 1 3=9
+Rotation 2 3=-15

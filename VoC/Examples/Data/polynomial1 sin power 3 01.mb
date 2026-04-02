@@ -1,0 +1,60 @@
+[Eye]
+X=-0.05
+Y=0
+Z=0.6
+[Look At]
+X=-0.05
+Y=0
+Z=-0.4
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=55
+[Light]
+X=0
+Y=0
+Z=-10
+[Rotation]
+X=140
+Y=0
+Z=0
+[Settings]
+Iterations=9
+Epsilon=0.0001
+Power=3
+Gamma=0
+Contrast=0
+Shading=0
+Formula=1
+Formula Variation=0
+Bailout=4
+Palette=kuler mossy slate.MAP
+Spikes=0
+Spikes Y Maximum=0.852080274140462
+Juliabulb=0
+Julia Real=-1.05763158110756
+Julia Imaginary=0.320549773851646
+Julia Imaginary 2=0.54052108945325
+Shadows=1
+Specularity=0.45
+Glow Effect=1
+Glow Color=clBlue
+Glow Threshold=150
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.2
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Phase=0.189560894621536
+Theta Scale=0.900239691603929
+Phi Scale=0.330788779072463

@@ -1,0 +1,44 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=1671955542
+Iterations=50
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Model Version=v2
+Playgroundv2NegativePrompt=blurry, out of focus, shallow depth of field
+Playgroundv2GuidanceScale=7
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.1
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Movie Rotate=0:0,30:0.464,60:0.361,90:0.373,120:-0.267,150:0.899,180:0.173,210:-0.893,240:-0.969,270:0.565,300:-0.322,330:0.882,360:-0.111,390:0.748,420:-0.219,450:0.190,480:-0.544,510:0.033,540:-0.339,570:-0.809,600:0.245,630:-0.875,660:-0.617,690:0.977,720:0.009,750:0.744,780:0.925,810:-0.851,840:0.195,870:-0.824,900:0.592
+In Script Movie Pan X=0:0,30:0.519,60:0.102,90:-0.957,120:-0.505,150:0.797,180:-0.476,210:-0.388,240:0.745,270:-0.446,300:0.936,330:-0.571,360:0.716,390:-0.470,420:0.946,450:0.025,480:-0.555,510:0.535,540:-0.126,570:0.766,600:-0.431,630:0.653,660:-0.391,690:-0.771,720:0.209,750:0.932,780:-0.648,810:0.511,840:-0.688,870:0.382,900:-0.064
+In Script Movie Pan Y=0:0,30:0.132,60:-0.868,90:-0.667,120:-0.328,150:0.870,180:0.781,210:-0.201,240:-0.011,270:0.869,300:0.912,330:-0.970,360:0.979,390:-0.693,420:0.099,450:-0.856,480:-0.053,510:-0.351,540:0.402,570:-0.280,600:-0.691,630:-0.818,660:-0.130,690:0.132,720:-0.176,750:0.866,780:-0.697,810:-0.012,840:0.625,870:-0.213,900:0.283
+In Script Movie Contrast=1
+In Script Movie Sharpness=0
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Noise=10
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=1
+In Script Movie Auto-Color=1
+In Script Movie Equalize=1
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=0
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:cyberpunk cybernetics, hyperrealistic, photorealistic, highly detailed, highly textured

@@ -1,0 +1,8 @@
+[Settings]
+Rule String=012120220
+Num States=1
+Initial Population=0
+[Colors]
+Background=clWhite
+State 1=clRed
+Final=clBlack

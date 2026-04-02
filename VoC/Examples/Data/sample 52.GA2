@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos((y+x)+frac((y)/tan(y/x/pi)/sin((x)+sin((y+x)))))
+Palette=Jason26.MAP
+Xmin=-13.2916666666667
+Xmax=-2.29166666666667
+Ymin=-5.15625
+Ymax=5.53819444444444

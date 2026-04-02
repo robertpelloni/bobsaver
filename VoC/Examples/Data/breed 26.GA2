@@ -1,0 +1,7 @@
+[Settings]
+Formula=arctan((y+x)*abs(pi%2.1)-cos(x-y)-abs(x*y*4.5))
+Palette=kuler drholwegneu.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

@@ -1,0 +1,12 @@
+[Settings]
+Formula=6
+Root Finding Method=4
+Palette Step Amount=4
+Genralized Newton Factor=1
+Genralized Newton I=0.2
+Coloring=2
+Palette=image frequency vb.MAP
+Xmin=-4.179595703125
+Xmax=2.148466015625
+Ymin=-3.1770015625
+Ymax=3.15106015625

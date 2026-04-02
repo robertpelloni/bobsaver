@@ -1,0 +1,44 @@
+[Settings]
+Input Phrase=
+Script=SDXL v1.0 *
+Random seed=1
+Iterations=150
+Image Size=1024
+[SDXL]
+Custom Image Size=0
+Custom Resolution=1920x1088
+SDXLNegativePrompt=blurry, out of focus, smooth
+SDXLModel=sd_xl_base_1.0_0.9vae.safetensors
+SDXLImg2img=1
+SDXLImg2ImgModel=sd_xl_refiner_1.0_0.9vae.safetensors
+SDXLGuidanceScale=9
+SDXLInitImage=
+SDXLInitImageStrength=0.2
+SDXLZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.02
+In Script Movie Rotate=0:0,30:-0.710,60:0.507,90:0.391,120:-0.515,150:0.556,180:-0.361,210:-0.076,240:-0.960,270:0.370,300:-0.384,330:0.848,360:-0.773,390:0.652,420:-0.795,450:0.000,480:0.068,510:-0.673,540:-0.229,570:-0.444,600:0.546,630:-0.499,660:0.279,690:0.138,720:-0.185,750:0.321,780:-0.847,810:0.828,840:-0.754,870:-0.107,900:0.300
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.5
+SDXLScheduler=PNDMScheduler
+In Script Movie Noise=5
+In Script Movie Auto-Contrast=0
+In Script Movie Equalize=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+SDXLTween=easeInOutQuad
+In Script Movie Pan X=0:0,30:-0.682,60:0.405,90:0.001,120:-0.297,150:-0.362,180:0.925,210:0.715,240:-0.453,270:-0.857,300:-0.166,330:-0.730,360:0.901,390:-0.191,420:-0.131,450:-0.920,480:0.486,510:0.380,540:-0.769,570:-0.021,600:-0.754,630:0.125,660:-0.316,690:0.984,720:0.695,750:-0.321,780:-0.935,810:0.133,840:-0.794,870:0.372,900:0.680
+In Script Movie Pan Y=0:0,30:-0.639,60:0.926,90:-0.767,120:-0.727,150:-0.084,180:0.411,210:0.651,240:-0.941,270:-0.370,300:0.917,330:0.603,360:-0.458,390:0.761,420:-0.342,450:0.972,480:-0.109,510:0.193,540:-0.132,570:0.364,600:0.891,630:-0.469,660:-0.913,690:0.617,720:0.143,750:-0.499,780:-0.699,810:-0.826,840:0.276,870:-0.616,900:0.653
+In Script Movie Sharpness Radius=5
+In Script Movie Auto-Color=0
+Render Every=1
+SDXLLora=
+SDXLLoraWeight=1.0
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Hard Cuts=0
+In Script Randomize Seed=0
+In Script Zoom After Sharpen=0
+[SDXL In Script Movie Prompts]
+Line0=0:a hyperrealistic steampunk cityscape, 5k, 8k, hd, high detail, highly textured

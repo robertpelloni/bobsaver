@@ -1,0 +1,31 @@
+[Settings]
+Layers=4
+Averaging Method=0
+Box Blur Passes=1
+Color Palette=Gray Scale 1.MAP
+[Grid]
+Activator 1=50
+Inhibitor 1=136
+Small Amount 1=0.05
+Weight 1=0.917
+Symmetry 1=2
+Activator 2=32
+Inhibitor 2=81
+Small Amount 2=0.04
+Weight 2=1.920
+Symmetry 2=1
+Activator 3=18
+Inhibitor 3=52
+Small Amount 3=0.03
+Weight 3=0.796
+Symmetry 3=1
+Activator 4=8
+Inhibitor 4=22
+Small Amount 4=0.02
+Weight 4=-1.920
+Symmetry 4=5
+Activator 5=2
+Inhibitor 5=4
+Small Amount 5=0.01
+Weight 5=-1.280
+Symmetry 5=5

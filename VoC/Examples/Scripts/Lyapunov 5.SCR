@@ -1,0 +1,46 @@
+Global Script Settings
+	Palette=Flame 429_040221-86.map
+	Fractal Type=Lyapunov
+	RulString=AAAAAB
+Point 1
+	XMin=-5
+	XMax=5
+	YMin=-5
+	YMax=5
+	Iterations=1024
+	Tween Steps=0
+Point 2
+	XMin=2.744140625
+	XMax=3.740234375
+	YMin=2.72135416666667
+	YMax=3.7109375
+	Iterations=1024
+	Tween Steps=60
+Point 3
+	XMin=3.45813751220703
+	XMax=3.55735778808594
+	YMin=3.63620334201389
+	YMax=3.734130859375
+	Iterations=1024
+	Tween Steps=60
+Point 4
+	XMin=3.50736007094383
+	XMax=3.51724334061146
+	YMin=3.64882681104872
+	YMax=3.65851755495425
+	Iterations=1024
+	Tween Steps=60
+Point 5
+	XMin=3.51194459544786
+	XMax=3.51292906176241
+	YMin=3.65162804170891
+	YMax=3.65258702157456
+	Iterations=1024
+	Tween Steps=60
+Point 6
+	XMin=3.51239068174664
+	XMax=3.51248874382094
+	YMin=3.65206257946053
+	YMax=3.65215747850974
+	Iterations=1024
+	Tween Steps=60

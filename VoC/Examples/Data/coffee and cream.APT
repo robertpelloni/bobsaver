@@ -1,0 +1,21 @@
+[Prompt]
+Line0="0": "coffee and cream"
+[Settings]
+headprompt=
+tailprompt=
+negativeprompt=
+scheduler=k_dpmpp_2m_sde
+motionmodule=mm_sd_v15_v2.ckpt
+motionlora=v2_lora_ZoomIn.ckpt
+motionlorastrength=1.0
+lora=epicphotogasm_v4One4All.safetensors
+controlnet=
+seed=573668030
+steps=25
+frames=16
+lengthparameter=900
+guidancescale=7.5
+w=512
+h=512
+format=mp4
+loopmovie=0

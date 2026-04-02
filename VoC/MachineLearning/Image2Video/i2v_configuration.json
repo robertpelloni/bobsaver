@@ -1,0 +1,23 @@
+{
+    "framework": "pytorch",
+    "task": "image-to-video",
+    "model": {
+        "type": "image-to-video-model",
+        "model_args": {
+            "ckpt_clip": "open_clip_pytorch_model.bin",
+            "ckpt_unet": "base_03_alldata_fps_v_80g_0789000.pth",
+            "ckpt_autoencoder": "v2-1_512-ema-pruned.ckpt",
+            "seed": 898919257
+        },
+        "model_cfg": {
+	    "batch_size": 1,
+            "target_fps": 8,
+            "max_frames": 64,
+            "latent_hei": 32,
+            "latent_wid": 56
+        }
+    },
+    "pipeline": {
+        "type": "image-to-video-task-pipeline"
+    }
+}

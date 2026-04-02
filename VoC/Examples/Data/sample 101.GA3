@@ -1,0 +1,33 @@
+[Settings]
+Formula=(((x+ceil(pi))-ceil((x-(pi*round(y)))))+((x+ceil(y))-(y%2.6)))
+Color Palette=skydye05.map
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((((pi%y)+round((2.8+pi)))+ceil((x/(pi-round(y)))))+ceil((x/(pi+frac(x)))))
+Gene1=(((9.9/x)*frac((pi/(pi%int(y)))))-log2(((2.6-cos(pi))+((2.9%y)%sqrt((pi*x))))))
+Gene2=((((pi%y)+round((1.8+pi)))/(((pi%y)+round((9.3+pi)))/ceil((x+(y-round(x))))))+((((pi%y)+round((3.3+pi)))+ceil((x/(pi-round(y)))))+ceil((x/(pi-round(x))))))
+Gene3=((((pi%y)+round((1.8+pi)))/(((pi%y)+round((9.3+pi)))/ceil((x+(y-round(x))))))-((((pi%y)+round((3.3+pi)))+ceil((x/(pi-round(y)))))+ceil((x/(pi-round(x))))))
+Gene4=(((y%tan(y))-(9.5*y))*((9.2%y)+(4.3+log2(y))))
+Gene5=((2.7-(y*sqrt(pi)))%round(((y%x)/(4.2/frac(x)))))
+Gene6=(((pi%y)+round((3.3+pi)))+ceil((x/(pi-round(x)))))
+Gene7=((((pi%y)+round((3.3+pi)))+ceil((x/(pi-round(y)))))%(((pi%y)+round((9.3+pi)))/ceil((x+(y-round(x))))))
+Gene8=(((pi%y)+round((3.3+pi)))%ceil((x/(pi-round(x)))))
+Gene9=(((pi%y)+round((1.8+pi)))-ceil((x/(pi-round(x)))))
+Gene10=(((9.9/x)*frac((pi/(pi%int(y)))))%((9.2%y)+(4.3+log2(y))))
+Gene11=(((pi%y)+round((1.8+pi)))/(((pi%y)+round((9.3+pi)))/ceil((x+(y-round(x))))))
+Gene12=(((pi%y)+round((1.8+pi)))-ceil((x+(y-round(x)))))
+Gene13=((((pi%y)+round((3.3+pi)))+ceil((x/(pi-round(y)))))+ceil((x/(pi-round(x)))))
+Gene14=(((((pi%y)+round((3.3+pi)))+ceil((x/(pi-round(y)))))+ceil((x/(pi-round(x)))))%(((pi%y)+round((3.3+pi)))+ceil((x/(pi-round(x))))))
+Gene15=((((pi%y)+round((3.3+pi)))+ceil((x/(pi-round(x)))))-(((pi%y)+round((1.8+pi)))-ceil((x+(y-round(x))))))
+Gene16=((x+ceil(pi))*(y*2.6))
+Gene17=(((pi%y)+round((8.6+pi)))+ceil((x+(y-sin(x)))))
+Gene18=((x+ceil(pi))-ceil((x/(pi-round(x)))))
+Gene19=((x+ceil(pi))*ceil((x/(pi*round(y)))))
+Gene20=((x+ceil(y))-(y%2.6))
+Gene21=((((pi%y)+round((8.6+pi)))+ceil((x+(y-sin(x)))))+((x+ceil(y))-(y%2.6)))
+Gene22=((x+ceil(pi))*(y%2.6))
+Gene23=((x+ceil(pi))-ceil((x-(pi*round(y)))))
+Gene24=(((x+ceil(pi))-ceil((x-(pi*round(y)))))+((x+ceil(y))-(y%2.6)))

@@ -1,0 +1,7 @@
+[Effects Order]
+Effect0=Gaussian 1 1
+Effect1=Sharpen 1 1
+Effect2=Sharpen 1 1
+Effect3=Emboss 1 1
+[Settings]
+Passes=2

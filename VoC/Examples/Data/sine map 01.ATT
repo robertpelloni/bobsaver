@@ -1,0 +1,12 @@
+[Settings]
+Attractor Name=Sine Map
+Palette=SHADED.MAP
+Brightness=100
+Contrast=0
+A=2.25
+B=0.3
+[Coordinates]
+Xmin=-0.0946180555555554
+Xmax=4.20225694444444
+Ymin=0.623722222222222
+Ymax=3.13673148148148

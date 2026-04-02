@@ -1,0 +1,37 @@
+Global Script Settings
+	Palette=sinpal20.MAP
+	Fractal Type=Complex
+	Formula=5
+	Function=0
+	Outside=2
+	Bailout=0
+	Inside=2
+	Power=5
+Point 1
+	XMin=-2.8
+	XMax=2.8
+	YMin=-2.163
+	YMax=2.163
+	Iterations=256
+	Tween Steps=0
+Point 2
+	XMin=-0.2275
+	XMax=0.3325
+	YMin=-1.171625
+	YMax=-0.739025
+	Iterations=256
+	Tween Steps=30
+Point 3
+	XMin=0.21525
+	XMax=0.27125
+	YMin=-0.839965
+	YMax=-0.796705
+	Iterations=256
+	Tween Steps=30
+Point 4
+	XMin=0.2324
+	XMax=0.238
+	YMin=-0.816893
+	YMax=-0.812567
+	Iterations=256
+	Tween Steps=30

@@ -1,0 +1,36 @@
+[Settings]
+Version=2
+Fractal Type=Julia
+Re min=0.00057374005305022
+Re max=0.124501591511936
+Im min=-0.915939628402367
+Im max=-0.830515207100592
+Julia X=0.259378333205421
+Julia Y=-0.00182296330766617
+Angle=0
+Maximum Iterations=256
+Supersample Pixels=0
+Display Style=1
+Fake Emboss=0
+Interior Color=clBlack
+Color Palette=C:\CODE\DELPHI2010\CHAOS\PALETTES\Jason10.MAP
+[Orbit Traps]
+Style=5
+Num Pals=0
+Palette 1=fadewhite.MAP
+Palette 2=fadeblue.MAP
+Palette 3=fadeblue.MAP
+Palette 4=fadegreen.MAP
+Palette 5=fadeyellow.MAP
+Only Show Traps=1
+[Buddhabrot]
+Enable=0
+Rendering Style=0
+Minimum Iterations=10
+Maximum Iterations=4096
+R Start=40
+R Finish=100
+G Start=20
+G Finish=60
+B Start=0
+B Finish=30

@@ -1,0 +1,14 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts flask==2.3.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts waitress==2.1.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts safetensors==0.3.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts sentencepiece==0.1.97
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ninja==1.11.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.65.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

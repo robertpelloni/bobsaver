@@ -1,0 +1,30 @@
+[Eye]
+X=0
+Y=0
+Z=1
+[Look At]
+X=0
+Y=0
+Z=0
+[Zoom]
+Zoom=0.3
+[Light]
+X=1
+Y=-5
+Z=-2
+[Rotation]
+X=90
+Y=-5
+Z=55
+[Settings]
+Iterations=5
+Epsilon=0.0001
+Power=8
+Brightness=76
+Shading=1
+Negative SIN=0
+Palette=sinpal06.MAP
+Shadows=1
+Supersample=1
+Supersample Pixels=1
+Bailout=4

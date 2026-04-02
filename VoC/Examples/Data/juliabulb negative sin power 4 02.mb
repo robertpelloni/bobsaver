@@ -1,0 +1,46 @@
+[Eye]
+X=0
+Y=0
+Z=1
+[Look At]
+X=0
+Y=0
+Z=0
+[Zoom]
+Zoom=0.9
+[Light]
+X=0
+Y=0
+Z=-10
+[Rotation]
+X=140
+Y=30
+Z=0
+[Settings]
+Iterations=5
+Epsilon=0.0001
+Power=4
+Brightness=100
+Shading=0
+Negative SIN=1
+Palette=kuler orange tweak.MAP
+Juliabulb=1
+Julia Real=-0.96874051341658
+Julia Imaginary=-0.305704214705527
+Shadows=1
+Supersample=1
+Supersample Pixels=0
+Bailout=4
+Spikes=0
+Spikes Y Maximum=0.5
+Julia Imaginary 2=0
+Specularity=0.45
+Glow Effect=1
+Glow Color=$0000C8FF
+Glow Threshold=150
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.5
+Ambient Occlusion Max Orbit=1.0
+Gamma=0
+Contrast=0

@@ -1,0 +1,7 @@
+[Settings]
+Formula=frac((1%x)/frac(y)/floor(pi)%sqr(x%y%2.7)%sqr(pi/7.8)/y%frac(((y/x)/floor(y%x)-x-int(x-pi)-tan(pi%pi)%y-floor(pi))))
+Palette=JACCO314.MAP
+Xmin=-2.6375
+Xmax=2.6625
+Ymin=-5.48333333333333
+Ymax=-0.183333333333333

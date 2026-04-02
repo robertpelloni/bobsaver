@@ -1,0 +1,65 @@
+Global Script Settings
+	Palette=sinpal11.MAP
+	Fractal Type=Complex
+	Formula=8
+	Function=2
+	Outside=0
+	Bailout=1
+	Inside=3
+	Power=3
+Point 1
+	XMin=-2.8
+	XMax=2.8
+	YMin=-2.163
+	YMax=2.163
+	Iterations=256
+	Tween Steps=0
+Point 2
+	XMin=-1.55166666666667
+	XMax=-0.991666666666667
+	YMin=-0.2163
+	YMax=0.2163
+	Iterations=256
+	Tween Steps=30
+Point 3
+	XMin=-1.24833333333333
+	XMax=-1.19233333333333
+	YMin=-0.02163
+	YMax=0.02163
+	Iterations=256
+	Tween Steps=30
+Point 4
+	XMin=-1.22418333333333
+	XMax=-1.21858333333333
+	YMin=-0.00204283333333333
+	YMax=0.00228316666666667
+	Iterations=256
+	Tween Steps=30
+Point 5
+	XMin=-1.22169833333333
+	XMax=-1.22113833333333
+	YMin=-0.000204283333333334
+	YMax=0.000228316666666666
+	Iterations=256
+	Tween Steps=30
+Point 6
+	XMin=-1.22144283333333
+	XMax=-1.22138683333333
+	YMin=-2.04283333333336E-5
+	YMax=2.28316666666664E-5
+	Iterations=256
+	Tween Steps=30
+Point 7
+	XMin=-1.22141868333333
+	XMax=-1.22141308333333
+	YMin=-2.16300000000024E-6
+	YMax=2.16299999999976E-6
+	Iterations=256
+	Tween Steps=30
+Point 8
+	XMin=-1.22141629166667
+	XMax=-1.22141573166667
+	YMin=-2.04283333333571E-7
+	YMax=2.28316666666429E-7
+	Iterations=256
+	Tween Steps=30

@@ -1,0 +1,20 @@
+[Settings]
+num_interpolation_steps=50
+randomseed=307952153
+num_inference_steps=4
+guidance_scale=1.0
+resolution=1024x1024
+model=RunDiffusion/Juggernaut-XL-v9
+[Prompts]
+Line0=a female human newborn baby
+Line1=a female human baby
+Line2=a female human toddler
+Line3=a female human child
+Line4=a female human teenager
+Line5=a female human young adult
+Line6=a female human adult
+Line7=a female human middle aged adult
+Line8=a female human elderly person
+Line9=a female human elderly corpse
+Line10=a human skull
+Line11=a pile of dirt and a gravestone

@@ -1,0 +1,16 @@
+[GA Rule]
+Rule=aQRn
+[Image Options]
+Palette File=Genetic01.MAP
+Smooth Colors=0
+Random Offsets=1
+Coordinate Width=4
+[Gene Character Offsets]
+Xoffset1=-10
+Yoffset1=-4
+Xoffset2=-3
+Yoffset2=-3
+Xoffset3=-1
+Yoffset3=2
+Xoffset4=-1
+Yoffset4=-3

@@ -1,0 +1,60 @@
+[Eye]
+X=0
+Y=0
+Z=0.9
+[Look At]
+X=0
+Y=0
+Z=-0.1
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=60
+[Light]
+X=3
+Y=3
+Z=-10
+[Rotation]
+X=140
+Y=45
+Z=0
+[Settings]
+Iterations=6
+Epsilon=0.0001
+Power=8
+Gamma=11
+Contrast=0
+Shading=1
+Formula=4
+Formula Variation=2
+Bailout=4
+Palette=kuler serena.MAP
+Spikes=0
+Spikes Y Maximum=0.5
+Juliabulb=0
+Julia Real=0.282409801317589
+Julia Imaginary=-0.011280544516024
+Julia Imaginary 2=0.000881104730069637
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=clBlue
+Glow Threshold=150
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.4
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Phase=0.809209191473201
+Theta Scale=0.790333138313144
+Phi Scale=-0.743004508316517

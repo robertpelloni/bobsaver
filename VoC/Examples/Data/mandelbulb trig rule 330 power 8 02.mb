@@ -1,0 +1,152 @@
+[Eye]
+X=0.285558478330262
+Y=-0.176825815814373
+Z=1.12
+[Look At]
+X=0.285558478330262
+Y=-0.176825815814373
+Z=-1.88
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=15
+[Light]
+On=1
+X=-1.33103062216789
+Y=-6.34193868719193
+Z=-5.31584152987555
+Color=$00A17B30
+Intensity=4
+[Light 2]
+On=0
+X=-0.243840585841953
+Y=-2.56991966497946
+Z=-7.97408644825526
+Color=$00C13593
+Intensity=4
+[Light 3]
+On=0
+X=-7.76371110999049
+Y=1.20633735577631
+Z=-2.91882510347381
+Color=$00595CDA
+Intensity=4
+[Light 4]
+On=0
+X=-4.85553568299078
+Y=6.82138755644443
+Z=0.37741891313017
+Color=$00A9DE24
+Intensity=4
+[Light 5]
+On=0
+X=-3.77313984935921
+Y=0.0268264900792632
+Z=7.48416301376497
+Color=$002AD36C
+Intensity=4
+[Light 6]
+On=1
+X=3.95435813730017
+Y=7.38294526305906
+Z=0.324300731793441
+Color=$00005DF4
+Intensity=4
+[Camera Light]
+On=0
+Color=clSilver
+Intensity=1
+[Light Bloom]
+On=0
+Threshold=200
+Radius=3
+[Rotation]
+X=120
+Y=0
+Z=0
+[Settings]
+Iterations=10
+Epsilon=0.00002
+DE Scale Factor=0.25
+Power=8
+Gamma=75
+Contrast=0
+Shading=3
+Formula=0
+Formula Variation=72
+Bailout=8
+Palette=Flame 607_Oak_Tree.map
+Spikes=0
+Spikes Y Maximum=0.5
+Juliabulb=0
+Julia Real=0
+Julia Imaginary=0
+Julia Imaginary 2=0
+Shadows=1
+Shadow Intensity=60
+Specularity Amount=200
+Show Specularity=1
+Glow Effect=0
+Glow Color=clYellow
+Glow Threshold=150
+Outside Glow=0
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.4
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=1
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Ambient Amount=0.3
+Phase=0
+Theta Scale=1
+Phi Scale=1
+Kaleidoscope Rotation 1 X=0
+Kaleidoscope Rotation 1 Y=0
+Kaleidoscope Rotation 1 Z=0
+Kaleidoscope Rotation 2 X=0
+Kaleidoscope Rotation 2 Y=0
+Kaleidoscope Rotation 2 Z=0
+Kaleidoscope Center X=1
+Kaleidoscope Center Y=1
+Kaleidoscope Center Z=1
+Kaleidoscope Fold Style=0
+Kaleidoscope Z Wrap=0
+Kaleidoscope Normailze C=0
+Kaleidoscope Rotate Around Origin=0
+Kaleidoscope Pre Rotate=0
+Fog=0
+Fog Color=clMaroon
+Fog Cutoff=1.78423733555265
+Depth Of Field=0
+Depth Of Field Focal Point=1.21447510564259
+Version=2
+Box Folding=0
+ABS Box Folding=0
+Min Box Folding=1
+Max Box Folding=2
+Sphere Folding=0
+Min Sphere Folding=0.5
+Max Sphere Folding=1
+[Hybrids]
+Enabled=0
+Hybrid 1 Formula=0
+Hybrid 1 Variation=0
+Hybrid 1 Power=8
+Hybrid 2 Formula=0
+Hybrid 2 Variation=0
+Hybrid 2 Power=8
+Hybrid 3 Enabled=0
+Hybrid 3 Formula=0
+Hybrid 3 Variation=0
+Hybrid 3 Power=8
+Hybrid 4 Enabled=0
+Hybrid 4 Formula=0
+Hybrid 4 Variation=0
+Hybrid 4 Power=8

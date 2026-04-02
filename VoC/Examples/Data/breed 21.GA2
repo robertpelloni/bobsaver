@@ -1,0 +1,7 @@
+[Settings]
+Formula=arctan((pi-3.9)/arctan(y*sin(((y-x))+sin(y+x-5.9)+y+sin(x)+sin(y))-sin(x+y))+sin((pi)-sin(x)+sin((pi)+sin(y+sin(x*7.5)
+Palette=ROYGBIV3.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

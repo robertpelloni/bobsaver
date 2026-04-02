@@ -1,0 +1,11 @@
+[Settings]
+Rule number=4067
+Universe Size=2
+Flip Probability=0
+Show State 1 Cells=1
+State 1 Color=$0080FF80
+Show State 2 Cells=1
+State 2 Color=$0000D56A
+Start Pattern=0
+Brightness=80
+Contrast=50

@@ -1,0 +1,22 @@
+[Settings]
+Density=25
+Initial Population=2
+[Rule]
+BB1=2
+BB2=2
+GG1=1
+GG2=1
+GB1=1
+GB2=2
+BG1=2
+BG2=1
+BW1=1
+BW2=0
+GW1=0
+GW2=2
+WB1=0
+WB2=1
+WG1=2
+WG2=0
+WW1=0
+WW2=0

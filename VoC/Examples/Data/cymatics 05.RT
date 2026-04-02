@@ -1,0 +1,44 @@
+[Emitter 1]
+Active=1
+Xpos=0
+Ypos=0
+Amplitude=1
+Frequency=0
+Shift=0
+Amplitude Change=0
+Frequency Change=0.01
+Shift Change=1
+[Emitter 2]
+Active=0
+Xpos=-10
+Ypos=10
+Amplitude=1
+Frequency=0
+Shift=0
+Amplitude Change=0
+Frequency Change=0.02
+Shift Change=2
+[Emitter 3]
+Active=0
+Xpos=10
+Ypos=-10
+Amplitude=1
+Frequency=0
+Shift=0
+Amplitude Change=0
+Frequency Change=0.03
+Shift Change=3
+[Emitter 4]
+Active=0
+Xpos=10
+Ypos=10
+Amplitude=1
+Frequency=0
+Shift=4
+Amplitude Change=0
+Frequency Change=0.04
+Shift Change=0
+[Settings]
+Display Speed=30
+Display Mode=1
+Palette=IFS11.MAP

@@ -1,0 +1,43 @@
+[Settings]
+Input Phrase=
+Script=Stable Cascade *
+Random seed=1059803419
+Iterations=50
+Image Size=1024
+[Stable Cascade]
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Negative Prompt=
+Prior Guidance Scale=30
+Prior Steps=50
+Decoder Guidance Scale=1.1
+Decoder Steps=10
+InitImage=
+InitImageStrength=0.15
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Movie Rotate=0:0,30:0.141,60:-0.124,90:0.817,120:0.035,150:-0.068,180:0.754,210:-0.176,240:-0.987,270:-0.652,300:0.047,330:-0.111,360:0.399,390:-0.821,420:0.324,450:-0.108,480:-0.989,510:0.045,540:0.479,570:0.089,600:-0.582,630:0.586,660:-0.374,690:0.328,720:-0.910,750:0.568,780:-0.549,810:0.177,840:-0.733,870:-0.859,900:0.245
+In Script Movie Pan X=0:0,30:0.451,60:-0.537,90:-0.417,120:0.316,150:-0.931,180:0.692,210:0.731,240:-0.683,270:0.125,300:-0.360,330:0.246,360:-0.098,390:-0.216,420:0.605,450:-0.772,480:0.407,510:0.147,540:-0.693,570:0.245,600:-0.717,630:-0.429,660:-0.157,690:-0.436,720:-0.116,750:-0.253,780:-0.680,810:0.969,840:0.210,870:0.919,900:-0.786
+In Script Movie Pan Y=0:0,30:0.252,60:-0.390,90:0.027,120:-0.950,150:0.160,180:-0.131,210:0.049,240:0.025,270:0.197,300:-0.106,330:0.871,360:0.037,390:-0.579,420:0.006,450:-0.856,480:0.701,510:0.086,540:-0.294,570:0.354,600:-0.027,630:0.548,660:-0.272,690:0.215,720:-0.167,750:0.885,780:-0.196,810:0.866,840:-0.312,870:0.723,900:0.469
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.1
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Laplacian
+In Script Movie Noise=30
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=1
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=1
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Tween=easeInOutQuad
+In Script Movie Correct Noise=1
+[Stable Cascade In Script Movie Prompts]
+Line0=0:surrealism by Mark Ryden

@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos((x*y)/abs(y)*abs(y*x)*arctan(pi)*cos(y*x*3.3)*abs(x/y/pi)/arctan(x/y)*x*abs((y/x)/tan(((y*x))/y/arctan(y/x))))
+Palette=colorschemer tulip field.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

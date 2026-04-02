@@ -1,0 +1,4 @@
+ComfyUI\models\FlashVSR\LQ_proj_in.ckpt	575695268	https://huggingface.co/JunhaoZhuang/FlashVSR/resolve/main/LQ_proj_in.ckpt	88f4b954d71e7dc4c2107d876648f147
+ComfyUI\models\FlashVSR\TCDecoder.ckpt	189018333	https://huggingface.co/JunhaoZhuang/FlashVSR/resolve/main/TCDecoder.ckpt	767cce8e5d052b7902ed2bb192ca66c6
+ComfyUI\models\FlashVSR\diffusion_pytorch_model_streaming_dmd.safetensors	5676070392	https://huggingface.co/JunhaoZhuang/FlashVSR/resolve/main/diffusion_pytorch_model_streaming_dmd.safetensors	c18ef6013fc1d62b5b50b80260772dae
+ComfyUI\models\FlashVSR\Wan2.1_VAE.pth	507609880	https://huggingface.co/JunhaoZhuang/FlashVSR/resolve/main/Wan2.1_VAE.pth	854fcb755005951fa5b329799af6199f

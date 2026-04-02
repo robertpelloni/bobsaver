@@ -1,0 +1,24 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts modelscope==1.8.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.20
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts open_clip_torch==2.20.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python-headless==4.8.0.76
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.8.0.76
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.6.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts rotary-embedding-torch==0.2.7
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts fairscale==0.4.13
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy==1.11.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio==2.31.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pytorch-lightning==2.0.7
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tensorflow==2.13.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts soundfile==0.12.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts easydict==1.10
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torchsde==0.2.5
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

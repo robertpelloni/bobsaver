@@ -1,0 +1,12 @@
+[Settings]
+Formula=9
+Root Finding Method=2
+Palette Step Amount=4
+Genralized Newton Factor=1.05
+Genralized Newton I=0
+Coloring=2
+Palette=Genetic02.MAP
+Xmin=0.384167435225472
+Xmax=0.439396919303015
+Ymin=-0.0277830550000002
+Ymax=0.0278830549999998

@@ -1,0 +1,97 @@
+[Eye]
+X=-0.15940250971601
+Y=-0.02
+Z=-0.0906186474248039
+[Look At]
+X=0.18261763360966
+Y=-0.02
+Z=-1.03031126821071
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=45
+[Light]
+X=0
+Y=-3
+Z=-10
+[Rotation]
+X=110
+Y=5
+Z=29
+[Settings]
+Iterations=15
+Epsilon=0.0005
+Power=1.5
+Gamma=95
+Contrast=0
+Shading=0
+Formula=7
+Formula Variation=0
+Bailout=8
+Palette=kuler cadet.MAP
+Spikes=0
+Spikes Y Maximum=0.5
+Juliabulb=1
+Julia Real=-0.759339137816722
+Julia Imaginary=0.119762693831292
+Julia Imaginary 2=0.0587074770592153
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=clYellow
+Glow Threshold=436
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0
+Ambient Occlusion Max Orbit=0.3
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Ambient Color=clSilver
+Phase=0.719316859031096
+Theta Scale=-0.971834905911237
+Phi Scale=0.454034527763724
+Scalar Distance Estimation=1
+Kaleidoscope Rotation 1 X=1
+Kaleidoscope Rotation 1 Y=1
+Kaleidoscope Rotation 1 Z=1
+Kaleidoscope Rotation 2 X=0
+Kaleidoscope Rotation 2 Y=0
+Kaleidoscope Rotation 2 Z=0
+Kaleidoscope Center X=1
+Kaleidoscope Center Y=2.5
+Kaleidoscope Center Z=0
+Kaleidoscope Fold Style=5
+Kaleidoscope Z Wrap=1
+Kaleidoscope Normailze C=1
+Shadow Intensity=60
+Kaleidoscope Rotate Around Origin=0
+Kaleidoscope Pre Rotate=0
+Fog=0
+Fog Color=clSilver
+Fog Cutoff=1.00042361347229
+Depth Of Field=0
+Depth Of Field Focal Point=0.420806894186422
+Version=2
+Box Folding=0
+Min Box Folding=1
+Max Box Folding=2
+Sphere Folding=0
+Min Sphere Folding=0.5
+Max Sphere Folding=1
+[Hybrids]
+Enabled=0
+Hybrid 1 Formula=0
+Hybrid 1 Variation=0
+Hybrid 1 Power=8
+Hybrid 2 Formula=0
+Hybrid 2 Variation=0
+Hybrid 2 Power=8

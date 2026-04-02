@@ -1,0 +1,60 @@
+[Eye]
+X=-0.1
+Y=-0.1
+Z=1.5
+[Look At]
+X=-0.1
+Y=-0.1
+Z=0.5
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=50
+[Light]
+X=5.03793029015437
+Y=-2.96487938365936
+Z=5.29893844386749
+[Rotation]
+X=234
+Y=31
+Z=174
+[Settings]
+Iterations=7
+Epsilon=0.0001
+Power=3
+Gamma=43
+Contrast=0
+Shading=0
+Formula=1
+Formula Variation=3
+Bailout=4
+Palette=WORMS.MAP
+Spikes=0
+Spikes Y Maximum=0.832013323903084
+Juliabulb=1
+Julia Real=0.250870831952919
+Julia Imaginary=-3.88388758369092E-5
+Julia Imaginary 2=-0.00283139850944281
+Shadows=1
+Specularity=0.45
+Glow Effect=1
+Glow Color=$004080FF
+Glow Threshold=147
+Outside Glow=1
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.3
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Phase=0.174754180712625
+Theta Scale=0.112250797916204
+Phi Scale=0.549055065028369

@@ -1,0 +1,13 @@
+[Settings]
+Attractor Name=Peter DeJong
+Palette=colourlovers marmalade skies.MAP
+Parameter A=2.01
+Parameter B=-2.53
+Parameter C=1.61
+Parameter D=-0.33
+Formula=5
+[Coordinates]
+Xmin=-2.10740740740741
+Xmax=1.87777777777778
+Ymin=-2.06381481481481
+Ymax=0.247962962962963

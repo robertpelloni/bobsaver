@@ -1,0 +1,4 @@
+[Settings]
+Influx=0.0001
+Background=0.5
+Palette=roygbiv1.map

@@ -1,0 +1,9 @@
+[Settings]
+Q=100
+K1=3
+K2=6
+G=31
+Coloring=0
+Color Palette=ROYGBIV2.MAP
+State 1 Color=clBlue
+Final State Color=clRed

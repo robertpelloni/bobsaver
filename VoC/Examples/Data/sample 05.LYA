@@ -1,0 +1,11 @@
+[Coords]
+amin=3.54
+amax=3.67
+bmin=3.45
+bmax=3.61
+[Settings]
+absequence=BBABA
+xstart=0.1
+init=100
+nlyap=300
+palette=sinpal28.MAP

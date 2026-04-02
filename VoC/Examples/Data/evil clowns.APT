@@ -1,0 +1,21 @@
+[Settings]
+headprompt=
+tailprompt=
+negativeprompt=
+motionmodule=mm_sd_v15_v2.ckpt
+lora=dreamshaper_8.safetensors
+controlnet=
+seed=1523491514
+steps=25
+frames=16
+lengthparameter=500
+guidancescale=7.5
+w=832
+h=512
+format=mp4
+scheduler=k_dpmpp_sde
+motionlora=v2_lora_ZoomIn.ckpt
+motionlorastrength=1.0
+loopmovie=0
+[Prompt]
+Line0="0":  "evil clowns"

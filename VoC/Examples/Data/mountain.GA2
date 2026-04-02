@@ -1,0 +1,7 @@
+[Settings]
+Formula=x*abs((pi/4.4))-ln(((y*pi)-x*sin(1/x*6.2)))
+Palette=ROYGBIV3.MAP
+Xmin=-5
+Xmax=5
+ymin=-5
+ymax=5

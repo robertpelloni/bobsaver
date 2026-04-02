@@ -1,0 +1,36 @@
+[Settings]
+Version=2
+Fractal Type=Mandelbrot
+Re min=-0.230231792720582
+Re max=-0.230231712346555
+Im min=0.701916775187744
+Im max=0.70191683727668
+Julia X=0.353369272237197
+Julia Y=-0.616913946587537
+Angle=0
+Maximum Iterations=1024
+Supersample Pixels=0
+Display Style=3
+Fake Emboss=0
+Interior Color=clBlack
+Color Palette=C:\CODE\DELPHI2010\CHAOS\PALETTES\kuler metallic midnight blue.MAP
+[Orbit Traps]
+Style=0
+Num Pals=1
+Palette 1=fadeblue.MAP
+Palette 2=fadewhite.MAP
+Palette 3=fadered.MAP
+Palette 4=fadegreen.MAP
+Palette 5=fadeyellow.MAP
+Only Show Traps=0
+[Buddhabrot]
+Enable=0
+Rendering Style=0
+Minimum Iterations=10
+Maximum Iterations=4096
+R Start=40
+R Finish=100
+G Start=20
+G Finish=60
+B Start=0
+B Finish=30

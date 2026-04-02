@@ -1,0 +1,17 @@
+[Settings]
+Model=caffe-vgg19 vgg19-d01eb7cb.pth
+Optimizer=adam
+Backend=cudnn
+Iterations=1
+Octaves=2
+Iterations Per Octave=20
+Octave Scale=0.6
+[Layers]
+1=conv3_3
+2=relu3_1
+3=relu4_1
+4=relu5_3
+5=pool2
+6=fc6
+7=drop6
+8=drop7

@@ -1,0 +1,24 @@
+[Settings]
+Delta Time=0.1
+Diffusion=0
+Viscosity=0
+Iterations=10
+Grid Size=250
+Grid Slice=0
+Object Size=1
+Cell Shape=2
+Hide Velocity Threshold=0.01
+Color Method=1
+Starting Configuration=1
+Billboard Alpha=0.2
+Strip Billboard Internal=1
+Vorticity Confinement=0
+Color palette=fluid bluered.MAP
+[Source]
+Velocity From=1
+Velocity To=20
+Density From=50
+Density To=250
+Radius=50
+Stop Flow After=0
+Shape=0

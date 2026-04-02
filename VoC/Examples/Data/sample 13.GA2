@@ -1,0 +1,7 @@
+[Settings]
+Formula=abs(x-y)%sin(x)-cos(y)
+Palette=Jason38.MAP
+Xmin=-5
+Xmax=5
+ymin=-5
+ymax=5

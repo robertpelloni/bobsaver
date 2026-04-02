@@ -1,0 +1,19 @@
+[Settings]
+Formula=((((pi*3)%sin((5+pi)))+sin(((x*y)+sqrt((9.7+pi)))))+((((pi*3)/sin((5/pi)))+sin(((x*y)-sqrt((9.7+pi)))))%(x%3.9)))
+Color Palette=Gray Scale 1.MAP
+[Gene Pool]
+Gene0=((y/x)%(pi+x))
+Gene1=((1*y)-((7.5-abs(pi))%cos((x-arctan(y)))))
+Gene2=(((8*2.9)-abs((y%pi)))*cos((y*(9.9-cos(x)))))
+Gene3=(((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))
+Gene4=((y%pi)-(x%3.9))
+Gene5=((((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))%((1*y)-((7.5-abs(pi))%cos((x-arctan(y))))))
+Gene6=((((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))%(x%3.9))
+Gene7=((((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))%((((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))%(x%3.9)))
+Gene8=((((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))%((((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))%((((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))%(x%3.9))))
+Gene9=((((pi*3)*sin((5+pi)))+sin(((x*y)/sqrt((9.7+pi)))))-((((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))%(x%3.9)))
+Gene10=((((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))*((((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))%(x%3.9)))
+Gene11=((((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))+((((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))%(x%3.9)))
+Gene12=(((((pi*3)*sin((5+pi)))+sin(((x*y)/sqrt((9.7+pi)))))-((((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))%(x%3.9)))*((((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))+((((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))%(x%3.9))))
+Gene13=(((((pi*3)*sin((5+pi)))+sin(((x*y)/sqrt((9.7+pi)))))-((((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))%(x%3.9)))*((((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))+((((pi*3)*sin((5+pi)))+sin(((x*y)-sqrt((9.7+pi)))))%(x%3.9))))
+Gene14=((((pi*3)*sin((5-pi)))+sin(((x*y)+sqrt((9.7+pi)))))-((((pi*3)*sin((5/pi)))+sin(((x*y)-sqrt((9.7+pi)))))%(x%3.9)))

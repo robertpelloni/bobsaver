@@ -1,0 +1,5 @@
+[Settings]
+Constant=0.25
+[Colors]
+State 0=clWhite
+State 1=clBlack

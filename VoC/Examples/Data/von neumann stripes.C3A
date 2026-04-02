@@ -1,0 +1,9 @@
+[Settings]
+Range=2
+Threshold=3
+States=12
+Neighborhood=1
+Coloring=3
+Color Palette=carr320.map
+State 1 Color=clWhite
+Final State Color=$00400040

@@ -1,0 +1,23 @@
+[Settings]
+animations='zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin'
+prompt_durations=5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+model_version=2.2
+seed=12345
+w=1920
+h=1088
+fps=15
+[Prompts]
+Line0=a hyperrealistic oil painting of the universe
+Line1=a hyperrealistic oil painting of a cluster of galaxies
+Line2=a hyperrealistic oil painting of a galaxy
+Line3=a hyperrealistic oil painting of a solar system
+Line4=a hyperrealistic oil painting of a planet
+Line5=a hyperrealistic oil painting of a continent
+Line6=a hyperrealistic oil painting of a city
+Line7=a hyperrealistic oil painting of a house
+Line8=a hyperrealistic oil painting of a person
+Line9=a hyperrealistic oil painting of a brain
+Line10=a hyperrealistic oil painting of a neuron
+Line11=a hyperrealistic oil painting of a cell
+Line12=a hyperrealistic oil painting of an atom
+Line13=a hyperrealistic oil painting of subatomic particles

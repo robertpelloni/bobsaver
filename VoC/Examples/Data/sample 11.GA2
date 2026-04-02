@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos(x/y)-frac(x)%cos(y)-frac(x)*frac(x)
+Palette=IFS16.MAP
+Xmin=-5
+Xmax=5
+ymin=-5
+ymax=5

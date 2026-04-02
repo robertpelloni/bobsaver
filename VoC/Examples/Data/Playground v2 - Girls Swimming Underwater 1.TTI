@@ -1,0 +1,46 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=162026650
+Iterations=50
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Model Version=v2
+Playgroundv2NegativePrompt=
+Playgroundv2GuidanceScale=3.0
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.3
+PlaygroundV2Scheduler=DDPMScheduler
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Movie Rotate=0:0,30:0.177,60:-0.889,90:0.304,120:-0.519,150:0.169,180:0.448,210:-0.159,240:0.966,270:-0.960,300:0.230,330:-0.082,360:0.329,390:-0.313,420:0.514,450:-0.398,480:-0.022,510:-0.488,540:0.161,570:-0.154,600:0.583,630:0.017,660:-0.905,690:0.291,720:-0.120,750:0.783,780:-0.449,810:0.142,840:-0.568,870:0.421,900:-0.379
+In Script Movie Pan X=0:0,30:0.169,60:-0.283,90:0.608,120:-0.453,150:-0.945,180:0.908,210:0.014,240:0.835,270:0.605,300:-0.336,330:0.542,360:0.197,390:0.846,420:0.933,450:0.667,480:-0.894,510:0.897,540:0.492,570:-0.641,600:-0.832,630:-0.964,660:-0.312,690:0.591,720:0.963,750:0.481,780:-0.603,810:-0.435,840:0.084,870:-0.185,900:0.188
+In Script Movie Pan Y=0:0,30:0.333,60:0.981,90:0.555,120:-0.359,150:0.217,180:0.070,210:-0.211,240:0.431,270:-0.455,300:0.191,330:-0.264,360:-0.973,390:0.803,420:-0.088,450:0.748,480:-0.448,510:-0.514,540:0.562,570:-0.650,600:0.869,630:-0.272,660:-0.854,690:-0.633,720:0.724,750:-0.195,780:0.597,810:-0.814,840:0.454,870:-0.890,900:0.333
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.1
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Laplacian
+In Script Movie Noise=10
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+In Script Movie Color Matching=1
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:underwater photograph of 30 little 5 year old girls swimming together

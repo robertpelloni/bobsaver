@@ -1,0 +1,15 @@
+[Settings]
+Inlets=0
+Inlet Shape=1
+Inlet Size=0.025
+Density=0.001
+Time Step=0.0025
+Substeps=1
+Interpolation=1
+Palette=design-seeds liquified brights.MAP
+Inlet Density=1
+Inlet Velocity=3
+Integration=0
+Projection=0
+Projection Iterations=600
+Display=0

@@ -1,0 +1,11 @@
+[Settings]
+Cell Shading=1
+Maximum States=4
+Color Palette=colorschemer main street.MAP
+Random Seed=659288271
+Rule Fill Probability=10
+Seed Style=1
+State 1 Color=clWhite
+State 2 Color=clBlue
+State 3 Color=clRed
+State 4 Color=clGreen

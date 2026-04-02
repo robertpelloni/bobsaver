@@ -1,0 +1,27 @@
+[Settings]
+headprompt=melting colors
+tailprompt=
+negativeprompt=
+motionmodule=mm_sd_v15_v2.ckpt
+lora=epicrealism_naturalSinRC1VAE.safetensors
+controlnet=
+seed=1523491514
+steps=25
+frames=16
+lengthparameter=700
+guidancescale=7.5
+w=1024
+h=512
+format=mp4
+scheduler=k_dpmpp_sde
+motionlora=v2_lora_ZoomIn.ckpt
+motionlorastrength=1.0
+loopmovie=0
+[Prompt]
+Line0="0":  "red",
+Line1="100":  "orange",
+Line2="200":  "yellow",
+Line3="300":  "green",
+Line4="400":  "blue",
+Line5="500":  "indigo",
+Line6="600":  "violet"

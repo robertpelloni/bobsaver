@@ -1,0 +1,28 @@
+[Eye]
+X=0
+Y=0
+Z=1
+[Look At]
+X=-0.1
+Y=-0.5
+Z=0
+[Zoom]
+Zoom=0.9
+[Light]
+X=-3
+Y=0
+Z=-3
+[Rotation]
+X=120
+Y=50
+Z=0
+[Settings]
+Iterations=6
+Power=3
+Palette=IFS07.MAP
+Supersample=1
+Supersample Pixels=0
+Shadows=1
+Brightness=68
+Negative SIN=0
+Bailout=4

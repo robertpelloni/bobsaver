@@ -1,0 +1,13 @@
+[Settings]
+Terrain Type=1
+Circles Iterations=150
+Circles Min Size=5
+Circles Max Size=15
+Random Seed=1234
+Palette=Terrain.MAP
+[Erosion]
+Drop Count=5000
+Erosion Rate=0.8
+Deposit Rate=0.01
+Average Heights=1
+Blur Weight=10

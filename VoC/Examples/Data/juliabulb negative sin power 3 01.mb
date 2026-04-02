@@ -1,0 +1,44 @@
+[Eye]
+X=-0.1
+Y=0
+Z=1
+[Look At]
+X=-0.1
+Y=0
+Z=0
+[Zoom]
+Zoom=0.8
+[Light]
+X=0
+Y=0
+Z=-10
+[Rotation]
+X=140
+Y=0
+Z=0
+[Settings]
+Iterations=7
+Epsilon=0.0001
+Power=3
+Brightness=100
+Shading=1
+Negative SIN=1
+Palette=kuler afternoon heat.MAP
+Juliabulb=1
+Julia Real=-0.703387591624332
+Julia Imaginary=0.260457539444986
+Shadows=1
+Supersample=1
+Supersample Pixels=1
+Bailout=4
+Spikes=0
+Spikes Y Maximum=0.5
+Julia Imaginary 2=0
+Specularity=0.45
+Glow Effect=0
+Glow Color=clYellow
+Glow Threshold=150
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.5
+Ambient Occlusion Max Orbit=1.0

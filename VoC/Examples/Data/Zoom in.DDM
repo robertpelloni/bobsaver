@@ -1,0 +1,15 @@
+[Disco Diffusion v5]
+Angle=0:(0)
+Zoom=0: (1)
+Translation X=0: (0)
+Translation Y=0: (0)
+Translation Z=0: (10.0)
+Rotation X=0: (0)
+Rotation Y=0: (0)
+Rotation Z=0: (0)
+Midas Weight=0.3
+Near Plane=200
+Far Plane=10000
+FOV=40
+Frames Scale=1500
+Frames Skip Steps=60%

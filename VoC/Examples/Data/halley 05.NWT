@@ -1,0 +1,11 @@
+[Settings]
+Formula=8
+Root Finding Method=1
+Palette Step Amount=9
+Genralized Newton Factor=1.05
+Coloring=2
+Palette=image frequency trees 04.MAP
+Xmin=1.43558251953125
+Xmax=2.02151416015625
+Ymin=-2.330655859375
+Ymax=-1.731703515625

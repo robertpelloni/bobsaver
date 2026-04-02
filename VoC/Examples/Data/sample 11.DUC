@@ -1,0 +1,10 @@
+[Settings]
+Xmin=-8
+Xmax=8
+Ymin=-5.15
+Ymax=5.15
+CX=0.711764705882353
+CY=0.206532663316583
+Maximum Iterations=220
+Color Scale Factor=3400
+Color Palette=image frequency waves.MAP

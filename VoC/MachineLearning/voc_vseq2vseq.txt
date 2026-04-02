@@ -1,0 +1,27 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.23.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts decord==0.6.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts diffusers==0.21.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.7.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts omegaconf==2.0.6
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv_python==4.8.1.78
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts Pillow==10.1.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts safetensors==0.4.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.64.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.35.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wandb==0.15.12
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.21
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip uninstall -y omegaconf
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts omegaconf==2.3.0
+pip uninstall -y requests
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts requests==2.31.0
+pip uninstall -y charset-normalizer
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts charset-normalizer==3.3.0
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

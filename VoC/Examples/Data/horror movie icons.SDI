@@ -1,0 +1,15 @@
+[Settings]
+num_interpolation_steps=100
+num_inference_steps=4
+guidance_scale=1.0
+resolution=1024x1024
+randomseed=1332076089
+[Prompts]
+Line0=Leatherface from A Texas Chainsaw Massacre
+Line1=Pinhead from Hellraiser with chains hanging in the background
+Line2=Freddy Krueger with fire behind him
+Line3=rotting Jason Vorhees wearing a hockey mask
+Line4=Chucky from Child's Play
+Line5=Michael Myers from Halloween
+Line6=Annabelle doll
+Line7=Pennywise

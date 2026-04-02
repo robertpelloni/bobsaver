@@ -1,0 +1,154 @@
+[Version]
+Version=2
+[Eye]
+X=0
+Y=0
+Z=3
+[Look At]
+X=0
+Y=0
+Z=-0.3
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=20
+[Light]
+On=1
+X=14.1140441749748
+Y=2.80992902652443
+Z=8.24002766334886
+Color=$000A2AA5
+Intensity=3
+[Light 2]
+On=1
+X=10.7028057566991
+Y=-3.02189456627199
+Z=12.3011423113752
+Color=$002A96AC
+Intensity=6
+[Light 3]
+On=0
+X=7.99447855279684
+Y=-11.8454908164956
+Z=-8.41264880909634
+Color=$00095F24
+Intensity=1
+[Light 4]
+On=1
+X=-6.52673671050023
+Y=14.4926562359865
+Z=-4.72912498643573
+Color=$0076C9C8
+Intensity=1
+[Light 5]
+On=0
+X=8.45988310769931
+Y=13.4606564359924
+Z=-4.71604772200628
+Color=$00D60613
+Intensity=8
+[Light 6]
+On=0
+X=6.94985041903643
+Y=-0.127920979747707
+Z=5.16557986831677
+Color=$00C809E6
+Intensity=10
+[Camera Light]
+On=0
+Color=clSilver
+Intensity=1
+[Light Bloom]
+On=0
+Threshold=200
+Radius=3
+[Rotation]
+X=45
+Y=90
+Z=125
+[Settings]
+Iterations=5
+Epsilon=2E-5
+DE Scale Factor=0.5
+Power=6
+Gamma=0
+Contrast=0
+Shading=0
+Formula=0
+Formula Variation=33
+Bailout=4
+Palette=kuler ml43.MAP
+Spikes=0
+Spikes Y Maximum=0.835200164932758
+Juliabulb=1
+Julia Real=0.224829734061063
+Julia Imaginary=-0.635351485948339
+Julia Imaginary 2=-0.0413246881216764
+Shadows=1
+Shadow Intensity=60
+Specularity Amount=200
+Show Specularity=0
+Glow Effect=0
+Glow Color=clRed
+Glow Threshold=750
+Outside Glow=0
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.4
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Ambient Amount=0.3
+Phase=0.0250127187464386
+Theta Scale=0.654350596945733
+Phi Scale=-0.309603540226817
+Kaleidoscope Rotation 1 X=0
+Kaleidoscope Rotation 1 Y=0
+Kaleidoscope Rotation 1 Z=14
+Kaleidoscope Rotation 2 X=25
+Kaleidoscope Rotation 2 Y=1
+Kaleidoscope Rotation 2 Z=-16
+Kaleidoscope Center X=1
+Kaleidoscope Center Y=0
+Kaleidoscope Center Z=0
+Kaleidoscope Fold Style=6
+Kaleidoscope Z Wrap=1
+Kaleidoscope Normailze C=0
+Kaleidoscope Rotate Around Origin=0
+Kaleidoscope Pre Rotate=0
+Fog=0
+Fog Color=clSilver
+Fog Cutoff=5
+Depth Of Field=0
+Depth Of Field Focal Point=2
+Version=2
+Box Folding=0
+ABS Box Folding=0
+Min Box Folding=1
+Max Box Folding=2
+Sphere Folding=0
+Min Sphere Folding=0.5
+Max Sphere Folding=1
+[Hybrids]
+Enabled=0
+Hybrid 1 Formula=0
+Hybrid 1 Variation=0
+Hybrid 1 Power=8
+Hybrid 2 Formula=0
+Hybrid 2 Variation=0
+Hybrid 2 Power=8
+Hybrid 3 Enabled=0
+Hybrid 3 Formula=0
+Hybrid 3 Variation=0
+Hybrid 3 Power=8
+Hybrid 4 Enabled=0
+Hybrid 4 Formula=0
+Hybrid 4 Variation=0
+Hybrid 4 Power=8

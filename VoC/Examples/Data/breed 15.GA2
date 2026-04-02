@@ -1,0 +1,7 @@
+[Settings]
+Formula=sin((y+pi)+cos(pi)-y+sin(((y-pi)-cos(x+y+pi))-x-sin(pi)-cos(y+x+1.5)+x-sin((x+y+7.8)+x+cos(x+4))-sin(pi)+cos((y-pi)-cos(x+y)-sin(((x+y+2.3)-sin(y+pi)+sin(y-x))-y+cos(((x-y)+cos(((x))+cos(y-3.1)+sin(y-0.3)-sin(x-2.5)+y-sin(x)-frac(pi+pi))))
+Palette=kuler the perfect storm.MAP
+Xmin=-20.0138888888889
+Xmax=6.56944444444444
+Ymin=-14.8958333333333
+Ymax=11.8402777777778

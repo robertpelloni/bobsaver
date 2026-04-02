@@ -1,0 +1,4 @@
+[Effects Order]
+Effect0=Convolution 0 1 0 0 2 0 0 1 0 1
+[Settings]
+Passes=1

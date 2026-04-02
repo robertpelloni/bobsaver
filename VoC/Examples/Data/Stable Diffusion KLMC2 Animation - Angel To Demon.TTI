@@ -1,0 +1,19 @@
+[Settings]
+Input Phrase=This prompt is not used for this script.
+Script=Stable Diffusion KLMC2 Animation *
+Random seed=1618136898
+Iterations=550
+Image Size=512
+[Stable Diffusion KLMC2 Animation]
+n=550
+init_image=
+g=0.1
+sigma=2.0
+h=0.1
+gamma=1.0
+alpha=0.005
+tau=1.0
+hvp_method=fake
+[Stable Diffusion KLMC2 Animation Prompt Params]
+Line0=["a hyperrealist portrait of an angel in heavenly clouds", {0:1, 100:1, 300:0}],
+Line1=["a hyperrealist portrait of a demon in hell surrounded by fire", {100:0, 300:1}],

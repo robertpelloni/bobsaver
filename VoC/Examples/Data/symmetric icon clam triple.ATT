@@ -1,0 +1,14 @@
+[Settings]
+Attractor Name=Symmetric Icon
+Palette=gallet07.map
+L=1.56
+A=-1
+B=0.1
+G=-0.82
+O=0.12
+D=3
+[Coordinates]
+Xmin=-1.70252482096354
+Xmax=1.70252482096354
+Ymin=-1.24577779134115
+Ymax=1.40549289279514

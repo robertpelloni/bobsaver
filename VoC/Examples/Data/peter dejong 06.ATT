@@ -1,0 +1,13 @@
+[Settings]
+Attractor Name=Peter DeJong
+Palette=colorschemer firefox.MAP
+Parameter A=-2
+Parameter B=-2
+Parameter C=-1.2
+Parameter D=2
+Formula=5
+[Coordinates]
+Xmin=-3.33446410379292
+Xmax=3.84204346456645
+Ymin=-2.1415826307918
+Ymax=2.05583138923818

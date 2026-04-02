@@ -1,0 +1,14 @@
+[Settings]
+Attractor Name=Jason Rampe 3
+Palette=kuler hsb nature 13.MAP
+Brightness=100
+Contrast=0
+Parameter A=1.2418
+Parameter B=-2.4174
+Parameter C=-0.7112
+Parameter D=-1.9802
+[Coordinates]
+Xmin=-5.08333333333333
+Xmax=5.08333333333333
+Ymin=-2.68944444444444
+Ymax=3.20444444444444

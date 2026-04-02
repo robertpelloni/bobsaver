@@ -1,0 +1,153 @@
+#version 420
+
+// original https://www.shadertoy.com/view/fsdXWX
+
+uniform float time;
+uniform vec2 mouse;
+uniform vec2 resolution;
+
+out vec4 glFragColor;
+
+// taste of noise 3 by leon denise 2021/10/12
+// result of experimentation with organic patterns
+// using code from Inigo Quilez, David Hoskins and NuSan
+// licensed under hippie love conspiracy
+
+// global variable
+float material;
+float rng;
+
+// Dave Hoskins
+// https://www.shadertoy.com/view/4djSRW
+float hash13(vec3 p3)
+{
+    p3  = fract(p3 * .1031);
+    p3 += dot(p3, p3.zyx + 31.32);
+    return fract((p3.x + p3.y) * p3.z);
+}
+vec3 hash33(vec3 p3)
+{
+    p3 = fract(p3 * vec3(.1031, .1030, .0973));
+    p3 += dot(p3, p3.yxz+33.33);
+    return fract((p3.xxy + p3.yxx)*p3.zyx);
+}
+
+// Inigo Quilez
+// https://www.iquilezles.org/www/articles/distfunctions/distfunctions.htm
+float smin( float d1, float d2, float k ) {
+    float h = clamp( 0.5 + 0.5*(d2-d1)/k, 0.0, 1.0 );
+    return mix( d2, d1, h ) - k*h*(1.0-h); }
+float smoothing(float d1, float d2, float k) { return clamp( 0.5 + 0.5*(d2-d1)/k, 0.0, 1.0 ); }
+float sdBox( vec3 p, vec3 b ) {
+  vec3 q = abs(p) - b;
+  return length(max(q,0.0)) + min(max(q.x,max(q.y,q.z)),0.0);
+}
+
+// rotation matrix
+mat2 rot(float a) { return mat2(cos(a),-sin(a),sin(a),cos(a)); }
+
+#define repeat(p,r) (mod(p,r)-r/2.)
+
+// sdf
+float map (vec3 p)
+{
+    vec3 pp = p;
+    
+    // time
+    float t = time;
+    
+    // rotation parameter
+    vec3 angle = vec3(14.,13.,18.)+p*.5;
+    
+    angle.z += t*0.5;
+    //float loop = fract(t/10.)*6.28;
+    
+    // kif
+    const int count = 16;
+    float a = 1.0;
+    float scene = 1000.;
+    float shape = 1000.;
+    for (int index = 0; index < count; ++index)
+    {
+        // fold
+        p.x = abs(p.x)-.6*a;
+        
+        // rotate
+        p.xz *= rot(angle.y/a);
+        p.yz *= rot(angle.x/a);
+        p.yx *= rot(angle.z/a);//+loop);
+        
+        // sphere
+        shape = sdBox(p, vec3(.3,0.01,.3)*a);
+        
+        // material blending
+        material = shape < scene ? float(index) : material;
+        
+        // add
+        scene = min(scene, shape);
+        
+        // falloff
+        a /= 1.2;
+    }
+        
+    return scene;
+}
+
+// return color from pixel coordinate
+void main(void)
+{
+    // reset color
+    glFragColor = vec4(0);
+    material = 0.0;
+    
+    // camera coordinates
+    vec2 uv = (gl_FragCoord.xy - resolution.xy * 0.5) / resolution.y;
+    vec3 eye = vec3(0,0,-3.);
+    vec2 mouse = mouse*resolution.xy.xy / resolution.xy;
+    eye.xz *= rot(0.4+mouse.x*3.);
+    eye.xy *= rot(0.6-mouse.y*3.);
+    vec3 z = normalize(-eye);
+    vec3 x = normalize(cross(z, vec3(0,1,0)));
+    vec3 y = normalize(cross(x, z));
+    vec3 ray = normalize(vec3(z * 1. + uv.x * x + uv.y * y));
+    vec3 pos = eye + ray * .1;
+    
+    // white noise
+    vec3 seed = vec3(gl_FragCoord.xy, time);
+    rng = hash13(seed);
+    
+    // raymarch
+    const int steps = 30;
+    for (int index = steps; index > 0; --index)
+    {
+        // volume estimation
+        float dist = map(pos);
+        if (dist < 0.01)
+        {
+            float shade = float(index)/float(steps);
+            
+            // compute normal by NuSan (https://www.shadertoy.com/view/3sBGzV)
+            vec2 off=vec2(.001,0);
+            vec3 normal = normalize(map(pos)-vec3(map(pos-off.xyy), map(pos-off.yxy), map(pos-off.yyx)));
+            
+            // Inigo Quilez color palette (https://iquilezles.org/www/articles/palettes/palettes.htm)
+            vec3 tint = vec3(.5)+vec3(0.5)*cos(vec3(1,2,3)+material*0.2+length(pos)*4.);
+            
+            // specular lighting
+            float ld = dot(reflect(ray, normal), vec3(0,1,0))*0.5+0.5;
+            vec3 light = vec3(0.196,0.925,0.914) * pow(ld, 2.) * 0.5;
+            
+            // pixel color
+            glFragColor.rgb = (tint + light) * shade;
+            
+            break;
+        }
+        
+        // dithering
+        dist *= 0.5 + 0.1 * rng;
+        
+        // raymarch
+        pos += ray * dist;
+    }
+}
+

@@ -1,0 +1,12 @@
+[Settings]
+Formula=13
+Root Finding Method=2
+Palette Step Amount=9
+Genralized Newton Factor=1
+Genralized Newton I=0
+Coloring=2
+Palette=image frequency apples.MAP
+Xmin=3.69143906408291
+Xmax=3.69172115812473
+Ymin=-0.00256664050000012
+Ymax=-0.00228331000000012

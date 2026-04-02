@@ -1,0 +1,59 @@
+[Eye]
+X=0
+Y=0.1
+Z=1
+[Look At]
+X=0
+Y=0.1
+Z=0
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=55
+[Light]
+X=-0.0165679621234847
+Y=2.02471931066471
+Z=8.42022786007911
+[Rotation]
+X=202
+Y=132
+Z=101
+[Settings]
+Iterations=7
+Epsilon=0.0001
+Power=4
+Gamma=0
+Contrast=0
+Shading=1
+Formula=4
+Bailout=4
+Palette=colorschemer yard dogs.MAP
+Spikes=0
+Spikes Y Maximum=0.6133948629722
+Juliabulb=0
+Julia Real=-0.218204718831619
+Julia Imaginary=0.682120587064742
+Julia Imaginary 2=-0.599386829417199
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=clBlue
+Glow Threshold=150
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.2
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=0
+Anaglyph Tilt=3
+Background Color=clBlack
+Phase=0.639847396407276
+Theta Scale=0.412262449041009
+Phi Scale=0.73887305194512

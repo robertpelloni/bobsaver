@@ -1,0 +1,15 @@
+[Settings]
+Input Phrase=princess in sanctuary trending on artstation photorealistic portrait of a young princess
+Script=CLIP Guided Diffusion v6 *
+Random seed=499703164
+Iterations=140
+[CLIP Guided Diffusion v6]
+Timestep Respacing=30,50,70
+Skip Timesteps=10
+Use Checkpoint=1
+Model 1=1
+Model 2=1
+Model 3=1
+Seed Image=
+Seed Image Init Scale=1000
+Seed Image SkipTimesteps=10

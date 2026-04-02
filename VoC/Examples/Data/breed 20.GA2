@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos(y+x)-frac((x-9.4)*int((pi*cos(((x+y)+cos(y-pi)+y+sin((x+8.8)+cos(y-pi)+cos(pi)+sin(((y-pi))-x+cos(y-x)+sin(y-x+pi)-cos(y)+sin(x))-x-sin(y-x)+y-sin(x)-abs(pi))))
+Palette=kuler ml67.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

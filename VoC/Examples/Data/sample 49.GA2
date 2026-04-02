@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos(y%x)%frac((x/9.4)%int((pi*2.9)))
+Palette=Jason39.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

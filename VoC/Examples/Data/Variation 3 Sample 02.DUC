@@ -1,0 +1,11 @@
+[Settings]
+Xmin=-0.0833333333333333
+Xmax=1.28333333333333
+Ymin=-2.0085
+Ymax=-0.944166666666667
+CX=-1.10196078431373
+CY=-0.15929648241206
+Maximum Iterations=30
+Color Scale Factor=300
+Color Palette=JACCO201.MAP
+Variation=3

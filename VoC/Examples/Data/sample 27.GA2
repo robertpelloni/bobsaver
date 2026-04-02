@@ -1,0 +1,7 @@
+[Settings]
+Formula=y*cos(((x%7.3))*x+log((pi))*sqr(pi))*tan(y-x%pi)*x%sqr(pi/3.1)
+Palette=JACCO289.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

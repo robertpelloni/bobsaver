@@ -1,0 +1,15 @@
+[Settings]
+prompt=a forest with sunbeams shining through
+negative_prompt=
+model=stablediffusionapi/pixel-art-diffusion-xl
+initimage=
+border_size=200
+zoom_factor=0.9
+rotation=0
+noise=10
+steps=25
+total_frames=250
+randomseed=0
+increment_seed_each_frame=1
+check_for_black_borders=1
+border_threshold=30

@@ -1,0 +1,7 @@
+[Settings]
+Formula=sqr(pi*pi)+frac(((x)-y*log(pi)/y*cos(x-y)%ln(pi*1.9)
+Palette=GAUCHE.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

@@ -1,0 +1,13 @@
+[Settings]
+Attractor Name=Johnny Svensson
+Palette=kuler drholwegneu.MAP
+Parameter A=1.40
+Parameter B=1.56
+Parameter C=1.40
+Parameter D=-6.56
+Formula=6
+[Coordinates]
+Xmin=-8.14814814814815
+Xmax=7.96296296296296
+Ymin=-4.69222222222222
+Ymax=4.65407407407407

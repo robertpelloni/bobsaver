@@ -1,0 +1,152 @@
+[Eye]
+X=0.05
+Y=0
+Z=0.505239640799757
+[Look At]
+X=0.05
+Y=0
+Z=-0.494760359200243
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=60
+[Light]
+On=1
+X=-0.764693687284106
+Y=-3.03946425635073
+Z=1.42021146277381
+Color=$00880748
+Intensity=5
+[Light 2]
+On=1
+X=3.06383334364589
+Y=0.0607255698620145
+Z=1.46868568711232
+Color=$00AD4092
+Intensity=4
+[Light 3]
+On=1
+X=-0.944193343614957
+Y=-2.85983120211106
+Z=0.352795160546735
+Color=$00FF6C3A
+Intensity=5
+[Light 4]
+On=1
+X=0.450551383729486
+Y=2.59662212474783
+Z=-1.8269802932406
+Color=$0061BEF2
+Intensity=6
+[Light 5]
+On=1
+X=0.299766690659485
+Y=-3.36297537872461
+Z=-0.637288422351374
+Color=$006C8B43
+Intensity=6
+[Light 6]
+On=1
+X=0.277869664327861
+Y=2.88535701381814
+Z=-2.73051338624384
+Color=$003E88E0
+Intensity=1
+[Camera Light]
+On=0
+Color=clSilver
+Intensity=1
+[Light Bloom]
+On=0
+Threshold=200
+Radius=3
+[Rotation]
+X=140
+Y=0
+Z=0
+[Settings]
+Iterations=5
+Epsilon=0.0001
+DE Scale Factor=0.5
+Power=5
+Gamma=0
+Contrast=0
+Shading=3
+Formula=0
+Formula Variation=109
+Bailout=4
+Palette=Flame 576_Gold_and_Blue.map
+Spikes=0
+Spikes Y Maximum=0.5
+Juliabulb=0
+Julia Real=0
+Julia Imaginary=0
+Julia Imaginary 2=0
+Shadows=1
+Shadow Intensity=60
+Specularity Amount=20
+Show Specularity=1
+Glow Effect=0
+Glow Color=clYellow
+Glow Threshold=362
+Outside Glow=0
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.2
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=$00000022
+Ambient Amount=0.2
+Phase=0.185917320195585
+Theta Scale=1
+Phi Scale=1
+Kaleidoscope Rotation 1 X=0
+Kaleidoscope Rotation 1 Y=0
+Kaleidoscope Rotation 1 Z=0
+Kaleidoscope Rotation 2 X=0
+Kaleidoscope Rotation 2 Y=0
+Kaleidoscope Rotation 2 Z=0
+Kaleidoscope Center X=1
+Kaleidoscope Center Y=1
+Kaleidoscope Center Z=1
+Kaleidoscope Fold Style=0
+Kaleidoscope Z Wrap=0
+Kaleidoscope Normailze C=0
+Kaleidoscope Rotate Around Origin=0
+Kaleidoscope Pre Rotate=0
+Fog=0
+Fog Color=clSilver
+Fog Cutoff=5
+Depth Of Field=0
+Depth Of Field Focal Point=2
+Version=2
+Box Folding=0
+ABS Box Folding=0
+Min Box Folding=1
+Max Box Folding=2
+Sphere Folding=0
+Min Sphere Folding=0.5
+Max Sphere Folding=1
+[Hybrids]
+Enabled=1
+Hybrid 1 Formula=0
+Hybrid 1 Variation=119
+Hybrid 1 Power=2
+Hybrid 2 Formula=0
+Hybrid 2 Variation=95
+Hybrid 2 Power=6
+Hybrid 3 Enabled=0
+Hybrid 3 Formula=4
+Hybrid 3 Variation=40
+Hybrid 3 Power=2
+Hybrid 4 Enabled=0
+Hybrid 4 Formula=4
+Hybrid 4 Variation=13
+Hybrid 4 Power=8

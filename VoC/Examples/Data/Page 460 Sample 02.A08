@@ -1,0 +1,14 @@
+[Settings]
+Initial Population=1
+[Rule]
+BB1=1
+BB2=0
+BW1=1
+BW2=1
+WB1=0
+WB2=1
+WW1=0
+WW2=0
+[Colors]
+State 0=clWhite
+State 1=clBlack

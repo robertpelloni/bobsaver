@@ -1,0 +1,12 @@
+[Settings]
+Formula=1
+Root Finding Method=4
+Palette Step Amount=3
+Genralized Newton Factor=1
+Genralized Newton I=0
+Coloring=2
+Palette=lkmtch17.map
+Xmin=-2.23625576171875
+Xmax=2.23635576171875
+Ymin=-2.252531640625
+Ymax=2.226590234375

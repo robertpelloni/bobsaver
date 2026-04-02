@@ -1,0 +1,15 @@
+[Settings]
+Formula=3
+Xmin=0.934590476190476
+Xmax=0.948159523809524
+Ymin=-0.0135352380952381
+Ymax=0.0138006349206349
+Iterations=5000
+Skip Iterations=100
+Color Display=3
+Background Color=clBlack
+Palette=ROYGBIV2.MAP
+Sample Pixels=4
+Henon Multiplier=0.3
+Bouncing Ball Slope Degrees=60
+Bouncing Ball Initial Velocity=0.0

@@ -1,0 +1,14 @@
+[MIDI]
+Instrument=89
+Lower Octave=2
+Upper Octave=6
+Scale Type=0
+Delay=200
+[L-System Parameters]
+Turn Angle=12
+Stages=3
+Axiom=FX
+[L-System Rule]
+LRule0=F=
+LRule1=X=-F++F-X-F--F+Y---F--F+Y+F++F-X+++F++F-X-F++F-X+++F--F+Y--
+LRule2=Y=+F++F-X-F--F+Y+F--F+Y---F--F+Y---F++F-X+++F++F-X+++F--F+Y

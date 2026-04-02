@@ -1,0 +1,12 @@
+[Settings]
+Formula=9
+Root Finding Method=4
+Palette Step Amount=3
+Genralized Newton Factor=1
+Genralized Newton I=0
+Coloring=2
+Palette=image frequency sunset.MAP
+Xmin=-2.387946953125
+Xmax=-0.88014953125
+Ymin=-0.760744861111112
+Ymax=0.760844861111111

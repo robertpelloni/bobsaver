@@ -1,0 +1,12 @@
+[Settings]
+Formula=2
+Xmin=2.21797797619048
+Xmax=2.23537321428571
+Ymin=0.457142857142857
+Ymax=0.52
+Iterations=150000
+Skip Iterations=100
+Color Display=3
+Background Color=clBlack
+Palette=kuler fire and ice.MAP
+Sample Pixels=9

@@ -1,0 +1,8 @@
+[Settings]
+Particle Count=2500
+Radius=52
+Velocity=1
+Alpha=6
+Beta=-5
+World Width=800
+Palette=kuler rusted steel.MAP

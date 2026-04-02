@@ -1,0 +1,9 @@
+[Settings]
+Q=100
+K1=1
+K2=18
+G=43
+Coloring=1
+Color Palette=fadewhite.MAP
+State 1 Color=clAqua
+Final State Color=$000080FF

@@ -1,0 +1,5 @@
+ComfyUI\models\text_encoders\umt5_xxl_fp8_e4m3fn_scaled.safetensors	6735906897	https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors	4bad5031eb889beddcfb6e1b9b12cccc
+ComfyUI\models\vae\wan_2.1_vae.safetensors	253815318	https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors	0dd084bcf4728fe874a9e3b18110af74
+ComfyUI\models\loras\lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors	738005744	https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Lightx2v/lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors	602ecd3bc14c434782b120969a16b0a0
+ComfyUI\models\diffusion_models\humo_17B_fp8_e4m3fn.safetensors	17058372152	https://huggingface.co/Comfy-Org/HuMo_ComfyUI/resolve/main/split_files/diffusion_models/humo_17B_fp8_e4m3fn.safetensors	700526d727210bb9ab4ec5f9398a78b0
+ComfyUI\models\audio_encoders\whisper_large_v3_fp16.safetensors	3087130976	https://huggingface.co/Comfy-Org/HuMo_ComfyUI/resolve/main/split_files/audio_encoders/whisper_large_v3_fp16.safetensors	5d75f35c812a122e9dc1a15166af56bc

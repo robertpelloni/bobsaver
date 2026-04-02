@@ -1,0 +1,23 @@
+[Settings]
+headprompt=
+tailprompt=
+negativeprompt=
+motionmodule=mm_sd_v15.ckpt
+lora=xxmix9realistic_v40.safetensors
+seed=1678599006
+steps=25
+frames=16
+guidancescale=7.5
+w=768
+h=512
+format=mp4
+controlnet=
+scheduler=k_dpmpp_sde
+motionlora=
+motionlorastrength=1.0
+lengthparameter=128
+[Prompt]
+Line0="0":  "sun setting over a forest",
+Line1="32":  "a spooky foirest path at night",
+Line2="64":  "glowing eyes in the dark",
+Line3="96":  "fangs"

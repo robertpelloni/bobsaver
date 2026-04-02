@@ -1,0 +1,7 @@
+[Settings]
+Formula=y*frac((y*x)-cos(1-x)*arctan(x*pi)*abs(x*y)*sin(y-0.6))
+Palette=Genetic13.MAP
+Xmin=-6.29166666666667
+Xmax=-0.416666666666667
+Ymin=-7.08333333333333
+Ymax=-1.19444444444444

@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos((y-x*0.2)-abs((x)-cos(y)-cos(x-y*4.9)-cos((pi))))
+Palette=colorschemer firefox.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

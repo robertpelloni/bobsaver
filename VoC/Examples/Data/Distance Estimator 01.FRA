@@ -1,0 +1,36 @@
+[Settings]
+Version=2
+Fractal Type=Mandelbrot
+Re min=-1.41927754659626
+Re max=-1.41927753891183
+Im min=0.0473796614483085
+Im max=0.0473796659004743
+Julia X=0.353369272237197
+Julia Y=-0.616913946587537
+Angle=0
+Maximum Iterations=1024
+Supersample Pixels=1
+Display Style=3
+Fake Emboss=0
+Interior Color=clBlack
+Color Palette=C:\CODE\DELPHI2010\CHAOS\PALETTES\BLUES.MAP
+[Orbit Traps]
+Style=0
+Num Pals=1
+Palette 1=orbit traps silver 01.MAP
+Palette 2=orbit traps gold 01.MAP
+Palette 3=orbit traps red 01.MAP
+Palette 4=orbit traps green 01.MAP
+Palette 5=orbit traps blue 01.MAP
+Only Show Traps=0
+[Buddhabrot]
+Enable=0
+Rendering Style=0
+Minimum Iterations=10
+Maximum Iterations=4096
+R Start=40
+R Finish=100
+G Start=20
+G Finish=60
+B Start=0
+B Finish=30

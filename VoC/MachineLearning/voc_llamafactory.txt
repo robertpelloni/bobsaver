@@ -1,0 +1,28 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.41.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.39.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts datasets==2.18.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.28.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts peft==0.10.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts trl==0.8.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==4.27.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy==1.12.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.7.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts sentencepiece==0.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts protobuf==5.26.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts uvicorn==0.29.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pydantic==2.6.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts fastapi==0.110.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts sse-starlette==2.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts matplotlib==3.8.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts fire==0.6.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.40.0-py3-none-win_amd64.whl
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip uninstall -y charset-normalizer
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts charset-normalizer==3.3.2
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

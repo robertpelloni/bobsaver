@@ -1,0 +1,43 @@
+[Settings]
+Input Phrase=
+Script=Kolors
+Random seed=1676861388
+Iterations=50
+Image Size=1024
+[Kolors]
+Negative Prompt=blurry, low texture, smooth, out of focus, low details, flat colors, low details
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Render Every=1
+KolorsGuidanceScale=5.0
+KolorsInitImage=
+KolorsInitImageStrength=0.2
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1
+In Script Movie Zoom Method=INTER_AREA
+In Script Movie Rotate=0:0
+In Script Movie Pan X=0:0
+In Script Movie Pan Y=0:0
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.2
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Noise=30
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=1
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+KolorsTween=easeInOutQuad
+In Script Movie Color Matching=1
+[Kolors In Script Movie Prompts]
+Line0=0:A detailed skeletal body of trypophobia. The body is shaped like a skull, with a thick layer of black and white smears on its surface. The skeletal structure is a dark gray, and the body is covered in a thin layer of white and black splotches. The background is dark blue, and a shadow is cast over the body, causing it to look like it's trying to scream.

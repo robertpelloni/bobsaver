@@ -1,0 +1,14 @@
+[Settings]
+Attractor Name=Symmetric Icon
+Palette=sgg075.map
+L=-2.7
+A=5
+B=1.5
+G=1.0
+O=0
+D=6
+[Coordinates]
+Xmin=-1.05364583333333
+Xmax=1.05364583333333
+Ymin=-0.816221354166667
+Ymax=0.816221354166667

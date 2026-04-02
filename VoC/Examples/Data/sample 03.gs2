@@ -1,0 +1,68 @@
+[Coordinates]
+Xmin=65.6125
+Xmax=67.0875
+Ymin=-82.5833333333333
+Ymax=-81.1
+[Stars]
+How Many=16
+Patern=1
+[Star Settings]
+Star 1 X=29
+Star 1 Y=89
+Star 1 Mass=-51821
+Star 2 X=30
+Star 2 Y=-19
+Star 2 Mass=86952
+Star 3 X=32
+Star 3 Y=18
+Star 3 Mass=-13781
+Star 4 X=10
+Star 4 Y=-9
+Star 4 Mass=-77702
+Star 5 X=-97
+Star 5 Y=38
+Star 5 Mass=-84860
+Star 6 X=-13
+Star 6 Y=91
+Star 6 Mass=60202
+Star 7 X=-59
+Star 7 Y=-15
+Star 7 Mass=32789
+Star 8 X=-52
+Star 8 Y=78
+Star 8 Mass=97178
+Star 9 X=94
+Star 9 Y=-12
+Star 9 Mass=-98183
+Star 10 X=42
+Star 10 Y=86
+Star 10 Mass=-34308
+Star 11 X=-58
+Star 11 Y=9
+Star 11 Mass=74470
+Star 12 X=17
+Star 12 Y=-82
+Star 12 Mass=-54699
+Star 13 X=29
+Star 13 Y=0
+Star 13 Mass=83805
+Star 14 X=17
+Star 14 Y=2
+Star 14 Mass=96390
+Star 15 X=-49
+Star 15 Y=96
+Star 15 Mass=1061
+Star 16 X=-56
+Star 16 Y=-99
+Star 16 Mass=-9568
+[Orbit]
+X Velocity=-3
+Y Velocity=-6
+[Globals]
+Gravity Constant=5.18
+Delta Time=1.71
+Escape Velocity=0
+Escape Radius=59470
+Iterations=256
+[Settings]
+Palette=JACCO291.MAP

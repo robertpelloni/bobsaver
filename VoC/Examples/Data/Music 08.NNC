@@ -1,0 +1,14 @@
+[Settings]
+Rule=79,253,1,230
+Cell States=3
+State 1 Color=clBlack
+Final State Color=clBlack
+Empty Color=clWhite
+[Music]
+Active=1
+BPM=240
+Scale Type=0
+Instrument=44
+Octave=4
+Offset=0
+Highlight Color=$000080FF

@@ -1,0 +1,10 @@
+[Settings]
+Rule String=010020020222212002
+Initial Population=1
+Range=1
+States=3
+Center Cell=0
+[Colors]
+State 0=clBlack
+State 1=clYellow
+Final State=clRed

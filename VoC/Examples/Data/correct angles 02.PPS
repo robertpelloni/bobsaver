@@ -1,0 +1,16 @@
+[Settings]
+Sense Angle=171
+Sense Distance=3.470
+Turn Angle=28
+Move Speed=9.700
+Deposit Amount=0.726
+Evaporation Rate=0.039
+Blur Radius=3
+Display=0
+Trail Shading=0
+Particles Move Towards=0
+Blur Particles=0
+Particle Color=clYellow
+Palette=GAMMA1.MAP
+Correct Angles=1
+Start Pattern=2

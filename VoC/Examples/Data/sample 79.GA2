@@ -1,0 +1,7 @@
+[Settings]
+Formula=y+sin(x+y)-y-sin((x-y-pi)-sqr((x-y)))
+Palette=JACCO197.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

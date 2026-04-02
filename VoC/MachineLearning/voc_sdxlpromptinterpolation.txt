@@ -1,0 +1,17 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.43.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/huggingface/diffusers.git@f53352f750725a4bf4a44220db196c0f26f3ff81
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.29.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.40.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts peft==0.10.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.66.2
+pip uninstall -y torch
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.2.2+cu118 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+rem pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

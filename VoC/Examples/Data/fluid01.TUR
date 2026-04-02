@@ -1,0 +1,34 @@
+[Settings]
+Layers=4
+Averaging Method=0
+Box Blur Passes=0
+Color Palette=Gray Scale 1.MAP
+Fluid Coupling=1
+Fluid Steps=3
+Fluid Ratio=6
+[Grid]
+Activator 1=227
+Inhibitor 1=392
+Small Amount 1=0.05
+Weight 1=1.760
+Symmetry 1=4
+Activator 2=74
+Inhibitor 2=121
+Small Amount 2=0.04
+Weight 2=-1.660
+Symmetry 2=4
+Activator 3=26
+Inhibitor 3=49
+Small Amount 3=0.03
+Weight 3=-0.733
+Symmetry 3=2
+Activator 4=8
+Inhibitor 4=15
+Small Amount 4=0.02
+Weight 4=1.370
+Symmetry 4=3
+Activator 5=2
+Inhibitor 5=4
+Small Amount 5=0.01
+Weight 5=-1.550
+Symmetry 5=4

@@ -1,0 +1,154 @@
+[Version]
+Version=2
+[Eye]
+X=-0.130208021481745
+Y=-0.420558385597371
+Z=-0.23
+[Look At]
+X=-0.286279652580651
+Y=-0.431206757235802
+Z=-1.21768834059513
+[Up]
+X=-0.0585786437626903
+Y=0.858578643762691
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=30
+[Light]
+On=1
+X=0
+Y=0
+Z=-10
+Color=clWhite
+Intensity=1
+[Light 2]
+On=0
+X=0
+Y=0
+Z=10
+Color=clRed
+Intensity=1
+[Light 3]
+On=0
+X=0
+Y=-10
+Z=0
+Color=clGreen
+Intensity=1
+[Light 4]
+On=0
+X=0
+Y=10
+Z=0
+Color=clBlue
+Intensity=1
+[Light 5]
+On=0
+X=-10
+Y=0
+Z=0
+Color=clYellow
+Intensity=1
+[Light 6]
+On=0
+X=10
+Y=0
+Z=0
+Color=$00FFFF80
+Intensity=1
+[Camera Light]
+On=0
+Color=clSilver
+Intensity=1
+[Light Bloom]
+On=0
+Threshold=200
+Radius=3
+[Rotation]
+X=140
+Y=0
+Z=0
+[Settings]
+Iterations=6
+Epsilon=2E-7
+DE Scale Factor=0.5
+Power=6
+Gamma=0
+Contrast=0
+Shading=2
+Formula=0
+Formula Variation=47
+Bailout=8
+Palette=Flame 636_Scattered_Petals.map
+Spikes=0
+Spikes Y Maximum=0.999
+Juliabulb=1
+Julia Real=-0.143310579044765
+Julia Imaginary=-0.745111341247077
+Julia Imaginary 2=-0.124363243114203
+Shadows=1
+Shadow Intensity=60
+Specularity Amount=2000
+Show Specularity=1
+Glow Effect=0
+Glow Color=$00FF8080
+Glow Threshold=369
+Outside Glow=0
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.1
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Ambient Amount=0.7
+Phase=0.624488837085664
+Theta Scale=1
+Phi Scale=1
+Kaleidoscope Rotation 1 X=0
+Kaleidoscope Rotation 1 Y=0
+Kaleidoscope Rotation 1 Z=0
+Kaleidoscope Rotation 2 X=0
+Kaleidoscope Rotation 2 Y=0
+Kaleidoscope Rotation 2 Z=0
+Kaleidoscope Center X=1
+Kaleidoscope Center Y=1
+Kaleidoscope Center Z=1
+Kaleidoscope Fold Style=0
+Kaleidoscope Z Wrap=0
+Kaleidoscope Normailze C=0
+Kaleidoscope Rotate Around Origin=0
+Kaleidoscope Pre Rotate=0
+Fog=0
+Fog Color=clSilver
+Fog Cutoff=5
+Depth Of Field=0
+Depth Of Field Focal Point=2
+Version=2
+Box Folding=0
+ABS Box Folding=0
+Min Box Folding=1
+Max Box Folding=2
+Sphere Folding=0
+Min Sphere Folding=0.5
+Max Sphere Folding=1
+[Hybrids]
+Enabled=1
+Hybrid 1 Formula=0
+Hybrid 1 Variation=40
+Hybrid 1 Power=9
+Hybrid 2 Formula=0
+Hybrid 2 Variation=7
+Hybrid 2 Power=2
+Hybrid 3 Enabled=0
+Hybrid 3 Formula=0
+Hybrid 3 Variation=0
+Hybrid 3 Power=8
+Hybrid 4 Enabled=0
+Hybrid 4 Formula=0
+Hybrid 4 Variation=0
+Hybrid 4 Power=8

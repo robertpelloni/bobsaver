@@ -1,0 +1,24 @@
+{
+    "framework": "pytorch",
+    "task": "video-to-video",
+    "model": {
+        "type": "video-to-video-model",
+        "model_args": {
+            "ckpt_clip": "open_clip_pytorch_model.bin",
+            "ckpt_unet": "non_ema_0035000.pth",
+            "ckpt_autoencoder": "v2-1_512-ema-pruned.ckpt",
+            "seed": 898919257,
+	    "solver_mode": "fast"
+        },
+        "model_cfg": {
+	    "batch_size": 1,
+            "target_fps": 8,
+            "max_frames": 64,
+            "latent_hei": 90,
+            "latent_wid": 160
+        }
+    },
+    "pipeline": {
+        "type": "video-to-video-pipeline"
+    }
+}

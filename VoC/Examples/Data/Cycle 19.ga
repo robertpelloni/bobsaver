@@ -1,0 +1,15 @@
+[GA Rule]
+Rule=ayb
+[Image Options]
+Palette File=GAUCHE.MAP
+Smooth Colors=0
+Random Offsets=1
+Overlay Mode=0
+Coordinate Width=10
+[Gene Character Offsets]
+Xoffset1=1
+Yoffset1=-2
+Xoffset2=15
+Yoffset2=7
+Xoffset3=-10
+Yoffset3=9

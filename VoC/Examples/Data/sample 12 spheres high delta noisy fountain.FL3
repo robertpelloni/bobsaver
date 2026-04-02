@@ -1,0 +1,24 @@
+[Settings]
+Delta Time=0.5
+Diffusion=0
+Viscosity=0
+Iterations=10
+Grid Size=150
+Grid Slice=0
+Object Size=0.75
+Cell Shape=1
+Hide Velocity Threshold=0.01
+Color Method=1
+Starting Configuration=0
+Billboard Alpha=0.25
+Strip Billboard Internal=1
+Vorticity Confinement=1
+Color palette=fluid fire 2.MAP
+[Source]
+Velocity From=10
+Velocity To=10
+Density From=200
+Density To=200
+Radius=3
+Stop Flow After=0
+Shape=0

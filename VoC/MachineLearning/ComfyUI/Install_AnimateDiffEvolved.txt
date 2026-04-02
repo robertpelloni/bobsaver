@@ -1,0 +1,17 @@
+ComfyUI\models\animatediff_models\mm_sd_v14.ckpt	1672133921	https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v14.ckpt	3b77a381dbc275f0a811a10cc5716dda
+ComfyUI\models\animatediff_models\mm_sd_v15_v2.ckpt	1817888431	https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15_v2.ckpt	52ed8a4d2f0cf64c8d85f04bc8e38c1e
+ComfyUI\models\animatediff_models\temporaldiff-v1-animatediff.ckpt	1672150863	https://huggingface.co/CiaraRowles/TemporalDiff/resolve/main/temporaldiff-v1-animatediff.ckpt	917487377922b3ec87b5f079d9b37c1a
+ComfyUI\models\checkpoints\cardosAnime_v20.safetensors	2132625431	https://huggingface.co/autismanon/modeldump/resolve/d33c452486ebd6ffc282212fc9db635e58e11917/cardosAnime_v20.safetensors	7d45a4b8e67f903ddeef611adf51c953
+ComfyUI\models\checkpoints\epicphotogasm_v1.safetensors	2132625628	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/epicphotogasm_ultimateFidelity.safetensors	442a1275536b9aa8d8fb7eb33934df47
+ComfyUI\models\controlnet\control_v11p_sd15_lineart.pth	1445235365	https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_lineart.pth	3793b1db0fb3dff42da3e112907ef05f
+ComfyUI\models\controlnet\control_v11p_sd15_openpose.pth	1445235707	https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose.pth	74f37164fb7492d5aad30ae8ebf5c73d
+ComfyUI\models\loras\Van Gogh Style_vg.safetensors	151112227	https://civitai.com/api/download/models/107976	7e75a75048428929560b33c91e4c1377
+ComfyUI\models\animatediff_motion_lora\v2_lora_PanLeft.ckpt	77474499	https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_PanLeft.ckpt	47a578aecb7a6bdd39c4b4400c2106d7
+ComfyUI\models\animatediff_motion_lora\v2_lora_PanRight.ckpt	77474499	https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_PanRight.ckpt	5377d714ffc20b633fe7e3e862fcfa62
+ComfyUI\models\animatediff_motion_lora\v2_lora_RollingAnticlockwise.ckpt	77474499	https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_RollingAnticlockwise.ckpt	4d4f7ee0a797f0f0bfeaea98a4559e36
+ComfyUI\models\animatediff_motion_lora\v2_lora_RollingClockwise.ckpt	77474499	https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_RollingClockwise.ckpt	c3432498971efab3b9052ea62cf43178
+ComfyUI\models\animatediff_motion_lora\v2_lora_TiltDown.ckpt	77474499	https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_TiltDown.ckpt	41137d0eee72e757294befa29fe5e572
+ComfyUI\models\animatediff_motion_lora\v2_lora_TiltUp.ckpt	77474499	https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_TiltUp.ckpt	834d76caadfc7eac541bec87cf89e795
+ComfyUI\models\animatediff_motion_lora\v2_lora_ZoomIn.ckpt	77474499	https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_ZoomIn.ckpt	c8f5faadfd9dd6a25efb6a8c153266f7
+ComfyUI\models\animatediff_motion_lora\v2_lora_ZoomOut.ckpt	77474499	https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_ZoomOut.ckpt	1993c26660c1512eb2508307b55f3b5e
+ComfyUI\models\vae\vae-ft-mse-840000-ema-pruned.safetensors	334641190	https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors	418949762c3f321f2927e590e255f63c

@@ -1,0 +1,30 @@
+[Settings]
+Rule 0 Left=1
+Rule 0 Black=1
+Rule 0 Right=0
+Rule 1 Left=0
+Rule 1 Black=1
+Rule 1 Right=1
+Rule 2 Left=1
+Rule 2 Black=1
+Rule 2 Right=0
+Rule 3 Left=0
+Rule 3 Black=0
+Rule 3 Right=1
+Rule 4 Left=0
+Rule 4 Black=0
+Rule 4 Right=1
+Rule 5 Left=1
+Rule 5 Black=0
+Rule 5 Right=0
+Rule 6 Left=0
+Rule 6 Black=0
+Rule 6 Right=1
+Rule 7 Left=0
+Rule 7 Black=0
+Rule 7 Right=1
+[Colors]
+Background=clWhite
+State 1=clBlack
+Active Background=$008080FF
+Active State 1=clRed

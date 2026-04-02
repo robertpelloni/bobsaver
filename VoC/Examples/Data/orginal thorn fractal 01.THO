@@ -1,0 +1,11 @@
+[Settings]
+xmin=-3.14159265358979
+xmax=3.14159265358979
+ymin=-3.14159265358979
+ymax=3.15159265358979
+Color Palette=C:\CODE\DELPHI2010\CHAOS\PALETTES\Flame 451_040222-09.map
+CX=0.1
+CY=-0.1
+Iterations=255
+Palette Scaling=1
+Variation=0

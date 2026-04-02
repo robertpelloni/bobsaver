@@ -1,0 +1,13 @@
+[Settings]
+Formula=(((x-1.2)-floor((x-ceil(9))))%((pi*abs(x))*int((y-sqr(x)))))
+Color Palette=sgg071.map
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((((y/pi)-round((y*pi)))+((x*frac(4.5))+round((2.2/log2(x)))))%((y*pi)*(y%pi)))
+Gene1=(((x+1.9)/exp((x+7.1)))%cos(((pi*(y%3.9))-exp(((4.7%y)*abs((0.7%x)))))))
+Gene2=((pi-(pi-y))%cos((4.2+(y/ln(pi)))))
+Gene3=((pi%(pi%sqrt(2)))+tan((y%8.8)))
+Gene4=(((x-1.2)-floor((x-ceil(9))))%((pi*abs(x))*int((y-sqr(x)))))

@@ -1,0 +1,9 @@
+[Settings]
+Formula=((((0.3-arctan(y))-(pi/log2(9.7)))%((y*pi)+(x*sin(y))))*(((0.3-arctan(y))%(pi*log2(9.7)))%((y*pi)/(x-sin(y)))))
+Color Palette=kuler winter.MAP
+[Gene Pool]
+Gene0=((((0.3-arctan(y))-(pi/log2(9.7)))%((y*pi)+(x*sin(y))))*(((0.3-arctan(y))%(pi*log2(9.7)))%((y*pi)/(x-sin(y)))))
+Gene1=((((0.4-arctan(y))-(pi/log2(9.7)))%((y*pi)+(x*sin(y))))*(((0.3-arctan(y))%(pi*log2(9.7)))%((y*pi)/(x-sin(y)))))
+Gene2=((((0.5-arctan(y))-(pi/log2(9.7)))%((y*pi)+(x*sin(y))))*(((0.3-arctan(y))%(pi*log2(9.7)))%((y*pi)/(x-sin(y)))))
+Gene3=((((0.6-arctan(y))-(pi/log2(9.7)))%((y*pi)+(x*sin(y))))*(((0.3-arctan(y))%(pi*log2(9.7)))%((y*pi)/(x-sin(y)))))
+Gene4=((((0.7-arctan(y))-(pi/log2(9.7)))%((y*pi)+(x*sin(y))))*(((0.3-arctan(y))%(pi*log2(9.7)))%((y*pi)/(x-sin(y)))))

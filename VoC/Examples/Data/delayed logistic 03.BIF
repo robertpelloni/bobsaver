@@ -1,0 +1,10 @@
+[Settings]
+Formula=2
+Xmin=2.22902231402969
+Xmax=2.22980020676875
+Ymin=0.352107348148148
+Ymax=0.354903407407407
+Iterations=5000000
+Skip Iterations=100
+Background Color=clBlack
+Palette=RAINBOW4.MAP

@@ -1,0 +1,25 @@
+[Settings]
+Formula=((((0.4/sgn(3.7))+((1.9+arctan(pi))+cos((x-sin(y)))))%(((x+8.3)-(pi+y))%((1.9+arctan(pi))+cos((x-sin(y))))))%((5.4/sgn(1))%((1.9+arctan(pi))+cos((x-sin(y))))))
+Color Palette=Gray Scale 1.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((y-int(y))+(x-floor(x)))
+Gene1=((0.4/sgn(3.7))%sin((y/x)))
+Gene2=(((x%pi)%(pi-arctan(y)))*((0.2*6.7)%log((pi+floor(pi)))))
+Gene3=((0.4/sgn(1.1))-arctan((y/x)))
+Gene4=(((x+8.3)-(pi+y))%((1.9+arctan(pi))+cos((x-sin(y)))))
+Gene5=((0.4/sgn(3.7))+((1.9+arctan(pi))+cos((x-sin(y)))))
+Gene6=(((0.4/sgn(3.7))+((1.9+arctan(pi))+cos((x-sin(y)))))-((0.4/sgn(1.1))-arctan((y/x))))
+Gene7=(((0.4/sgn(1.1))-arctan((y/x)))-((0.4/sgn(3.7))+((1.9+arctan(pi))+cos((x-sin(y))))))
+Gene8=((5.4/sgn(1))%((1.9+arctan(pi))+cos((x-sin(y)))))
+Gene9=(((5.4/sgn(1))%((1.9+arctan(pi))+cos((x-sin(y)))))*(((x+8.3)-(pi+y))%((1.9+arctan(pi))+cos((x-sin(y))))))
+Gene10=(((0.4/sgn(3.7))+((1.9+arctan(pi))+cos((x-sin(y)))))-((5.4/sgn(1))%((1.9+arctan(pi))+cos((x-sin(y))))))
+Gene11=(((0.4/sgn(3.7))+((1.9+arctan(pi))+cos((x-sin(y)))))%(((x+8.3)-(pi+y))%((1.9+arctan(pi))+cos((x-sin(y))))))
+Gene12=(((5.4/sgn(1))%((1.9+arctan(pi))+cos((x-sin(y)))))%((5.4/sgn(1))%((1.9+arctan(pi))+cos((x-sin(y))))))
+Gene13=((((0.4/sgn(3.7))+((1.9+arctan(pi))+cos((x-sin(y)))))%(((x+8.3)-(pi+y))%((1.9+arctan(pi))+cos((x-sin(y))))))%(((0.4/sgn(3.7))+((1.9+arctan(pi))+cos((x-sin(y)))))-((5.4/sgn(1))%((1.9+arctan(pi))+cos((x-sin(y)))))))
+Gene14=((((0.4/sgn(3.4))+((1.9+arctan(pi))+cos((x-sin(y)))))%(((x+4.5)-(pi+y))%((1.9+arctan(pi))+cos((x-sin(y))))))-(((5.2/sgn(3.7))+((2.4+sgn(pi))+cos((x-sin(y)))))-((5.4/sgn(1))%((6.8+arctan(pi))+cos((x-sin(y)))))))
+Gene15=(((0.4/sgn(3.7))+((1.9+arctan(y))+cos((x-sin(y)))))+(((x+0.5)-(pi+y))%((1.3+tan(pi))+cos((x-sin(y))))))
+Gene16=((((5.4/sgn(1))%((1.9+arctan(pi))+cos((x-sin(y)))))%((5.4/sgn(1))%((1.9+arctan(pi))+cos((x-sin(y))))))*((((0.4/sgn(3.7))+((1.9+arctan(pi))+cos((x-sin(y)))))%(((x+8.3)-(pi+y))%((1.9+arctan(pi))+cos((x-sin(y))))))%(((0.4/sgn(3.7))+((1.9+arctan(pi))+cos((x-sin(y)))))-((5.4/sgn(1))%((1.9+arctan(pi))+cos((x-sin(y))))))))

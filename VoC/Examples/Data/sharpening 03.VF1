@@ -1,0 +1,37 @@
+[Settings]
+Layers=2
+Rotation=210
+Zoom=1
+Brightness=70
+Contrast=0
+Noise=40
+Color Noise=1
+Blend Mode=0
+Interlacing=0
+Invert=0
+Zoom Style=5
+X Offset=-2
+Y Offset=0
+Blurring Radius=2
+Sharpening=26
+Seamless Tile=0
+Mirror Image=0
+Mirror Type=2
+Brush Mode=1
+Brush File=vfbrush06 single pixel.bmp
+Auto Inject=1
+Auto Inject Frames=2
+Auto Inject Style=0
+Color=100
+[Effects Order]
+0=Brightness
+1=Offset
+2=Contrast
+3=Seamless Tile
+4=Mirror
+5=Noise
+6=Color
+7=Blur
+8=Sharpen
+9=Invert
+10=Warp

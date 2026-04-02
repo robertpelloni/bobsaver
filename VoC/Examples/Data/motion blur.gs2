@@ -1,0 +1,50 @@
+[Coordinates]
+Xmin=-12.5
+Xmax=12.5
+Ymin=-12.7777777777778
+Ymax=12.7777777777778
+[Stars]
+How Many=10
+Patern=1
+[Star Settings]
+Star 1 X=0
+Star 1 Y=-100
+Star 1 Mass=100000
+Star 2 X=58
+Star 2 Y=-80
+Star 2 Mass=100000
+Star 3 X=95
+Star 3 Y=-30
+Star 3 Mass=100000
+Star 4 X=95
+Star 4 Y=30
+Star 4 Mass=100000
+Star 5 X=58
+Star 5 Y=80
+Star 5 Mass=100000
+Star 6 X=0
+Star 6 Y=100
+Star 6 Mass=100000
+Star 7 X=-58
+Star 7 Y=80
+Star 7 Mass=100000
+Star 8 X=-95
+Star 8 Y=30
+Star 8 Mass=100000
+Star 9 X=-95
+Star 9 Y=-30
+Star 9 Mass=100000
+Star 10 X=-58
+Star 10 Y=-80
+Star 10 Mass=100000
+[Orbit]
+X Velocity=0
+Y Velocity=0
+[Globals]
+Gravity Constant=0.9
+Delta Time=0.05
+Escape Velocity=100
+Escape Radius=100
+Iterations=256
+[Settings]
+Palette=sinpal25.MAP

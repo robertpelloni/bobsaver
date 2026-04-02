@@ -1,0 +1,26 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.42.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.27.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.37.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts kornia==0.7.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts insightface==0.7.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.9.0.80
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.66.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts matplotlib==3.8.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts webdataset==0.2.86
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wandb==0.16.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts munch==4.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts onnxruntime==1.17.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.7.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts onnx2torch==1.5.13
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ipython==8.21.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/huggingface/diffusers.git
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git@6b5e8953a80aef5b324104dc0c2e9b8c34d622bd
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/pabloppp/pytorch-tools@41073efb6d6eb57e4a4f658591fa5dbcefebd447
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts color_matcher==0.5.0
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.1.2+cu118 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4

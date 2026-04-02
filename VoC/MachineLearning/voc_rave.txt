@@ -1,0 +1,44 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.42.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts setuptools==69.0.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.25.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts basicsr==1.4.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts diffusers==0.18.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.7.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==4.8.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio==2.33.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts matplotlib==3.8.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts mmdet==3.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts mmpose==1.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts omegaconf==2.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv_python==4.8.1.78
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts openvino==2023.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pandas==2.1.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts Pillow==10.1.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts prettytable==3.9.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pytorch_lightning==2.1.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts PyYAML==6.0.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts safetensors==0.4.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy==1.11.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scikit-image==0.22.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts timm==0.6.7
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch_tb_profiler==0.4.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.66.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.35.2
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.21
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.30
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y charset-normalizer
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts charset-normalizer==3.3.2
+pip uninstall -y typing_extensions
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts typing_extensions==4.8.0
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0
+pip uninstall -y pydantic
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pydantic==2.10.6
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts triton-windows==3.5.0.post21

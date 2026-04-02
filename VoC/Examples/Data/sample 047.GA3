@@ -1,0 +1,15 @@
+[Settings]
+Formula=(((x+sin(x))%(6.2/y))+(y%x))
+Color Palette=Genetic08.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((x+sin(x))%(6.2/y))
+Gene1=((y-sgn(pi))/(4.1-cos(x)))
+Gene2=((y-floor(9.9))+(y%x))
+Gene3=((pi-x)*(y+x))
+Gene4=(((x-sqr(y))-(y+pi))%((6.6+frac(3.8))/abs((x/3.5))))
+Gene5=(((x+sin(x))%(6.2/y))*((y-floor(9.9))+(y%x)))
+Gene6=(((x+sin(x))%(6.2/y))+(y%x))

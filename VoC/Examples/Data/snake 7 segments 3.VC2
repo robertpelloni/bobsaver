@@ -1,0 +1,131 @@
+[Settings]
+Segments=7
+[Body0]
+Size X=3
+Size Y=0.493162198923528
+Size Z=0.946104279044084
+Tranform X=-5
+Tranform Y=6
+Tranform Z=0
+Restitution=0.3
+Density=1
+[Body1]
+Size X=5
+Size Y=0.190447782306001
+Size Z=0.299158516270109
+Tranform X=-1
+Tranform Y=6
+Tranform Z=0
+Restitution=0.3
+Density=1
+[Body2]
+Size X=2
+Size Y=0.406084128189832
+Size Z=1.41560395879205
+Tranform X=2.5
+Tranform Y=6
+Tranform Z=0
+Restitution=0.3
+Density=1
+[Body3]
+Size X=1
+Size Y=0.209997745836154
+Size Z=1.62682938112412
+Tranform X=4
+Tranform Y=6
+Tranform Z=0
+Restitution=0.3
+Density=1
+[Body4]
+Size X=2
+Size Y=0.172610888257623
+Size Z=0.305987984011881
+Tranform X=5.5
+Tranform Y=6
+Tranform Z=0
+Restitution=0.3
+Density=1
+[Body5]
+Size X=4
+Size Y=0.248467917880043
+Size Z=1.65525573336054
+Tranform X=8.5
+Tranform Y=6
+Tranform Z=0
+Restitution=0.3
+Density=1
+[Body6]
+Size X=1
+Size Y=0.188378823082894
+Size Z=1.22518045844045
+Tranform X=11
+Tranform Y=6
+Tranform Z=0
+Restitution=0.3
+Density=1
+[Joint0]
+Position X=-3.5
+Position Y=6
+Position Z=0
+Rotation Axis X=0.955814459361136
+Rotation Axis Y=0.837552560027689
+Rotation Axis Z=-0.792036946862936
+Parent 1=0
+Parent 2=1
+Speed=0.780254999408498
+Torque=-5.46297446032986
+[Joint1]
+Position X=1.5
+Position Y=6
+Position Z=0
+Rotation Axis X=-0.484322723466903
+Rotation Axis Y=-0.809626026079059
+Rotation Axis Z=0.109235669020563
+Parent 1=1
+Parent 2=2
+Speed=0.550422670785338
+Torque=-5.74362617707811
+[Joint2]
+Position X=3.5
+Position Y=6
+Position Z=0
+Rotation Axis X=0.833513855934143
+Rotation Axis Y=-0.419710993301123
+Rotation Axis Z=-0.347196456976235
+Parent 1=2
+Parent 2=3
+Speed=0.120154209202155
+Torque=-2.15296292584389
+[Joint3]
+Position X=4.5
+Position Y=6
+Position Z=0
+Rotation Axis X=-0.72421216359362
+Rotation Axis Y=0.86718085501343
+Rotation Axis Z=0.752470170613378
+Parent 1=3
+Parent 2=4
+Speed=0.00133338384330273
+Torque=-5.45761094917543
+[Joint4]
+Position X=6.5
+Position Y=6
+Position Z=0
+Rotation Axis X=0.885128228925169
+Rotation Axis Y=0.662639703135937
+Rotation Axis Z=0.716224620118737
+Parent 1=4
+Parent 2=5
+Speed=0.233559482963756
+Torque=-2.00149913923815
+[Joint5]
+Position X=10.5
+Position Y=6
+Position Z=0
+Rotation Axis X=-0.716151310596615
+Rotation Axis Y=0.883325688540936
+Rotation Axis Z=-0.183110631536692
+Parent 1=5
+Parent 2=6
+Speed=0.382849422749132
+Torque=-2.03797474759631

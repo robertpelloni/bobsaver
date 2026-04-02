@@ -1,0 +1,14 @@
+[Settings]
+Attractor Name=Mira
+Palette=RAINBOW4.MAP
+Brightness=100
+Contrast=0
+A=0.32
+B=1.0
+Start X=5
+Start Y=3
+[Coordinates]
+Xmin=-21.475
+Xmax=24.425
+Ymin=-13.325625
+Ymax=13.325625

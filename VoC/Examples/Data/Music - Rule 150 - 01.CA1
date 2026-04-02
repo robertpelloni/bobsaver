@@ -1,0 +1,14 @@
+[Settings]
+Rule=150
+Initial Style=1
+Alive Color=clBlack
+Dead Color=clWhite
+[Music]
+Active=1
+Note Delay=200
+Scale Type=16
+Instrument=80
+Octave=5
+Offset=0
+Highlight Color=$000080FF
+BPM=280

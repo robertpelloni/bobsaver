@@ -1,0 +1,59 @@
+[Eye]
+X=0
+Y=0
+Z=1.1
+[Look At]
+X=0
+Y=0
+Z=0.1
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=57
+[Light]
+X=-5.52425997857265
+Y=-6.58850907530234
+Z=-2.51477630293416
+[Rotation]
+X=271
+Y=240
+Z=155
+[Settings]
+Iterations=5
+Epsilon=0.0001
+Power=3
+Gamma=0
+Contrast=0
+Shading=1
+Formula=3
+Bailout=4
+Palette=kuler cold harbour.MAP
+Spikes=0
+Spikes Y Maximum=0.867325304308906
+Juliabulb=1
+Julia Real=-0.673013483701533
+Julia Imaginary=0.0394555741221786
+Julia Imaginary 2=-0.139001655392349
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=clYellow
+Glow Threshold=150
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.4
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=1
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Phase=0
+Theta Scale=1
+Phi Scale=1

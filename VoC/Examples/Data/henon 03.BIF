@@ -1,0 +1,10 @@
+[Settings]
+Formula=1
+Xmin=1.3027912625
+Xmax=1.3154822625
+Ymin=-0.0832685555555556
+Ymax=-0.074141888888889
+Iterations=5000000
+Skip Iterations=100
+Background Color=clBlack
+Palette=Flame 549_Etomchek-040328-006.map

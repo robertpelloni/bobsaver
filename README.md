@@ -14,8 +14,11 @@ For more details, see [VISION.md](VISION.md).
 - **MilkDrop / projectM**: High-performance music visualization via native FFM bindings.
 - **Electric Sheep**: Distributed fractal flame rendering client.
 - **Visions of Chaos (Assimilation In Progress)**:
-  - **Cellular Automata Engine**: 1D/2D/3D simulations (Game of Life, Hodgepodge, Cyclic CA, Turing Patterns).
-  - **Fluid Dynamics**: Lattice Boltzmann Method (LBM) D2Q9 solver.
+  - **Machine Learning**: Local AI models for image, video, and audio generation (Stable Diffusion, MusicGen).
+  - **Cellular Automata Engine**: 1D through 5D simulations (Game of Life, Hodgepodge, Cyclic CA, Turing Patterns).
+  - **Agent-Based Modeling**: Boids flocking, Physarum slime mold, and Particle Life.
+  - **Fluid Dynamics**: Lattice Boltzmann Method (LBM) and SPH solvers.
+  - **3D Visualization Hub**: High-quality export for professional rendering (Blender, Cinema 4D).
 - **Apophysis-J**: Legacy fractal flame math integrated at the source level.
 
 ## 📂 Project Structure

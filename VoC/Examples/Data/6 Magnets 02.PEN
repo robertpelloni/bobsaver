@@ -1,0 +1,18 @@
+[Settings]
+Friction=0.97
+Magnetic Strength=1
+Gravity=0.1
+Ball Distance=0.25
+Pendulum Mass=50
+Iterations=50
+Num Magnets=4
+Xmin=0.876773696397375
+Xmax=1.66389297026929
+Ymin=-1.33193568294419
+Ymax=-0.825227650389143
+Magnet 1 Color=clRed
+Magnet 2 Color=clBlue
+Magnet 3 Color=clYellow
+Magnet 4 Color=clLime
+Magnet 5 Color=$000080FF
+Magnet 6 Color=clPurple

@@ -1,0 +1,11 @@
+[Settings]
+Min Neighbors=3
+Diagonal Neighbors=1
+Display Style=1
+Grid Size=1000
+Palette Shading=1
+Ambient Occlusion=1
+Ambient Occlusion Radius=5
+Color Palette=kuler warm green.MAP
+Particle Color=clWhite
+Hits Per Stick=10

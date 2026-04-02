@@ -1,0 +1,12 @@
+[Settings]
+Formula=8
+Root Finding Method=4
+Palette Step Amount=4
+Genralized Newton Factor=1
+Genralized Newton I=0
+Coloring=2
+Palette=image frequency sydney dust storm.MAP
+Xmin=-0.0957823749999995
+Xmax=0.0958823750000006
+Ymin=-3.91935525
+Ymax=-3.72491275

@@ -1,0 +1,13 @@
+[Settings]
+Sense Angle=168
+Sense Distance=3.440
+Turn Angle=71
+Move Speed=1.650
+Deposit Amount=0.245
+Eat Amount=0
+Evaporation Rate=0.024
+Blur Radius=5
+Show Trails=1
+Trail Shading=0
+Show Particles=0
+Palette=GAMMA1.MAP

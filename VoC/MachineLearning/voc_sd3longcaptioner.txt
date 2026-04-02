@@ -1,0 +1,15 @@
+python -m pip install --upgrade pip==24.3.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.43.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts requests==2.32.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pillow==10.4.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.42.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts timm==1.0.7
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts https://softology.pro/wheels/flash_attn-2.5.9.post1+cu122torch2.3.0cxx11abiFALSE-cp310-cp310-win_amd64.whl
+pip install https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/flash_attn-2.7.4.post1-cp310-cp310-win_amd64.whl
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.8.0
+pip uninstall -y torch
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.3.0+cu121 torchvision --index-url https://download.pytorch.org/whl/cu121
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

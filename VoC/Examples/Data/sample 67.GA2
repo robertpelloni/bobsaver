@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos((y*x*0.2)-abs((x)-cos(y)-cos(x-y-4.9)-cos((pi))))
+Palette=colorschemer bearded iris.MAP
+Xmin=-14.6716956018519
+Xmax=14.9482711226852
+Ymin=-14.760219478738
+Ymax=15.7503703703704

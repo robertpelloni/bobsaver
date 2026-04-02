@@ -1,0 +1,30 @@
+[Settings]
+Input Phrase=a highly detailed matte painting of a cyberpunk city at dusk
+Script=Disco Diffusion *
+Random seed=2001409793
+Iterations=250
+[Disco Diffusion]
+Guidance Scale=5000
+TV Scale=150
+Range Scale=150
+Saturation Scale Scale=0
+Cutouts=40
+Cutout Batches=1
+Use Checkpoints=1
+256 Model=0
+ddim=1
+CLIP Denoised=0
+Model 1=1
+Model 2=1
+Model 3=1
+Model 4=0
+Model 5=1
+Model 6=0
+Model 7=0
+Model 8=0
+Use Augs=0
+Seed Image=
+Seed Image Init Scale=1000
+Seed Image SkipTimesteps=100
+Dango=1
+ETA=0.5

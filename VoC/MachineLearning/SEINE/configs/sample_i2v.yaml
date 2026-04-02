@@ -1,0 +1,27 @@
+﻿# path config:
+ckpt: "pretrained/seine.pt"
+pretrained_model_path: "pretrained/stable-diffusion-v1-4/"
+input_path: "D:\\cute monster.png"
+save_path: "D:\\VoC_Output\\Movies\\SEINE\\"
+
+# model config: 
+model: UNet
+num_frames: 16
+image_size: [320, 512]
+
+# model speedup
+use_fp16: True
+enable_xformers_memory_efficient_attention: True
+
+# sample config:
+seed: 729267113
+run_time: 13
+cfg_scale: 8.0
+sample_method: 'ddpm'
+num_sampling_steps: 250
+text_prompt: [Shrek eating pizza while riding a bicycle in his swamp]
+additional_prompt: ", slow motion."
+negative_prompt: ""
+do_classifier_free_guidance: True
+mask_type: "first1"
+use_mask: True

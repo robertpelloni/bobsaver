@@ -1,0 +1,22 @@
+[Settings]
+model=SG161222/RealVisXL_V4.0
+interpolation=slerp
+num_interpolation_steps=100
+num_inference_steps=50
+guidance_scale=1.0
+resolution=1024x1024
+randomseed=0
+lora=Oil Painting_art by sargent.safetensors
+loraweight=0.3
+headprompt=
+tailprompt=art by sargent
+lora2=
+loraweight2=0.5
+lora3=
+loraweight3=0.5
+[Prompts]
+Line0=a rose|0
+Line1=a gerbera|100
+Line2=a daffodil|100
+Line3=a daisy|100
+Line4=a tulip|100

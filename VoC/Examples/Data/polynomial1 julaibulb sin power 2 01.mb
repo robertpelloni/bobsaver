@@ -1,0 +1,61 @@
+[Eye]
+X=0.3
+Y=0.5
+Z=0.7
+[Look At]
+X=0.3
+Y=0.5
+Z=-0.3
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=60
+[Light]
+X=0
+Y=-3
+Z=-10
+[Rotation]
+X=140
+Y=0
+Z=90
+[Settings]
+Iterations=8
+Epsilon=0.0003
+Power=2
+Gamma=0
+Contrast=0
+Shading=0
+Formula=1
+Formula Variation=0
+Bailout=4
+Palette=kuler chic glow.MAP
+Spikes=0
+Spikes Y Maximum=0.579571049194783
+Juliabulb=1
+Julia Real=0.253308083284832
+Julia Imaginary=0.000349697726353161
+Julia Imaginary 2=0.308303281664848
+Shadows=1
+Specularity=0.45
+Glow Effect=1
+Glow Color=clYellow
+Glow Threshold=500
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=0
+Ambient Occlusion Min Orbit=0
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=1
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Phase=0.000591375399380922
+Theta Scale=1
+Phi Scale=1
+Scalar Distance Estimation=1

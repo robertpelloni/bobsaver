@@ -1,0 +1,143 @@
+[Eye]
+X=-5.54975987041018E-19
+Y=0.1
+Z=0.4
+[Look At]
+X=0.17364817766693
+Y=0.1
+Z=-0.584807753012208
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=60
+[Light]
+On=1
+X=-4.19444789706511
+Y=-6.66098736240395
+Z=-2.00944126480495
+Color=$00423498
+Intensity=2
+[Light 2]
+On=1
+X=-3.29558293649568
+Y=-5.4005731507428
+Z=-5.09636564152872
+Color=$007795D0
+Intensity=3
+[Light 3]
+On=0
+X=4.20154868540623
+Y=1.62033576663377
+Z=6.76176756828631
+Color=$000EB13A
+Intensity=3
+[Light 4]
+On=0
+X=-0.92581051206359
+Y=-7.79911232457846
+Z=2.07767221773815
+Color=$002A68C5
+Intensity=2
+[Light 5]
+On=1
+X=-5.98114511061349
+Y=-5.38538490122655
+Z=-1.10613409287728
+Color=$0072C7D9
+Intensity=3
+[Light 6]
+On=0
+X=4.47678283967033
+Y=6.77301766582869
+Z=0.290941755005614
+Color=$00218D30
+Intensity=3
+[Rotation]
+X=90
+Y=0
+Z=0
+[Settings]
+Iterations=8
+Epsilon=0.000001
+DE Scale Factor=0.5
+Power=8
+Gamma=0
+Contrast=0
+Shading=3
+Formula=0
+Formula Variation=9
+Bailout=4
+Palette=kuler drholwegneu.MAP
+Spikes=0
+Spikes Y Maximum=0.5
+Juliabulb=0
+Julia Real=0
+Julia Imaginary=0
+Julia Imaginary 2=0
+Shadows=1
+Shadow Intensity=60
+Specularity Amount=200
+Show Specularity=1
+Glow Effect=0
+Glow Color=clYellow
+Glow Threshold=335
+Outside Glow=0
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.2
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Ambient Amount=0.3
+Phase=0.978157230187207
+Theta Scale=1
+Phi Scale=1
+Kaleidoscope Rotation 1 X=0
+Kaleidoscope Rotation 1 Y=-20
+Kaleidoscope Rotation 1 Z=0
+Kaleidoscope Rotation 2 X=28
+Kaleidoscope Rotation 2 Y=9
+Kaleidoscope Rotation 2 Z=0
+Kaleidoscope Center X=1
+Kaleidoscope Center Y=1
+Kaleidoscope Center Z=0
+Kaleidoscope Fold Style=8
+Kaleidoscope Z Wrap=0
+Kaleidoscope Normailze C=0
+Kaleidoscope Rotate Around Origin=0
+Kaleidoscope Pre Rotate=1
+Fog=0
+Fog Color=clSilver
+Fog Cutoff=0.5
+Depth Of Field=0
+Depth Of Field Focal Point=0.01
+Version=2
+Box Folding=0
+Min Box Folding=1
+Max Box Folding=2
+Sphere Folding=0
+Min Sphere Folding=0.5
+Max Sphere Folding=1
+[Hybrids]
+Enabled=1
+Hybrid 1 Formula=0
+Hybrid 1 Variation=55
+Hybrid 1 Power=6
+Hybrid 2 Formula=0
+Hybrid 2 Variation=41
+Hybrid 2 Power=4
+Hybrid 3 Enabled=0
+Hybrid 3 Formula=0
+Hybrid 3 Variation=14
+Hybrid 3 Power=9
+Hybrid 4 Enabled=1
+Hybrid 4 Formula=0
+Hybrid 4 Variation=21
+Hybrid 4 Power=4

@@ -1,0 +1,14 @@
+[Settings]
+Attractor Name=Mira
+Palette=Movie Blue Velvet.MAP
+Brightness=100
+Contrast=0
+A=0.38
+B=1.0
+Start X=11
+Start Y=0.0
+[Coordinates]
+Xmin=-32
+Xmax=32
+Ymin=-18.54
+Ymax=18.54

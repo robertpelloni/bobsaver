@@ -1,0 +1,21 @@
+[Settings]
+Formula=(((pi-3.8)+cos(((4*round(x))-(5.5-int(y)))))-((pi%3.8)%abs(((3.3*tan(x))/tan((y-sin(x)))))))
+Color Palette=kuler lazy plethora.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(((8/2.6)-sgn((x/y)))/((3.8+3.5)/(pi-y)))
+Gene1=((y*pi)%abs(((3.3*tan(x))/tan((y-sin(x))))))
+Gene2=(((x*pi)-(8.2-cos(x)))%(y+1.6))
+Gene3=((pi-3.8)+cos(((4*round(x))*(5.5-int(y)))))
+Gene4=((pi-3.8)%cos(((4*round(x))*(5.5-int(y)))))
+Gene5=((pi-3.8)%abs(((3.3*tan(x))/tan((y-sin(x))))))
+Gene6=((pi-3.8)+cos(((4*round(x))*(5.5-int(y)))))
+Gene7=(((pi-3.8)+cos(((4*round(x))*(5.5-int(y)))))%((pi-3.8)%abs(((3.3*tan(x))/tan((y-sin(x)))))))
+Gene8=((((x*pi)-(8.2-cos(x)))%(y+1.6))-((pi-3.8)+cos(((4*round(x))*(5.5-int(y))))))
+Gene9=(((pi-3.8)%abs(((3.3*tan(x))/tan((y-sin(x))))))*(((pi-3.8)+cos(((4*round(x))*(5.5-int(y)))))%((pi-3.8)%abs(((3.3*tan(x))/tan((y-sin(x))))))))
+Gene10=((((pi*pi)-(8.2-cos(x)))%(y+1.6))*((pi*3.8)+cos(((4*round(x))*(5.5-int(x))))))
+Gene11=(((pi-3.8)+cos(((4*round(x))/(5.5-int(y)))))+((pi-3.8)%abs(((3.3*tan(x))/tan((y-sin(x)))))))
+Gene12=(((pi-3.8)+cos(((4*round(x))-(5.5-int(y)))))-((pi%3.8)%abs(((3.3*tan(x))/tan((y-sin(x)))))))

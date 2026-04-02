@@ -1,0 +1,7 @@
+[Settings]
+Formula=sin(((pi*pi))-tan(x/4.9)-round(((x+y*pi)+sin(y+x*pi)+frac(pi+pi))))
+Palette=kuler plumb purple.MAP
+Xmin=-5
+Xmax=5
+ymin=-5
+ymax=5

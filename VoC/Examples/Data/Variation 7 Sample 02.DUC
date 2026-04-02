@@ -1,0 +1,47 @@
+[Settings]
+Xmin=-7.4952380952381
+Xmax=9.13333333333333
+Ymin=-3.52161904761905
+Ymax=7.19038095238095
+CX=-0.203921568627451
+CY=0.45664824120603
+Power=1
+Maximum Iterations=35
+Color Scale Factor=59
+Color Palette=JACCO198.MAP
+Variation=19
+Symmetry=0
+Smooth Shading=1
+Julia Set Hybrid=0
+Kali Scale=1
+Kali Min Scale=0
+[Hybrids]
+Enable Hybrids=0
+Enable Hybrid 3=0
+Enable Hybrid 4=0
+Enable Hybrid 5=0
+Variation 1=0
+Symmetry 1=0
+Power 1=1
+Variation 2=0
+Symmetry 2=0
+Power 2=1
+Variation 3=0
+Symmetry 3=0
+Power 3=1
+Variation 4=0
+Symmetry 4=0
+Power 4=1
+Variation 5=0
+Symmetry 5=0
+Power 5=1
+[Orbit Traps]
+Style=0
+Palette Count=1
+Palette 1=fadeblue.MAP
+Palette 2=fadewhite.MAP
+Palette 3=fadered.MAP
+Palette 4=fadegreen.MAP
+Palette 5=fadeyellow.MAP
+Only Show Traps=0
+Perlin Shading=0

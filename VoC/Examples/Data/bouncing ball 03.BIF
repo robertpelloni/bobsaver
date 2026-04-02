@@ -1,0 +1,12 @@
+[Settings]
+Formula=3
+Xmin=0.695824373937075
+Xmax=0.697429439838435
+Ymin=-0.0440540444444444
+Ymax=-0.0408248888888889
+Iterations=500000
+Skip Iterations=100
+Color Display=0
+Background Color=clBlack
+Palette=image frequency fire.MAP
+Sample Pixels=4

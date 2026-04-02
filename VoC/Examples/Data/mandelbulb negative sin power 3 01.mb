@@ -1,0 +1,28 @@
+[Eye]
+X=0
+Y=0
+Z=1
+[Look At]
+X=0
+Y=0
+Z=0
+[Zoom]
+Zoom=1.3
+[Light]
+X=-2
+Y=-2
+Z=3
+[Rotation]
+X=0
+Y=0
+Z=0
+[Settings]
+Iterations=4
+Power=3
+Negative SIN=1
+Palette=FIRECOD2.MAP
+Shadows=1
+Supersample=1
+Supersample Pixels=0
+Brightness=35
+Bailout=4

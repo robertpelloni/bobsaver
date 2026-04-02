@@ -1,0 +1,13 @@
+[Settings]
+Sense Angle=133
+Sense Distance=3.690
+Turn Angle=26
+Move Speed=4.180
+Deposit Amount=0.742
+Eat Amount=0
+Evaporation Rate=0.176
+Blur Radius=1
+Show Trails=1
+Trail Shading=0
+Show Particles=0
+Palette=GreenLights.map

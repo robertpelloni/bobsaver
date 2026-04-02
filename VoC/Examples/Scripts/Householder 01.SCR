@@ -1,0 +1,25 @@
+Global Script Settings
+	Palette=image frequency clouds.MAP
+	Fractal Type=Newton
+	Formula=0
+	Coloring=2
+	Root Method=3
+	Palette Step=4
+Point 1
+	XMin=-4.9999
+	XMax=5
+	YMin=-4.9999
+	YMax=5
+	Newtona=2
+	Newtoni=-0.6
+	Iterations=1000
+	Tween Steps=0
+Point 2
+	XMin=-1.062439375
+	XMax=1.0312896875
+	YMin=-1.055495
+	YMax=1.055595
+	Newtona=2.1
+	Newtoni=0.6
+	Iterations=1000
+	Tween Steps=300

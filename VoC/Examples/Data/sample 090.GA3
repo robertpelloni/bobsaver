@@ -1,0 +1,30 @@
+[Settings]
+Formula=(((((((x-(4*arctan(x)))+(9-abs(y)))*(9-abs(y)))%(((pi+y)+sin((x-arctan(y))))*(9.9-abs(y))))%((((pi+y)+sin((x*arctan(y))))+(9-abs(y)))%((((pi+y)+sin((x*arctan(y))))+(9-abs(y)))-(((pi+y)+sin((x-arctan(y))))%(x-(5.1*arctan(y)))))))*((((x-(4*arctan(x)))+(9-abs(y)))*(9-abs(y)))%(((pi+y)+sin((x-arctan(y))))*(9.9-abs(y)))))%((((((x-(4*arctan(x)))+(9-abs(y)))*(9-abs(y)))%(((pi+y)+sin((x-arctan(y))))*(9.9-abs(y))))%((((pi+y)+sin((x*arctan(y))))+(9-abs(y)))%((((pi+y)+sin((x*arctan(y))))+(9-abs(y)))-(((pi+y)+sin((x-arctan(y))))%(x-(5.1*arctan(y)))))))+((((pi+y)+sin((x*int(y))))+(1.8-abs(y)))-(((pi+y)+sin((x-arctan(y))))%(x-(5.3*arctan(y)))))))
+Color Palette=IFS22.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((pi/round(3.7))/exp((y+pi)))
+Gene1=((y+sin(y))%x)
+Gene2=(9-abs(y))
+Gene3=(x-(4.2*arctan(x)))
+Gene4=(((pi+y)+sin((x-arctan(y))))%(x-(4.2*arctan(x))))
+Gene5=(((pi+y)+sin((x-arctan(y))))*(9-abs(y)))
+Gene6=((x-(4.2*arctan(x)))+(9-abs(y)))
+Gene7=(((x-(4.2*arctan(x)))+(9-abs(y)))*(9-abs(y)))
+Gene8=((((x-(4.2*arctan(x)))+(9-abs(y)))*(9-abs(y)))-(((pi+y)+sin((x-arctan(y))))*(9-abs(y))))
+Gene9=(((pi+y)+sin((x-arctan(y))))%(x-(5.1*arctan(y))))
+Gene10=(((pi+y)+sin((x*arctan(y))))+(9-abs(y)))
+Gene11=((((pi+y)+sin((x*arctan(y))))+(9-abs(y)))-(((pi+y)+sin((x-arctan(y))))%(x-(5.1*arctan(y)))))
+Gene12=((((pi+y)+sin((x-arctan(y))))%(x-(5.1*arctan(y))))-(((pi+y)+sin((x*arctan(y))))+(9-abs(y))))
+Gene13=((((x-(4*arctan(x)))+(9-abs(y)))*(9-abs(y)))%(((pi+y)+sin((x-arctan(y))))*(9.9-abs(y))))
+Gene14=((((pi+y)+sin((x-arctan(y))))%(x-(5.1*arctan(y))))/(x-(5.1*arctan(y))))
+Gene15=((((pi+y)+sin((x*arctan(y))))+(9-abs(y)))%((((pi+y)+sin((x*arctan(y))))+(9-abs(y)))-(((pi+y)+sin((x-arctan(y))))%(x-(5.1*arctan(y))))))
+Gene16=(((((x-(4*arctan(x)))+(9-abs(y)))*(9-abs(y)))%(((pi+y)+sin((x-arctan(y))))*(9.9-abs(y))))%((((pi+y)+sin((x*arctan(y))))+(9-abs(y)))%((((pi+y)+sin((x*arctan(y))))+(9-abs(y)))-(((pi+y)+sin((x-arctan(y))))%(x-(5.1*arctan(y)))))))
+Gene17=((((((x-(4*arctan(x)))+(9-abs(y)))*(9-abs(y)))%(((pi+y)+sin((x-arctan(y))))*(9.9-abs(y))))%((((pi+y)+sin((x*arctan(y))))+(9-abs(y)))%((((pi+y)+sin((x*arctan(y))))+(9-abs(y)))-(((pi+y)+sin((x-arctan(y))))%(x-(5.1*arctan(y)))))))*((((x-(4*arctan(x)))+(9-abs(y)))*(9-abs(y)))%(((pi+y)+sin((x-arctan(y))))*(9.9-abs(y)))))
+Gene18=((((x-(8.4*arctan(x)))+(9-abs(y)))*(9.1-abs(y)))%(((pi+y)+sin((x-arctan(y))))*(9.9-abs(y))))
+Gene19=((((pi+y)+sin((x*arctan(y))))+(9.1-abs(y)))*((((pi+y)+sin((x*int(y))))+(1.8-abs(y)))-(((pi+y)+sin((x-arctan(y))))%(x-(5.3*arctan(y))))))
+Gene20=((((((x-(4*arctan(x)))+(9-abs(y)))*(9-abs(y)))%(((pi+y)+sin((x-arctan(y))))*(9.9-abs(y))))%((((pi+y)+sin((x*arctan(y))))+(9-abs(y)))%((((pi+y)+sin((x*arctan(y))))+(9-abs(y)))-(((pi+y)+sin((x-arctan(y))))%(x-(5.1*arctan(y)))))))+((((pi+y)+sin((x*int(y))))+(1.8-abs(y)))-(((pi+y)+sin((x-arctan(y))))%(x-(5.3*arctan(y))))))
+Gene21=(((((((x-(4*arctan(x)))+(9-abs(y)))*(9-abs(y)))%(((pi+y)+sin((x-arctan(y))))*(9.9-abs(y))))%((((pi+y)+sin((x*arctan(y))))+(9-abs(y)))%((((pi+y)+sin((x*arctan(y))))+(9-abs(y)))-(((pi+y)+sin((x-arctan(y))))%(x-(5.1*arctan(y)))))))*((((x-(4*arctan(x)))+(9-abs(y)))*(9-abs(y)))%(((pi+y)+sin((x-arctan(y))))*(9.9-abs(y)))))%((((((x-(4*arctan(x)))+(9-abs(y)))*(9-abs(y)))%(((pi+y)+sin((x-arctan(y))))*(9.9-abs(y))))%((((pi+y)+sin((x*arctan(y))))+(9-abs(y)))%((((pi+y)+sin((x*arctan(y))))+(9-abs(y)))-(((pi+y)+sin((x-arctan(y))))%(x-(5.1*arctan(y)))))))+((((pi+y)+sin((x*int(y))))+(1.8-abs(y)))-(((pi+y)+sin((x-arctan(y))))%(x-(5.3*arctan(y)))))))

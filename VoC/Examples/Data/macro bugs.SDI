@@ -1,0 +1,21 @@
+[Settings]
+model=RunDiffusion/Juggernaut-XL-v9
+interpolation=slerp
+num_interpolation_steps=100
+num_inference_steps=4
+guidance_scale=1.0
+resolution=1024x1024
+randomseed=0
+lora=
+loraweight=0.5
+[Prompts]
+Line0=macro photograph of an ant
+Line1=macro photograph of a fly
+Line2=macro photograph of a mosquito
+Line3=macro photograph of a bee
+Line4=macro photograph of a dragonfly
+Line5=macro photograph of a praying mantis
+Line6=macro photograph of a ladybug
+Line7=macro photograph of a centipede
+Line8=macro photograph of a cockroach
+Line9=macro photograph of a spider

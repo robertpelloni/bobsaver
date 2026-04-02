@@ -1,0 +1,16 @@
+python -m pip install --upgrade pip==24.3.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts deepspeed==0.16.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.49.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==5.20.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==1.4.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/huggingface/diffusers.git@26149c0ecda67587ffd51f1a91c888388f83253b
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts sentencepiece==0.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts openai==1.65.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts bitsandbytes==0.45.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torchao==0.9.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/triton-3.0.0-cp310-cp310-win_amd64.whl
+pip uninstall -y torch
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.6.0+cu124 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128

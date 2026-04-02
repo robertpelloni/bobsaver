@@ -1,0 +1,21 @@
+[Settings]
+Formula=((((5.1-sqr(x))-(y*abs(x)))%(y*abs(y)))-((5.2-sqr(x))-(y*abs(x))))
+Color Palette=colorschemer autumn park.MAP
+Xmin=-3.125
+Xmax=3.0078125
+Ymin=-3.25520833333333
+Ymax=2.890625
+[Gene Pool]
+Gene0=((6.4%frac(6.4))-round((y/7.6)))
+Gene1=(5.2-sqr(x))
+Gene2=(((pi+sqr(3.5))-(y*exp(pi)))*floor(((y/floor(9.4))-cos((x/pi)))))
+Gene3=(y+abs(x))
+Gene4=(y*abs(x))
+Gene5=((5.2-sqr(x))-(y*abs(x)))
+Gene6=(5.2-abs(x))
+Gene7=((((pi+sqr(3.5))-(y*exp(pi)))*floor(((y/floor(9.4))-cos((x/pi)))))*(5.2-abs(x)))
+Gene8=(((5.2-sqr(x))-(y*abs(x)))%(y*abs(x)))
+Gene9=((((5.2-sqr(x))-(y*abs(x)))%(y*abs(x)))/((5.2-sqr(x))-(y*abs(x))))
+Gene10=((((pi+sqr(9.6))-(y*exp(pi)))*floor(((y/floor(3.4))-cos((x/pi)))))+(5.2-abs(x)))
+Gene11=(6.8%abs(x))
+Gene12=((((5.1-sqr(x))-(y*abs(x)))%(y*abs(y)))-((5.2-sqr(x))-(y*abs(x))))

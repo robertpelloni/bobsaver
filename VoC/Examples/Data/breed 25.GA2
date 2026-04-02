@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos(y/pi)%x+sin(1-sin(y)
+Palette=Gravity 2D 03.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

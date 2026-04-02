@@ -1,0 +1,7 @@
+[Settings]
+Formula=frac(y%5.5)%tan(x+8)-sin(x+4.9)%cos(y*5.9)*arctan(x%7)+cos(y/2.4)
+Palette=JACCO212.MAP
+Xmin=-5
+Xmax=5
+ymin=-5
+ymax=5

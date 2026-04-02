@@ -1,0 +1,36 @@
+[Settings]
+Formula=(((((y+cos(pi))+(2-y))%((x-frac(7.7))-(pi*cos(y))))+((pi+arctan(x))%(((y+cos(x))+(4.7+y))*((x-frac(1.6))*(pi+cos(y))))))*(((((y+cos(pi))+(2-y))%((x/frac(7.5))-(pi*cos(y))))*((pi+arctan(x))%(((y+cos(x))+(4+y))-((x-frac(7.5))*(pi*cos(x))))))+((((y+cos(pi))+(2-y))%((x-frac(5.8))-(pi*cos(y))))+((pi+arctan(x))%(((y+cos(x))+(5.4+y))-((x-frac(9.2))*(pi+cos(y))))))))
+Color Palette=dark rainbow.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(y/8)
+Gene1=(y*sin(x))
+Gene2=(pi+arctan(x))
+Gene3=((7.1*abs(x))-(y*abs(pi)))
+Gene4=(((y+cos(x))+(0.9-y))%((x-frac(0.1))+(pi*cos(y))))
+Gene5=(((y+cos(x))+(9.7-y))-((x-frac(0.1))+(pi*cos(y))))
+Gene6=((pi+arctan(x))%(((y+cos(x))+(9.7-y))-((x-frac(0.1))+(pi*cos(y)))))
+Gene7=((((y+cos(x))+(0.9-y))%((x-frac(0.1))+(pi*cos(y))))-((pi+arctan(x))%(((y+cos(x))+(9.7-y))-((x-frac(0.1))+(pi*cos(y))))))
+Gene8=((7.1*abs(x))%((x-frac(0.1))+(pi*cos(y))))
+Gene9=(((y+cos(x))+(4-y))%((x-frac(0.6))+(pi*cos(y))))
+Gene10=((((y+cos(x))+(4-y))%((x-frac(0.6))+(pi*cos(y))))*((7.1*abs(x))%((x-frac(0.1))+(pi*cos(y)))))
+Gene11=((((y+cos(x))+(0.9-y))%((x-frac(0.1))+(pi*cos(y))))%((pi+arctan(x))%(((y+cos(x))+(9.7/y))-((x-frac(7.8))+(pi*cos(y))))))
+Gene12=((((y+cos(x))+(0.9-y))%((x-frac(0.1))/(pi*cos(y))))+((pi+arctan(x))%(((y+cos(x))+(1.7/y))-((x-frac(1.6))+(pi*cos(y))))))
+Gene13=((((y+cos(x))+(4-y))%((x-frac(0.6))+(pi*cos(y))))+((pi+arctan(x))%(((y+cos(x))+(9.7/y))-((x-frac(7.8))+(pi*cos(y))))))
+Gene14=((((y+cos(x))+(0.9-y))%((x-frac(0.1))+(pi*cos(y))))*((x-frac(0.6))+(pi*cos(y))))
+Gene15=((((y+cos(x))+(0.9-y))%((x-frac(5.8))-(pi*cos(y))))-((pi+arctan(x))%(((y+cos(x))+(5.4+y))-((x-frac(1.6))+(pi*cos(y))))))
+Gene16=((((y+cos(pi))+(7-y))%((x-frac(9.3))+(pi*cos(y))))-((pi+arctan(x))%(((y+cos(x))+(6.1/y))-((x-frac(3.6))+(pi*cos(y))))))
+Gene17=((((y+cos(pi))+(2-y))%((x-frac(5.8))-(pi*cos(y))))+((pi+arctan(x))%(((y+cos(x))+(5.4+y))-((x-frac(1.6))*(pi+cos(y))))))
+Gene18=((((y+cos(pi))+(2-y))%((x-frac(7.4))-(pi*cos(y))))*((pi+arctan(x))%(((y+cos(x))+(9.3+y))-((x-frac(7.5))*(pi+cos(x))))))
+Gene19=(((((y+cos(pi))+(2-y))%((x-frac(5.8))-(pi*cos(y))))+((pi+arctan(x))%(((y+cos(x))+(5.4+y))-((x-frac(1.6))*(pi+cos(y))))))+((((y+cos(x))+(0.9-y))%((x-frac(5.8))-(pi*cos(y))))-((pi+arctan(x))%(((y+cos(x))+(5.4+y))-((x-frac(1.6))+(pi*cos(y)))))))
+Gene20=(((((y+cos(pi))+(2-y))%((x-frac(7.4))-(pi*cos(y))))*((pi+arctan(x))%(((y+cos(x))+(9.3+y))-((x-frac(7.5))*(pi+cos(x))))))-((((y+cos(pi))+(2-y))%((x-frac(5.8))-(pi*cos(y))))+((pi+arctan(x))%(((y+cos(x))+(5.4+y))-((x-frac(1.6))*(pi+cos(y)))))))
+Gene21=(((((y+cos(pi))+(2-y))%((x-frac(5.8))-(pi*cos(y))))+((pi+arctan(x))%(((y+cos(x))+(5.4+y))-((x-frac(1.6))*(pi+cos(y))))))%((pi+arctan(x))%(((y+cos(x))+(5.4+y))-((x-frac(1.6))*(pi+cos(y))))))
+Gene22=(((((y+cos(pi))+(2-y))%((x/frac(7.5))-(pi*cos(y))))*((pi+arctan(x))%(((y+cos(x))+(4+y))-((x-frac(7.5))*(pi*cos(x))))))+((((y+cos(pi))+(2-y))%((x-frac(5.8))-(pi*cos(y))))+((pi+arctan(x))%(((y+cos(x))+(5.4+y))-((x-frac(9.2))*(pi+cos(y)))))))
+Gene23=(((((y+cos(pi))+(2-y))%((x-frac(7.4))-(pi*cos(y))))*((pi+arctan(x))%(((y+cos(x))+(9.3+y))-((x-frac(7.5))*(pi+cos(x))))))-(((((y+cos(pi))+(2-y))%((x/frac(7.5))-(pi*cos(y))))*((pi+arctan(x))%(((y+cos(x))+(4+y))-((x-frac(7.5))*(pi*cos(x))))))+((((y+cos(pi))+(2-y))%((x-frac(5.8))-(pi*cos(y))))+((pi+arctan(x))%(((y+cos(x))+(5.4+y))-((x-frac(9.2))*(pi+cos(y))))))))
+Gene24=(((((y+cos(pi))+(2-y))%((x-frac(7.7))-(pi*cos(y))))+((pi+arctan(x))%(((y+cos(x))+(4.7+y))*((x-frac(1.6))*(pi+cos(y))))))-((((x+cos(x))+(3-y))%((x-frac(9))-(pi*cos(pi))))-((pi+arctan(x))%(((y+cos(x))+(5.4+y))-((x-frac(8.6))+(pi*cos(y)))))))
+Gene25=((((((y+cos(pi))+(2-y))%((x-frac(7.4))-(pi*cos(y))))*((pi+arctan(x))%(((y+cos(x))+(9.3+y))-((x-frac(7.5))*(pi+cos(x))))))-((((y+cos(pi))+(2-y))%((x-frac(5.8))-(pi*cos(y))))+((pi+arctan(x))%(((y+cos(x))+(5.4+y))-((x-frac(1.6))*(pi+cos(y)))))))+(((((y+cos(pi))+(2-y))%((x-frac(7.4))-(pi*cos(y))))*((pi+arctan(x))%(((y+cos(x))+(9.3+y))-((x-frac(7.5))*(pi+cos(x))))))-(((((y+cos(pi))+(2-y))%((x/frac(7.5))-(pi*cos(y))))*((pi+arctan(x))%(((y+cos(x))+(4+y))-((x-frac(7.5))*(pi*cos(x))))))+((((y+cos(pi))+(2-y))%((x-frac(5.8))-(pi*cos(y))))+((pi+arctan(x))%(((y+cos(x))+(5.4+y))-((x-frac(9.2))*(pi+cos(y)))))))))
+Gene26=(((((y+cos(pi))+(2-y))%((x-frac(7.7))-(pi*cos(y))))+((pi+arctan(x))%(((y+cos(x))+(4.7+y))*((x-frac(1.6))*(pi+cos(y))))))*(((((y+cos(pi))+(2-y))%((x/frac(7.5))-(pi*cos(y))))*((pi+arctan(x))%(((y+cos(x))+(4+y))-((x-frac(7.5))*(pi*cos(x))))))+((((y+cos(pi))+(2-y))%((x-frac(5.8))-(pi*cos(y))))+((pi+arctan(x))%(((y+cos(x))+(5.4+y))-((x-frac(9.2))*(pi+cos(y))))))))
+Gene27=(((((y+cos(pi))+(2-y))%((x-frac(7.4))-(pi*cos(y))))*((pi+arctan(x))%(((y+cos(x))+(9.3+y))-((x-frac(7.5))*(pi+cos(x))))))-(((((y+cos(pi))+(2-y))%((x/frac(7.5))-(pi*cos(y))))*((pi+arctan(x))%(((y+cos(x))+(4+y))-((x-frac(7.5))*(pi*cos(x))))))+((((y+cos(pi))+(2-y))%((x-frac(5.8))-(pi*cos(y))))+((pi+arctan(x))%(((y+cos(x))+(5.4+y))-((x-frac(9.2))*(pi+cos(y))))))))

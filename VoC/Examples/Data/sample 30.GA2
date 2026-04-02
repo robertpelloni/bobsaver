@@ -1,0 +1,7 @@
+[Settings]
+Formula=frac(((1/x/pi)%sqr(1/y/pi)/sin(1/x)))
+Palette=JACCO198.MAP
+Xmin=-1.296875
+Xmax=1.265625
+Ymin=-1.33333333333333
+Ymax=1.25

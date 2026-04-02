@@ -1,0 +1,44 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=408170909
+Iterations=50
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Model Version=v2
+Playgroundv2NegativePrompt=skull,scary,oversaturated,FLOWERS,LEAVES,WEB,balls,spheres,globes,rounds,. TREE,BRANCHES,LIMBS,FLOWERS,WOMAN,WOMAN'S BODY,WOMEN'S BODY,HUMANS,PEOPLE,PERSON,faces,wavy lines,twirling lines,swirling lines,triangles,mosaic,tesselation,gremlins,demons,fish,dragons,creatures,flowers,faces,trees,landscapes,balls,spheres,globes,rounds,. oversaturated
+Playgroundv2GuidanceScale=3
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.2
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1
+In Script Movie Zoom Method=INTER_LINEAR
+In Script Movie Rotate=0:0,30:0.005,60:-0.276,90:0.272,120:-0.043,150:-0.016,180:0.192,210:-0.295,240:0.865,270:-0.489,300:0.852,330:-0.648,360:0.572,390:-0.353,420:0.963,450:-0.449,480:0.281,510:-0.269,540:0.022,570:0.201,600:-0.474,630:0.711,660:-0.611,690:-0.174,720:0.330,750:0.131,780:0.257,810:-0.832,840:0.608,870:0.165,900:-0.847
+In Script Movie Pan X=0:0,30:-0.660,60:0.257,90:-0.625,120:0.447,150:0.240,180:0.184,210:0.291,240:-0.119,270:0.957,300:0.621,330:0.676,360:-0.734,390:0.404,420:-0.117,450:0.517,480:-0.829,510:0.820,540:0.069,570:-0.419,600:0.231,630:0.421,660:-0.878,690:-0.712,720:0.501,750:-0.287,780:0.167,810:-0.870,840:0.424,870:0.812,900:-0.058
+In Script Movie Pan Y=0:0,30:-0.734,60:0.072,90:0.786,120:-0.540,150:-0.036,180:-0.642,210:0.569,240:0.923,270:0.678,300:-0.517,330:0.870,360:-0.178,390:0.700,420:-0.956,450:-0.346,480:0.536,510:-0.110,540:0.559,570:-0.257,600:0.461,630:-0.861,660:-0.630,690:0.600,720:-0.923,750:-0.637,780:-0.854,810:0.050,840:-0.978,870:0.448,900:-0.290
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.6
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Noise=10
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=1
+In Script Movie Auto-Color=0
+In Script Movie Equalize=1
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:painted by James Ensor and Naoto Hattori,abstract,surreal,unreal,Rainbow Oil painting. 3d,centered,digital art,concept art,surrealistic,oil painting,octane render,hyperdetailed,magic,artstation,4k,symmetrical,trending on artstation,unreal engine,melting

@@ -1,0 +1,13 @@
+[Settings]
+Channel 1 Range=1
+Channel 1 Threshold=6
+Channel 1 States=2
+Channel 2 Range=1
+Channel 2 Threshold=13
+Channel 2 States=2
+Channel 3 Range=1
+Channel 3 Threshold=2
+Channel 3 States=2
+Neighborhood=0
+Cell Coloring Method=1
+Color Palette=kuler drholwegneu.MAP

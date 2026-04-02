@@ -1,0 +1,66 @@
+#version 420
+
+// original https://www.shadertoy.com/view/tlB3Wt
+
+uniform float time;
+uniform vec2 mouse;
+uniform vec2 resolution;
+
+out vec4 glFragColor;
+
+mat2 rotate(float a) {
+    float c = cos(a), s = sin(a);
+    return mat2(c, s, -s, c);
+}
+
+float box(vec3 p, vec3 s) {
+    vec3 d = abs(p) - s;
+    return min(max(d.x,max(d.y,d.z)),0.0) + length(max(d,0.0));
+}
+
+float ifsBox(vec3 p) {
+    for (int i=0; i<4; i++) {
+        p = abs(p) - 1.0;
+        float a = 0.05+0.12*sin(1.6*time);
+        p.xy *= rotate(a);
+        p.xz *= rotate(a);
+    }
+    vec3 scale = vec3(0.5, 0.5, 0.5);
+    return box(p, scale);
+}
+
+const float pi = acos(-1.0);
+
+float map(vec3 p) {
+    p.xy *= rotate(0.12*sin(time));
+    p.xz *= rotate(pi*0.5 + 0.16*sin(0.7*time));
+    return ifsBox(p);
+}
+
+// Palettes https://www.shadertoy.com/view/ll2GD3 by iq
+vec3 pal( in float t, in vec3 a, in vec3 b, in vec3 c, in vec3 d ) {
+    return a + b*cos( 6.28318*(c*t+d) );
+}
+
+void main(void) {
+    vec2 p = (gl_FragCoord.xy * 2.0 - resolution.xy) / min(resolution.x, resolution.y);
+
+    vec3 cPos = vec3(0, 0, 12);
+    vec3 ray = normalize(vec3(p.xy, -1));
+
+    float depth = 0.0;
+    float d = 0.0;
+    vec3 pos = vec3(0);
+    vec3 colAcc = vec3(0);
+    for (int i=0; i<99; i++) {
+        pos = cPos + ray * depth;
+        d = map(pos);
+        if (d < 0.0001 || pos.z > 50.0) break;
+        colAcc += exp(-d*2.0) * pal(length(pos)*0.2, vec3(0.5,0.5,0.5),vec3(0.5,0.2,0.2),vec3(1.0,1.0,1.0),vec3(0.0,0.3,0.4) );
+        // colAcc += exp(-d*2.0) * pal(length(pos)*0.2, vec3(0.5,0.5,0.8),vec3(0.5,0.2,0.2),vec3(1.0,1.0,1.0),vec3(0.0,0.3,0.5) );
+        depth += d*0.2;
+    }
+
+    vec3 col = colAcc * 0.03;
+    glFragColor = vec4(col, 1);
+}

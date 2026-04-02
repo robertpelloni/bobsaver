@@ -1,0 +1,7 @@
+[Settings]
+Formula=arctan(y/4.8)-frac(y+3)%cos(x-3.2)+sin(y-4.4)%arctan(y/2.1)
+Palette=Jason38.MAP
+Xmin=-5
+Xmax=5
+ymin=-5
+ymax=5

@@ -1,0 +1,9 @@
+[Effects Order]
+Effect0=Convolution 1 2 1 2 4 2 1 2 1 1
+Effect1=Emboss 0 0
+Effect2=Sharpen 1 1
+Effect3=Color 0
+Effect4=Contrast 100
+Effect5=Blend 10
+[Settings]
+Passes=1

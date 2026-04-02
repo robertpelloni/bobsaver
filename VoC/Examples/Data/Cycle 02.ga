@@ -1,0 +1,19 @@
+[GA Rule]
+Rule=Zgaf
+
+[Image Options]
+Palette File=Jason11.MAP
+Smooth Colors=0
+Random Offsets=0
+Overlay Mode=0
+Coordinate Width=5
+
+[Gene Character Offsets]
+Xoffset1=0
+Yoffset1=0
+Xoffset2=0
+Yoffset2=0
+Xoffset3=0
+Yoffset3=0
+Xoffset4=0
+Yoffset4=0

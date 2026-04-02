@@ -1,0 +1,53 @@
+[Eye]
+X=0
+Y=0
+Z=1
+[Look At]
+X=0
+Y=0
+Z=0
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.8
+[Light]
+X=-6.15954135685878
+Y=-5.13313026350614
+Z=-3.27277007610124
+[Rotation]
+X=38
+Y=47
+Z=338
+[Settings]
+Iterations=5
+Epsilon=0.0001
+Power=6
+Gamma=0
+Contrast=0
+Shading=2
+Negative SIN=0
+Bailout=4
+Palette=IFS22.MAP
+Spikes=0
+Spikes Y Maximum=0.871432070154697
+Juliabulb=0
+Julia Real=0.144077920776776
+Julia Imaginary=-0.65429031305704
+Julia Imaginary 2=-0.567808773834258
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=clBlue
+Glow Threshold=221
+Outside Glow=1
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.5
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=1
+Anaglyph Style=2
+Anaglyph Tilt=3

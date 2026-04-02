@@ -1,0 +1,35 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.40.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==3.34.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts addict==2.4.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts diffusers==0.17.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.15.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts Pillow==9.5.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts PyYAML==6.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts requests==2.31.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts setuptools==67.8.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts supervision==0.9.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts termcolor==2.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts yapf==0.40.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy==1.10.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts easydict==1.10
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts toml==0.10.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tensorboardX==2.6
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scikit-image==0.21.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.7.0.72
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pycocotools==2.0.6
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts matplotlib==3.7.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts segment-anything==1.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts diffusers[torch]==0.17.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/IDEA-Research/GroundingDINO@4e6f23d35c80c5296c6880ff7fa511f202d11553
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip uninstall -y typing_extensions
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts typing_extensions==4.7.1
+pip uninstall -y Pillow
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts Pillow==9.5.0
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

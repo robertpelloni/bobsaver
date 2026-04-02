@@ -1,0 +1,9 @@
+[Settings]
+Parameter String=MGQUNNBRBOCM
+Palette=jason18.MAP
+ESCMaxIters=255
+[Coordinates]
+ESCXmin=-0.48
+ESCXmax=0.48
+ESCYmin=-1.08333333333333
+ESCYmax=-0.0833333333333333

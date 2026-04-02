@@ -1,0 +1,30 @@
+[Settings]
+Formula=6
+Root Method=16
+Coloring=2
+Tolerance=0.00001
+Palette Step=2
+Palette=SolankiiBlueOrangeTiger.map
+Xmin=-0.673963185043886
+Xmax=-0.661919280481654
+Ymin=-0.00352195559184816
+Ymax=0.00345598161389547
+[Specific Settings]
+a Real=1.0
+a Imaginary=0.0
+beta Real=0.0
+beta Imaginary=0.0
+sec Real=0.0
+sec Imaginary=0.0
+m Real=1.0
+m Imaginary=0.0
+[Orbit Traps]
+Style=0
+Palette Count=1
+Palette 1=orbit traps silver 01.MAP
+Palette 2=orbit traps gold 01.MAP
+Palette 3=orbit traps red 01.MAP
+Palette 4=orbit traps green 01.MAP
+Palette 5=orbit traps blue 01.MAP
+Only Show Traps=0
+Perlin Shading=0

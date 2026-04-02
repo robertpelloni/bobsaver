@@ -1,0 +1,22 @@
+[Settings]
+animations='zoomout', 'zoomout', 'zoomout', 'zoomout', 'zoomout', 'zoomout', 'zoomout', 'zoomout', 'zoomout', 'zoomout', 'zoomout', 'zoomout', 'zoomout'
+prompt_durations=5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+model_version=2.2
+seed=12345
+w=512
+h=512
+fps=15
+[Prompts]
+Line0=a photo of sperm and ovum
+Line1=a photo of a female human fetus
+Line2=a photo of a female human newborn baby
+Line3=a photo of a female human baby
+Line4=a photo of a female human toddler
+Line5=a photo of a female human child
+Line6=a photo of a female human teenager
+Line7=a photo of a female human young adult
+Line8=a photo of a female human adult
+Line9=a photo of a female human middle aged adult
+Line10=a photo of a female human elderly person
+Line11=a photo of a female human corpse
+Line12=a photo of a female human skeleton

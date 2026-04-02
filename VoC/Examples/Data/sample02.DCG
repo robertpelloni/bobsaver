@@ -1,0 +1,13 @@
+[Settings]
+dx=0.03
+dy=0.03
+dt=0.0001
+tau=0.0003
+epsilonbar=0.01
+k=1.8
+delta=0.01
+anisotropy=4.0
+alpha=0.9
+gamma=10.0
+teq=1.1
+Color palette=RGBCurves002.MAP

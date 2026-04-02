@@ -1,0 +1,9 @@
+[Settings]
+Formula=((((((y-pi)-y)*(6.4%log(pi)))+arctan(((y-1.4)*((pi+frac(x))-round((pi+ceil(x)))))))*((((y-pi)-y)*(6.4%log(pi)))-((((y-pi)-y)*(6.4%log(pi)))%arctan(((y-1.4)*((pi+frac(x))-round((pi+ceil(x)))))))))-((((y-pi)-y)*(6.4%log(pi)))+((((y-pi)-y)*(6.4%log(pi)))%arctan(((y-1.4)*((pi+frac(x))-round((pi+ceil(x)))))))))
+Color Palette=Gray Scale 1.MAP
+[Gene Pool]
+Gene0=((((((y-pi)-y)*(6.4%log(pi)))+arctan(((y-1.4)*((pi+frac(x))-round((pi+ceil(x)))))))*((((y-pi)-y)*(6.4%log(pi)))-((((y-pi)-y)*(6.4%log(pi)))%arctan(((y-1.4)*((pi+frac(x))-round((pi+ceil(x)))))))))-((((y-pi)-y)*(6.4%log(pi)))+((((y-pi)-y)*(6.4%log(pi)))%arctan(((y-1.4)*((pi+frac(x))-round((pi+ceil(x)))))))))
+Gene1=((((((y-pi)-y)*(6.5%log(pi)))+arctan(((y-1.4)*((pi+frac(x))-round((pi+ceil(x)))))))*((((y-pi)-y)*(6.4%log(pi)))-((((y-pi)-y)*(6.4%log(pi)))%arctan(((y-1.4)*((pi+frac(x))-round((pi+ceil(x)))))))))-((((y-pi)-y)*(6.4%log(pi)))+((((y-pi)-y)*(6.4%log(pi)))%arctan(((y-1.4)*((pi+frac(x))-round((pi+ceil(x)))))))))
+Gene2=((((((y-pi)-y)*(6.6%log(pi)))+arctan(((y-1.4)*((pi+frac(x))-round((pi+ceil(x)))))))*((((y-pi)-y)*(6.4%log(pi)))-((((y-pi)-y)*(6.4%log(pi)))%arctan(((y-1.4)*((pi+frac(x))-round((pi+ceil(x)))))))))-((((y-pi)-y)*(6.4%log(pi)))+((((y-pi)-y)*(6.4%log(pi)))%arctan(((y-1.4)*((pi+frac(x))-round((pi+ceil(x)))))))))
+Gene3=((((((y-pi)-y)*(6.7%log(pi)))+arctan(((y-1.4)*((pi+frac(x))-round((pi+ceil(x)))))))*((((y-pi)-y)*(6.4%log(pi)))-((((y-pi)-y)*(6.4%log(pi)))%arctan(((y-1.4)*((pi+frac(x))-round((pi+ceil(x)))))))))-((((y-pi)-y)*(6.4%log(pi)))+((((y-pi)-y)*(6.4%log(pi)))%arctan(((y-1.4)*((pi+frac(x))-round((pi+ceil(x)))))))))
+Gene4=((((((y-pi)-y)*(6.8%log(pi)))+arctan(((y-1.4)*((pi+frac(x))-round((pi+ceil(x)))))))*((((y-pi)-y)*(6.4%log(pi)))-((((y-pi)-y)*(6.4%log(pi)))%arctan(((y-1.4)*((pi+frac(x))-round((pi+ceil(x)))))))))-((((y-pi)-y)*(6.4%log(pi)))+((((y-pi)-y)*(6.4%log(pi)))%arctan(((y-1.4)*((pi+frac(x))-round((pi+ceil(x)))))))))

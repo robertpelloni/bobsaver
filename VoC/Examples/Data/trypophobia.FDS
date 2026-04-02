@@ -1,0 +1,12 @@
+[Prompt]
+Line0=disturbing trypophobia, 4K, ultra HD
+[Settings]
+randomseed=1007612979
+resolution=512x512
+guidance_scale=12
+video_length=16
+num_partitions=4
+eta=1
+num_inference_steps=16
+fps=10
+new_video_length=100

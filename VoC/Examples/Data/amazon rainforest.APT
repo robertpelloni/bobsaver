@@ -1,0 +1,25 @@
+[Settings]
+headprompt=
+tailprompt=
+negativeprompt=
+scheduler=k_dpmpp_sde
+motionmodule=mm_sd_v15_v2.ckpt
+motionlora=v2_lora_TiltDown.ckpt
+motionlorastrength=1.0
+lora=epicrealism_naturalSinRC1VAE.safetensors
+controlnet=
+seed=573668030
+steps=25
+frames=16
+lengthparameter=600
+guidancescale=7.5
+w=1024
+h=512
+format=mp4
+loopmovie=0
+[Prompt]
+Line0="0": "a blue sky with a few clouds",
+Line1="120": "flying over a rainforest canopy",
+Line2="240": "descending through rainforest tree tops",
+Line3="360": "a small river within a rainforest",
+Line4="480": "underwater with a school of piranhas"

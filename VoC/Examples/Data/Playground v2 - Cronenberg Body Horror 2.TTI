@@ -1,0 +1,47 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=1359660889
+Iterations=50
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Playgroundv2NegativePrompt=blurry, out of focus
+Playgroundv2GuidanceScale=3
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.1
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Method=INTER_LINEAR
+In Script Movie Rotate=0:0,30:-0.802,60:0.561,90:0.494,120:-0.366,150:0.161,180:-0.676,210:0.248,240:-0.695,270:-0.128,300:0.644,330:-0.458,360:0.410,390:-0.463,420:0.573,450:-0.325,480:0.085,510:0.108,540:-0.161,570:0.877,600:-0.172,630:0.938,660:0.592,690:-0.382,720:0.293,750:0.330,780:-0.739,810:0.578,840:0.863,870:-0.546,900:0.695
+In Script Movie Pan X=0:0,30:-0.274,60:0.741,90:0.834,120:-0.320,150:0.388,180:-0.219,210:0.802,240:-0.968,270:0.525,300:0.562,330:-0.207,360:-0.703,390:0.474,420:0.059,450:-0.412,480:0.229,510:-0.555,540:-0.335,570:-0.425,600:0.397,630:-0.919,660:-0.930,690:-0.099,720:0.430,750:0.162,780:0.668,810:0.662,840:-0.963,870:0.256,900:-0.861
+In Script Movie Pan Y=0:0,30:0.504,60:0.307,90:0.170,120:-0.765,150:0.199,180:-0.775,210:0.720,240:-0.592,270:0.253,300:-0.010,330:0.917,360:-0.836,390:-0.700,420:0.149,450:0.295,480:-0.448,510:0.216,540:-0.056,570:0.200,600:-0.379,630:-0.104,660:0.885,690:-0.809,720:-0.920,750:0.839,780:0.699,810:-0.703,840:0.110,870:-0.174,900:0.159
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.3
+In Script Movie Sharpness Radius=5
+In Script Movie Noise=10
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+In Script Movie Sharpness Method=Gaussian
+Model Version=v2
+PlaygroundV2Scheduler=DDPMScheduler
+HiDiffusion=0
+In Script Movie Zoom Factor=1
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=3
+In Script Movie Color Matching=1
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:cronenberg body horror, highly detailed, hd, 4k, 8k, photorealistic, hyperrealistic

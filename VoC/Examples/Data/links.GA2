@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos((x)-sin((1-x*pi))/cos((y+x-3.4)))
+Palette=JACCO198.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

@@ -1,0 +1,15 @@
+[Settings]
+Xmin=-8
+Xmax=8
+Ymin=-5.15
+Ymax=5.15
+CX=-0.247058823529412
+CY=-0.710904522613065
+Power=1
+Maximum Iterations=55
+Color Scale Factor=88
+Color Palette=FIRECOD2.MAP
+Variation=0
+Symmetry=6
+Smooth Shading=1
+Julia Set Hybrid=0

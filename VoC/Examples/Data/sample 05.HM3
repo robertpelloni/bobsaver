@@ -1,0 +1,11 @@
+[Settings]
+Q=100
+K1=1
+K2=19
+G=36
+Min Visible State=0
+Max Visible State=99
+Coloring=0
+Color Palette=coolors untitled 4.MAP
+State 1 Color=clYellow
+Final State Color=clRed

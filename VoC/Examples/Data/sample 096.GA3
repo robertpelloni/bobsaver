@@ -1,0 +1,35 @@
+[Settings]
+Formula=(((((pi*pi)+sin((x+tan(x))))/(((pi*pi)+sin((x+tan(pi))))-((x+(2.3-y))%((pi+cos(y))+sin((7.6-frac(4.6)))))))-(((pi*pi)+sin((x+tan(x))))+(((pi*pi)+sin((x+tan(pi))))-((x+(8.8-y))%((pi+cos(y))+sin((7.6-frac(0.2))))))))%(((((pi*pi)+sin((x+tan(pi))))/(((pi*pi)+sin((x+tan(pi))))-((x+(3.3-y))%((pi+cos(x))+sin((7.6-frac(4.3)))))))+((((pi*y)+sin((x+tan(pi))))+((x+(3.3-y))%((pi+cos(x))+sin((7.6-frac(4.3))))))-(((pi*sin(x))+sin((1.2%y)))/((y+(5.2-y))/((pi+cos(x))+sin((3.7-frac(3.3))))))))+((((pi*pi)+sin((x+tan(x))))/(((pi*pi)+sin((x+tan(pi))))-((x+(2.3-y))%((pi+cos(y))+sin((7.6-frac(4.6)))))))-(((pi*pi)+sin((x+tan(x))))+(((pi*pi)+sin((x+tan(pi))))-((x+(8.8-y))%((pi+cos(y))+sin((7.6-frac(0.2))))))))))
+Color Palette=Movie Fanstastic Mr Fox.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(((8.2-0.8)%ceil(((0.7*y)%pi)))/((y+(5.2-y))/((pi+cos(x))+sin((3.7-frac(3.3))))))
+Gene1=(((pi*sin(x))+sin((8.3%y)))/(pi+sqr(y)))
+Gene2=((pi-sqrt(pi))%(4.3/y))
+Gene3=((x-0.4)%round(((y-3.3)/pi)))
+Gene4=(((pi*y)+sin((x+tan(pi))))+sin(((y*sqr(7.9))-ln((y+pi)))))
+Gene5=(((pi*sin(x))+sin((8.3%y)))/((y+(5.2-y))/((pi+cos(x))+sin((3.7-frac(3.3))))))
+Gene6=(((pi*y)+sin((x+tan(pi))))-((y+(5.2-y))/((pi+cos(x))+sin((3.7-frac(3.3))))))
+Gene7=((x-0.4)/(4.3/y))
+Gene8=(((pi*y)+sin((x+tan(pi))))-((y+(1.2%y))%((pi+cos(x))+sin((6.3-frac(3.3))))))
+Gene9=(((pi*y)+sin((x+tan(pi))))*((y+(3.3%y))%((pi+cos(x))+sin((6.3-frac(7.7))))))
+Gene10=(((pi*sin(x))+sin((8.3%y)))/((y+(5.2-y))/((pi+cos(x))+sin((3.7-frac(3.3))))))
+Gene11=(((x-0.4)/(4.3/y))+(((pi*y)+sin((x+tan(pi))))-((y+(1.2%y))%((pi+cos(x))+sin((6.3-frac(3.3)))))))
+Gene12=(((pi*pi)+sin((x+tan(pi))))-((x+(3.3-y))%((pi+cos(x))+sin((7.6-frac(4.3))))))
+Gene13=(((pi*y)+sin((x+tan(pi))))+((x+(3.3-y))%((pi+cos(x))+sin((7.6-frac(4.3))))))
+Gene14=((((x-0.4)/(4.3/y))+(((pi*y)+sin((x+tan(pi))))-((y+(1.2%y))%((pi+cos(x))+sin((6.3-frac(3.3)))))))-(((pi*pi)+sin((x+tan(pi))))-((x+(3.3-y))%((pi+cos(x))+sin((7.6-frac(4.3)))))))
+Gene15=(((pi*sin(x))+sin((1.2%y)))/((y+(5.2-y))/((pi+cos(x))+sin((3.7-frac(3.3))))))
+Gene16=(((pi*pi)+sin((x+tan(pi))))*(((pi*y)+sin((x+tan(pi))))-((y+(1.2%y))%((pi+cos(x))+sin((6.3-frac(3.3)))))))
+Gene17=(((pi*pi)+sin((x+tan(pi))))/(((pi*pi)+sin((x+tan(pi))))-((x+(3.3-y))%((pi+cos(x))+sin((7.6-frac(4.3)))))))
+Gene18=((((pi*y)+sin((x+tan(pi))))+((x+(3.3-y))%((pi+cos(x))+sin((7.6-frac(4.3))))))-(((pi*sin(x))+sin((1.2%y)))/((y+(5.2-y))/((pi+cos(x))+sin((3.7-frac(3.3)))))))
+Gene19=(((pi*sin(x))+sin((1*y)))*((y+(5.2-y))/((pi+cos(x))+sin((4.5-frac(4.5))))))
+Gene20=(((pi*pi)+sin((x+tan(x))))/(((pi*pi)+sin((x+tan(pi))))-((x+(2.3-y))%((pi+cos(y))+sin((7.6-frac(4.6)))))))
+Gene21=((((pi*pi)+sin((x+tan(pi))))/(((pi*pi)+sin((x+tan(pi))))-((x+(3.3-y))%((pi+cos(x))+sin((7.6-frac(4.3)))))))+((((pi*y)+sin((x+tan(pi))))+((x+(3.3-y))%((pi+cos(x))+sin((7.6-frac(4.3))))))-(((pi*sin(x))+sin((1.2%y)))/((y+(5.2-y))/((pi+cos(x))+sin((3.7-frac(3.3))))))))
+Gene22=(((pi*sin(x))+sin((1.2%y)))-(((pi*sin(x))+sin((1.2%y)))/((y+(5.2-y))/((pi+cos(x))+sin((3.7-frac(3.3)))))))
+Gene23=(((pi*pi)+sin((x+tan(x))))+(((pi*pi)+sin((x+tan(pi))))-((x+(8.8-y))%((pi+cos(y))+sin((7.6-frac(0.2)))))))
+Gene24=((((pi*pi)+sin((x+tan(x))))/(((pi*pi)+sin((x+tan(pi))))-((x+(2.3-y))%((pi+cos(y))+sin((7.6-frac(4.6)))))))-(((pi*pi)+sin((x+tan(x))))+(((pi*pi)+sin((x+tan(pi))))-((x+(8.8-y))%((pi+cos(y))+sin((7.6-frac(0.2))))))))
+Gene25=(((((pi*pi)+sin((x+tan(pi))))/(((pi*pi)+sin((x+tan(pi))))-((x+(3.3-y))%((pi+cos(x))+sin((7.6-frac(4.3)))))))+((((pi*y)+sin((x+tan(pi))))+((x+(3.3-y))%((pi+cos(x))+sin((7.6-frac(4.3))))))-(((pi*sin(x))+sin((1.2%y)))/((y+(5.2-y))/((pi+cos(x))+sin((3.7-frac(3.3))))))))+((((pi*pi)+sin((x+tan(x))))/(((pi*pi)+sin((x+tan(pi))))-((x+(2.3-y))%((pi+cos(y))+sin((7.6-frac(4.6)))))))-(((pi*pi)+sin((x+tan(x))))+(((pi*pi)+sin((x+tan(pi))))-((x+(8.8-y))%((pi+cos(y))+sin((7.6-frac(0.2)))))))))
+Gene26=(((((pi*pi)+sin((x+tan(x))))/(((pi*pi)+sin((x+tan(pi))))-((x+(2.3-y))%((pi+cos(y))+sin((7.6-frac(4.6)))))))-(((pi*pi)+sin((x+tan(x))))+(((pi*pi)+sin((x+tan(pi))))-((x+(8.8-y))%((pi+cos(y))+sin((7.6-frac(0.2))))))))%(((((pi*pi)+sin((x+tan(pi))))/(((pi*pi)+sin((x+tan(pi))))-((x+(3.3-y))%((pi+cos(x))+sin((7.6-frac(4.3)))))))+((((pi*y)+sin((x+tan(pi))))+((x+(3.3-y))%((pi+cos(x))+sin((7.6-frac(4.3))))))-(((pi*sin(x))+sin((1.2%y)))/((y+(5.2-y))/((pi+cos(x))+sin((3.7-frac(3.3))))))))+((((pi*pi)+sin((x+tan(x))))/(((pi*pi)+sin((x+tan(pi))))-((x+(2.3-y))%((pi+cos(y))+sin((7.6-frac(4.6)))))))-(((pi*pi)+sin((x+tan(x))))+(((pi*pi)+sin((x+tan(pi))))-((x+(8.8-y))%((pi+cos(y))+sin((7.6-frac(0.2))))))))))

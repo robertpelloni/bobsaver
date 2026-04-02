@@ -1,0 +1,21 @@
+[Rule]
+s0=0
+s1=0
+s2=1
+s3=0
+s4=1
+s5=1
+s6=1
+b0=0
+b1=0
+b2=1
+b3=1
+b4=1
+b5=1
+b6=1
+[Settings]
+Initial Population=0
+States=2
+[Colors]
+State 1=clYellow
+Final=clRed

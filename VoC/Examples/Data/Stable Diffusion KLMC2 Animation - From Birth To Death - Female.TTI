@@ -1,0 +1,29 @@
+[Settings]
+Input Phrase=This prompt is not used for this script.
+Script=Stable Diffusion KLMC2 Animation *
+Random seed=1901412987
+Iterations=1300
+Image Size=512
+[Stable Diffusion KLMC2 Animation Prompt Params]
+Line0=["a photograph of a female human fetus",{0:1, 50:1, 150:0}],
+Line1=["a photograph of a female human newborn baby",{50:0, 150:1, 250:0}],
+Line2=["a photograph of a female human baby",{150:0, 250:1, 350:0}],
+Line3=["a photograph of a female human toddler",{250:0, 350:1, 450:0}],
+Line4=["a photograph of a female human child",{350:0, 450:1, 550:0}],
+Line5=["a photograph of a female human teenager",{450:0, 550:1, 650:0}],
+Line6=["a photograph of a female human young adult",{550:0, 650:1, 750:0}],
+Line7=["a photograph of a female human adult",{650:0, 750:1, 850:0}],
+Line8=["a photograph of a female human middle aged adult",{750:0, 850:1, 950:0}],
+Line9=["a photograph of a female human elderly person",{850:0, 950:1, 1050:0}],
+Line10=["a photograph of a female human corpse",{950:0, 1050:1, 1150:0}],
+Line11=["a photograph of a female human skeleton",{1050:0, 1150:1}],
+[Stable Diffusion KLMC2 Animation]
+n=1300
+init_image=
+g=0.1
+sigma=2.0
+h=0.1
+gamma=1.0
+alpha=0.005
+tau=1.0
+hvp_method=fake

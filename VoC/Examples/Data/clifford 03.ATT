@@ -1,0 +1,13 @@
+[Settings]
+Attractor Name=Clifford
+Palette=design-seeds pumpkin palette.MAP
+Parameter A=1.5
+Parameter B=-1.8
+Parameter C=1.6
+Parameter D=2
+Formula=4
+[Coordinates]
+Xmin=-5.35445296235349
+Xmax=5.66063852483104
+Ymin=-3.24153878677606
+Ymax=3.15513094625264

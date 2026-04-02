@@ -1,0 +1,25 @@
+# Script to control settings for a Text-to-Image movie
+# Lines starting the # are comments
+#
+# Script lines are settings separated by * characters and contain;
+# prompt text
+# iterations per frame
+# frames for the specified prompt
+# start learning rate
+# end learning rate
+# start zoom
+# end zoom
+# start rotation
+# end rotation
+# start panx
+# end panx
+# start pany
+# end pany
+#
+an oil painting depicting the sin of pride*10*60*0.1*0.1*1*1.02*0*1*0*0*0*0
+an oil painting depicting the sin of greed*10*60*0.1*0.1*1.02*1.02*1*-1*0*0*0*0
+an oil painting depicting the sin of wrath*10*60*0.1*0.1*1.02*1.02*-1*1*0*0*0*0
+an oil painting depicting the sin of envy*10*60*0.1*0.1*1.02*1.02*1*-1*0*0*0*0
+an oil painting depicting the sin of lust*10*60*0.1*0.1*1.02*1.02*-1*1*0*0*0*0
+an oil painting depicting the sin of gluttony*10*60*0.1*0.1*1.02*1.02*1*-1* 0*0*0*0
+an oil painting depicting the sin of sloth*10*60*0.1*0.1*1.02*1*-1*0*0*0*0*0

@@ -1,0 +1,7 @@
+[Settings]
+Formula=y-cos((x-y)-cos(pi+0.9)+x+sin(pi)+x-cos(y)-cos(y+x)-sin(x)+y-sin(pi)+y+sin(x-y+pi)+sin(((y-pi)-cos(x-y-2.3))))
+Palette=JACCO175.MAP
+Xmin=-12.203125
+Xmax=1.890625
+Ymin=2.0625
+Ymax=16.2708333333333

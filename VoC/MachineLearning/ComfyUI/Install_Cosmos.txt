@@ -1,0 +1,4 @@
+ComfyUI\models\text_encoders\oldt5_xxl_fp8_e4m3fn_scaled.safetensors	4897785136	https://huggingface.co/comfyanonymous/cosmos_1.0_text_encoder_and_VAE_ComfyUI/resolve/main/text_encoders/oldt5_xxl_fp8_e4m3fn_scaled.safetensors	4054be4c59ed2be08512d66585f16165
+ComfyUI\models\vae\cosmos_cv8x8x8_1.0.safetensors	211344924	https://huggingface.co/comfyanonymous/cosmos_1.0_text_encoder_and_VAE_ComfyUI/resolve/main/vae/cosmos_cv8x8x8_1.0.safetensors	3f375446c9b3c9add55f4937151afa94
+ComfyUI\models\diffusion_models\Cosmos-1_0-Diffusion-14B-Text2World.safetensors	28534463405	https://huggingface.co/mcmonkey/cosmos-1.0/resolve/main/Cosmos-1_0-Diffusion-14B-Text2World.safetensors	1cc90ac7c8e33c2ea0c4c14bb4ce5865
+ComfyUI\models\diffusion_models\Cosmos-1_0-Diffusion-7B-Text2World.safetensors	14472527898	https://huggingface.co/mcmonkey/cosmos-1.0/resolve/main/Cosmos-1_0-Diffusion-7B-Text2World.safetensors	06af83b86daf758f9d5ae90528cefaba

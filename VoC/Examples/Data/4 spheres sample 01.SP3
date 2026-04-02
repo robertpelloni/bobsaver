@@ -1,0 +1,20 @@
+[Settings]
+Spheres=3
+Display Mode=2
+Line Width=2
+Time Step=0.01
+Color Mode=0
+Color Palette=kuler candy corn.MAP
+[Grid]
+Radius 1=85
+Rotation 1 1=4
+Rotation 2 1=6
+Radius 2=83
+Rotation 1 2=1
+Rotation 2 2=6
+Radius 3=45
+Rotation 1 3=5
+Rotation 2 3=7
+Radius 4=24
+Rotation 1 4=2
+Rotation 2 4=1

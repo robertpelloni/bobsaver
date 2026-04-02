@@ -1,0 +1,14 @@
+[Settings]
+Acceleration=0.05
+Grid Style=1
+Detail=175
+Display Style=6
+Flow Style=0
+Channel Height=6
+Streamlines=0
+Reverse Streamlines=0
+Streamlines Color=clBlack
+Reverse Streamlines Color=clBlack
+Streamlines Spacing=2
+Flow Vectors Visible=0
+Color Palette=ROYGBIV3.MAP

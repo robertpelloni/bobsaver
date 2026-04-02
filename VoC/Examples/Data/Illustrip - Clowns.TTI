@@ -1,0 +1,17 @@
+[Settings]
+Input Phrase=a painting of a cabin next to a stream in a secluded forest
+Script=Illustrip
+Random seed=847852972
+Iterations=200
+[Illustrip]
+Texts='sad clown','happy clown'
+Styles='oil painting portrait','oil painting portrait'
+Zoom=0.012
+Shift=10
+Rotate=0.8
+Colors=4
+Contrast=1.0
+Sharpness=0.5
+Distort=0.2
+Samples=300
+Learning Rate=1

@@ -1,0 +1,10 @@
+ComfyUI\models\checkpoints\512-inpainting-ema.safetensors	5214662094	https://huggingface.co/stabilityai/stable-diffusion-2-inpainting/resolve/main/512-inpainting-ema.safetensors	53331d2c46050be2a0f04d418abfa95a
+ComfyUI\models\checkpoints\dreamshaperXL_turboDpmppSDE.safetensors	6939220250	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/dreamshaperXL_turboDpmppSDE.safetensors	cb5dc194535e444f312f3bfff855274f
+ComfyUI\models\ipadapter\ip-adapter-plus-face_sdxl_vit-h.safetensors	847517512	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/ip-adapter-plus-face_sdxl_vit-h.safetensors	d2799fb3cb748982fa1932278179cc88
+ComfyUI\models\clip_vision\sd1.5pytorch_model.bin	2528481905	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/sd1.5pytorch_model.bin	0a0900180245762f122a681839391a9b
+ComfyUI\models\inpaint\big-lama.pt	205669692	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/big-lama.pt	e3aa4aaa15225a33ec84f9f4bc47e500
+ComfyUI\models\inpaint\fooocus_inpaint_head.pth	52602	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/fooocus_inpaint_head.pth	0d61d0b4dab49fbd33cb58cf039123fa
+ComfyUI\models\controlnet\diffusion_pytorch_model_promax.safetensors	2513342408	https://huggingface.co/xinsir/controlnet-union-sdxl-1.0/resolve/main/diffusion_pytorch_model_promax.safetensors	7a8947b1b4942ba6d7ebba2e509b645e
+ComfyUI\models\checkpoints\flux1CompactCLIPAnd_Flux1DevFp8.safetensors	17078858358	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/flux1CompactCLIPAnd_Flux1DevFp8.safetensors	bcab87ac2778751ca4d569d1ec21484b
+ComfyUI\models\upscale_models\4xFaceUpDAT.pth	154685037	https://huggingface.co/deeenko/lora1/resolve/2d9a6f28fcbf740139ad1a36b6e2af0d66cdfb8b/4xFaceUpDAT.pth	0dd90798a50f521c2802edb7bafcc4ad
+ComfyUI\models\loras\perfection style.safetensors	912559572	https://huggingface.co/GraydientPlatformAPI/loras-april22/resolve/ab27e027e67d55d9d090d93a6c8252d5aa66e01a/perfection%20style.safetensors	0a0e5901ffe9b167b97835c45ae46fd5

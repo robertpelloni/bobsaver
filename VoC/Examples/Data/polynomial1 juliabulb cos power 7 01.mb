@@ -1,0 +1,60 @@
+[Eye]
+X=0.3
+Y=0
+Z=1
+[Look At]
+X=0.3
+Y=0
+Z=0
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=57
+[Light]
+X=0
+Y=0
+Z=-10
+[Rotation]
+X=140
+Y=0
+Z=0
+[Settings]
+Iterations=6
+Epsilon=0.0001
+Power=7
+Gamma=43
+Contrast=0
+Shading=2
+Formula=1
+Formula Variation=2
+Bailout=4
+Palette=kuler striped lamp shade.MAP
+Spikes=1
+Spikes Y Maximum=0.473992236889899
+Juliabulb=1
+Julia Real=-1.36961178817971
+Julia Imaginary=0.0807238276739477
+Julia Imaginary 2=-0.347564873285592
+Shadows=1
+Specularity=0.45
+Glow Effect=1
+Glow Color=$00E7D789
+Glow Threshold=440
+Outside Glow=1
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.4
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=1
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Phase=0.148776767775416
+Theta Scale=-0.481105894781649
+Phi Scale=-0.108289216179401

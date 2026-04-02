@@ -1,0 +1,46 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=67959799
+Iterations=50
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Model Version=v2
+Playgroundv2NegativePrompt=blurry, out of focus, tiltshift, low depth of field
+Playgroundv2GuidanceScale=3
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.1
+PlaygroundV2Scheduler=HeunDiscreteScheduler
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Movie Rotate=0:0,30:0.710,60:-0.218,90:0.737,120:-0.761,150:0.044,180:0.941,210:-0.701,240:-0.887,270:0.670,300:-0.839,330:0.924,360:0.543,390:-0.843,420:0.519,450:-0.117,480:-0.037,510:0.644,540:-0.929,570:0.159,600:-0.589,630:0.562,660:-0.765,690:0.210,720:-0.017,750:0.626,780:-0.935,810:-0.379,840:-0.483,870:-0.113,900:0.086
+In Script Movie Pan X=0:0,30:0.076,60:-0.725,90:0.338,120:-0.055,150:-0.414,180:0.966,210:-0.162,240:0.631,270:-0.103,300:0.586,330:0.412,360:0.602,390:-0.107,420:0.050,450:0.583,480:0.497,510:-0.831,540:0.508,570:0.948,600:-0.904,630:0.812,660:0.936,690:-0.021,720:0.141,750:0.459,780:-0.834,810:-0.093,840:0.490,870:-0.871,900:0.494
+In Script Movie Pan Y=0:0,30:0.860,60:0.050,90:0.350,120:0.472,150:0.132,180:0.284,210:-0.088,240:-0.502,270:0.994,300:-0.012,330:-0.512,360:0.156,390:-0.731,420:0.114,450:0.553,480:-0.500,510:0.480,540:-0.847,570:0.590,600:-0.895,630:0.750,660:-0.875,690:0.375,720:-0.180,750:0.254,780:0.124,810:0.275,840:-0.686,870:0.057,900:0.439
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.1
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Noise=10
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=0
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+In Script Movie Color Matching=1
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:cream and coffee

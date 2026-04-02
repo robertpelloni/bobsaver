@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos(y)*cos(x)*cos(((y)*cos(x-y-pi)-cos((x)-y-floor((x-pi)*y*cos(x)*cos(x*1.3)-sin(((y*x-pi))-sin(y+x*pi))))))
+Palette=colorschemer skin tones.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

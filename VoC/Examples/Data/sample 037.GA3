@@ -1,0 +1,27 @@
+[Settings]
+Formula=(((y%abs(x))%((((pi+pi)-sgn((y*arctan(5.3))))*sin(((x*arctan(x))-sin((y%pi)))))-abs(pi)))-((((y+pi)-sgn((y*cos(6.5))))*sgn(((x*arctan(x))+sin((y%pi)))))-abs(x)))
+Color Palette=kuler i salute king tut.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(((y+pi)-sgn((y*arctan(6.9))))*sgn(((x*arctan(x))%sin((y%pi)))))
+Gene1=(pi%x)
+Gene2=(((x%pi)/tan((9.9%exp(y))))*arctan(((y+pi)*ceil((pi/ln(pi))))))
+Gene3=((6.6*floor(x))-(x+pi))
+Gene4=(y%abs(x))
+Gene5=((((y+pi)-sgn((y*arctan(6.9))))*sgn(((x*arctan(x))%sin((y%pi)))))%(((x%pi)/tan((9.9%exp(y))))*arctan(((y+pi)*ceil((pi/ln(pi)))))))
+Gene6=(y-abs(x))
+Gene7=((y-abs(x))-(y%abs(x)))
+Gene8=((((y+pi)-sgn((y*arctan(6.9))))*sgn(((x*arctan(x))%sin((y%pi)))))-abs(x))
+Gene9=((y%abs(x))+((((y+pi)-sgn((y*arctan(6.9))))*sgn(((x*arctan(x))%sin((y%pi)))))-abs(x)))
+Gene10=((y%abs(x))%((((pi+pi)-sgn((y*arctan(6.9))))*sgn(((x*arctan(x))%sin((y%pi)))))-abs(x)))
+Gene11=(((y%abs(x))%((((pi+pi)-sgn((y*arctan(6.9))))*sgn(((x*arctan(x))%sin((y%pi)))))-abs(x)))-((((y+pi)-sgn((y*arctan(6.9))))*sgn(((x*arctan(x))%sin((y%pi)))))-abs(x)))
+Gene12=(((y%abs(x))%((((pi+pi)-sgn((y*arctan(6.9))))*sgn(((x*arctan(x))%sin((y%pi)))))-abs(pi)))-((((y+pi)-sgn((y*arctan(6.9))))*sgn(((x*arctan(x))+sin((y%pi)))))-abs(x)))
+Gene13=(((x%abs(x))%((((pi+pi)-sgn((y*arctan(6.9))))*sgn(((x*arctan(pi))%sin((y%pi)))))-abs(pi)))+((((y+pi)-sgn((y*arctan(6.9))))*sgn(((x*arctan(x))+sin((y%pi)))))-abs(x)))
+Gene14=(((y%abs(x))%((((pi+pi)-sgn((y*arctan(6.9))))*sin(((x*arctan(x))%sin((y%pi)))))-abs(pi)))-((((y+pi)-sgn((y*sqrt(6.9))))*sgn(((x*arctan(x))+sin((y%pi)))))-abs(x)))
+Gene15=(((y%abs(x))%((((pi+pi)-sin((y*arctan(3.3))))*sgn(((x*floor(x))%sin((y+pi)))))-abs(x)))%((((y+pi)-sgn((y*arctan(5.1))))*sgn(((x*arctan(x))%sin((y%pi)))))-abs(x)))
+Gene16=(((y%abs(x))%((((pi+pi)-arctan((y*arctan(5))))*sgn(((x*arctan(x))%sin((y%pi)))))-abs(x)))-((((pi+pi)-sgn((y/arctan(6.2))))*floor(((x*arctan(x))%sin((y%pi)))))-abs(x)))
+Gene17=(((y%abs(x))%((((pi+pi)-sgn((y*arctan(5.3))))*sin(((x*arctan(x))-sin((y%pi)))))-abs(pi)))+((((y+pi)-sgn((y*cos(3.7))))*sgn(((x*arctan(x))+sin((y%pi)))))-abs(x)))
+Gene18=(((y%abs(x))%((((pi+pi)-sgn((y*arctan(5.3))))*sin(((x*arctan(x))-sin((y%pi)))))-abs(pi)))-((((y+pi)-sgn((y*cos(6.5))))*sgn(((x*arctan(x))+sin((y%pi)))))-abs(x)))

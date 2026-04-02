@@ -1,0 +1,40 @@
+[Settings]
+Color method=3
+Color palette=coolors red roving.MAP
+Wrap method=1
+Start style=0
+Random seed=-516903254
+Combined wavs=6
+Histogram=1
+Layers=4
+[Grid]
+Blur Radius 1=1
+Min Freq 1=2
+Max Freq 1=5
+Min Amp 1=1
+Max Amp 1=3
+Blur Radius 2=10
+Min Freq 2=2
+Max Freq 2=4
+Min Amp 2=2
+Max Amp 2=3
+Blur Radius 3=50
+Min Freq 3=2
+Max Freq 3=5
+Min Amp 3=2
+Max Amp 3=3
+Blur Radius 4=100
+Min Freq 4=2
+Max Freq 4=4
+Min Amp 4=2
+Max Amp 4=3
+[Color Matrix]
+00=1
+10=0.953543805517256
+20=-0.380297901574522
+01=-0.866900216788054
+11=1
+21=0.492513839621097
+02=-0.851315059699118
+12=0.709907818119973
+22=1

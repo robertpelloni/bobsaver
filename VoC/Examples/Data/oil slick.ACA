@@ -1,0 +1,12 @@
+[Settings]
+Multiplication Factor=5
+Shifter=10
+Scan Size=2
+Inner=7
+[Matrix]
+0=-6 4 -8 4 -5 -8
+1=-9 5 2 -2 -3 -9
+2=7 -4 2 9 -4 9
+3=-6 -8 -7 4 8 -7
+4=-7 -2 -3 6 7 6
+5=5 0 5 -9 -2 5

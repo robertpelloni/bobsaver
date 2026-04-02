@@ -1,0 +1,33 @@
+[Settings]
+headprompt=
+tailprompt=
+negativeprompt=
+scheduler=k_dpmpp_sde
+motionmodule=improved3DMotion_improved3DV1.ckpt
+motionlora=v2_lora_ZoomOut.ckpt
+motionlorastrength=1.0
+lora=epicphotogasm_v4One4All.safetensors
+controlnet=
+seed=573668030
+steps=25
+frames=16
+lengthparameter=650
+guidancescale=7.5
+w=1024
+h=512
+format=mp4
+loopmovie=0
+[Prompt]
+Line0="0": "sperm and ovum",
+Line1="50": "a female human fetus",
+Line2="100": "a female human newborn baby",
+Line3="150": "a female human baby",
+Line4="200": "a female human toddler",
+Line5="250": "a female human child",
+Line6="300": "a female human teenager",
+Line7="350": "a female human young adult",
+Line8="400": "a female human adult",
+Line9="450": "a female human middle aged adult",
+Line10="500": "a female human elderly person",
+Line11="550": "a female human corpse",
+Line12="600": "a female human skeleton"

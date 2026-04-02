@@ -1,0 +1,13 @@
+[GA Rule]
+Rule=vz
+[Image Options]
+Palette File=BLUEORNG.MAP
+Smooth Colors=0
+Random Offsets=1
+Overlay Mode=0
+Coordinate Width=3
+[Gene Character Offsets]
+Xoffset1=0
+Yoffset1=1
+Xoffset2=-1
+Yoffset2=-3

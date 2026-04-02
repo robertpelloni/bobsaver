@@ -1,0 +1,7 @@
+[Settings]
+Formula=sin(y+x+pi)+cos(((pi))+sin(y+pi)+cos(((y+x+0.8)+cos(y+x+pi)+sin(((pi+pi)+cos(x+y+1.2)+sin(x+y))+sin(y+x)+sin(pi+pi)+y+sin(y+8.2)+sin(x)+sin(((y+8)+cos(((pi)+x+cos(x+y+0.8)+sin(((y+x)+sin(pi))+sin((x)+x+cos(pi+pi)+sin((x+y+6.5)+y+sin(pi))+cos(y+x+pi))+x+sin(((y+x)+sin(y+x+pi))+cos(x)+sin((y+pi)+y+cos((x))+cos(pi+pi))+sin(x+y+pi)+y+sin(y+x)+sin(y+x+pi))+sin(y)+cos(x+pi)+cos(y+x))+sin(y+x)+sin(x+pi))+sin(y+x+pi))+y+cos(y+x))+sin(pi+8.6)+sin(((y+x)+cos(pi)+cos(y)+sin(y)+sin(y)+cos((x)+x+cos(y+2.2))+sin(pi+6.8)+x+sin(y+6.5))+sin(y)+sin(pi)))))))
+Palette=kuler clooney.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

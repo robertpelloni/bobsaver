@@ -1,0 +1,10 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.23.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.35.0 
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts sk-video==1.1.10 
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.7.0.72
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts moviepy==1.0.3 
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.1.1+cu118 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118

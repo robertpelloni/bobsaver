@@ -1,0 +1,32 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.40.0
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==3.34.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==3.47.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts av==10.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.6.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts flashy==0.0.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts hydra-core==1.3.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts hydra_colorlog==1.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts julius==0.2.7
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts num2words==0.5.12
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts sentencepiece==0.1.99
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts spacy==3.5.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.15.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.65.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.30.1
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.20
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.30
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts demucs==4.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts librosa==0.10.0
+pip uninstall -y torch
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.0+cu118 torchvision==0.15.1+cu118 torchaudio==2.0.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip install triton-windows
+pip uninstall -y typing_extensions
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts typing_extensions==4.11.0
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

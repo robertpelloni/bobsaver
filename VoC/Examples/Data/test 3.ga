@@ -1,0 +1,18 @@
+[GA Rule]
+Rule=GhlJE
+[Image Options]
+Palette File=GAUCHE.MAP
+Smooth Colors=1
+Random Offsets=1
+Coordinate Width=3
+[Gene Character Offsets]
+Xoffset1=2
+Yoffset1=-1
+Xoffset2=0
+Yoffset2=2
+Xoffset3=1
+Yoffset3=1
+Xoffset4=2
+Yoffset4=1
+Xoffset5=-3
+Yoffset5=1

@@ -1,0 +1,16 @@
+[Settings]
+World Size=1000
+Particle Radius=5
+Particle Count=300
+Particle Types=5
+Random Seed=1645529574
+Min Attraction=-0.09
+Max Attraction=0.09
+Min Radius Lower=5
+Min Radius Upper=20
+Max Radius Lower=20
+Max Radius Upper=80
+Friction=0.025
+Flat Force=0
+Color Style=1
+Background Color=$00200000

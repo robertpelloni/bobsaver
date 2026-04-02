@@ -1,0 +1,14 @@
+[Settings]
+Xmin=-8
+Xmax=8
+Ymin=-5.15
+Ymax=5.15
+CX=-0.73921568627451
+CY=0.234673366834171
+Power=3
+Maximum Iterations=40
+Color Scale Factor=3
+Color Palette=Flame 009_mouldy-sun.map
+Variation=0
+Symmetry=0
+Smooth Shading=1

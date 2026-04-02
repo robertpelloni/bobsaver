@@ -1,0 +1,41 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tensorflow==2.11.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.25.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gdown===4.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts PyGLM==2.5.7
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ftfy==6.0.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts regex==2022.10.31
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.62.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts omegaconf==2.1.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pytorch-lightning==1.5.7
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts kornia==0.6.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.3.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio-ffmpeg==0.4.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts adjustText==0.7.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts exrex==0.10.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts matplotlib-label-lines==0.4.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pandas==1.3.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts seaborn==0.11.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scikit-learn==1.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts loguru==0.6.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts hydra-core
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts Pillow==9.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio==2.4.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts IPython==8.7.0
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+pip uninstall -y setuptools
+pip uninstall -y setuptools
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts setuptools==59.5.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts poetry==1.3.1
+pip install --upgrade git+https://github.com/pytti-tools/AdaBins.git
+pip install --upgrade git+https://github.com/pytti-tools/GMA.git
+pip install --upgrade git+https://github.com/pytti-tools/taming-transformers.git
+pip install --upgrade git+https://github.com/openai/CLIP.git
+pip install --upgrade git+https://github.com/dmarx/Multi-Modal-Comparators
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

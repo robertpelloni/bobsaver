@@ -1,0 +1,41 @@
+[Coordinates]
+Xmin=-82.1417407226563
+Xmax=-13.9027563476563
+Ymin=-127.747734375
+Ymax=-59.135859375
+[Stars]
+How Many=7
+Patern=2
+[Star Settings]
+Star 1 X=-33
+Star 1 Y=20
+Star 1 Mass=74120
+Star 2 X=-79
+Star 2 Y=79
+Star 2 Mass=88997
+Star 3 X=-2
+Star 3 Y=13
+Star 3 Mass=-80577
+Star 4 X=92
+Star 4 Y=-26
+Star 4 Mass=59591
+Star 5 X=-53
+Star 5 Y=-71
+Star 5 Mass=-10044
+Star 6 X=-48
+Star 6 Y=2
+Star 6 Mass=85933
+Star 7 X=51
+Star 7 Y=28
+Star 7 Mass=-80750
+[Orbit]
+X Velocity=0
+Y Velocity=0
+[Globals]
+Gravity Constant=0.1
+Delta Time=6
+Escape Velocity=0
+Escape Radius=10000
+Iterations=256
+[Settings]
+Palette=Jason14.MAP

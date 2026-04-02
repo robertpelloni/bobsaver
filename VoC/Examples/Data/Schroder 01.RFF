@@ -1,0 +1,30 @@
+[Settings]
+Formula=17
+Root Method=2
+Coloring=2
+Tolerance=0.00000001
+Palette Step=2
+Palette=multiplesinpal010.MAP
+Xmin=-0.910866816666668
+Xmax=0.920225983333334
+Ymin=2.38314098366667
+Ymax=3.44403037466667
+[Specific Settings]
+a Real=1.0
+a Imaginary=0.0
+beta Real=0.0
+beta Imaginary=0.0
+sec Real=0.0
+sec Imaginary=0.0
+m Real=1.0
+m Imaginary=0.0
+[Orbit Traps]
+Style=0
+Palette Count=1
+Palette 1=orbit traps silver 01.MAP
+Palette 2=orbit traps gold 01.MAP
+Palette 3=orbit traps red 01.MAP
+Palette 4=orbit traps green 01.MAP
+Palette 5=orbit traps blue 01.MAP
+Only Show Traps=0
+Perlin Shading=0

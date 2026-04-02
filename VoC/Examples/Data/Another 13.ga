@@ -1,0 +1,19 @@
+[GA Rule]
+Rule=cEcQb
+[Image Options]
+Palette File=JACCO168.MAP
+Smooth Colors=0
+Random Offsets=1
+Overlay Mode=0
+Coordinate Width=10
+[Gene Character Offsets]
+Xoffset1=-6
+Yoffset1=5
+Xoffset2=-6
+Yoffset2=8
+Xoffset3=3
+Yoffset3=-6
+Xoffset4=4
+Yoffset4=1
+Xoffset5=-10
+Yoffset5=-9

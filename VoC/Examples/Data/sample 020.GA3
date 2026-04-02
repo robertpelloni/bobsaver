@@ -1,0 +1,30 @@
+[Settings]
+Formula=(((((((7.6*sin(y))/y)+(x+round(pi)))-((pi+cos(x))%sin((y+x))))+(((((7.6*sin(y))/pi)+(x+abs(pi)))%((pi*(8.3-pi))/((pi+cos(pi))/sin((y/pi)))))*((pi+(8.3-pi))/((pi+cos(x))-sin((y/pi))))))%(((((7.6*sin(y))/y)+(x+round(pi)))-((pi+cos(x))%sin((y+pi))))%(((((7.6*sin(y))/y)+(x+round(pi)))%((pi*(8.3-pi))/((y+cos(x))/sin((y/pi)))))*((pi*(8.3-pi))/((pi+cos(x))/sin((y/pi)))))))+(((((7.6*sin(y))/y)+(x+round(pi)))-((pi+cos(x))%sin((y+pi))))%(((((7.6*sin(y))/y)+(x+round(pi)))%((pi*(8.3-pi))/((y+cos(x))/sin((y/pi)))))*((pi*(8.3-pi))/((pi+cos(x))/sin((y/pi)))))))
+Color Palette=kuler nordic blonde.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(((5.3-0.3)%((pi-x)*(y+x)))+exp(((3.4+y)%((5.2-arctan(pi))%y))))
+Gene1=((((pi-2.3)%abs((y+x)))%((y/x)+floor((x+abs(y)))))/(((4.7%pi)/(2.3%5))+(((2.3*ceil(pi))+sqr((pi+x)))+(pi-floor(5.7)))))
+Gene2=((7.6-(x+pi))%((pi-exp(x))*y))
+Gene3=((pi*(8.3-pi))*((pi+cos(x))%sin((y+pi))))
+Gene4=(((7.6*sin(y))/y)+(x+round(pi)))
+Gene5=(((7.6*sin(y))/y)%(x*round(pi)))
+Gene6=((pi*(8.3-pi))*((pi+cos(x))%sin((y+pi))))
+Gene7=((pi*(8.3-pi))/((pi+cos(x))/sin((y/pi))))
+Gene8=((((7.6*sin(y))/y)+(x+round(pi)))%((pi*(8.3-pi))/((pi+cos(x))/sin((y/pi)))))
+Gene9=(((((7.6*sin(y))/y)+(x+round(pi)))%((pi*(8.3-pi))/((pi+cos(x))/sin((y/pi)))))*((pi*(8.3-pi))/((pi+cos(x))/sin((y/pi)))))
+Gene10=((((7.6*sin(y))/y)+(x+round(pi)))-((pi+cos(x))%sin((y+pi))))
+Gene11=(((((7.6*sin(y))/y)+(x+round(pi)))-((pi+cos(x))%sin((y+pi))))%((((7.6*sin(y))/y)+(x+round(pi)))%((pi*(8.3-pi))/((pi+cos(x))/sin((y/pi))))))
+Gene12=(((pi*(8.3-pi))*((pi+cos(x))%sin((y+pi))))+(((((7.6*sin(y))/y)+(x+round(pi)))%((pi*(8.3-pi))/((pi+cos(x))/sin((y/pi)))))*((pi*(8.3-pi))/((pi+cos(x))/sin((y/pi))))))
+Gene13=(((pi*(8.3-pi))*((pi+cos(x))%sin((y+pi))))+(((((7.6*sin(y))/y)+(x+round(pi)))%((pi*(8.3-pi))/((pi+cos(x))/sin((y/pi)))))*((pi*(8.3-pi))/((pi+cos(x))/sin((y/pi))))))
+Gene14=(((((7.6*sin(y))/y)+(x+round(y)))%((pi*(8.3-pi))/((pi+exp(x))/sin((y/pi)))))*((pi*(8.3-pi))/((pi+cos(x))/sin((y/pi)))))
+Gene15=(((((7.6*sin(y))/y)+(x+round(pi)))-((pi+cos(x))%sin((y+pi))))-((((7.6*sin(x))/x)+(y+round(pi)))%((pi*(8.3-pi))/((pi+cos(x))/sin((y/pi))))))
+Gene16=(((((7.6*sin(y))/y)+(x+round(pi)))-((pi+cos(x))%sin((y+pi))))%(((((7.6*sin(y))/y)+(x+round(pi)))%((pi*(8.3-pi))/((pi+cos(x))/sin((y/pi)))))*((pi*(8.3-pi))/((pi+cos(x))/sin((y/pi))))))
+Gene17=(((((7.6*sin(y))/y)+(x+round(pi)))-((pi+abs(x))%sin((y+pi))))+((((7.6*sin(x))/y)+(y+int(pi)))%((pi*(8.3/pi))/((pi+cos(x))/sin((y/pi))))))
+Gene18=(((((7.6*sin(y))/y)+(x+round(pi)))-((pi+cos(x))%sin((y+x))))+(((((7.6*sin(y))/pi)+(x+abs(pi)))%((pi*(8.3-pi))/((pi+cos(pi))/sin((y/pi)))))*((pi+(8.3-pi))/((pi+cos(x))-sin((y/pi))))))
+Gene19=((((((7.6*sin(y))/y)+(x+round(pi)))-((pi+cos(x))%sin((y+pi))))-((((7.6*sin(x))/x)+(y+round(pi)))%((pi*(8.3-pi))/((pi+cos(x))/sin((y/pi))))))-(((((7.6*sin(y))/y)+(x+round(pi)))-((pi+cos(x))%sin((y+x))))+(((((7.6*sin(y))/pi)+(x+abs(pi)))%((pi*(8.3-pi))/((pi+cos(pi))/sin((y/pi)))))*((pi+(8.3-pi))/((pi+cos(x))-sin((y/pi)))))))
+Gene20=(((((7.6*sin(y))/y)+(x+round(pi)))-((pi+cos(x))%sin((y+pi))))%(((((7.6*sin(y))/y)+(x+round(pi)))%((pi*(8.3-pi))/((y+cos(x))/sin((y/pi)))))*((pi*(8.3-pi))/((pi+cos(x))/sin((y/pi))))))
+Gene21=((((((7.6*sin(y))/y)+(x+round(pi)))-((pi+cos(x))%sin((y+x))))+(((((7.6*sin(y))/pi)+(x+abs(pi)))%((pi*(8.3-pi))/((pi+cos(pi))/sin((y/pi)))))*((pi+(8.3-pi))/((pi+cos(x))-sin((y/pi))))))%(((((7.6*sin(y))/y)+(x+round(pi)))-((pi+cos(x))%sin((y+pi))))%(((((7.6*sin(y))/y)+(x+round(pi)))%((pi*(8.3-pi))/((y+cos(x))/sin((y/pi)))))*((pi*(8.3-pi))/((pi+cos(x))/sin((y/pi)))))))

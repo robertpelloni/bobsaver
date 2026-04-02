@@ -1,0 +1,7 @@
+[Settings]
+Formula=sin((y+pi)+frac(pi/pi)+sin(x+y+pi)/tan(((y/pi)+frac(pi+pi))))
+Palette=kuler the perfect storm.MAP
+Xmin=-20.0138888888889
+Xmax=6.56944444444444
+Ymin=-14.8958333333333
+Ymax=11.8402777777778

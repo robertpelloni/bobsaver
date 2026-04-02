@@ -1,0 +1,9 @@
+[Settings]
+Parameter String=OAQJLMDKGMLQ
+Palette=G1.MAP
+ESCMaxIters=255
+[Coordinates]
+ESCXmin=-0.56875
+ESCXmax=-0.46875
+ESCYmin=-2.02222222222222
+ESCYmax=-1.92222222222222

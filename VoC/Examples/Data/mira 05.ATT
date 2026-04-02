@@ -1,0 +1,14 @@
+[Settings]
+Attractor Name=Mira
+Palette=IFS12.MAP
+Brightness=100
+Contrast=0
+A=0.3
+B=1.0
+Start X=12
+Start Y=0.7
+[Coordinates]
+Xmin=-34.75
+Xmax=37.25
+Ymin=-20.8575
+Ymax=20.8575

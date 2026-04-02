@@ -1,0 +1,18 @@
+[Settings]
+Model=caffe-googlenet-places205 googlenet_places205.pth
+Optimizer=adam
+Backend=cudnn
+Iterations=10
+Octaves=2
+Iterations Per Octave=50
+Octave Scale=0.6
+[Layers]
+1=inception_3a_3x3_reduce
+2=inception_3b_relu_pool_proj
+3=inception_3b_output
+4=inception_4a_1x1
+5=inception_4b_relu_pool_proj
+6=inception_4b_relu_3x3
+7=inception_4d_output
+8=inception_4e_1x1
+9=inception_4e_relu_3x3_reduce

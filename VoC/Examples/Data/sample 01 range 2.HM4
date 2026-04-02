@@ -1,0 +1,12 @@
+[Settings]
+Q=100
+K1=2
+K2=3
+G=25
+Range=2
+Min Visible State=0
+Max Visible State=99
+Cell Shading=0
+Color Palette=Gravity 2D 03.MAP
+State 1 Color=clYellow
+Final State Color=clRed

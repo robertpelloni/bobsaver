@@ -1,0 +1,10 @@
+[Settings]
+Xmin=0.515625
+Xmax=2.171875
+Ymin=-1.8125
+Ymax=-0.145833333333333
+CX=-0.249019607843137
+CY=0.966331658291457
+Maximum Iterations=90
+Color Scale Factor=5000
+Color Palette=Flame 546_Elements.map

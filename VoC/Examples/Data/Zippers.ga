@@ -1,0 +1,19 @@
+[GA Rule]
+Rule=FtIuF
+[Image Options]
+Palette File=JACCO207.MAP
+Smooth Colors=0
+Random Offsets=1
+Overlay Mode=0
+Coordinate Width=7
+[Gene Character Offsets]
+Xoffset1=-20
+Yoffset1=-21
+Xoffset2=5
+Yoffset2=0
+Xoffset3=5
+Yoffset3=-6
+Xoffset4=13
+Yoffset4=13
+Xoffset5=-10
+Yoffset5=5

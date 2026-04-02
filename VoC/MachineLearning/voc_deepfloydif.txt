@@ -1,0 +1,18 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts deepfloyd_if==1.0.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.28.1
+pip uninstall -y accelerate
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.17.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/Keith-Hon/bitsandbytes-windows.git@85ff11a7f04af73bc83cbe6ed0eb1a77ade0697b
+pip uninstall -y diffusers
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/waffletower/diffusers@035b010fa9e696ad35ccd54b2576571fefed39b8
+pip uninstall -y torch
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.0+cu118 torchaudio==2.0.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

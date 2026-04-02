@@ -1,0 +1,21 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.40.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts filelock==3.12.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts Pillow==9.5.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts fire==0.5.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts humanize==4.6.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts requests==2.30.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.65.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts matplotlib==3.7.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scikit-image==0.20.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts blobfile==2.0.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/openai/CLIP.git@a9b1bf5920416aaeaec965c25dd9e8f98c864f16
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pyyaml==6.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ipywidgets==8.0.6
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

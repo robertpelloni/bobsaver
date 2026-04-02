@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos((y%x)%tan(x)/abs(y*x)+cos(y%x*3.8)/arctan(((y/pi))))
+Palette=Genetic13.MAP
+Xmin=-3.625
+Xmax=3.58333333333333
+Ymin=-3.63888888888889
+Ymax=3.58333333333333

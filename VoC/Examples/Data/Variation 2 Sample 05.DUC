@@ -1,0 +1,14 @@
+[Settings]
+Xmin=-1.99047619047619
+Xmax=-0.847619047619048
+Ymin=-0.372761904761905
+Ymax=0.372761904761905
+CX=0.152941176470588
+CY=1.95120603015075
+Power=1
+Maximum Iterations=45
+Color Scale Factor=13
+Color Palette=sinpal23.MAP
+Variation=2
+Symmetry=0
+Smooth Shading=1

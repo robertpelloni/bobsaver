@@ -1,0 +1,39 @@
+[Settings]
+Version=2
+Fractal Type=Mandelbrot
+Re min=-0.0511713383532761
+Re max=-0.0356804998929738
+Im min=-0.990423244364448
+Im max=-0.98144823983151
+Julia X=0
+Julia Y=1
+Angle=0
+Maximum Iterations=1024
+Display Style=1
+Fake Emboss=0
+Interior Color=clBlack
+Color Palette=C:\code\delphi\Chaos\Examples\Palettes\colourlovers retro circus.MAP
+[Orbit Traps]
+Style=0
+Num Pals=1
+Palette 1=orbit traps silver 01.MAP
+Palette 2=orbit traps gold 01.MAP
+Palette 3=orbit traps red 01.MAP
+Palette 4=orbit traps green 01.MAP
+Palette 5=orbit traps blue 01.MAP
+Only Show Traps=0
+[Buddhabrot]
+Enable=1
+Rendering Style=3
+Minimum Iterations=10
+Maximum Iterations=4096
+Bailout=4
+R Start=0
+R Finish=100
+G Start=0
+G Finish=20
+B Start=0
+B Finish=10
+Contrast=71
+Brightness=151
+Sqrt Gamma=1.5

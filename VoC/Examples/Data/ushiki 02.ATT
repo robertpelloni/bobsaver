@@ -1,0 +1,14 @@
+[Settings]
+Attractor Name=Ushiki
+Palette=IFS07.MAP
+Brightness=100
+Contrast=0
+Parameter A=3.6
+Parameter B=0.1
+Parameter C=3.7
+Parameter D=0.15
+[Coordinates]
+Xmin=-0.833333333333334
+Xmax=4.88888888888889
+Ymin=0.228888888888889
+Ymax=3.54777777777778

@@ -1,0 +1,24 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.43.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts flask==3.0.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://git@github.com/facebookresearch/audiocraft@69fea8b290ad1b4b40d28f92d1dfc0ab01dbab85
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts flask_socketio==5.3.6
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ffmpeg==1.4
+rem pip uninstall -y xformers
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.25 --index-url https://download.pytorch.org/whl/cu118
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.29.post3 --index-url https://download.pytorch.org/whl/cu124
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.30
+pip uninstall -y torch
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.2.1+cu118 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+rem pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+rem pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.34.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts hf_xet
+pip install triton-windows

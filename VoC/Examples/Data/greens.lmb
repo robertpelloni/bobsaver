@@ -1,0 +1,46 @@
+[Settings]
+Specularity On=1
+Specularity Amount=200
+Ambient Amount=0.2
+[Light 1]
+On=1
+Color=$00004000
+X=0
+Y=0
+Z=-10
+Intensity=4
+[Light 2]
+On=1
+Color=clTeal
+X=0
+Y=0
+Z=10
+Intensity=4
+[Light 3]
+On=0
+Color=clLime
+X=0
+Y=-10
+Z=0
+Intensity=4
+[Light 4]
+On=1
+Color=$00728D05
+X=0
+Y=10
+Z=0
+Intensity=4
+[Light 5]
+On=1
+Color=clYellow
+X=-10
+Y=0
+Z=0
+Intensity=4
+[Light 6]
+On=0
+Color=$00FFFF80
+X=0
+Y=0
+Z=1
+Intensity=4

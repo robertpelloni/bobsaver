@@ -1,0 +1,29 @@
+[Settings]
+Formula=(((((((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))*((((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5))))*(((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))))%(((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5)))))%(((x+7.4)+(pi-cos(x)))%((pi+abs(y))+exp((x%9.8)))))-((((x+5.7)+(pi-cos(y)))/((pi+abs(y))+exp((x%4.8))))*(((x+2.5)+(pi-cos(y)))/((pi+arctan(y))+exp((x%9.8))))))
+Color Palette=coupledca01.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(y+sqr(y))
+Gene1=((x+7)+(pi-cos(y)))
+Gene2=((pi+abs(y))+exp((x%3.5)))
+Gene3=((4.1*cos(y))-(x*8.5))
+Gene4=((pi%sgn(x))+arctan((x/y)))
+Gene5=(((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5))))
+Gene6=(((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))
+Gene7=((((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5))))*(((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8)))))
+Gene8=(((x+7.4)+(pi-cos(x)))%((pi+abs(y))+exp((x%9.8))))
+Gene9=((((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))*((((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5))))*(((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))))
+Gene10=(((((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))*((((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5))))*(((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))))%(((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5)))))
+Gene11=((((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))%(((x+7.4)+(pi-cos(x)))%((pi+abs(y))+exp((x%9.8)))))
+Gene12=((((((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))*((((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5))))*(((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))))%(((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5)))))-((((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5))))*(((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))))
+Gene13=((((((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))*((((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5))))*(((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))))%(((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5)))))*(((x+7.4)+(pi-cos(x)))%((pi+abs(y))+exp((x%9.8)))))
+Gene14=((((((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))*((((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5))))*(((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))))%(((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5)))))%(((x+7.4)+(pi-cos(x)))%((pi+abs(y))+exp((x%9.8)))))
+Gene15=((((((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))*((((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5))))*(((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))))%(((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5)))))-(((x+7.4)+(pi-cos(x)))%((pi+abs(y))+exp((x%9.8)))))
+Gene16=((((((x+6.1)+(pi-cos(y)))/((pi+abs(y))+exp((x%4.5))))*((((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5))))*(((x+7.1)+(pi-cos(y)))/((pi+abs(y))+exp((x%1.2))))))%(((x+0.2)+(pi-cos(y)))/((pi+abs(y))+exp((x%5.9)))))+((((x+5.7)+(pi-cos(y)))/((pi+abs(y))+exp((x%4.8))))*(((x+2.5)+(pi-cos(y)))/((pi+arctan(y))+exp((x%9.8))))))
+Gene17=(((((((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))*((((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5))))*(((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))))%(((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5)))))%(((x+7.4)+(pi-cos(x)))%((pi+abs(y))+exp((x%9.8)))))+((((((x+6.1)+(pi-cos(y)))/((pi+abs(y))+exp((x%4.5))))*((((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5))))*(((x+7.1)+(pi-cos(y)))/((pi+abs(y))+exp((x%1.2))))))%(((x+0.2)+(pi-cos(y)))/((pi+abs(y))+exp((x%5.9)))))+((((x+5.7)+(pi-cos(y)))/((pi+abs(y))+exp((x%4.8))))*(((x+2.5)+(pi-cos(y)))/((pi+arctan(y))+exp((x%9.8)))))))
+Gene18=((((((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))*((((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5))))*(((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))))%(((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5)))))-((((((x+6.1)+(pi-cos(y)))/((pi+abs(y))+exp((x%4.5))))*((((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5))))*(((x+7.1)+(pi-cos(y)))/((pi+abs(y))+exp((x%1.2))))))%(((x+0.2)+(pi-cos(y)))/((pi+abs(y))+exp((x%5.9)))))+((((x+5.7)+(pi-cos(y)))/((pi+abs(y))+exp((x%4.8))))*(((x+2.5)+(pi-cos(y)))/((pi+arctan(y))+exp((x%9.8)))))))
+Gene19=((((((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))*((((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5))))*(((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))))%(((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5)))))+((((x+5.7)+(pi-cos(y)))/((pi+abs(y))+exp((x%4.8))))*(((x+2.5)+(pi-cos(y)))/((pi+arctan(y))+exp((x%9.8))))))
+Gene20=(((((((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))*((((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5))))*(((x+7.4)+(pi-cos(y)))/((pi+abs(y))+exp((x%9.8))))))%(((x+7)+(pi-cos(y)))/((pi+abs(y))+exp((x%3.5)))))%(((x+7.4)+(pi-cos(x)))%((pi+abs(y))+exp((x%9.8)))))-((((x+5.7)+(pi-cos(y)))/((pi+abs(y))+exp((x%4.8))))*(((x+2.5)+(pi-cos(y)))/((pi+arctan(y))+exp((x%9.8))))))

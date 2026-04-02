@@ -1,0 +1,7 @@
+[Settings]
+Formula=arctan((x-y)-sin((x))*y*abs(pi)/sin(y+5.1)*cos(x%pi)/arctan(y))
+Palette=R2.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

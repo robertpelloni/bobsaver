@@ -1,0 +1,35 @@
+[Coordinates]
+Xmin=-1.04166666666666
+Xmax=0.958333333333343
+Ymin=-3
+Ymax=-1
+[Stars]
+How Many=5
+Patern=1
+[Star Settings]
+Star 1 X=0
+Star 1 Y=-100
+Star 1 Mass=100000
+Star 2 X=95
+Star 2 Y=-30
+Star 2 Mass=100000
+Star 3 X=58
+Star 3 Y=80
+Star 3 Mass=100000
+Star 4 X=-58
+Star 4 Y=80
+Star 4 Mass=100000
+Star 5 X=-95
+Star 5 Y=-30
+Star 5 Mass=100000
+[Orbit]
+X Velocity=0
+Y Velocity=0
+[Globals]
+Gravity Constant=1.36
+Delta Time=6.5
+Escape Velocity=0
+Escape Radius=100000
+Iterations=256
+[Settings]
+Palette=JACCO298.MAP

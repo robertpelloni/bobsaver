@@ -1,0 +1,13 @@
+[Settings]
+Attractor Name=Peter DeJong
+Palette=colourlovers thunder sunset.MAP
+Parameter A=1.4
+Parameter B=-2.3
+Parameter C=2.4
+Parameter D=-2.1
+Formula=5
+[Coordinates]
+Xmin=-3.96607349537037
+Xmax=3.94017650462963
+Ymin=-2.28820206523396
+Ymax=2.34911351165981

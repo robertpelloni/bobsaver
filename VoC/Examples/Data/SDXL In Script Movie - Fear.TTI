@@ -1,0 +1,41 @@
+[Settings]
+Input Phrase=
+Script=SDXL v1.0 *
+Random seed=1391704129
+Iterations=100
+Image Size=1024
+[SDXL]
+Custom Image Size=0
+Custom Resolution=1920x1088
+SDXLNegativePrompt=smooth, blurry, plastic, shiny, low res, low detail, simple, plain
+SDXLModel=sd_xl_base_1.0_0.9vae.safetensors
+SDXLScheduler=DPMSolverSDEScheduler
+SDXLImg2img=1
+SDXLImg2ImgModel=sd_xl_base_1.0_0.9vae.safetensors
+SDXLGuidanceScale=15
+SDXLInitImage=
+SDXLInitImageStrength=0.15
+SDXLZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.02
+In Script Movie Rotate=0:0
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.2
+In Script Movie Noise=50
+In Script Movie Auto-Contrast=0
+In Script Movie Equalize=1
+In Script Total Frames=600
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+SDXLTween=easeInOutQuad
+In Script Movie Sharpness Radius=5
+In Script Movie Auto-Color=1
+Render Every=1
+In Script Movie Pan X=0:0
+In Script Movie Pan Y=0:0
+In Script Hard Cuts=0
+In Script Randomize Seed=1
+In Script Zoom After Sharpen=1
+[SDXL In Script Movie Prompts]
+Line0=0:a hyper realistic highly detailed oil painting of fear, anxiety and paranoia by dali and giger, HD, 4K, 8K, highly textured, ultra details

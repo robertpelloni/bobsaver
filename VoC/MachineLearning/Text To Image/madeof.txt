@@ -1,0 +1,29 @@
+
+beads
+bones
+cardboard
+cheese
+chrome
+clay
+copper
+crystals
+feathers
+flowers
+gold
+insects
+lego
+liquid metal
+metal
+mist
+paper
+plastic
+rubber
+silver
+string
+timber
+trash
+vines
+voxels
+wire
+wood
+wrought iron

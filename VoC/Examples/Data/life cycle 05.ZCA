@@ -1,0 +1,24 @@
+[Neighborhood]
+Col0=6,5,0,8,2,7,3,3,0
+Col1=1,2,1,6,2,4,1,2,1
+Col2=0,2,4,3,4,4,1,6,6
+Col3=8,1,6,3,1,0,5,6,8
+Col4=1,1,7,2,8,8,6,0,2
+Col5=4,6,7,3,5,8,3,1,2
+Col6=2,2,7,2,2,2,8,5,3
+Col7=3,6,1,1,6,6,8,6,8
+Col8=6,3,8,2,5,7,0,7,6
+Col9=0,-1,179996944,0,-1,0,106864304,0,-1
+[Rule]
+Number Of States=9
+Random Seed=792965761
+[Colors]
+State 0 Color=clBlack
+State 1 Color=clRed
+State 2 Color=$003163FF
+State 3 Color=$001EC2FF
+State 4 Color=$0000DCB8
+State 5 Color=$00067C00
+State 6 Color=$00D21600
+State 7 Color=$00FD015B
+State 8 Color=$00DB018A

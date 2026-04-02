@@ -1,0 +1,47 @@
+[Settings]
+Xmin=-2.18095238095238
+Xmax=2.2
+Ymin=-1.4027619047619
+Ymax=1.42238095238095
+CX=0.270588235294118
+CY=-0.831909547738693
+Power=1
+Maximum Iterations=30
+Color Scale Factor=50
+Color Palette=droz36.map
+Variation=14
+Symmetry=6
+Smooth Shading=1
+Julia Set Hybrid=0
+Kali Scale=1
+Kali Min Scale=0
+[Hybrids]
+Enable Hybrids=0
+Enable Hybrid 3=0
+Enable Hybrid 4=0
+Enable Hybrid 5=0
+Variation 1=0
+Symmetry 1=0
+Power 1=1
+Variation 2=0
+Symmetry 2=0
+Power 2=1
+Variation 3=0
+Symmetry 3=0
+Power 3=1
+Variation 4=0
+Symmetry 4=0
+Power 4=1
+Variation 5=0
+Symmetry 5=0
+Power 5=1
+[Orbit Traps]
+Style=2
+Palette Count=1
+Palette 1=orbit traps light green 01.MAP
+Palette 2=orbit traps silver 01.MAP
+Palette 3=fadered.MAP
+Palette 4=fadegreen.MAP
+Palette 5=fadeyellow.MAP
+Only Show Traps=1
+Perlin Shading=1

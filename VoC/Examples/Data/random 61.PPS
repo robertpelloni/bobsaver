@@ -1,0 +1,15 @@
+[Settings]
+Sense Angle=282
+Sense Distance=7.030
+Turn Angle=17
+Move Speed=2.030
+Deposit Amount=0.657
+Eat Amount=0
+Evaporation Rate=0.391
+Blur Radius=1
+Display=0
+Trail Shading=0
+Particles Move Towards=1
+Blur Particles=0
+Particle Color=clYellow
+Palette=Movie Pulp Fiction.MAP

@@ -1,0 +1,46 @@
+Global Script Settings
+	Palette=sinpal28.MAP
+	Fractal Type=Lyapunov
+	RulString=ABBABA
+Point 1
+	XMin=3.45
+	XMax=3.55
+	YMin=3.44166666666667
+	YMax=3.54166666666667
+	Iterations=2048
+	Tween Steps=0
+Point 2
+	XMin=3.5296875
+	XMax=3.5396875
+	YMin=3.46333333333334
+	YMax=3.47333333333334
+	Iterations=2048
+	Tween Steps=30
+Point 3
+	XMin=3.53434375
+	XMax=3.53534375
+	YMin=3.46775
+	YMax=3.46875
+	Iterations=2048
+	Tween Steps=30
+Point 4
+	XMin=3.53471875
+	XMax=3.53481875
+	YMin=3.46816666666667
+	YMax=3.46826666666667
+	Iterations=2048
+	Tween Steps=30
+Point 5
+	XMin=3.534779375
+	XMax=3.534789375
+	YMin=3.46822208333334
+	YMax=3.46823208333334
+	Iterations=2048
+	Tween Steps=30
+Point 6
+	XMin=3.53478425
+	XMax=3.53478525
+	YMin=3.46822720833334
+	YMax=3.46822820833334
+	Iterations=2048
+	Tween Steps=30

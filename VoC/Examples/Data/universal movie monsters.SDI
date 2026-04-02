@@ -1,0 +1,8 @@
+[Settings]
+num_interpolation_steps=100
+randomseed=1417725506
+[Prompts]
+Line0=dracula
+Line1=the werewolf
+Line2=frankenstein
+Line3=the creature from the black lagoon

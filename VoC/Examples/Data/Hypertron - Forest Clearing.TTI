@@ -1,0 +1,10 @@
+[Settings]
+Input Phrase=a matte painting of a forest clearing
+Script=Hypertron *
+Random seed=1862679851
+Iterations=200
+[Hypertron]
+VQGAN Model=vqgan_imagenet_f16_1024
+CLIP Model=ViT-B/32
+Flavor=holywater
+Seed Image=

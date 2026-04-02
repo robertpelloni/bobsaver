@@ -1,0 +1,43 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=68129418
+Iterations=150
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Playgroundv2NegativePrompt=blurry, out of focus, tiltshift, low depth of field
+Playgroundv2GuidanceScale=3
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.1
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1
+In Script Movie Zoom Method=INTER_AREA
+In Script Movie Rotate=0:0
+In Script Movie Pan X=0:0
+In Script Movie Pan Y=0:0
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.1
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Noise=25
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=1
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:highly detailed underwater coral reef and tropical fish, HD, 4K, 8K

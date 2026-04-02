@@ -1,0 +1,20 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.40.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/drboog/ProFusion@87d27607c7b47b6222560b73566ebeee92c4f891#subdirectory=diffusers
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.16.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.25.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts datasets==2.12.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ftfy==6.1.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tensorboard==2.13.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts Jinja2==3.1.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts regex==2023.5.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.65.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts joblib==1.2.0
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.0+cu118 torchvision==0.15.1+cu118 torchaudio==2.0.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

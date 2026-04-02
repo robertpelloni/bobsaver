@@ -1,0 +1,22 @@
+[Settings]
+Formula=((((y%x)-((x%5.7)/((9.9%ceil(pi))*abs((x/6.1)))))%((x%5.7)/((9.9%ceil(pi))*abs((x/6.1)))))+((x%5.6)/((4.4%ceil(pi))*abs((x/6.3)))))
+Color Palette=VOLCANO.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((3.1-sqr(2.6))+(pi-sgn(y)))
+Gene1=((pi%y)*(5.7/int(pi)))
+Gene2=((x-int(y))/cos((pi-x)))
+Gene3=(y%x)
+Gene4=((x%5.7)/((9.9%ceil(pi))*abs((x/6.1))))
+Gene5=((y%x)-((x%5.7)/((9.9%ceil(pi))*abs((x/6.1)))))
+Gene6=((y%x)%((x%5.7)/((9.9%ceil(pi))*abs((y/6.1)))))
+Gene7=(((y%x)-((x%5.7)/((9.9%ceil(pi))*abs((x/6.1)))))%((x%5.7)/((9.9%ceil(pi))*abs((x/6.1)))))
+Gene8=((y%x)-((x%5.6)/((4.4%ceil(pi))*abs((x/6.3)))))
+Gene9=((((y%x)-((x%5.7)/((9.9%ceil(pi))*abs((x/6.1)))))%((x%5.7)/((9.9%ceil(pi))*abs((x/6.1)))))/((y%x)-((x%5.7)/((9.9%ceil(pi))*abs((x/6.1))))))
+Gene10=((((y%x)-((x%5.7)/((9.9%ceil(pi))*abs((x/6.1)))))%((x%5.7)/((9.9%ceil(pi))*abs((x/6.1)))))-((y%x)-((x%5.7)/((9.9%ceil(pi))*abs((x/6.1))))))
+Gene11=(((y%x)%((x%5.7)/((9.9%ceil(pi))*abs((y/6.1)))))-((y%x)-((x%5.6)/((4.4%ceil(pi))*abs((x/6.3))))))
+Gene12=((y%x)-((x%5.6)/((4.4%ceil(pi))*abs((x/6.3)))))
+Gene13=((((y%x)-((x%5.7)/((9.9%ceil(pi))*abs((x/6.1)))))%((x%5.7)/((9.9%ceil(pi))*abs((x/6.1)))))+((x%5.6)/((4.4%ceil(pi))*abs((x/6.3)))))

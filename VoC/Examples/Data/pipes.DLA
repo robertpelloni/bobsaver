@@ -1,0 +1,10 @@
+[Settings]
+Min Neighbors=1
+Diagonal Neighbors=0
+Display Style=2
+Grid Size=1000
+Palette Shading=0
+Ambient Occlusion=0
+Ambient Occlusion Radius=5
+Color Palette=ROYGBIV2.MAP
+Particle Color=clWhite

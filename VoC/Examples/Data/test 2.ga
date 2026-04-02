@@ -1,0 +1,14 @@
+[GA Rule]
+Rule=LqG
+[Image Options]
+Palette File=Genetic03.MAP
+Smooth Colors=1
+Random Offsets=1
+Coordinate Width=3
+[Gene Character Offsets]
+Xoffset1=1
+Yoffset1=1
+Xoffset2=2
+Yoffset2=-3
+Xoffset3=-3
+Yoffset3=-1

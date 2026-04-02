@@ -1,0 +1,28 @@
+[Settings]
+Input Phrase=a portrait of a steampunk android
+Script=Multi-Perceptor CLIP Guided Diffusion *
+Random seed=1663555529
+Iterations=200
+[Multi-Perceptor CLIP Guided Diffusion]
+Guidance Scale=3000
+TV Scale=150
+Range Scale=150
+Saturation Scale Scale=0
+Cutouts=12
+Cutout Batches=1
+Use Checkpoints=0
+256 Model=0
+ddim=0
+CLIP Denoised=0
+Model 1=1
+Model 2=1
+Model 3=1
+Model 4=0
+Model 5=0
+Model 6=0
+Model 7=0
+Model 8=0
+Augs=1
+Seed Image=
+Seed Image Init Scale=2000
+Seed Image SkipTimesteps=150

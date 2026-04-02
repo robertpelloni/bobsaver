@@ -1,0 +1,10 @@
+[Settings]
+Xmin=1.94285714285714
+Xmax=6.68571428571429
+Ymin=-1.50085714285714
+Ymax=1.55971428571429
+CX=-0.552941176470588
+CY=2.46266666666667
+Maximum Iterations=50
+Color Scale Factor=120
+Color Palette=lkmtch12.map

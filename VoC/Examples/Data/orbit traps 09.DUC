@@ -1,0 +1,47 @@
+[Settings]
+Xmin=-1.98095238095238
+Xmax=1.98095238095238
+Ymin=-1.2752380952381
+Ymax=1.2752380952381
+CX=0.576470588235294
+CY=0.136130653266332
+Power=1
+Maximum Iterations=35
+Color Scale Factor=50
+Color Palette=FIRE2.MAP
+Variation=0
+Symmetry=0
+Smooth Shading=1
+Julia Set Hybrid=0
+Kali Scale=1
+Kali Min Scale=0
+[Hybrids]
+Enable Hybrids=1
+Enable Hybrid 3=0
+Enable Hybrid 4=1
+Enable Hybrid 5=0
+Variation 1=0
+Symmetry 1=6
+Power 1=1
+Variation 2=4
+Symmetry 2=3
+Power 2=1
+Variation 3=0
+Symmetry 3=0
+Power 3=1
+Variation 4=7
+Symmetry 4=1
+Power 4=1
+Variation 5=0
+Symmetry 5=0
+Power 5=1
+[Orbit Traps]
+Style=2
+Palette Count=1
+Palette 1=orbit traps light green 01.MAP
+Palette 2=orbit traps green 01.MAP
+Palette 3=fadered.MAP
+Palette 4=fadegreen.MAP
+Palette 5=fadeyellow.MAP
+Only Show Traps=0
+Perlin Shading=1

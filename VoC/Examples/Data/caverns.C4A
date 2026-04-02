@@ -1,0 +1,9 @@
+[Settings]
+Range=1
+Threshold=35
+States=3
+Shading=0
+4D Threshold=30
+Color Palette=LBM07.MAP
+State 1 Color=clYellow
+Final State Color=clRed

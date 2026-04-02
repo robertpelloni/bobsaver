@@ -1,0 +1,46 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=48619117
+Iterations=50
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1088
+Model Version=v2.5
+Playgroundv2NegativePrompt=blurry, out of focus, tiltshift, low depth of field
+Playgroundv2GuidanceScale=6
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.28
+PlaygroundV2Scheduler=DDPMScheduler
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Movie Rotate=0:0,30:-0.806,60:0.186,90:-0.901,120:0.514,150:-0.229,180:0.875,210:0.106,240:0.457,270:-0.503,300:-0.757,330:0.215,360:0.626,390:0.790,420:-0.374,450:-0.144,480:-1.000,510:0.029,540:-0.820,570:-0.785,600:0.067,630:0.036,660:-0.234,690:0.262,720:-0.224,750:0.415,780:-0.602,810:0.998,840:-0.482,870:0.284,900:-0.871
+In Script Movie Pan X=0:0,30:0.748,60:-0.962,90:0.876,120:0.873,150:-0.772,180:0.614,210:-0.161,240:-0.453,270:0.446,300:-0.467,330:0.905,360:0.499,390:-0.512,420:-0.476,450:-0.665,480:0.498,510:-0.374,540:0.382,570:-0.700,600:0.577,630:0.501,660:-0.622,690:0.772,720:-0.570,750:0.134,780:-0.050,810:0.263,840:-0.893,870:0.307,900:-0.479
+In Script Movie Pan Y=0:0,30:0.526,60:-0.676,90:0.117,120:-0.967,150:-0.948,180:0.277,210:-0.479,240:0.464,270:-0.126,300:0.590,330:-0.142,360:0.359,390:-0.085,420:-0.243,450:0.112,480:-0.119,510:-0.572,540:-0.570,570:0.648,600:-0.170,630:0.011,660:-0.389,690:0.745,720:0.963,750:-0.010,780:0.845,810:0.180,840:-0.093,870:0.446,900:-0.311
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.2
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Noise=30
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=0
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+In Script Movie Color Matching=1
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:colorful turbulent splashing fractal fluids

@@ -1,0 +1,16 @@
+[Settings]
+Sense Angle=10
+Sense Distance=5.500
+Turn Angle=15
+Move Speed=10.600
+Deposit Amount=1.903
+Evaporation Rate=0.144
+Blur Radius=2
+Display=0
+Trail Shading=0
+Particles Move Towards=0
+Blur Particles=0
+Particle Color=clYellow
+Correct Angles=1
+Start Pattern=2
+Palette=kuler drholwegneu.MAP

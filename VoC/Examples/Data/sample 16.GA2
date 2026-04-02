@@ -1,0 +1,7 @@
+[Settings]
+Formula=int(x)*floor(x)%cos(x)+abs(x-y)%cos(y)
+Palette=Jason6.MAP
+Xmin=-5
+Xmax=5
+ymin=-5
+ymax=5

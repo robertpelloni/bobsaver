@@ -1,0 +1,34 @@
+[Eye]
+X=0
+Y=0
+Z=1
+[Look At]
+X=0
+Y=0
+Z=0
+[Zoom]
+Zoom=0.1
+[Light]
+X=-2
+Y=-2
+Z=-5
+[Rotation]
+X=88.6
+Y=0
+Z=35.4
+[Settings]
+Iterations=5
+Epsilon=0.00001
+Power=15
+Brightness=100
+Shading=0
+Negative SIN=1
+Palette=kuler sunlight trees.MAP
+Juliabulb=1
+Julia Real=-1.22043000566802
+Julia Imaginary=0.2018715145785
+Julia Imaginary 2=0.411832297220826
+Shadows=1
+Supersample=1
+Supersample Pixels=0
+Bailout=4

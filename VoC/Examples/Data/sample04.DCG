@@ -1,0 +1,10 @@
+[Settings]
+dt=0.0001
+tau=0.0003
+epsilonbar=0.01
+k=1.9
+anisotropy=8
+alpha=0.9
+gamma=15.0
+teq=1.0
+Color palette=design-seeds liquified brights.MAP

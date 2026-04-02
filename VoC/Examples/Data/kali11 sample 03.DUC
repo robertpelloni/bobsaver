@@ -1,0 +1,47 @@
+[Settings]
+Xmin=-6.34285714285714
+Xmax=7.94285714285714
+Ymin=-5.46390476190476
+Ymax=3.73742857142857
+CX=-0.582352941176471
+CY=-0.629798994974874
+Power=1
+Maximum Iterations=21
+Color Scale Factor=25
+Color Palette=IFS07.MAP
+Variation=16
+Symmetry=0
+Coloring Method=2
+Julia Set Hybrid=0
+Kali Scale=1
+Kali Min Scale=0
+[Hybrids]
+Enable Hybrids=0
+Enable Hybrid 3=0
+Enable Hybrid 4=0
+Enable Hybrid 5=0
+Variation 1=14
+Symmetry 1=0
+Power 1=1
+Variation 2=13
+Symmetry 2=0
+Power 2=1.1
+Variation 3=0
+Symmetry 3=0
+Power 3=1
+Variation 4=0
+Symmetry 4=0
+Power 4=1
+Variation 5=0
+Symmetry 5=0
+Power 5=1
+[Orbit Traps]
+Style=0
+Palette Count=1
+Palette 1=orbit traps silver 01.MAP
+Palette 2=orbit traps gold 01.MAP
+Palette 3=orbit traps red 01.MAP
+Palette 4=orbit traps green 01.MAP
+Palette 5=orbit traps blue 01.MAP
+Only Show Traps=0
+Perlin Shading=0

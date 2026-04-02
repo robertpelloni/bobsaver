@@ -1,0 +1,29 @@
+[Settings]
+Formula=17
+Root Method=6
+Coloring=2
+Tolerance=0.00000001
+Palette Step=0
+Palette=MadFractalist180718d.map
+Xmin=-0.148205542732701
+Xmax=-0.143921865937038
+Ymin=-2.22226980176309
+Ymax=-2.2197879465196
+[Specific Settings]
+a Real=1.0
+a Imaginary=0.0
+beta Real=0.0
+beta Imaginary=0.0
+sec Real=0.0
+sec Imaginary=0.0
+m Real=1.0
+m Imaginary=0.0
+[Orbit Traps]
+Trap Style=0
+Palette Count=1
+Only Show Traps=0
+Trap 1 Shade=clWhite
+Trap 2 Shade=clYellow
+Trap 3 Shade=clRed
+Trap 4 Shade=clGreen
+Trap 5 Shade=clBlue

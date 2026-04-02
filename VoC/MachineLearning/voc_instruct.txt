@@ -1,0 +1,45 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts albumentations==0.4.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts datasets==2.8.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts diffusers==0.16.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.6.0.66
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pudb==2019.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts invisible-watermark==0.1.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio==2.9.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio-ffmpeg==0.4.2
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pytorch-lightning==1.9.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts omegaconf==2.1.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts test-tube==0.7.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts streamlit==0.73.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch-fidelity==0.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.28.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torchmetrics==0.11.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts kornia==0.6
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts moviepy==1.0.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts yt_dlp==2023.3.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts https://softology.pro/wheels/xformers-0.0.15.dev0+103e863.d20221124-cp310-cp310-win_amd64.whl
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ffmpeg-python==0.2.0
+rem pip install --upgrade git+https://github.com/CompVis/taming-transformers.git
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts taming-transformers==0.0.1
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts taming-transformers-rom1504==0.0.6
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/CompVis/taming-transformers.git@3ba01b241669f5ade541ce990f7650a3b8f65318
+rem pip install --upgrade git+https://github.com/openai/CLIP.git
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/openai/CLIP.git@a1d071733d7111c9c014f024669f959182114e33
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts openai==0.26.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==3.16.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts seaborn==0.12.2
+rem pip install --upgrade git+https://github.com/crowsonkb/k-diffusion.git
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts k-diffusion==0.0.12
+pip uninstall -y pytorch-lightning
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pytorch-lightning==1.9.0
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+pip uninstall -y pydantic
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pydantic==1.10.5
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

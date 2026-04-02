@@ -1,0 +1,9 @@
+[Settings]
+Parameter String=NEIJHPNWJFFM
+Palette=Jason31.MAP
+ESCMaxIters=255
+[Coordinates]
+ESCXmin=-0.46875
+ESCXmax=0.53125
+ESCYmin=-0.416666666666667
+ESCYmax=0.583333333333334

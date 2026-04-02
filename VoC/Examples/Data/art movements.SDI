@@ -1,0 +1,35 @@
+[Settings]
+model=SG161222/RealVisXL_V4.0
+interpolation=lerp
+num_interpolation_steps=200
+num_inference_steps=4
+guidance_scale=1.0
+resolution=1024x1024
+randomseed=2121897631
+lora=
+loraweight=0.5
+[Prompts]
+Line0=an example of prehistoric art
+Line1=an example of ancient art
+Line2=an example of medieval art
+Line3=an example of renaissance art
+Line4=an example of mannerist art
+Line5=an example of baroque art
+Line6=an example of rococo art
+Line7=an example of neoclassicist art
+Line8=an example of romanticist art
+Line9=an example of realist art
+Line10=an example of art nouveau art
+Line11=an example of impressionist art
+Line12=an example of post impressionist art
+Line13=an example of fauvist art
+Line14=an example of expressionist art
+Line15=an example of cubist art
+Line16=an example of surrealist art
+Line17=an example of abstract expressionist art
+Line18=an example of op art
+Line19=an example of pop art
+Line20=an example of arte povera art
+Line21=an example of minimalist art
+Line22=an example of conceptual art
+Line23=an example of contemporary art

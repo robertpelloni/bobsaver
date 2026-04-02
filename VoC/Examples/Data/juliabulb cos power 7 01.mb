@@ -1,0 +1,56 @@
+[Eye]
+X=-0.1
+Y=0.1
+Z=1
+[Look At]
+X=-0.1
+Y=0.1
+Z=0
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=30
+[Light]
+X=-2.26578492103975
+Y=2.28816908908581
+Z=-8.03930972853647
+[Rotation]
+X=32
+Y=161
+Z=29
+[Settings]
+Iterations=5
+Epsilon=0.0001
+Power=7
+Gamma=0
+Contrast=0
+Shading=1
+Formula=2
+Bailout=4
+Palette=kuler dreaming in the desert.MAP
+Spikes=0
+Spikes Y Maximum=0.185999974841252
+Juliabulb=1
+Julia Real=-0.882870451067197
+Julia Imaginary=-0.374846444726046
+Julia Imaginary 2=-0.285176276229322
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=clBlue
+Glow Threshold=150
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.4
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=0
+Anaglyph Tilt=3
+Background Color=clBlack

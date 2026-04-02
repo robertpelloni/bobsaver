@@ -1,0 +1,27 @@
+# NOTE: This script is for the diffusion methods
+# Multi-Perceptor CLIP Guided Diffusion
+# Disco Diffusion
+# Infinite Diffusion
+#
+# Script to control settings for a Text-to-Image movie
+# Lines starting the # are comments
+#
+# Script lines are settings separated by * characters and contain;
+# prompt text
+# iterations per frame
+# frames for the specified prompt
+# start learning rate
+# end learning rate
+# start zoom
+# end zoom
+# start rotation
+# end rotation
+# start panx
+# end panx
+# start pany
+# end pany
+#
+a hyperrealistic painting of earth*250*60*0.1*0.1*1*1.02*0*1*0*0*0*0
+a hyperrealistic painting of air*250*60*0.1*0.1*1*1.02*1*1*0*0*0*0
+a hyperrealistic painting of water*250*60*0.1*0.1*1*1.02*1*1*0*0*0*0
+a hyperrealistic painting of fire*250*60*0.1*0.1*1*1.02*1*0*0*0*0*0

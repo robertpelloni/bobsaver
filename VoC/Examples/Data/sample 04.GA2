@@ -1,0 +1,7 @@
+[Settings]
+Formula=sqr(x)%arctan(x-y)%cos(y)-arctan(y/x)%frac(y*x)
+Palette=IFS22.MAP
+Xmin=-5
+Xmax=5
+ymin=-5
+ymax=5

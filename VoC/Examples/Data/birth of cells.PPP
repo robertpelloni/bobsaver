@@ -1,0 +1,8 @@
+[Settings]
+Particle Count=800
+Radius=100
+Velocity=10
+Alpha=47
+Beta=1
+World Width=1000
+Palette=ROYGBIV2.MAP

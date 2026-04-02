@@ -1,0 +1,15 @@
+[Settings]
+Inlets=2
+Inlet Shape=1
+Inlet Size=0.05
+Density=0.1
+Time Step=0.005
+Substeps=1
+Interpolation=1
+Palette=FIRECOD2.MAP
+Inlet Density=1
+Inlet Velocity=3
+Integration=0
+Projection=0
+Projection Iterations=600
+Display=0

@@ -1,0 +1,11 @@
+[Settings]
+Parameter String=OEJPBYHQMCNE
+Palette=Jason14.MAP
+ESCMaxIters=255
+[Coordinates]
+ESCXmin=-2.0408203125
+ESCXmax=-0.7720703125
+ESCYmin=0.302083333333334
+ESCYmax=1.58541666666667
+[Angle]
+Rotation=0

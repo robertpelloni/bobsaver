@@ -1,0 +1,25 @@
+Global Script Settings
+	Palette=droz36.map
+	Fractal Type=Newton
+	Formula=16
+	Coloring=2
+	Root Method=4
+	Palette Step=5
+Point 1
+	XMin=-4.9999
+	XMax=5
+	YMin=-4.9999
+	YMax=5
+	Newtona=1.05
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=0
+Point 2
+	XMin=-2.226490234375
+	XMax=2.210965390625
+	YMin=-2.22215
+	YMax=2.22225
+	Newtona=1.5
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=600

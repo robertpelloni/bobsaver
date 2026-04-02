@@ -1,0 +1,6 @@
+[Settings]
+Max States=256
+K1=2
+K2=3
+G=4
+Palette=Drive2.MAP

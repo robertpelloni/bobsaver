@@ -1,0 +1,12 @@
+[Settings]
+Formula=3
+Xmin=0.76125
+Xmax=0.86125
+Ymin=-0.713333333333333
+Ymax=-0.513333333333333
+Iterations=1500000
+Skip Iterations=100
+Color Display=0
+Background Color=clBlack
+Palette=kuler moonlight sonata.MAP
+Sample Pixels=2

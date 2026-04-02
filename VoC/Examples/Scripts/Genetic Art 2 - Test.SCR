@@ -1,0 +1,46 @@
+Global Script Settings
+	Palette=Jason38.MAP
+	Fractal Type=Genetic Art 2
+	Formula=cos(1/y)+cos(1/y)-cos(1/x)-cos(((1/x+6.1))-sin(((1/x))))
+Point 1
+	XMin=-5
+	XMax=5
+	YMin=-5
+	YMax=5
+	Iterations=1024
+	Tween Steps=0
+Point 2
+	XMin=-0.502092050209205
+	XMax=0.460251046025105
+	YMin=-0.527777777777778
+	YMax=0.472222222222222
+	Iterations=1024
+	Tween Steps=30
+Point 3
+	XMin=-0.0450797430016981
+	XMax=0.0475306804852856
+	YMin=-0.0583333333333333
+	YMax=0.0416666666666667
+	Iterations=1024
+	Tween Steps=30
+Point 4
+	XMin=-0.00497439224478258
+	XMax=0.00393790792342088
+	YMin=-0.00555555555555557
+	YMax=0.00444444444444443
+	Iterations=1024
+	Tween Steps=30
+Point 5
+	XMin=-0.00053688714011224
+	XMax=0.000320781913731608
+	YMin=-0.000555555555555567
+	YMax=0.000444444444444433
+	Iterations=1024
+	Tween Steps=30
+Point 6
+	XMin=-0.000167264075066565
+	XMax=-8.4726885784521E-5
+	YMin=-5.83333333333447E-5
+	YMax=4.16666666666553E-5
+	Iterations=1024
+	Tween Steps=30

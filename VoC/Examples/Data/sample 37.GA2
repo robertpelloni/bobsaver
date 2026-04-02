@@ -1,0 +1,7 @@
+[Settings]
+Formula=x+sin((y+x)/sin(pi-2)+cos(y)-sqr(1+x+7.9)+y+sqr(y+x)+cos(x+y)+sqr(1-x)-sin(x)-sqr(y)-cos(y+2.1)+cos(((pi))-sin(x+y))-sqr(1+y+3.3)+sin(y)-cos(pi+5.6)+sin(pi+pi)-sin(x+y)-sin(x-y-pi)-sqr(pi+pi)+sin(y+x)-y-sqr(((x-y))-cos((1+y))-sqr(1*x)+x+sin(y)-sin(1*x-pi)))
+Palette=kuler cadet.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

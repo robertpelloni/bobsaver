@@ -1,0 +1,36 @@
+[Settings]
+Version=2
+Fractal Type=Mandelbrot
+Re min=-0.216166124940245
+Re max=-0.216166118923888
+Im min=0.680665772826521
+Im max=0.680665776312248
+Julia X=-0.735984443252948
+Julia Y=-0.186098905094678
+Angle=-56
+Maximum Iterations=2048
+Supersample Pixels=0
+Display Style=1
+Fake Emboss=0
+Interior Color=clBlack
+Color Palette=C:\code\Delphi\Chaos\Examples\Palettes\8RAIN.MAP
+[Orbit Traps]
+Style=0
+Num Pals=0
+Palette 1=fadewhite.MAP
+Palette 2=fadeblue.MAP
+Palette 3=fadeblue.MAP
+Palette 4=fadegreen.MAP
+Palette 5=fadeyellow.MAP
+Only Show Traps=1
+[Buddhabrot]
+Enable=0
+Rendering Style=0
+Minimum Iterations=10
+Maximum Iterations=4096
+R Start=40
+R Finish=100
+G Start=20
+G Finish=60
+B Start=0
+B Finish=30

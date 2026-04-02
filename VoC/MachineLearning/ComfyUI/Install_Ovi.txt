@@ -1,0 +1,2 @@
+ComfyUI\models\text_encoders\umt5-xxl-enc-fp8_e4m3fn.safetensors	6731333792	https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/umt5-xxl-enc-fp8_e4m3fn.safetensors	26dd20d732632a3d32a0bbefca75ab57
+ComfyUI\models\vae\wan2.2_vae.safetensors	1409400960	https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors	7588af672f36ce3afc964eeda46cc005

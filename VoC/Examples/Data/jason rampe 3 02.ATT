@@ -1,0 +1,14 @@
+[Settings]
+Attractor Name=Jason Rampe 3
+Palette=kuler cumulonimbus.MAP
+Brightness=100
+Contrast=0
+Parameter A=1.4662
+Parameter B=-2.3632
+Parameter C=-0.4167
+Parameter D=2.4162
+[Coordinates]
+Xmin=-5.97222222222222
+Xmax=5.36111111111111
+Ymin=-3.09
+Ymax=3.49055555555556

@@ -1,0 +1,12 @@
+[Settings]
+Q=100
+K1=25
+K2=42
+G=11
+Range=1
+Min Visible State=0
+Max Visible State=99
+Cell Shading=0
+Color Palette=Jason44.MAP
+State 1 Color=clYellow
+Final State Color=clRed

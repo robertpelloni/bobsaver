@@ -1,0 +1,124 @@
+Global Script Settings
+	Palette=image h giger 1.MAP
+	Fractal Type=Newton
+	Formula=5
+	Coloring=2
+	Root Method=4
+	Palette Step=3
+Point 1
+	XMin=-18.39039109375
+	XMax=22.51544984375
+	YMin=-20.4719675
+	YMax=20.4720675
+	Newtona=1.1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=0
+Point 2
+	XMin=-0.206466489501949
+	XMax=3.88411760424805
+	YMin=-2.04715175
+	YMax=2.04725175
+	Newtona=1.1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=150
+Point 3
+	XMin=2.24788396674805
+	XMax=2.65694237612305
+	YMin=-1.08041759027778
+	YMax=-0.670977240277778
+	Newtona=1.1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=150
+Point 4
+	XMin=2.42301209826172
+	XMax=2.46391793919922
+	YMin=-1.03321821659722
+	YMax=-0.992274181597223
+	Newtona=1.1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=150
+Point 5
+	XMin=2.44154755743653
+	XMax=2.44563814153028
+	YMin=-1.01496400099306
+	YMax=-1.01086959749306
+	Newtona=1.1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=150
+Point 6
+	XMin=2.44364398178457
+	XMax=2.44405304019395
+	YMin=-1.01260403230903
+	YMax=-1.01219459195903
+	Newtona=1.1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=150
+Point 7
+	XMin=2.44386544856402
+	XMax=2.44390635440496
+	YMin=-1.01241921548438
+	YMax=-1.01237827144938
+	Newtona=1.1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=150
+Point 8
+	XMin=2.44388414381164
+	XMax=2.44388823439573
+	YMin=-1.0124010750022
+	YMax=-1.0123969805987
+	Newtona=1.1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=150
+Point 9
+	XMin=2.44388454967428
+	XMax=2.44388495873269
+	YMin=-1.0123990391738
+	YMax=-1.01239862973345
+	Newtona=1.1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=150
+Point 10
+	XMin=2.44388469763838
+	XMax=2.44388473854422
+	YMin=-1.01239882990428
+	YMax=-1.01239878896025
+	Newtona=1.1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=150
+Point 11
+	XMin=2.44388471090082
+	XMax=2.4438847149914
+	YMin=-1.01239879822952
+	YMax=-1.01239879413512
+	Newtona=1.1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=150
+Point 12
+	XMin=2.44388471273838
+	XMax=2.44388471314744
+	YMin=-1.01239879639841
+	YMax=-1.01239879598897
+	Newtona=1.1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=150
+Point 13
+	XMin=2.44388471294771
+	XMax=2.44388471298861
+	YMin=-1.01239879624431
+	YMax=-1.01239879620336
+	Newtona=1.1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=150

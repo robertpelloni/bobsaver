@@ -1,0 +1,16 @@
+[Settings]
+Formula=(((((x+0)/abs((9.9*log(pi))))-cos(((y-x)+frac((6.9-ceil(pi))))))%((y/pi)+sin(((x-frac(pi))+(pi%1.2)))))*((((x+0)/abs((9.9*log(pi))))-cos(((y-x)+frac((6.9-ceil(pi))))))%((((x+0)/abs((9.9*log(pi))))-cos(((y-x)+frac((6.9-ceil(pi))))))%((y/pi)+sin(((x-frac(pi))+(pi%1.2)))))))
+Color Palette=kuler jaguar.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((y-pi)*(pi+ceil(pi)))
+Gene1=(((x+0)/abs((9.9*log(pi))))-cos(((y-x)+frac((6.9-ceil(pi))))))
+Gene2=((y/pi)%sin(((x-frac(x))+(pi%1.2))))
+Gene3=((y/pi)+sin(((x-frac(pi))+(pi%1.2))))
+Gene4=((3.9+y)+(y+sin(x)))
+Gene5=((((x+0)/abs((9.9*log(pi))))-cos(((y-x)+frac((6.9-ceil(pi))))))%((y/pi)+sin(((x-frac(pi))+(pi%1.2)))))
+Gene6=((((x+0)/abs((9.9*log(pi))))-cos(((y-x)+frac((6.9-ceil(pi))))))%((((x+0)/abs((9.9*log(pi))))-cos(((y-x)+frac((6.9-ceil(pi))))))%((y/pi)+sin(((x-frac(pi))+(pi%1.2))))))
+Gene7=(((y/pi)+sin(((x-frac(pi))+(pi%1.2))))*((((x+0)/abs((9.9*log(pi))))-cos(((y-x)+frac((6.9-ceil(pi))))))%((y/pi)+sin(((x-frac(pi))+(pi%1.2))))))

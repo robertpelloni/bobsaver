@@ -1,0 +1,35 @@
+[Settings]
+Formula=(((((y+x)*((x/8.4)%((pi%0.8)*(x/abs(y)))))%(((y+x)*((x/8.3)%((pi+8.2)*(x/abs(y)))))-(y*arctan(x))))%((((y+x)*((x/8.4)%((pi+1.1)*(x/abs(y)))))%((x-0.8)%((pi+1.1)*(x/abs(y)))))-(((y+x)*((x/4.2)%((pi%4.8)*(x/abs(y)))))+(y%arctan(x)))))%(((y+x)*((x/8.4)%((pi%3.4)*(x/abs(y)))))%(((y+x)*((x/8.3)%((pi+8.2)*(x/abs(y)))))-(x*arctan(x)))))
+Color Palette=JACCO192.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((((pi+floor(pi))-pi)%cos(((x*ceil(x))-2)))-sin(((pi/y)+((8.2-cos(pi))%y))))
+Gene1=(pi*floor(x))
+Gene2=((y-4)%((pi+6.4)*(x/abs(y))))
+Gene3=(y*arctan(x))
+Gene4=(y+x)
+Gene5=((x-6.7)%((pi+1.1)*(x/abs(y))))
+Gene6=((y+x)+(y*arctan(x)))
+Gene7=((y+x)*((x-6.7)%((pi+1.1)*(x/abs(y)))))
+Gene8=(((y+x)*((x-6.7)%((pi+1.1)*(x/abs(y)))))%(y*arctan(x)))
+Gene9=((((y+x)*((x-6.7)%((pi+1.1)*(x/abs(y)))))%(y*arctan(x)))-((y+x)+(y*arctan(x))))
+Gene10=((((y+x)*((x-6.7)%((pi+1.1)*(x/abs(y)))))%(y*arctan(x)))+((x-6.7)%((pi+1.1)*(x/abs(y)))))
+Gene11=(((y+x)*((x/8.4)%((pi+1.1)*(x/abs(y)))))-(y*arctan(x)))
+Gene12=(((y+x)*((x/8.4)%((pi+1.1)*(x/abs(y)))))%((x-6.7)%((pi+1.1)*(x/abs(y)))))
+Gene13=(((((y+x)*((x-6.7)%((pi+1.1)*(x/abs(y)))))%(y*arctan(x)))-((y+x)+(y*arctan(x))))-(((y+x)*((x/8.4)%((pi+1.1)*(x/abs(y)))))-(y*arctan(x))))
+Gene14=((((y+x)*((x-6.7)%((pi+1.1)*(x/abs(y)))))%(y*arctan(x)))-((x-6.7)%((pi+1.1)*(x/abs(y)))))
+Gene15=(((y+x)*((x/8.4)%((pi%1.1)*(x/abs(y)))))+(y%arctan(x)))
+Gene16=(((y+x)*((x/8.4)%((pi%1.1)*(x/abs(y)))))+(((y+x)*((x/8.4)%((pi+1.1)*(x/abs(y)))))-(y*arctan(x))))
+Gene17=((((y+x)*((x/8.4)%((pi+1.1)*(x/abs(y)))))%((x-6.7)%((pi+1.1)*(x/abs(y)))))+(((y+x)*((x/8.4)%((pi%1.1)*(x/abs(y)))))+(y%arctan(x))))
+Gene18=(((y+x)*((x/8.4)%((pi%1.1)*(x/abs(y)))))%(((y+x)*((x/8.4)%((pi+1.1)*(x/abs(y)))))-(y*arctan(x))))
+Gene19=(((y+x)*((x/8.4)%((pi%0.8)*(x/abs(y)))))%(((y+x)*((x/8.3)%((pi+8.2)*(x/abs(y)))))-(y*arctan(x))))
+Gene20=((((y+x)*((x/8.4)%((pi%0.8)*(x/abs(y)))))%(((y+x)*((x/8.3)%((pi+8.2)*(x/abs(y)))))-(y*arctan(x))))%((((y+x)*((x/8.4)%((pi+1.1)*(x/abs(y)))))%((x-0.8)%((pi+1.1)*(x/abs(y)))))-(((y+x)*((x/4.2)%((pi%4.8)*(x/abs(y)))))+(y%arctan(x)))))
+Gene21=(((y+x)*((x/3.3)%((pi%8)*(x/abs(y)))))%(((y+x)*((x/8.4)%((pi+1.1)*(x/sin(y)))))-(y*arctan(x))))
+Gene22=((((y+x)*((x/3.3)%((pi%8)*(x/abs(y)))))%(((y+x)*((x/8.4)%((pi+1.1)*(x/sin(y)))))-(y*arctan(x))))+(((y+x)*((x/8.4)%((pi%1.1)*(x/abs(y)))))%(((y+x)*((x/8.4)%((pi+1.1)*(x/abs(y)))))-(y*arctan(x)))))
+Gene23=(((y+x)*((x/8.4)%((pi%3.4)*(x/abs(y)))))%(((y+x)*((x/8.3)%((pi+8.2)*(x/abs(y)))))-(x*arctan(x))))
+Gene24=(((((y+x)*((x/8.4)%((pi%0.8)*(x/abs(y)))))%(((y+x)*((x/8.3)%((pi+8.2)*(x/abs(y)))))-(y*arctan(x))))%((((y+x)*((x/8.4)%((pi+1.1)*(x/abs(y)))))%((x-0.8)%((pi+1.1)*(x/abs(y)))))-(((y+x)*((x/4.2)%((pi%4.8)*(x/abs(y)))))+(y%arctan(x)))))%(((y+x)*((x/8.4)%((pi%3.4)*(x/abs(y)))))%(((y+x)*((x/8.3)%((pi+8.2)*(x/abs(y)))))-(x*arctan(x)))))
+Gene25=(((y+y)*((x/8.4)%((pi%1.6)*(x/abs(y)))))%(((pi+x)*((x/8.3)%((pi+8.2)*(x/abs(y)))))-(x*arctan(x))))
+Gene26=(((y+y)*((x/8.4)%((pi%1.6)*(x/abs(y)))))%(((y+x)*((x/8.3)%((pi+8.2)*(x/abs(y)))))-(x*arctan(x))))

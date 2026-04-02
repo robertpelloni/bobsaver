@@ -1,0 +1,61 @@
+[Eye]
+X=0
+Y=0
+Z=4
+[Look At]
+X=0
+Y=0
+Z=3
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=60
+[Light]
+X=0
+Y=-30
+Z=100
+[Rotation]
+X=5
+Y=45
+Z=40
+[Settings]
+Iterations=10
+Epsilon=0.005
+Power=-3
+Gamma=0
+Contrast=0
+Shading=0
+Formula=6
+Formula Variation=0
+Bailout=400
+Palette=VOLCANO.MAP
+Spikes=0
+Spikes Y Maximum=0.5
+Juliabulb=0
+Julia Real=0
+Julia Imaginary=0
+Julia Imaginary 2=0
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=clYellow
+Glow Threshold=50
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0
+Ambient Occlusion Max Orbit=5
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Phase=0
+Theta Scale=1
+Phi Scale=1
+Scalar Distance Estimation=1

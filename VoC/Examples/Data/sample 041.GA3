@@ -1,0 +1,20 @@
+[Settings]
+Formula=(((((y*pi)*sqrt((pi+cos(y))))/((y*pi)/round((pi+cos(x)))))-round((pi+cos(x))))*((((y*pi)*round((pi+cos(y))))/((y*pi)/round((pi+cos(x)))))-round((pi+cos(pi)))))
+Color Palette=Jason39.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((pi-y)+(x+arctan(y)))
+Gene1=(x*y)
+Gene2=((y*pi)*round((pi+cos(y))))
+Gene3=((y*pi)%round((pi+cos(x))))
+Gene4=(x-sin(y))
+Gene5=((y*pi)-round((pi+cos(x))))
+Gene6=((y*pi)/round((pi+cos(x))))
+Gene7=(((y*pi)*round((pi+cos(y))))/((y*pi)/round((pi+cos(x)))))
+Gene8=((((y*pi)*round((pi+cos(y))))/((y*pi)/round((pi+cos(x)))))+round((pi+cos(x))))
+Gene9=((((y*pi)*round((pi+cos(y))))/((y*pi)/round((pi+cos(x)))))-round((pi+cos(x))))
+Gene10=(((((y*pi)*round((pi+cos(y))))/((y*pi)/round((pi+cos(x)))))+round((pi+cos(x))))*((((y*pi)*round((pi+cos(y))))/((y*pi)/round((pi+cos(x)))))-round((pi+cos(x)))))
+Gene11=(((((y*pi)*sqrt((pi+cos(y))))/((y*pi)/round((pi+cos(x)))))+round((pi+cos(x))))-((((y*pi)*round((pi+cos(y))))/((y*pi)/round((pi+cos(x)))))-round((pi+cos(x)))))

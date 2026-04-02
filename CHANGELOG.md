@@ -2,6 +2,13 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.9] - 2026-04-02
+
+### Added
+- **Session Handoff**:
+    - Created a comprehensive `JWildfire/HANDOFF.md` document summarizing the deep analysis of Visions of Chaos and the updated integration strategy.
+    - Documented the roadmap for assimilating VoC's CA, ABM, and ML features into JWildfire.
+
 ## [1.0.8] - 2026-04-02
 
 ### Added

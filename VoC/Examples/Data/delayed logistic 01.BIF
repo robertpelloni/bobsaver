@@ -1,0 +1,10 @@
+[Settings]
+Formula=2
+Xmin=1.99
+Xmax=2.271
+Ymin=0
+Ymax=1
+Iterations=500000
+Skip Iterations=100
+Background Color=clBlack
+Palette=sinpal11.MAP

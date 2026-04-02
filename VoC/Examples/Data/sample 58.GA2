@@ -1,0 +1,7 @@
+[Settings]
+Formula=arctan(pi)-arctan(((pi)-sin(x-y)-abs(pi/pi)/abs(x/pi)))
+Palette=IFS01.MAP
+Xmin=-10.3888888888889
+Xmax=10.3888888888889
+Ymin=-6.11111111111111
+Ymax=14.8958333333333

@@ -1,0 +1,59 @@
+[Eye]
+X=1.079422863406
+Y=0.1
+Z=0.630384757729336
+[Look At]
+X=0.213397459621557
+Y=0.1
+Z=0.130384757729336
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=60
+[Light]
+X=4.21001410746177
+Y=5.52003596634502
+Z=5.17735300566132
+[Rotation]
+X=351
+Y=264
+Z=285
+[Settings]
+Iterations=7
+Epsilon=0.0001
+Power=3
+Gamma=0
+Contrast=0
+Shading=1
+Formula=3
+Bailout=4
+Palette=colorschemer sunflower.MAP
+Spikes=0
+Spikes Y Maximum=0.321355101652443
+Juliabulb=0
+Julia Real=0.336522354695788
+Julia Imaginary=0.0389890675947131
+Julia Imaginary 2=-0.245268277358264
+Shadows=1
+Specularity=0.45
+Glow Effect=1
+Glow Color=clRed
+Glow Threshold=150
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.4
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=1
+Anaglyph=0
+Anaglyph Style=0
+Anaglyph Tilt=3
+Background Color=clBlack
+Phase=0
+Theta Scale=1
+Phi Scale=1

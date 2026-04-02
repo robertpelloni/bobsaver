@@ -1,0 +1,7 @@
+[Settings]
+Particle Count=50
+Radius=50
+Velocity=5
+Alpha=0
+Beta=45
+Palette=kuler passing shower.MAP

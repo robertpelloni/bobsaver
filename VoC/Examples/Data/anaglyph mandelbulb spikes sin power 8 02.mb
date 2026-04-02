@@ -1,0 +1,53 @@
+[Eye]
+X=-0.101712700037458
+Y=0.582147586051064
+Z=1.09850322213442
+[Look At]
+X=0.228986703481943
+Y=0.153193941892216
+Z=0.257886379765241
+[Up]
+X=0.851970759206782
+Y=0.118045246935052
+Z=-0.167874277952427
+[Zoom]
+Zoom=0.8
+[Light]
+X=2.50864249830035
+Y=4.6097200893229
+Z=5.27177517749871
+[Rotation]
+X=280
+Y=248
+Z=328
+[Settings]
+Iterations=5
+Epsilon=0.0005
+Power=8
+Gamma=27
+Contrast=0
+Shading=0
+Negative SIN=0
+Bailout=4
+Palette=kuler seaside.MAP
+Spikes=1
+Spikes Y Maximum=0.907056564697996
+Juliabulb=0
+Julia Real=0.287626462748661
+Julia Imaginary=-0.0138174362153882
+Julia Imaginary 2=-0.347104753367603
+Shadows=1
+Specularity=0.45
+Glow Effect=1
+Glow Color=clBlue
+Glow Threshold=339
+Outside Glow=1
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.5
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=1
+Anaglyph Style=2
+Anaglyph Tilt=3

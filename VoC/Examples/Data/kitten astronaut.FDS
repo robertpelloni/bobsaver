@@ -1,0 +1,12 @@
+[Settings]
+randomseed=95358084
+resolution=512x512
+guidance_scale=12
+video_length=16
+num_partitions=4
+eta=1
+num_inference_steps=16
+fps=10
+new_video_length=100
+[Prompt]
+Line0=kitten astronaut floating through space nebulas, 4K, ultra HD

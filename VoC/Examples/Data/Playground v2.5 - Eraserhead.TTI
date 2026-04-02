@@ -1,0 +1,46 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=1922866289
+Iterations=50
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Model Version=v2.5
+Playgroundv2NegativePrompt=blurry, out of focus, tiltshift, low depth of field
+Playgroundv2GuidanceScale=5
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.25
+PlaygroundV2Scheduler=DDPMScheduler
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Movie Rotate=0:0,30:-0.152,60:0.532,90:-0.163,120:0.688,150:-0.528,180:-0.098,210:0.091,240:-0.974,270:0.214,300:0.962,330:0.015,360:-0.448,390:-0.393,420:0.612,450:0.833,480:-0.853,510:0.216,540:0.417,570:-0.118,600:0.370,630:-0.349,660:0.249,690:-0.690,720:0.018,750:-0.084,780:-0.174,810:0.756,840:-0.125,870:-0.001,900:0.193
+In Script Movie Pan X=0:0,30:-0.890,60:0.574,90:0.245,120:0.549,150:-0.010,180:0.993,210:-0.820,240:0.550,270:-0.993,300:0.136,330:-0.799,360:0.202,390:0.600,420:0.521,450:0.705,480:0.956,510:-0.056,540:0.963,570:0.099,600:0.798,630:-0.458,660:0.680,690:-0.262,720:0.378,750:-0.241,780:0.965,810:-0.946,840:0.719,870:-0.707,900:0.415
+In Script Movie Pan Y=0:0,30:-0.814,60:0.256,90:-0.321,120:-0.413,150:0.518,180:0.637,210:0.987,240:-0.147,270:0.596,300:-0.895,330:0.763,360:0.060,390:-0.728,420:0.667,450:-0.873,480:-0.497,510:-0.394,540:-0.718,570:0.862,600:0.895,630:-0.487,660:0.321,690:-0.112,720:0.818,750:-0.247,780:0.450,810:0.683,840:0.808,870:-0.493,900:-0.789
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.3
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Noise=30
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=0
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+In Script Movie Color Matching=1
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:Eraserhead in an industrial landscapes

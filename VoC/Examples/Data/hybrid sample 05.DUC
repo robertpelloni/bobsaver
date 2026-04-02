@@ -1,0 +1,47 @@
+[Settings]
+Xmin=-0.466666666666667
+Xmax=0.447619047619048
+Ymin=-0.323714285714286
+Ymax=0.264857142857143
+CX=0.176470588235294
+CY=1.25542713567839
+Power=1
+Maximum Iterations=20
+Color Scale Factor=50
+Color Palette=image frequency starry night.MAP
+Variation=0
+Symmetry=0
+Smooth Shading=1
+Julia Set Hybrid=0
+Kali Scale=1
+Kali Min Scale=0
+[Hybrids]
+Enable Hybrids=1
+Enable Hybrid 3=0
+Enable Hybrid 4=1
+Enable Hybrid 5=0
+Variation 1=19
+Symmetry 1=0
+Power 1=1
+Variation 2=17
+Symmetry 2=1
+Power 2=1
+Variation 3=0
+Symmetry 3=0
+Power 3=1
+Variation 4=19
+Symmetry 4=6
+Power 4=1
+Variation 5=0
+Symmetry 5=0
+Power 5=1
+[Orbit Traps]
+Style=0
+Palette Count=1
+Palette 1=orbit traps silver 01.MAP
+Palette 2=orbit traps gold 01.MAP
+Palette 3=orbit traps red 01.MAP
+Palette 4=orbit traps green 01.MAP
+Palette 5=orbit traps blue 01.MAP
+Only Show Traps=0
+Perlin Shading=0

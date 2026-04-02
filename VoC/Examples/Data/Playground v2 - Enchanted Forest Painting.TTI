@@ -1,0 +1,46 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=65297605
+Iterations=150
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Playgroundv2NegativePrompt=blurry, out of focus, low resolution
+Playgroundv2GuidanceScale=3
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.15
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Movie Rotate=0:0,30:-0.365,60:0.097,90:-0.111,120:-0.368,150:0.133,180:0.196,210:0.218,240:-0.452,270:-0.326,300:0.365,330:-0.426,360:-0.333,390:-0.466,420:-0.170,450:0.379,480:0.050,510:-0.196,540:-0.491,570:-0.439,600:0.387,630:0.104,660:-0.203,690:-0.153,720:-0.066,750:-0.085,780:-0.136,810:0.252,840:-0.226,870:0.230,900:-0.317
+In Script Movie Pan X=0:0
+In Script Movie Pan Y=0:0
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.3
+In Script Movie Sharpness Radius=5
+In Script Movie Noise=10
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=0
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+Model Version=v2
+PlaygroundV2Scheduler=DDPMScheduler
+In Script Movie Zoom Factor=1
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=3
+In Script Movie Color Matching=1
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:a hyperrealistic oil painting of a surreal lush enchanted forest at night, glowing mushrooms, hd, 4k, 8k

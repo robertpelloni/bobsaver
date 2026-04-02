@@ -1,0 +1,4 @@
+ComfyUI\models\checkpoints\chord_v1.safetensors	2761211350	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/chord_v1.safetensors	bc0d65870282c5b7e54d3ffab79b931e
+ComfyUI\models\checkpoints\Raymnants.6.2.safetensors	7105348528	https://huggingface.co/MutantSparrow/Ray/resolve/main/SDXL/Raymnants.6.2.safetensors	d52dcd7f30385ca1d26478c163c978e1
+ComfyUI\models\text_encoders\ViT-L-14-BEST-smooth-GmP-TE-only-HF-format.safetensors	323409740	https://huggingface.co/zer0int/CLIP-GmP-ViT-L-14/resolve/main/ViT-L-14-BEST-smooth-GmP-TE-only-HF-format.safetensors	6432286c708e640cfea5b0b47e0d88c0
+ComfyUI\models\diffusion_models\Rayflux.v1.0_fp8.safetensors	12069180102	https://huggingface.co/MutantSparrow/Ray/resolve/main/FLUX/Rayflux.v1.0_fp8.safetensors	2a5dd77977b612f3f5541e9f01e2be38

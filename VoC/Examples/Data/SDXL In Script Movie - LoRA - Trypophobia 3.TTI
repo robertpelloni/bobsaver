@@ -1,0 +1,43 @@
+[Settings]
+Input Phrase=
+Script=SDXL v1.0 *
+Random seed=1442925650
+Iterations=50
+Image Size=1024
+[SDXL]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+SDXLNegativePrompt=
+SDXLModel=sd_xl_base_1.0_0.9vae.safetensors
+SDXLLora=Trypophobia_trypophobia.safetensors
+SDXLLoraWeight=1
+SDXLScheduler=DDIMScheduler
+SDXLImg2ImgModel=sd_xl_refiner_1.0_0.9vae.safetensors
+SDXLGuidanceScale=7.5
+SDXLInitImage=
+SDXLInitImageStrength=0.3
+SDXLZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.02
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Movie Rotate=0:0,30:-0.324,60:0.392,90:0.559,120:-0.916,150:-0.708,180:0.663,210:-0.657,240:0.149,270:-0.618,300:-0.289,330:0.124,360:0.160,390:-0.146,420:0.826,450:0.508,480:-0.507,510:0.009,540:-0.645,570:-0.946,600:-0.662,630:0.933,660:-0.458,690:0.208,720:-0.941,750:0.846,780:-0.151,810:0.540,840:-0.745,870:0.884,900:-0.931
+In Script Movie Pan X=0:0,30:0.758,60:0.597,90:0.686,120:-0.402,150:0.356,180:0.654,210:0.303,240:-0.171,270:0.516,300:-0.486,330:-0.858,360:-0.105,390:0.322,420:-0.972,450:0.701,480:-0.832,510:0.430,540:-0.401,570:0.681,600:-0.513,630:0.993,660:-0.675,690:0.976,720:-0.694,750:-0.907,780:0.306,810:-0.242,840:0.967,870:-0.359,900:0.241
+In Script Movie Pan Y=0:0,30:-0.545,60:0.014,90:-0.349,120:0.338,150:0.468,180:-0.621,210:0.300,240:-0.980,270:0.729,300:-0.952,330:0.897,360:0.135,390:-0.486,420:-0.545,450:-0.984,480:0.796,510:-0.693,540:-0.477,570:-0.434,600:0.323,630:-0.210,660:-0.044,690:0.291,720:-0.919,750:-0.470,780:-0.515,810:-0.466,840:0.150,870:-0.711,900:0.937
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.9
+In Script Movie Sharpness Radius=5
+In Script Movie Noise=0
+In Script Movie Auto-Contrast=1
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+In Script Randomize Seed=1
+In Script Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+SDXLTween=easeInOutQuad
+[SDXL In Script Movie Prompts]
+Line0=0:trypophobia, vivid colors, hyperrealistic, photorealistic, psychedelic, trippy nightmare visuals, 4k, 8k, hd

@@ -1,0 +1,39 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=188952161
+Iterations=50
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Playgroundv2NegativePrompt=blurry, out of focus
+Playgroundv2GuidanceScale=10
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.15
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Movie Rotate=0:0,30:0.603,60:0.141,90:-0.434,120:0.294,150:0.786,180:-0.328,210:-0.945,240:-0.698,270:-0.417,300:0.932,330:-0.294,360:0.796,390:0.363,420:-0.749,450:0.359,480:0.238,510:-0.048,540:0.609,570:-0.056,600:0.704,630:0.614,660:-0.431,690:0.653,720:-0.853,750:0.896,780:-0.590,810:0.904,840:-0.598,870:0.209,900:-0.592
+In Script Movie Pan X=0:0,30:0.307,60:-0.438,90:-0.390,120:0.337,150:-0.135,180:0.836,210:-0.428,240:-0.722,270:-0.151,300:-0.470,330:0.736,360:0.841,390:-0.048,420:-0.812,450:-0.391,480:0.739,510:0.703,540:-0.960,570:0.213,600:-0.219,630:0.129,660:-0.613,690:0.134,720:0.974,750:0.752,780:0.853,810:-0.874,840:0.534,870:-0.991,900:0.751
+In Script Movie Pan Y=0:0,30:0.890,60:-0.699,90:0.576,120:0.542,150:0.743,180:0.544,210:-0.056,240:0.763,270:-0.404,300:0.003,330:-0.920,360:0.631,390:-0.679,420:-0.405,450:0.811,480:-0.677,510:0.012,540:0.587,570:0.694,600:0.098,630:-0.246,660:-0.985,690:0.152,720:-0.139,750:-0.946,780:0.791,810:-0.239,840:0.522,870:0.295,900:-0.164
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.6
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Laplacian
+In Script Movie Noise=0
+In Script Movie Auto-Contrast=1
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:highly complex gold and silver 3d fractal imagery, highly detailed, hd, 4k, 8k, photorealistic, hyperrealistic

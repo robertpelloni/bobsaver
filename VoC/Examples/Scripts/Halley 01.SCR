@@ -1,0 +1,25 @@
+Global Script Settings
+	Palette=lkmtch17.map
+	Fractal Type=Newton
+	Formula=11
+	Coloring=2
+	Root Method=1
+	Palette Step=1
+Point 1
+	XMin=-4.9999
+	XMax=5
+	YMin=-4.9999
+	YMax=5
+	Newtona=1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=0
+Point 2
+	XMin=-2.9061709375
+	XMax=2.9062709375
+	YMin=-2.9165875
+	YMax=2.9166875
+	Newtona=1.85
+	Newtoni=0.05
+	Iterations=1000
+	Tween Steps=300

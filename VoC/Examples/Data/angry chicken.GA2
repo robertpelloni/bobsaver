@@ -1,0 +1,7 @@
+[Settings]
+Formula=y+sin((((y+pi))/cos(y%x+pi))/sin(x)+sin(y+x/pi)/cos(pi/3.7))
+Palette=JACCO198.MAP
+Xmin=-4.05857740585774
+Xmax=3.97489539748954
+Ymin=-4.19444444444444
+Ymax=3.86111111111111

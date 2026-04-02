@@ -1,0 +1,56 @@
+[Settings]
+Particle Count=1000000
+Rest Density=80
+Stiffness=0.08
+Near Stiffness=0.1
+Surface Tension=0.00001
+Linear Viscosity=0.25
+Quadratic Viscosity=0.5
+Delta Time=0.0001
+Sub Steps=10
+Gravity=9.8
+Grid Size=100
+Wall Bounce Factor=1
+[Emitter 1]
+Color=clRed
+Mass=4
+Position=5
+X Direction=0
+Y Direction=0
+Size=0.2
+Speed=0
+Rate=1
+[Emitter 2]
+Color=clLime
+Enabled=1
+Mass=3
+Position=2
+X Direction=0
+Y Direction=0
+Size=0.2
+Speed=0
+Rate=1
+[Emitter 3]
+Color=$00DC4D23
+Enabled=1
+Mass=2
+Position=8
+X Direction=0
+Y Direction=0
+Size=0.2
+Speed=0
+Rate=1
+[Emitter 4]
+Color=clYellow
+Enabled=1
+Mass=1
+Position=13
+X Direction=0
+Y Direction=0
+Size=0.2
+Speed=0
+Rate=1
+[Rayleigh-Taylor]
+Enabled=1
+Clamped=1
+Clamp Amount=50

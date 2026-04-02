@@ -1,0 +1,11 @@
+[Coords]
+amin=0.9375
+amax=3
+bmin=1.83333333333333
+bmax=3.91666666666667
+[Settings]
+absequence=AAAAAAABABABAAABBAAAAA
+xstart=0.1
+init=100
+nlyap=250
+palette=Jason37.MAP

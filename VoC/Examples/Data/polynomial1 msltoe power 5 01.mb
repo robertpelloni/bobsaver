@@ -1,0 +1,82 @@
+[Eye]
+X=0
+Y=0
+Z=0
+[Look At]
+X=0
+Y=0
+Z=-1
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=60
+[Light]
+X=0
+Y=-3
+Z=-10
+[Rotation]
+X=130
+Y=0
+Z=0
+[Settings]
+Iterations=9
+Epsilon=0.00001
+Power=5
+Gamma=102
+Contrast=0
+Shading=1
+Formula=1
+Formula Variation=10
+Bailout=4
+Palette=gallet01.map
+Spikes=0
+Spikes Y Maximum=0.574944182997569
+Juliabulb=0
+Julia Real=-1.00978581887538
+Julia Imaginary=-0.446128065181324
+Julia Imaginary 2=0.35702407034114
+Shadows=1
+Shadow Intensity=60
+Specularity=0.45
+Glow Effect=0
+Glow Color=$00FFFF80
+Glow Threshold=463
+Outside Glow=1
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.4
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=1
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Ambient Color=$00B2B2B2
+Phase=0
+Theta Scale=0.0693901791237295
+Phi Scale=-0.194383732974529
+Scalar Distance Estimation=1
+Kaleidoscope Rotation 1 X=0
+Kaleidoscope Rotation 1 Y=0
+Kaleidoscope Rotation 1 Z=0
+Kaleidoscope Rotation 2 X=0
+Kaleidoscope Rotation 2 Y=0
+Kaleidoscope Rotation 2 Z=0
+Kaleidoscope Center X=1
+Kaleidoscope Center Y=1
+Kaleidoscope Center Z=1
+Kaleidoscope Fold Style=2
+Kaleidoscope Z Wrap=0
+Kaleidoscope Normailze C=1
+Kaleidoscope Rotate Around Origin=0
+Kaleidoscope Pre Rotate=1
+Fog=1
+Fog Color=clBlack
+Fog Cutoff=1.32999471520153
+Depth Of Field=1
+Depth Of Field Focal Point=0.492131327722057

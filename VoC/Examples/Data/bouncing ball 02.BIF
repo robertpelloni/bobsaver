@@ -1,0 +1,12 @@
+[Settings]
+Formula=3
+Xmin=0.66225
+Xmax=0.7065
+Ymin=-0.044
+Ymax=0.0446666666666667
+Iterations=50000
+Skip Iterations=100
+Color Display=0
+Background Color=clBlack
+Palette=image frequency sunset.MAP
+Sample Pixels=9

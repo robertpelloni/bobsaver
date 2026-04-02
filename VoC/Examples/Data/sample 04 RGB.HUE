@@ -1,0 +1,15 @@
+[Settings]
+Plant Percentage=50
+Fill Percentage=50
+Plant Hue Change=0.025
+Plant Propagate Age=5
+Herbivore Hue Change=0.03
+Herbivore Breed Age=5
+Herbivore Probability Factor=2
+Show Plants=1
+Show Herbivores=1
+Herbivores Move Randomly=0
+Plants Randomly Propagate=1
+Diagonal Neighbors=1
+Starting Layout=1
+Coloring=1

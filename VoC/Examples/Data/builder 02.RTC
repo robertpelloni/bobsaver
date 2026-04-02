@@ -1,0 +1,32 @@
+[Rule Table]
+s0r0=C
+s0r1=3,19,20,24
+s0r2=4
+s0r3=5
+s0r4=18,26,2,11
+s1r0=
+s1r1=C
+s1r2=15,19,12,14,18
+s1r3=9,26
+s1r4=
+s2r0=
+s2r1=
+s2r2=A
+s2r3=
+s2r4=
+s3r0=
+s3r1=
+s3r2=18,13,20,8
+s3r3=C
+s3r4=
+s4r0=
+s4r1=
+s4r2=
+s4r3=A
+s4r4=
+[Settings]
+Starting Pattern=2
+Cell Shading=3
+Color Palette=Drive3.MAP
+State 1 Color=clYellow
+Final State Color=clRed

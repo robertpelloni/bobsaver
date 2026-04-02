@@ -1,0 +1,15 @@
+[Settings]
+Inlets=6
+Inlet Shape=0
+Inlet Size=0.01
+Inlet Density=1.25
+Inlet Velocity=4
+Density=0.01
+Time Step=0.005
+Substeps=1
+Interpolation=1
+Integration=1
+Projection=0
+Projection Iterations=500
+Display=0
+Palette=black-white-black.MAP

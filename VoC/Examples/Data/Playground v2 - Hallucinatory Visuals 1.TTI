@@ -1,0 +1,46 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=1713154465
+Iterations=100
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Model Version=v2
+Playgroundv2NegativePrompt=blurry, out of focus, tiltshift, low depth of field
+Playgroundv2GuidanceScale=7.5
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.15
+PlaygroundV2Scheduler=DDPMScheduler
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Movie Rotate=0:0,30:0.342,60:-0.406,90:0.946,120:-0.539,150:0.344,180:-0.743,210:-0.457,240:0.291,270:-0.920,300:0.013,330:-0.465,360:0.266,390:-0.500,420:-0.808,450:-0.373,480:0.687,510:-0.042,540:0.516,570:-0.157,600:-0.721,630:-0.763,660:-0.638,690:0.130,720:0.570,750:0.433,780:0.152,810:0.268,840:-0.633,870:0.237,900:-0.955
+In Script Movie Pan X=0:0,30:0.699,60:0.494,90:-0.825,120:0.915,150:-0.384,180:0.738,210:-0.146,240:0.954,270:0.662,300:-0.528,330:0.349,360:-0.131,390:-0.113,420:0.782,450:-0.823,480:0.396,510:-0.293,540:0.457,570:-0.595,600:0.318,630:-0.829,660:0.847,690:-0.707,720:0.413,750:-0.566,780:0.440,810:-0.650,840:0.024,870:-0.794,900:0.334
+In Script Movie Pan Y=0:0,30:0.142,60:0.727,90:-0.069,120:0.184,150:-0.136,180:0.762,210:0.846,240:0.427,270:0.515,300:-0.240,330:0.343,360:-0.115,390:-0.281,420:-0.237,450:0.219,480:-0.794,510:0.316,540:-0.964,570:0.499,600:0.320,630:-0.436,660:0.076,690:-0.535,720:0.840,750:0.754,780:-0.809,810:0.277,840:0.571,870:0.358,900:0.922
+In Script Movie Contrast=1
+In Script Movie Sharpness=0
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Noise=10
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+In Script Movie Color Matching=1
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:a hyperrealistic oil painting depicting hallucinatory visuals

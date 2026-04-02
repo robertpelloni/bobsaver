@@ -1,0 +1,12 @@
+[Settings]
+Formula=12
+Root Finding Method=2
+Palette Step Amount=7
+Genralized Newton Factor=1
+Genralized Newton I=0.2
+Coloring=2
+Palette=image frequency starry night.MAP
+Xmin=3823370117.26441
+Xmax=7224516153.37822
+Ymin=-8562011461.17949
+Ymax=-5066628388.04481

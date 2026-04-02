@@ -1,0 +1,30 @@
+[Settings]
+Input Phrase=A beautiful painting of a singular lighthouse, shining its light across a tumultuous sea of blood by greg rutkowski and thomas kinkade, Trending on artstation. | yellow color scheme
+Script=Disco Diffusion v4.1 *
+Random seed=1764523112
+Iterations=250
+[Disco Diffusion v4.1]
+Guidance Scale=5000
+TV Scale=0
+Range Scale=150
+Saturation Scale Scale=0
+Cutouts=16
+Cutout Batches=1
+ETA=0.8
+256 Model=0
+ddim=0
+CLIP Denoised=0
+Model 1=1
+Model 2=1
+Model 3=0
+Model 4=0
+Model 5=0
+Model 6=0
+Model 7=1
+Model 8=0
+Model 9=0
+Model 10=0
+Use Augs=0
+Seed Image=
+Seed Image Init Scale=1000
+Seed Image SkipTimesteps=150

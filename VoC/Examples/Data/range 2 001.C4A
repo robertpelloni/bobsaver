@@ -1,0 +1,9 @@
+[Settings]
+Range=2
+Threshold=107
+States=7
+Shading=0
+4D Threshold=20
+Color Palette=multiplergb039.MAP
+State 1 Color=clYellow
+Final State Color=clRed

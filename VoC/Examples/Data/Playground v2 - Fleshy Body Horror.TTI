@@ -1,0 +1,41 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=785329021
+Iterations=50
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Playgroundv2NegativePrompt=blurry, out of focus
+Playgroundv2GuidanceScale=3
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.1
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Method=INTER_LINEAR
+In Script Movie Rotate=0:0,30:0.376,60:-0.030,90:0.238,120:0.531,150:-0.943,180:0.959,210:-0.357,240:0.667,270:0.983,300:0.057,330:-0.136,360:-0.301,390:0.299,420:-0.577,450:0.388,480:-0.183,510:0.926,540:-0.129,570:0.341,600:-0.082,630:0.890,660:-0.762,690:-0.931,720:-0.151,750:-0.536,780:0.125,810:-0.667,840:0.369,870:-0.418,900:0.681
+In Script Movie Pan X=0:0,30:-0.004,60:0.721,90:-0.337,120:0.328,150:-0.404,180:0.102,210:-0.488,240:0.104,270:0.112,300:0.325,330:-0.993,360:0.932,390:0.378,420:-0.899,450:0.350,480:0.282,510:-0.999,540:-0.607,570:-0.529,600:0.114,630:-0.692,660:0.833,690:-0.132,720:-0.737,750:0.527,780:-0.449,810:0.605,840:-0.232,870:0.427,900:-0.267
+In Script Movie Pan Y=0:0,30:0.755,60:-0.126,90:-0.927,120:0.903,150:0.733,180:-0.365,210:-0.187,240:0.778,270:-0.315,300:-0.433,330:-0.236,360:0.533,390:-0.078,420:0.897,450:-0.518,480:0.415,510:-0.002,540:0.420,570:0.941,600:-0.400,630:-0.422,660:0.729,690:0.241,720:0.324,750:-0.301,780:-0.411,810:0.664,840:-0.826,870:0.819,900:-0.506
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.5
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Laplacian
+In Script Movie Noise=100
+In Script Movie Blur Noise=1
+In Script Movie Blur Noise Amount=5
+In Script Movie Auto-Contrast=1
+In Script Movie Auto-Color=1
+In Script Movie Equalize=1
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:fleshy disturbing body horror, highly detailed, hd, 4k, 8k, photorealistic, hyperrealistic

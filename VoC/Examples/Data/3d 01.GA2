@@ -1,0 +1,7 @@
+[Settings]
+Formula=abs((pi)%tan(((x+y%7.2)*y+ceil(y/x*8.2))+y*cos(x))/arctan(1/x))
+Palette=IFS22.MAP
+Xmin=-5
+Xmax=5
+ymin=-5
+ymax=5

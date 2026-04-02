@@ -1,0 +1,39 @@
+[Eye]
+X=0
+Y=0
+Z=1
+[Look At]
+X=0
+Y=0
+Z=0
+[Zoom]
+Zoom=0.7
+[Light]
+X=0
+Y=0
+Z=-10
+[Rotation]
+X=140
+Y=60
+Z=30
+[Settings]
+Iterations=6
+Epsilon=0.0001
+Power=8
+Brightness=100
+Shading=2
+Negative SIN=1
+Bailout=4
+Palette=kuler sognefjord.MAP
+Spikes=0
+Spikes Y Maximum=0.5
+Juliabulb=1
+Julia Real=0.186080391033448
+Julia Imaginary=-0.617537312304755
+Julia Imaginary 2=0.815882280468941
+Shadows=1
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.5
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0

@@ -1,0 +1,20 @@
+[Neighborhood]
+Col0=4,0,1,3,4,2,2,3,3
+Col1=3,1,2,2,3,1,0,4,1
+Col2=3,4,2,0,3,4,0,0,1
+Col3=4,4,4,3,3,1,3,1,0
+Col4=3,2,4,2,4,4,2,0,1
+Col5=4,4,4,3,1,0,1,2,0
+[Rule]
+Number Of States=5
+Random Seed=1919469383
+[Colors]
+State 0 Color=clBlack
+State 1 Color=clRed
+State 2 Color=$003163FF
+State 3 Color=$001EC2FF
+State 4 Color=$0000DCB8
+State 5 Color=$00067C00
+State 6 Color=$00D21600
+State 7 Color=$00FD015B
+State 8 Color=$00DB018A

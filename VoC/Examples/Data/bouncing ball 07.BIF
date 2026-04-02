@@ -1,0 +1,15 @@
+[Settings]
+Formula=3
+Xmin=0.868875
+Xmax=0.878875
+Ymin=-0.581666666666667
+Ymax=-0.561666666666667
+Iterations=5000
+Skip Iterations=100
+Color Display=3
+Background Color=clBlack
+Palette=kuler pistachio.MAP
+Sample Pixels=4
+Henon Multiplier=0.3
+Bouncing Ball Slope Degrees=60
+Bouncing Ball Initial Velocity=0.2

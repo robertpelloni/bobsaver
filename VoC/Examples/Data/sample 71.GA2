@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos((y+x+8.6)+cos((y+x))*sin(y+pi))
+Palette=kuler blowin smoke.MAP
+Xmin=-12.203125
+Xmax=1.890625
+Ymin=2.0625
+Ymax=16.2708333333333

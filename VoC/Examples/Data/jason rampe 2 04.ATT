@@ -1,0 +1,14 @@
+[Settings]
+Attractor Name=Jason Rampe 2
+Palette=colorschemer pulse.MAP
+Brightness=100
+Contrast=0
+Parameter A=-2.4121
+Parameter B=-1.0028
+Parameter C=-2.2386
+Parameter D=0.274
+[Coordinates]
+Xmin=-2.40282878263497
+Xmax=1.71635151182575
+Ymin=-1.30267047319745
+Ymax=1.11131474810314

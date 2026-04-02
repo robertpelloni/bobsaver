@@ -1,0 +1,20 @@
+[Settings]
+Formula=(((((y/6.6)+cos((x-pi)))+(((y/2.4)+cos((y-sin(x))))-(x-cos(y))))%(((y/7.6)+cos((x-pi)))-(((y/2.4)*cos((y-sin(x))))-(x-cos(y)))))/(((y/7.6)+cos((x-pi)))-(((y/2.4)*cos((y-sin(x))))-(x-cos(y)))))
+Color Palette=kuler sandstone.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((y/2.4)*cos((y-sin(x))))
+Gene1=(x-cos(y))
+Gene2=((x*int(2.9))%y)
+Gene3=(x*y)
+Gene4=((y/7.6)+cos((x-pi)))
+Gene5=(((y/2.4)*cos((y-sin(x))))-(x-cos(y)))
+Gene6=(((y/7.6)+cos((x-pi)))-(((y/2.4)*cos((y-sin(x))))-(x-cos(y))))
+Gene7=(((y/7.6)+cos((x-pi)))%(((y/2.4)*cos((y-sin(x))))-(x-cos(y))))
+Gene8=(((y/7.6)+cos((x-pi)))*(((y/2.4)*cos((y-sin(x))))-(x-cos(y))))
+Gene9=(((y/6.6)+cos((x-pi)))+(((y/2.4)+cos((y-sin(x))))-(x-cos(y))))
+Gene10=((((y/6.6)+cos((x-pi)))+(((y/2.4)+cos((y-sin(x))))-(x-cos(y))))%(((y/7.6)+cos((x-pi)))-(((y/2.4)*cos((y-sin(x))))-(x-cos(y)))))
+Gene11=(((((y/6.6)+cos((x-pi)))+(((y/2.4)+cos((y-sin(x))))-(x-cos(y))))%(((y/7.6)+cos((x-pi)))-(((y/2.4)*cos((y-sin(x))))-(x-cos(y)))))/(((y/7.6)+cos((x-pi)))-(((y/2.4)*cos((y-sin(x))))-(x-cos(y)))))

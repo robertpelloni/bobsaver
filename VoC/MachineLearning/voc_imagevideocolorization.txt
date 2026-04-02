@@ -1,0 +1,21 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.41.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ipython==8.10.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts moviepy==1.0.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.23.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv_python==4.7.0.68
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts Pillow==10.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scikit-image==0.20.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts streamlit==1.30.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts streamlit_lottie==0.0.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts requests==2.31.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.64.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pytube==15.0.0
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.2.1+cu118 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

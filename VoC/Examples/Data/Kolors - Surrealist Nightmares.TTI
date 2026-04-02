@@ -1,0 +1,42 @@
+[Settings]
+Input Phrase=
+Script=Kolors *
+Random seed=155939060
+Iterations=350
+Image Size=1024
+[Kolors]
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Render Every=1
+KolorsGuidanceScale=18.0
+KolorsInitImage=
+KolorsInitImageStrength=0.2
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Movie Rotate=0:0,30:0.845,60:0.800,90:0.499,120:-0.786,150:0.431,180:0.431,210:-0.363,240:0.847,270:0.986,300:-0.606,330:-0.152,360:-0.922,390:-0.826,420:-0.806,450:0.281,480:-0.296,510:0.268,540:-0.128,570:0.149,600:0.455,630:-0.233,660:0.470,690:-0.777,720:-0.050,750:-0.422,780:0.775,810:0.008,840:-0.927,870:0.043,900:0.346
+In Script Movie Pan X=0:0,30:-0.033,60:-0.290,90:0.231,120:0.494,150:0.454,180:0.556,210:0.893,240:-0.577,270:0.760,300:-0.197,330:0.658,360:-0.255,390:-0.532,420:0.928,450:-0.560,480:-0.338,510:-0.584,540:-0.849,570:0.962,600:0.543,630:-0.924,660:0.620,690:0.809,720:-0.688,750:0.788,780:-0.193,810:-0.933,840:-0.461,870:0.733,900:-0.102
+In Script Movie Pan Y=0:0,30:-0.489,60:-0.705,90:-0.321,120:0.188,150:-0.010,180:0.106,210:-0.250,240:-0.607,270:-0.619,300:0.321,330:-0.731,360:-0.971,390:0.488,420:0.460,450:0.964,480:-0.085,510:0.752,540:0.816,570:-0.783,600:-0.806,630:0.939,660:-0.553,690:0.996,720:-0.389,750:0.702,780:0.215,810:-0.026,840:-0.654,870:-0.881,900:0.045
+In Script Movie Contrast=1
+In Script Movie Sharpness=0
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Noise=0
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+In Script Movie Color Matching=1
+[Kolors In Script Movie Prompts]
+Line0=0:highly detailed oil painting of surrealist nightmare imagery

@@ -1,0 +1,16 @@
+[Neighborhood]
+Col0=0,0,0,0,0,0,0,0,1
+Col1=0,2,0,1,0,0,0,0,0
+Col2=1,0,0,0,0,0,0,2,0
+Col3=1,0,0,2,0,0,2,1,0
+Col4=0,1,0,0,0,0,0,1,1
+Col5=0,0,2,0,0,1,1,2,1
+Col6=1,0,0,0,0,1,0,0,0
+Col7=0,2,0,0,0,1,0,1,1
+Col8=2,0,0,2,0,0,0,1,0
+[Settings]
+Start Pattern=0
+[Colors]
+State 0=clBlack
+State 1=clYellow
+State 2=clRed

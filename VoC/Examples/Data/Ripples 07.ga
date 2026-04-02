@@ -1,0 +1,17 @@
+[GA Rule]
+Rule=Uadh
+[Image Options]
+Palette File=JASON2.MAP
+Smooth Colors=0
+Random Offsets=1
+Overlay Mode=0
+Coordinate Width=5
+[Gene Character Offsets]
+Xoffset1=-1
+Yoffset1=-4
+Xoffset2=-2
+Yoffset2=-2
+Xoffset3=-3
+Yoffset3=3
+Xoffset4=-4
+Yoffset4=-1

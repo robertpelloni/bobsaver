@@ -1,0 +1,36 @@
+Global Script Settings
+	Palette=image h giger 1.MAP
+	Fractal Type=Newton
+	Formula=14
+	Coloring=2
+	Root Method=2
+	Palette Step=9
+	Root Finding Method=0
+	Palette Step Amount=0
+Point 1
+	XMin=-1.323374265625
+	XMax=1.323474265625
+	YMin=-1.35201981249999
+	YMax=1.30628693750001
+	Newtona=1.2
+	Newtoni=0.2
+	Iterations=1000
+	Tween Steps=0
+Point 2
+	XMin=-2.27458545654297
+	XMax=2.18370003828125
+	YMin=-2.37842158541666
+	YMax=2.17023663125
+	Newtona=1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=300
+Point 3
+	XMin=-269.771715145996
+	XMax=269.680829727734
+	YMin=-275.297914585416
+	YMax=275.08972963125
+	Newtona=1
+	Newtoni=-0.22
+	Iterations=1000
+	Tween Steps=300

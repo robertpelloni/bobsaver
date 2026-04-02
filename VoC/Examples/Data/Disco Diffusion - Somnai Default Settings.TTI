@@ -1,0 +1,29 @@
+[Settings]
+Input Phrase=Painting by lukas Esch by thomas kinkade of an expansive fantasy gothic chamber
+Script=Disco Diffusion *
+Random seed=107722961
+Iterations=250
+[Disco Diffusion]
+Guidance Scale=5000
+TV Scale=0
+Range Scale=150
+Saturation Scale Scale=0
+Cutouts=16
+Cutout Batches=1
+ETA=1
+256 Model=0
+ddim=1
+CLIP Denoised=0
+Model 1=1
+Model 2=1
+Model 3=0
+Model 4=0
+Model 5=1
+Model 6=0
+Model 7=0
+Model 8=0
+Use Augs=0
+Dango=1
+Seed Image=
+Seed Image Init Scale=1000
+Seed Image SkipTimesteps=150

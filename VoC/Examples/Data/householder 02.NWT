@@ -1,0 +1,22 @@
+[Settings]
+Formula=13
+Root Finding Method=3
+Palette Step Amount=1
+Genralized Newton Factor=1.5
+Genralized Newton I=0
+Coloring=2
+Palette=sinpal28.MAP
+Xmin=-0.0973796454902873
+Xmax=1.25246809549029
+Ymin=-0.391346086
+Ymax=0.391446086
+[Orbit Traps]
+Style=0
+Palette Count=1
+Palette 1=fadeblue.MAP
+Palette 2=fadewhite.MAP
+Palette 3=fadered.MAP
+Palette 4=fadegreen.MAP
+Palette 5=fadeyellow.MAP
+Only Show Traps=0
+Perlin Shading=0

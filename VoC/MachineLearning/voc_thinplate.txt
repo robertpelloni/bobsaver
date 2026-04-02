@@ -1,0 +1,33 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts cython==0.29.36
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ffmpeg-python==0.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts https://softology.pro/wheels/cffi-1.15.1-cp310-cp310-win_amd64.whl
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts cycler==0.10.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts decorator==5.1.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts face-alignment==1.3.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio==2.9.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio-ffmpeg==0.4.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts kiwisolver==1.3.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts matplotlib==3.5.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts networkx==2.6.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pandas==1.5.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts Pillow==8.3.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pycparser==2.20
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pyparsing==2.4.7
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts python-dateutil==2.8.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pytz==2021.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts PyWavelets==1.4.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts PyYAML==6.0.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts https://softology.pro/wheels/scikit_image-0.19.3-cp310-cp310-win_amd64.whl
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scikit-learn==1.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy==1.9.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts six==1.16.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.62.3
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.23.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

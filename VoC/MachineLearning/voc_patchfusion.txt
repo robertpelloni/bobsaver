@@ -1,0 +1,26 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.41.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.25.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==4.12.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts trimesh==3.20.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts json5==0.9.14
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.9.0.80
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy==1.11.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio==2.33.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts timm==0.6.13
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.7.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.36.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts open_clip_torch==2.0.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pytorch-lightning==1.5.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts omegaconf==2.1.1
+pip uninstall -y gradio
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==4.43.0
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.1+cu118 torchvision==0.15.2+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip uninstall -y charset-normalizer
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts charset-normalizer==3.3.2
+pip uninstall -y typing_extensions
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts typing_extensions==4.11.0
+pip uninstall -y pydantic
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pydantic==2.10.6

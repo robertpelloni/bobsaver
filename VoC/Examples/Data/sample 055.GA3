@@ -1,0 +1,28 @@
+[Settings]
+Formula=(((((y-5.1)/(x-exp(x)))+abs(y))%(((pi-6.1)/(x-exp(x)))-(((y*5.1)%(x-exp(x)))+(x-abs(y)))))-(((y-9.6)/(x-exp(x)))+abs(y)))
+Color Palette=colorschemer tulip field.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(((6.2*pi)-int((pi/sin(pi))))-round(((y+8.9)+sgn((y*x)))))
+Gene1=(y*x)
+Gene2=(x-abs(y))
+Gene3=((y-8.1)/(x-exp(x)))
+Gene4=((9.7+x)-(y-arctan(pi)))
+Gene5=(((y-8.1)/(x-exp(x)))+(x-abs(y)))
+Gene6=(((y-8.1)/(x-exp(x)))-(x-abs(y)))
+Gene7=(((y-8.1)/(x-exp(x)))-(((y-8.1)/(x-exp(x)))+(x-abs(y))))
+Gene8=(((y-8.1)/(x-exp(x)))%(((y-8.1)/(x-exp(x)))+(x-abs(y))))
+Gene9=(((y-8.1)/(x-exp(x)))+abs(y))
+Gene10=(((y-8.1)/(x-exp(x)))*(((y-8.1)/(x-exp(x)))+(x-abs(y))))
+Gene11=((((y-8.1)/(x-exp(x)))+abs(y))%(((y-8.1)/(x-exp(x)))-(((y-8.1)/(x-exp(x)))+(x-abs(y)))))
+Gene12=(((y-1.7)%(x-exp(x)))+(((y-8.1)/(x-exp(x)))+(x-abs(pi))))
+Gene13=(((((y-8.1)/(x-exp(x)))+abs(y))%(((y-8.1)/(x-exp(x)))-(((y-8.1)/(x-exp(x)))+(x-abs(y)))))/(((y-8.1)/(x-exp(x)))+abs(y)))
+Gene14=(((((y-8.1)/(x-exp(x)))+abs(y))%(((y-8.1)/(x-exp(x)))-(((y-8.1)/(x-exp(x)))+(x-abs(y)))))+(((((y-8.1)/(x-exp(x)))+abs(y))%(((y-8.1)/(x-exp(x)))-(((y-8.1)/(x-exp(x)))+(x-abs(y)))))/(((y-8.1)/(x-exp(x)))+abs(y))))
+Gene15=(((y-7.9)/(x-exp(x)))-(((y-2.4)/(x-exp(x)))+(x-abs(y))))
+Gene16=((((((y-8.1)/(x-exp(x)))+abs(y))%(((y-8.1)/(x-exp(x)))-(((y-8.1)/(x-exp(x)))+(x-abs(y)))))+(((((y-8.1)/(x-exp(x)))+abs(y))%(((y-8.1)/(x-exp(x)))-(((y-8.1)/(x-exp(x)))+(x-abs(y)))))/(((y-8.1)/(x-exp(x)))+abs(y))))+(((y-1.7)%(x-exp(x)))+(((y-8.1)/(x-exp(x)))+(x-abs(pi)))))
+Gene17=(((((y-8.1)/(x-exp(x)))+abs(y))%(((pi-6.6)/(x-exp(x)))-(((y*8.1)/(x-exp(x)))+(x-abs(y)))))-(((y-8.1)/(x-exp(x)))+abs(y)))
+Gene18=(((((y-5.1)/(x-exp(x)))+abs(y))%(((pi-6.1)/(x-exp(x)))-(((y*5.1)%(x-exp(x)))+(x-abs(y)))))-(((y-9.6)/(x-exp(x)))+abs(y)))
+Gene19=(((((y-5)/(x-exp(x)))+abs(y))%(((pi-3.8)+(x-exp(y)))-(((y*2.7)%(x-exp(x)))+(x-abs(y)))))/(((y-9.6)/(x-exp(x)))+abs(y)))

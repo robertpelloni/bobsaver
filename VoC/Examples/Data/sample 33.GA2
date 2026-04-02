@@ -1,0 +1,7 @@
+[Settings]
+Formula=x%frac(((1/x))-sin((y)+sin(1-x-4.7)))
+Palette=kuler dead presidents.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

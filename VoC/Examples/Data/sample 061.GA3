@@ -1,0 +1,20 @@
+[Settings]
+Formula=((((y/sqrt(3.3))%((pi*x)-sin((3.4*abs(x)))))-((y/sqrt(0.2))%((pi*x)-sin((2.7*abs(x))))))+((y/sqrt(0.1))%((pi*x)-sin((6.7*abs(x))))))
+Color Palette=colorschemer glamour 3.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(y/sqrt(9.4))
+Gene1=(pi-x)
+Gene2=((pi*x)-sin((6.7*abs(x))))
+Gene3=((x/ln(pi))-(pi-x))
+Gene4=((x+frac(3))+(7.3*abs(y)))
+Gene5=((y/sqrt(9.4))%((pi*x)-sin((6.7*abs(x)))))
+Gene6=((y/sqrt(0.1))%((pi*x)-sin((6.7*abs(x)))))
+Gene7=((y/sqrt(9.4))-sin((6.7*abs(x))))
+Gene8=(((y/sqrt(9.4))%((pi*x)-sin((6.7*abs(x)))))%((y/sqrt(0.1))%((pi*x)-sin((6.7*abs(x))))))
+Gene9=(((y/sqrt(3.3))%((pi*x)-sin((3.4*abs(x)))))-((y/sqrt(0.2))%((pi*x)-sin((2.7*abs(x))))))
+Gene10=((((y/sqrt(9.4))%((pi*x)-sin((6.7*abs(x)))))%((y/sqrt(0.1))%((pi*x)-sin((6.7*abs(x))))))-(((y/sqrt(3.3))%((pi*x)-sin((3.4*abs(x)))))-((y/sqrt(0.2))%((pi*x)-sin((2.7*abs(x)))))))
+Gene11=((((y/sqrt(3.3))%((pi*x)-sin((3.4*abs(x)))))-((y/sqrt(0.2))%((pi*x)-sin((2.7*abs(x))))))+((y/sqrt(0.1))%((pi*x)-sin((6.7*abs(x))))))

@@ -1,0 +1,9 @@
+[Settings]
+Parameter String=KHECSSLDNEAM
+Palette=Jason29.MAP
+ESCMaxIters=255
+[Coordinates]
+ESCXmin=-2.5
+ESCXmax=2.23958333333333
+ESCYmin=-2.36363636363636
+ESCYmax=2.36363636363636

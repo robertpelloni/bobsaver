@@ -1,0 +1,54 @@
+#version 420
+
+// original https://www.shadertoy.com/view/7ldXDs
+
+uniform float time;
+uniform vec2 mouse;
+uniform vec2 resolution;
+
+out vec4 glFragColor;
+
+// Created by Alex Kluchikov viscosity klk
+// tweaked by PyThrrrone
+
+#define PI 3.141592654
+vec2 rot(vec2 p,float a)
+{
+    float c=sin(a*35.83);
+    float s=cos(a*35.83);
+    return p*mat2(s,c,c,-s);
+}
+void main(void)
+{
+	vec2 uv=gl_FragCoord.xy;
+    uv/=resolution.xy;
+    uv=vec2(.125,.75)+(uv-vec2(.125,.5))*.003;
+    float T=time*.1;
+
+    vec3 c = clamp(1.-.7*vec3(
+        length(uv-vec2(1.1,1)),
+        length(uv-vec2(1.1,1)),
+        length(uv-vec2(1.1,1))
+        ),0.,1.)*2.-1.;
+    vec3 c0=vec3(0);
+    float w0=0.;
+    const float N=5.;
+    for(float i=0.;i<N;i++)
+    {
+        float wt=(i*i/N/N-.2)*.3;
+        float wp=0.5+(i+1.)*(i+1.5)*0.000001;
+        float wb=.05+i/N*0.1;
+        c.zx=rot(c.zx,1.6+T*0.65*wt+(uv.x+.7)*23.*wp);
+        c.xy=rot(c.xy,c.z*c.x*wb+1.7+T*wt+(uv.y+1.1)*15.*wp);
+        c.yz=rot(c.yz,c.x*c.y*wb+2.4-T*0.79*wt+(uv.x+uv.y*(fract(i/2.)-0.25)*4.)*17.*wp);
+        c.zx=rot(c.zx,c.y*c.z*wb+1.6-T*0.65*wt+(uv.x+.7)*23.*wp);
+        c.xy=rot(c.xy,c.z*c.x*wb+1.7-T*wt+(uv.y+1.1)*15.*wp);
+        float w=(1.5-i/N);
+        c0+=c*w;
+        w0+=w;
+    }
+    c0=c0/w0*2.+.5;
+    c0*=.5+dot(c0,vec3(1,1,1))/sqrt(3.)*.5;
+    c0+=pow(length(sin(c0*PI*4.))/sqrt(3.)*1.0,20.)*(.3+.7*c0);
+    glFragColor=vec4(c0,1.0);
+}

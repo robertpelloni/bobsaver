@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos((y)*y*sin(x*pi)-sin(x+y*pi)/cos(((pi))-cos(pi-pi)))
+Palette=kuler blowin smoke.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

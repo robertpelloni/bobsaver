@@ -1,0 +1,40 @@
+ComfyUI\models\checkpoints\analogMadnessSDXL_xl5.safetensors	6938040682	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/analogMadnessSDXL_xl5.safetensors	3c0d9b6a5406cab9882078a84c727b55
+ComfyUI\models\checkpoints\betterThanWords_v20.safetensors	6939301812	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/betterThanWords_v20.safetensors	0db6d052c30f66422ba215b6b2b1c215
+ComfyUI\models\checkpoints\epicphotogasm_ultimateFidelity.safetensors	2132625628	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/epicphotogasm_ultimateFidelity.safetensors	442a1275536b9aa8d8fb7eb33934df47
+ComfyUI\models\checkpoints\epicrealism_naturalSinRC1VAE.safetensors	2132625612	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/epicrealism_naturalSinRC1VAE.safetensors	34b99f1f7bc0fe4fd0c175bd3859dbab
+ComfyUI\models\checkpoints\juggernautXL_juggXIByRundiffusion.safetensors	7105350536	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/juggernautXL_juggXIByRundiffusion.safetensors	a99132c0b1a34ee7f04df80d12f4afb0
+ComfyUI\models\checkpoints\juggernautXL_v8Rundiffusion.safetensors	7105348592	https://huggingface.co/RunDiffusion/Juggernaut-XL-v8/resolve/main/juggernautXL_v8Rundiffusion.safetensors	b8d005a30f93f3746156037e4e593df3
+ComfyUI\models\checkpoints\juggernautXL_v13_ragnarok.safetensors	7105350162	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/juggernautXL_v13_ragnarok.safetensors	35de16346d179aa84f294bee9ed6d423
+ComfyUI\models\checkpoints\playground-v2.fp16.safetensors	6938042488	https://huggingface.co/playgroundai/playground-v2-1024px-aesthetic/resolve/main/playground-v2.fp16.safetensors	c7a9352db3d3de0cef3fc9c0d98d2ba5
+ComfyUI\models\checkpoints\playground-v2.5-1024px-aesthetic.fp16.safetensors	6938040576	https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic/resolve/main/playground-v2.5-1024px-aesthetic.fp16.safetensors	bf8417c2ef434a3e8a40cf1e4b3e2442
+ComfyUI\models\checkpoints\realisticVisionV60B1_v60B1VAE.safetensors	4265096996	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/realisticVisionV60B1_v60B1VAE.safetensors	617d54654344e18a99a6929cd03f6a55
+ComfyUI\models\checkpoints\realvisxlV40_v40Bakedvae.safetensors	6938040706	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/realvisxlV40_v40Bakedvae.safetensors	6c008e3ea4aef24c437393cbe8b202ac
+ComfyUI\models\checkpoints\sd_xl_base_1.0.safetensors	6938078334	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/sd_xl_base_1.0.safetensors	cf9d29192ef7433096a69fe5e32efba1
+ComfyUI\models\loras\Enhancer_no keywords needed.safetensors	719020768	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Enhancer_NoKeywordsNeeded.safetensors	d9d67a5ebc781bfec6c8bc41a6d033e7
+ComfyUI\models\loras\Giger Art Style_g1g3r.safetensors	912555620	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/GigerArtStyle_g1g3r.safetensors	ad03c91c5d22eb29ffd678ed5bbe8738
+ComfyUI\models\loras\HyperRealism.safetensors	228466428	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/HyperRealism.safetensors	55bffed388a7d24e253382a0ae7f26b1
+ComfyUI\models\loras\xl_more_art-full_v1.safetensors	719020768	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/xl_more_art-full_v1.safetensors	d9d67a5ebc781bfec6c8bc41a6d033e7
+rem The follwing remarked models are for the "RecursiveZoom Qwen" workflows that need newer ComfyUI which makes the workflows slow down as they run
+rem ComfyUI\models\diffusion_models\qwen_image_fp8_e4m3fn.safetensors	20430635136	https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_fp8_e4m3fn.safetensors	521f4f22f157b95fc9585c45aad6d68f
+rem ComfyUI\models\diffusion_models\qwen_image_2512_fp8_e4m3fn.safetensors	20430679144	https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_2512_fp8_e4m3fn.safetensors	4558406634d3e86c6c76339a0de7f931
+rem ComfyUI\models\loras\Qwen-Image-Lightning-4steps-V1.0.safetensors	1698951104	https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Lightning-4steps-V1.0.safetensors	8fecbbb1b60f30136a5e173c4c8c25cd
+rem ComfyUI\models\loras\Qwen-Image-Lightning-8steps-V1.0.safetensors	1698951104	https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Lightning-8steps-V1.0.safetensors	b626e01a2581fd543714cda4c02fc9b6
+rem ComfyUI\models\text_encoders\qwen_2.5_vl_7b_fp8_scaled.safetensors	9384670680	https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors	b89822a44279e6d83c06a5061d7b1ca6
+rem ComfyUI\models\vae\qwen_image_vae.safetensors	253806246	https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors	5f09a128b4c05c9998b9f218dc137b7b
+rem The follwing remarked models are for the "RecursiveZoom Flux1" workflows that need newer ComfyUI which makes the workflows slow down as they run
+rem ComfyUI\models\clip\clip_l.safetensors	246144152	https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors	81b87e641699a4cd5985f47e99e71eeb
+rem ComfyUI\models\text_encoders\t5xxl_fp16.safetensors	9787841024	https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors	4448d501df4ccf1370636adc33740c45
+rem ComfyUI\models\vae\ae.safetensors	335304388	https://huggingface.co/ffxvs/vae-flux/resolve/main/ae.safetensors	5c8c2087d13d0951b36be6dfbd3cd157
+rem ComfyUI\models\diffusion_models\flux1-dev.safetensors	23802932552	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/flux1-dev.safetensors	a6bd8c16dfc23db6aee2f63a2eba78c0
+rem ComfyUI\models\diffusion_models\flux1-dev-fp8.safetensors	17246524772	https://huggingface.co/lllyasviel/flux1_dev/resolve/main/flux1-dev-fp8.safetensors	e44272fae1316561d1dcace26033151a
+rem ComfyUI\models\loras\flux1_iphonestyle.safetensors	89745224	https://huggingface.co/dantheoprod/iphonelorastyle/resolve/main/8f79bdc99a724637b36a2fd85549e2ae_pytorch_lora_weights.safetensors	be361bedb638a1d7fd140dcef4cbfa2d
+rem ComfyUI\models\loras\flux1_realism.safetensors	22431400	https://huggingface.co/XLabs-AI/flux-RealismLora/resolve/main/lora.safetensors	9c3ca631c43c614392a49c219536b88e
+rem ComfyUI\models\loras\flux1_ultrarealism.safetensors	612746888	https://huggingface.co/prithivMLmods/Canopus-LoRA-Flux-UltraRealism-2.0/resolve/main/Canopus-LoRA-Flux-UltraRealism.safetensors	5306a5d0be96551049bd11e259882714
+rem The follwing remarked models are for the "RecursiveZoom Flux2" workflows that need newer ComfyUI which makes the workflows slow down as they run
+rem ComfyUI\models\diffusion_models\flux2_dev_fp8mixed.safetensors	35455599592	https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/diffusion_models/flux2_dev_fp8mixed.safetensors	47c23abe3fde26e8f8bf87a5d6e216f6
+rem ComfyUI\models\text_encoders\mistral_3_small_flux2_bf16.safetensors	35584897447	https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/text_encoders/mistral_3_small_flux2_bf16.safetensors	1b1dd82f9e7076ed0bff0c07f270ab5d
+rem ComfyUI\models\vae\flux2-vae.safetensors	336213556	https://huggingface.co/Comfy-Org/flux2-dev/resolve/main/split_files/vae/flux2-vae.safetensors	1f01ec904ab02e44c0b4d04c83dc856d
+rem The follwing remarked models are for the "RecursiveZoom Z Image" workflows that need newer ComfyUI which makes the workflows slow down as they run
+rem ComfyUI\models\diffusion_models\z_image_turbo_bf16.safetensors	12309866400	https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors	b47e5288f760352922f5a748086f9170
+rem ComfyUI\models\text_encoders\qwen_3_4b.safetensors	8044982048	https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors	741e99e2e97d68c5d473cf0c10b69c9b
+rem ComfyUI\models\vae\ae.safetensors	335304388	https://huggingface.co/ffxvs/vae-flux/resolve/main/ae.safetensors	5c8c2087d13d0951b36be6dfbd3cd157

@@ -1,0 +1,31 @@
+[Settings]
+Segments=2
+[Body0]
+Size X=1
+Size Y=0.379799641156569
+Size Z=0.129523601965047
+Tranform X=0
+Tranform Y=6
+Tranform Z=0
+Restitution=0.3
+Density=1
+[Body1]
+Size X=3
+Size Y=0.127249946072698
+Size Z=0.176325072417967
+Tranform X=2
+Tranform Y=6
+Tranform Z=0
+Restitution=0.3
+Density=1
+[Joint0]
+Position X=0.5
+Position Y=6
+Position Z=0
+Rotation Axis X=-0.171141703613102
+Rotation Axis Y=-0.24266091780737
+Rotation Axis Z=-0.480814525857568
+Parent 1=0
+Parent 2=1
+Speed=0.187668389873579
+Torque=-5.09806298324838

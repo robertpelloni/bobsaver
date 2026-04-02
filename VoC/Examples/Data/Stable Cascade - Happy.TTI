@@ -1,0 +1,43 @@
+[Settings]
+Input Phrase=
+Script=Stable Cascade *
+Random seed=1059803419
+Iterations=50
+Image Size=1024
+[Stable Cascade]
+Custom Image Size=1
+Custom Resolution=1920x1024
+Negative Prompt=
+Prior Guidance Scale=30
+Prior Steps=50
+Decoder Guidance Scale=1.1
+Decoder Steps=10
+InitImage=
+InitImageStrength=0.15
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Method=INTER_CUBIC
+In Script Movie Rotate=0:0,20:0.234,40:-0.602,60:0.888,80:-0.007,100:0.840,120:-0.069,140:0.405,160:-0.443,180:0.596,200:-0.353,220:-0.772,240:-0.422,260:0.357,280:-0.777,300:0.340,320:-0.221,340:0.447,360:-0.522
+In Script Movie Pan X=0:0,20:-0.137,40:-0.096,60:0.157,80:-0.041,100:-0.132,120:0.156,140:-0.576,160:0.411,180:0.021,200:-0.829,220:0.620,240:-0.382,260:0.377,280:-0.633,300:-0.055,320:0.293,340:-0.053,360:0.128
+In Script Movie Pan Y=0:0,20:0.329,40:0.756,60:-0.579,80:0.568,100:-0.495,120:-0.911,140:0.538,160:-0.633,180:-0.012,200:0.865,220:-0.035,240:0.742,260:0.776,280:-0.580,300:-0.425,320:-0.644,340:-0.651,360:0.848
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.1
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Laplacian
+In Script Movie Noise=30
+In Script Movie Blur Noise=0
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise Amount=1
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=1
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=360
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Tween=easeInOutQuad
+[Stable Cascade In Script Movie Prompts]
+Line0=0:a hyperrealistic oil painting depicting happiness

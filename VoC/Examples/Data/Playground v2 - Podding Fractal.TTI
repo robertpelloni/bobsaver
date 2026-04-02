@@ -1,0 +1,44 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=33188854
+Iterations=50
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Model Version=v2
+Playgroundv2NegativePrompt=blurry, out of focus, tiltshift, low depth of field
+Playgroundv2GuidanceScale=6
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.15
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1
+In Script Movie Zoom Method=INTER_NEAREST
+In Script Movie Rotate=0:0,30:-0.950,60:-0.651,90:0.563,120:-0.187,150:-0.479,180:0.017,210:-0.259,240:0.721,270:0.990,300:-0.533,330:0.780,360:0.561,390:-0.151,420:-0.590,450:-0.018,480:0.268,510:-0.152,540:0.714,570:-0.321,600:0.852,630:-0.519,660:0.021,690:-0.960,720:-0.638,750:0.750,780:0.993,810:-0.424,840:-0.440,870:0.754,900:-0.558
+In Script Movie Pan X=0:0,30:-0.592,60:-0.223,90:0.183,120:-0.951,150:-0.221,180:0.829,210:-0.588,240:0.933,270:-0.394,300:-0.596,330:0.375,360:-0.220,390:-0.168,420:-0.091,450:-0.518,480:-0.363,510:0.704,540:0.626,570:-0.738,600:-0.748,630:-0.133,660:0.888,690:0.278,720:-0.881,750:0.734,780:-0.384,810:-0.982,840:0.489,870:0.425,900:0.695
+In Script Movie Pan Y=0:0,30:0.083,60:-0.978,90:0.281,120:-0.266,150:-0.137,180:0.866,210:-0.458,240:0.566,270:-0.105,300:0.104,330:0.526,360:-0.694,390:0.447,420:0.692,450:-0.709,480:-0.983,510:0.496,540:0.973,570:-0.426,600:-0.284,630:0.246,660:-0.505,690:0.116,720:-0.626,750:-0.711,780:0.998,810:-0.631,840:0.932,870:-0.849,900:0.311
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.7
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Noise=5
+In Script Movie Correct Noise=0
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=1
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:podding fractal, teal, cyan, volumetric smoke, god rays

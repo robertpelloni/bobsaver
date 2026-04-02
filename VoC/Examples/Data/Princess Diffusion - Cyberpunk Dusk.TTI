@@ -1,0 +1,21 @@
+[Settings]
+Input Phrase=a detailed matte painting of a cyberpunk city at dusk
+Script=Princess Generator *
+Random seed=1069151352
+Iterations=250
+[Princess Generator]
+Model 1=1
+Model 2=1
+Model 3=1
+Model 4=0
+Model 5=0
+Model 6=0
+Model 7=0
+Model 8=0
+yfcc_1=1
+yfcc_2=1
+openimages=1
+augs=1
+flipaugs=0
+lerp=0
+ETA=1.8

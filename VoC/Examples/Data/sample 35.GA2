@@ -1,0 +1,7 @@
+[Settings]
+Formula=tan((((pi)%sin(x*y+pi)*frac((x/y*pi)))))
+Palette=FIRECOD2.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

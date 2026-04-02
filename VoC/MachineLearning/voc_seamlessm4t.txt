@@ -1,0 +1,19 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.41.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/huggingface/transformers.git@b647acdb53d251cec126b79e505bac11821d7c93
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts sentencepiece==0.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy==1.12.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts protobuf==4.25.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts soundfile==0.12.1
+pip uninstall -y torch
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.1.1+cu118 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+rem pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y charset-normalizer
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts charset-normalizer==3.3.2
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

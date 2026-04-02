@@ -1,0 +1,53 @@
+[Eye]
+X=0
+Y=-0.184284907523727
+Z=1.20041226544902
+[Look At]
+X=-5.54975987041018E-18
+Y=0.124732086851217
+Z=0.249355749153877
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.8
+[Light]
+X=-5.84674097950778
+Y=-7.42733605662306
+Z=1.03290038901922
+[Rotation]
+X=210
+Y=240
+Z=175
+[Settings]
+Iterations=5
+Epsilon=0.0001
+Power=5
+Gamma=59
+Contrast=0
+Shading=1
+Negative SIN=1
+Bailout=4
+Palette=kuler clay pot.MAP
+Spikes=0
+Spikes Y Maximum=0.843682863516733
+Juliabulb=1
+Julia Real=-0.772352568997059
+Julia Imaginary=-0.373149811407024
+Julia Imaginary 2=0.372409081086516
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=$0080FFFF
+Glow Threshold=221
+Outside Glow=1
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.5
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=1
+Anaglyph Style=2
+Anaglyph Tilt=3

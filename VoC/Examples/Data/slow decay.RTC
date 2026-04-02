@@ -1,0 +1,32 @@
+[Rule Table]
+s0r0=C
+s0r1=13,16,8,15,6
+s0r2=7,24,11
+s0r3=22,17,26
+s0r4=
+s1r0=C
+s1r1=
+s1r2=17
+s1r3=
+s1r4=
+s2r0=18,15
+s2r1=C
+s2r2=
+s2r3=
+s2r4=26,3,5,12
+s3r0=C
+s3r1=
+s3r2=1,12,25,14
+s3r3=
+s3r4=
+s4r0=13
+s4r1=
+s4r2=C
+s4r3=17,15,18,21
+s4r4=
+[Settings]
+Starting Pattern=0
+Cell Shading=0
+Color Palette=LBM07.MAP
+State 1 Color=clYellow
+Final State Color=clRed

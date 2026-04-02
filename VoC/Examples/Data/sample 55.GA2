@@ -1,0 +1,7 @@
+[Settings]
+Formula=frac((x/y/2.1)/x/sqr(((y+x/5.3))+cos((x+y/7.4))*cos(x+4.8))+x/sqr(pi))
+Palette=Jason6.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

@@ -1,0 +1,9 @@
+[Settings]
+Aggregation Threshold=5
+Threshold Growth Rate=0.095
+Accretion Amount=90
+Max Particle Velocity=8
+Blur Frequency=4
+Random Seed=1810882132
+Start Pattern=3
+Palette=JUTEMAP.MAP

@@ -1,0 +1,27 @@
+[Settings]
+headprompt=
+tailprompt=
+negativeprompt=
+motionmodule=mm_sd_v15.ckpt
+lora=epicrealism_naturalSinRC1VAE.safetensors
+controlnet=
+seed=1523491514
+steps=25
+frames=16
+lengthparameter=350
+guidancescale=7.5
+w=1024
+h=512
+format=mp4
+scheduler=k_dpmpp_sde
+motionlora=v2_lora_ZoomIn.ckpt
+motionlorastrength=1.0
+loopmovie=0
+[Prompt]
+Line0="0":  "red paint flowing and splashing",
+Line1="50":  "orange paint flowing and splashing",
+Line2="100":  "yellow paint flowing and splashing",
+Line3="150":  "green paint flowing and splashing",
+Line4="200":  "blue paint flowing and splashing",
+Line5="250":  "indigo paint flowing and splashing",
+Line6="300":  "violet paint flowing and splashing"

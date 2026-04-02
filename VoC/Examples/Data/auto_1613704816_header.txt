@@ -1,0 +1,159 @@
+#version 460
+
+// original shader by https://www.reddit.com/user/slackermanz/
+
+// uniform values passed in by Visions of Chaos each frame
+uniform vec2 resolution;  //image resolution in x and y pixels
+uniform float time;       //time elapsed in ms since shader started running
+uniform vec2 mouse;       //mouse x and y coordinates
+uniform int frames;       //which frame is this being rendered
+uniform sampler2D txdata; //previous frame buffer texture
+uniform float random1;    //different random float value each frame
+
+out vec4 glFragColor;
+
+float plim(float v, float p) {
+    v = v * p;
+    v = v - fract(v);
+    v = v / p;
+    return v;
+}
+float gv(float x, float y, int v) {
+    float div = 1.0;
+    float divx = resolution.x / div;
+    float divy = resolution.y / div;
+    float pxo = 1.0 / resolution.x;
+    float pyo = 1.0 / resolution.y;
+    float fcxo = gl_FragCoord.x + x;
+    float fcyo = gl_FragCoord.y + y;
+    float fcx = (mod(fcxo,divx) + floor(gl_FragCoord.x/divx)*divx ) * pxo;
+    float fcy = (mod(fcyo,divy) + floor(gl_FragCoord.y/divy)*divy ) * pyo;
+    vec4 pxdata = texture2D( txdata, vec2(fcx, fcy) );
+    return pxdata[v];
+}
+float gdv(float x, float y, int v, float div) {
+    float divx = resolution.x / div;
+    float divy = resolution.y / div;
+    float pxo = 1.0 / resolution.x;
+    float pyo = 1.0 / resolution.y;
+    float fcxo = gl_FragCoord.x + x;
+    float fcyo = gl_FragCoord.y + y;
+    float fcx = (mod(fcxo,divx) + floor(gl_FragCoord.x/divx)*divx ) * pxo;
+    float fcy = (mod(fcyo,divy) + floor(gl_FragCoord.y/divy)*divy ) * pyo;
+    vec4 pxdata = texture2D( txdata, vec2(fcx, fcy) );
+    return pxdata[v];
+}
+float cv(float x, float y) {
+    if(gv(x, y, 0) != 0.0) { return 1.0; } else { return 0.0; }
+}
+vec3 nhd( vec2 nbhd, float psn, float thr, int col, float div ) {
+    float dist = 0.0;
+    float cval = 0.0;
+    float c_total = 0.0;
+    float c_valid = 0.0;
+    float c_value = 0.0;
+    if(nbhd[0] <= 0.0 || nbhd[1] <= 0.0) {
+        cval = gdv(0.0,0.0,col,div);
+        c_total = psn;
+        if( cval > thr ) {
+            c_valid = psn;
+            cval = psn * cval;
+            c_value = cval-fract(cval); } }
+    else {
+        for(float i = -nbhd[0]; i <= nbhd[0]; i += 1.0) {
+            for(float j = -nbhd[0]; j <= nbhd[0]; j += 1.0) {
+                dist = floor(sqrt(i*i+j*j)+0.5);
+                if( dist <= nbhd[0] && dist > nbhd[1] && dist != 0.0 ) {
+                    cval = gdv(i,j,col,div);
+                    c_total += psn;
+                    if( cval > thr ) {
+                        c_valid += psn;
+                        cval = psn * cval;
+                        c_value += cval-fract(cval);
+                    } } } } }
+
+    return vec3( c_value, c_valid, c_total );
+}
+vec3 export_nh() {
+    vec3 c = vec3(0.0,0.0,0.0);
+    // R: Sign; 0.0 | 1.0
+    // G: X Coord; 0-255 : 0.0-1.0
+    // B: Y Coord; 0-255 : 0.0-1.0
+    
+// ( gl_FragCoord.x >= float(int(resolution.x) / 2)+0.5-32.0 )
+
+    return vec3(c[0],c[1],c[2]);
+}
+float cgol_test(float v, int c, float div) {
+    vec3 nh = nhd(vec2(1.0,0.0),1.0,0.99,c,div);
+    if(nh[0] <= 1.0) { v = 0.0; }
+    if(nh[0] == 3.0) { v = 1.0; }
+    if(nh[0] >= 4.0) { v = 0.0; }
+    return v;
+}
+float sn(float s) {
+    return (s > 0.0) ? 1.0 : (s < 0.0) ? -1.0 : 0.0;
+}
+float get_xc(float x, float y, float xmod) {
+    float sq = sqrt(mod(x*y+y, xmod)) / sqrt(xmod);
+    float xc = mod((x*x)+(y*y), xmod) / xmod;
+    return clamp((sq+xc)*0.5, 0.0, 1.0);
+}
+float shuffle(float x, float y, float xmod, float val) {
+    val = val * mod( x*y + x, xmod );
+    return (val-floor(val));
+}
+float get_xcn(float x, float y, float xm0, float xm1, float ox, float oy) {
+    float xc = get_xc(x+ox, y+oy, xm0);
+    return shuffle(x+ox, y+oy, xm1, xc);
+}
+float get_lump(float x, float y, float nhsz, float xm0, float xm1) {
+    float nhsz_c = 0.0;
+    float xcn = 0.0;
+    float nh_val = 0.0;
+
+    if(xm0 < 3.0) { xm0 = 3.0; }
+    if(xm1 < 6.0) { xm1 = 6.0; }
+
+    for(float i = -nhsz; i <= nhsz; i += 1.0) {
+        for(float j = -nhsz; j <= nhsz; j += 1.0) {
+            nh_val = floor(sqrt(i*i+j*j)+0.5);
+            if(nh_val <= nhsz) {
+                xcn = xcn + get_xcn(x, y, xm0, xm1, i, j);
+                nhsz_c = nhsz_c + 1.0; } } }
+
+    float xcnf = ( xcn / nhsz_c );
+    float xcaf = xcnf;
+    for(float i = 0.0; i <= nhsz; i += 1.0) {
+            xcaf = clamp((xcnf*xcaf + xcnf*xcaf) * (xcnf+xcnf), 0.0, 1.0); }
+
+    return xcaf;
+}
+float reseed2() {
+    float r0 = get_lump(gl_FragCoord.x, gl_FragCoord.y, 2.0, 19.0 + mod(float(frames+random1),17.0), 23.0 + mod(float(frames+random1),43.0));
+    float r1 = get_lump(gl_FragCoord.x, gl_FragCoord.y, 24.0, 13.0 + mod(float(frames+random1),29.0), 17.0 + mod(float(frames+random1),31.0));
+    float r2 = get_lump(gl_FragCoord.x, gl_FragCoord.y, 8.0, 13.0 + mod(float(frames+random1),11.0), 51.0 + mod(float(frames+random1),37.0));
+    return clamp((r0+r1)-r2,0.0,1.0);
+}
+vec3 sum_spnh( float[12][3] spnh, int[12] rlst ) {
+    vec3 sum = vec3(0.0,0.0,0.0);
+    for(int i = 0; i < 12; i++) {
+        sum[0] += (rlst[i] == 1) ? spnh[i][0] : 0.0;
+        sum[1] += (rlst[i] == 1) ? spnh[i][1] : 0.0;
+        sum[2] += (rlst[i] == 1) ? spnh[i][2] : 0.0; }
+    return sum;
+}
+void main() {
+    const int VMX = 32;
+    const int SPNH = 12;
+    #define PI 3.1415926538
+    float psn = 250.0;
+    float mnp = 0.004;//1.0 / psn;
+    float div = 1.0;
+    float divi = floor((gl_FragCoord.x*div)/(resolution.x)) + floor((gl_FragCoord.y*div)/(resolution.y))*div;
+    vec3 col = vec3( 0.0, 0.0, 0.0 );
+
+    float dspace = (divi+1.0)/(div*div);
+                dspace = (div == 1.0) ? 0.5 : dspace;
+
+	float[VMX] 	ubvn 	= float[VMX]

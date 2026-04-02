@@ -1,0 +1,33 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==3.13.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts albumentations==0.4.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pudb==2019.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio==2.9.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio-ffmpeg==0.4.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pytorch-lightning==1.4.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torchmetrics==0.6
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts omegaconf==2.1.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts test-tube==0.7.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts streamlit==0.73.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.19.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts webdataset==0.2.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts open-clip-torch==2.7.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts kornia==0.6
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts invisible-watermark==0.1.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts streamlit-drawable-canvas==0.8.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts https://softology.pro/wheels/xformers-0.0.15.dev0+103e863.d20221124-cp310-cp310-win_amd64.whl
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+pip uninstall -y opencv-python-headless
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.6.0.66
+pip uninstall -y protobuf
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts protobuf==3.20.3
+pip uninstall -y click
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts click==8.0.4
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

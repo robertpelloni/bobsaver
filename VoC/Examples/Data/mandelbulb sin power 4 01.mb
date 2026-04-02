@@ -1,0 +1,47 @@
+[Eye]
+X=-0.8
+Y=0
+Z=0.6
+[Look At]
+X=-0.8
+Y=0
+Z=0
+[Zoom]
+Zoom=0
+[Light]
+X=-3
+Y=0
+Z=3
+[Rotation]
+X=0
+Y=0
+Z=0
+[Settings]
+Iterations=7
+Power=4
+Palette=Jason3.MAP
+Supersample=1
+Supersample Pixels=0
+Brightness=80
+Negative SIN=0
+Shadows=1
+Epsilon=0.0001
+Shading=2
+Gamma=30
+Contrast=0
+Bailout=4
+Spikes=0
+Spikes Y Maximum=0.5
+Juliabulb=0
+Julia Real=0
+Julia Imaginary=0
+Julia Imaginary 2=0
+Specularity=0.45
+Glow Effect=1
+Glow Color=$00FF8000
+Glow Threshold=150
+Outside Glow=1
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.1
+Ambient Occlusion Max Orbit=1.0

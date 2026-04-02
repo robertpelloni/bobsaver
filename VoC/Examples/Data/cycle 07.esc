@@ -1,0 +1,9 @@
+[Settings]
+Parameter String=PXGUWRCEFKAL
+Palette=Genetic10.MAP
+ESCMaxIters=1024
+[Coordinates]
+ESCXmin=-0.257083333333333
+ESCXmax=-0.21875
+ESCYmin=-0.508611111111111
+ESCYmax=-0.470277777777778

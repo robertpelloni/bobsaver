@@ -1,0 +1,12 @@
+[Settings]
+Attractor Name=Gumowski Mira
+Palette=iq 08.MAP
+Initial X=-0.723135391715914
+Initial Y=-0.327585775405169
+A=0.79253300698474
+B=0.345703079365194
+[Coordinates]
+Xmin=-8.125
+Xmax=10.3125
+Ymin=-7.45677083333333
+Ymax=6.81302083333333

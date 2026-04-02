@@ -1,0 +1,12 @@
+[Settings]
+Formula=3
+Root Finding Method=2
+Palette Step Amount=6
+Genralized Newton Factor=1.1
+Genralized Newton I=0
+Coloring=2
+Palette=image frequency waves 3.MAP
+Xmin=-0.333483448486328
+Xmax=0.327317235107422
+Ymin=-1.632433675
+Ymax=-0.966329225

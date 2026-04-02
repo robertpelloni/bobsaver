@@ -1,0 +1,33 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.41.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts cython
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts librosa==0.9.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts faster-whisper==0.9.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pydub==0.25.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wavmark==0.0.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts eng_to_ipa==0.0.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts inflect==7.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts unidecode==1.3.7
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts whisper-timestamped==1.14.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts openai==1.6.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts python-dotenv==1.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pypinyin==0.50.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts cn2an==0.5.22
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts jieba==0.42.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==3.48.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts langid==1.1.6
+pip uninstall -y torch
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.1.1+cu118 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+pip uninstall -y charset-normalizer
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts charset-normalizer==3.3.2
+pip uninstall -y typing_extensions
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts typing_extensions==4.12.0
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0
+pip uninstall -y pydantic
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pydantic==2.10.6

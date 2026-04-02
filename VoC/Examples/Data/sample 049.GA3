@@ -1,0 +1,23 @@
+[Settings]
+Formula=(((((x-abs(x))*arctan((y%x)))%((pi*y)+(y*cos(x))))/((pi*y)+(y*cos(x))))+((((x-sgn(x))*arctan((y%x)))%((pi*y)+(y*cos(x))))/(((x-abs(x))*arctan((y%x)))-((pi*y)+(y*cos(x))))))
+Color Palette=GAUCHE.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(y-sqr(x))
+Gene1=(pi+y)
+Gene2=((pi*y)*(y*cos(x)))
+Gene3=((x%log(pi))/(x/y))
+Gene4=((x-abs(x))*arctan((y%x)))
+Gene5=((pi*y)+(y*cos(x)))
+Gene6=(((x-abs(x))*arctan((y%x)))%((pi*y)+(y*cos(x))))
+Gene7=(((x-abs(x))*arctan((y%x)))-((pi*y)+(y*cos(x))))
+Gene8=(((x-abs(x))*arctan((y%x)))*(x/y))
+Gene9=((((x-abs(x))*arctan((y%x)))%((pi*y)+(y*cos(x))))/((pi*y)+(y*cos(x))))
+Gene10=((((x-abs(x))*arctan((y%x)))%((pi*y)+(y*cos(x))))*(((x-abs(x))*arctan((y%x)))-((pi*y)+(y*cos(x)))))
+Gene11=((((x-sgn(x))*arctan((y%x)))%((pi*y)+(y*cos(x))))/(((x-abs(x))*arctan((y%x)))-((pi*y)+(y*cos(x)))))
+Gene12=(((((x-abs(x))*arctan((y%x)))%((pi*y)+(y*cos(x))))/((pi*y)+(y*cos(x))))+((((x-sgn(x))*arctan((y%x)))%((pi*y)+(y*cos(x))))/(((x-abs(x))*arctan((y%x)))-((pi*y)+(y*cos(x))))))
+Gene13=((((x-sgn(x))*arctan((y%x)))%((pi*y)+(y*cos(x))))*(x/y))
+Gene14=((((x-sgn(x))*arctan((y%x)))%((pi*y)+(y*cos(x))))%(x/y))

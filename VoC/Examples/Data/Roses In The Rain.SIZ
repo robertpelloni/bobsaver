@@ -1,0 +1,10 @@
+[Settings]
+prompt=roses in the rain, concept art, HQ, 4k
+negative_prompt=frame, ugly, blur
+width=512
+num_inference_steps=30
+guidance_scale=7
+num_outpainting_steps=60
+num_interpol_frames=60
+seed=1938842500
+fps=30

@@ -1,0 +1,17 @@
+python.exe -m pip install --upgrade pip
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ninja
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts setuptools
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts safetensors
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts sentencepiece
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/painebenjamin/diffusers.git@lumina2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts spaces
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts hf_xet
+pip uninstall -y torch
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.5.1+cu124 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128

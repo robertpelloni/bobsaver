@@ -1,0 +1,9 @@
+[Settings]
+Parameter String=PJLNGEUPJWEV
+Palette=Jason13.MAP
+ESCMaxIters=255
+[Coordinates]
+ESCXmin=-5
+ESCXmax=5
+ESCYmin=-5
+ESCYmax=5

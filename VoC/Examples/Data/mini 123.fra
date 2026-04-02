@@ -1,0 +1,36 @@
+[Settings]
+Version=2
+Fractal Type=Mandelbrot
+Re min=-0.159855762356247
+Re max=-0.159855485733332
+Im min=1.03809973839488
+Im max=1.03809989866329
+Julia X=-1.98540058663577
+Julia Y=-3.59678071871528E-5
+Angle=0
+Maximum Iterations=1024
+Supersample Pixels=1
+Display Style=1
+Fake Emboss=0
+Interior Color=clBlack
+Color Palette=C:\code\Delphi\Chaos\Examples\Palettes\SolankiiForest.map
+[Orbit Traps]
+Style=0
+Num Pals=1
+Palette 1=orbit traps silver 01.MAP
+Palette 2=orbit traps gold 01.MAP
+Palette 3=orbit traps red 01.MAP
+Palette 4=orbit traps green 01.MAP
+Palette 5=orbit traps blue 01.MAP
+Only Show Traps=0
+[Buddhabrot]
+Enable=0
+Rendering Style=0
+Minimum Iterations=10
+Maximum Iterations=4096
+R Start=40
+R Finish=100
+G Start=20
+G Finish=60
+B Start=0
+B Finish=30

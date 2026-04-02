@@ -1,0 +1,12 @@
+[Settings]
+num_interpolation_steps=100
+num_inference_steps=4
+guidance_scale=1.0
+resolution=1920x1088
+randomseed=0
+[Prompts]
+Line0=a hyperrealistic oil painting of a winter landscape
+Line1=a hyperrealistic oil painting of a spring landscape
+Line2=a hyperrealistic oil painting of a summer landscape
+Line3=a hyperrealistic oil painting of a autumn landscape
+Line4=a hyperrealistic oil painting of a winter landscape

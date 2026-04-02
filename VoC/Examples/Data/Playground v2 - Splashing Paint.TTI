@@ -1,0 +1,38 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=345429658
+Iterations=50
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Playgroundv2NegativePrompt=
+Playgroundv2GuidanceScale=3
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.1
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Method=INTER_CUBIC
+In Script Movie Rotate=0:0,30:0.760,60:-0.190,90:-0.651,120:0.056,150:0.135,180:-0.234,210:0.700,240:0.530,270:-0.899,300:0.754,330:-0.622,360:0.543,390:-0.307,420:0.333,450:0.360,480:-0.939,510:-0.361,540:0.387,570:0.826,600:-0.936,630:0.586,660:0.454,690:0.080,720:0.572,750:0.107,780:0.292,810:0.822,840:-0.960,870:0.051,900:-0.791
+In Script Movie Pan X=0:0,30:-0.416,60:0.251,90:0.697,120:-0.791,150:0.684,180:0.469,210:-0.368,240:0.356,270:-0.584,300:0.699,330:0.843,360:0.448,390:0.243,420:-0.047,450:0.152,480:-0.289,510:0.570,540:-0.297,570:-0.351,600:0.903,630:0.700,660:-0.994,690:0.622,720:-0.608,750:0.247,780:-0.836,810:0.188,840:-0.819,870:-0.378,900:0.391
+In Script Movie Pan Y=0:0,30:-0.704,60:0.047,90:-0.129,120:0.082,150:-0.078,180:-0.621,210:-0.762,240:0.062,270:-0.129,300:-0.813,330:0.972,360:-0.486,390:0.138,420:-0.456,450:0.939,480:-0.527,510:0.129,540:-0.684,570:0.050,600:-0.161,630:0.812,660:0.324,690:-0.617,720:0.085,750:-0.577,780:0.847,810:-0.653,840:-0.202,870:0.554,900:-0.879
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.6
+In Script Movie Sharpness Radius=5
+In Script Movie Noise=70
+In Script Movie Auto-Contrast=1
+In Script Movie Auto-Color=0
+In Script Movie Equalize=1
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:brightly colored rainbow paint splashing, hd, 4k, 8k, photorealistic, hyperrealistic

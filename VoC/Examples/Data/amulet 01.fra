@@ -1,0 +1,36 @@
+[Settings]
+Version=2
+Fractal Type=Mandelbrot
+Re min=-1.62775420112319
+Re max=-1.62775420112222
+Im min=-0.0141145142732539
+Im max=-0.0141145142726874
+Julia X=0
+Julia Y=0
+Angle=0
+Maximum Iterations=2048
+Supersample Pixels=1
+Display Style=1
+Fake Emboss=0
+Interior Color=clBlack
+Color Palette=C:\code\Delphi\Chaos\Examples\Palettes\Perlin100.MAP
+[Orbit Traps]
+Style=0
+Num Pals=1
+Palette 1=orbit traps silver 01.MAP
+Palette 2=orbit traps gold 01.MAP
+Palette 3=orbit traps red 01.MAP
+Palette 4=orbit traps green 01.MAP
+Palette 5=orbit traps blue 01.MAP
+Only Show Traps=0
+[Buddhabrot]
+Enable=0
+Rendering Style=0
+Minimum Iterations=10
+Maximum Iterations=4096
+R Start=40
+R Finish=100
+G Start=20
+G Finish=60
+B Start=0
+B Finish=30

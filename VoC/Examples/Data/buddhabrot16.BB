@@ -1,0 +1,40 @@
+[Settings]
+Version=2
+Fractal Type=Mandelbrot
+Re min=1.40222972717747
+Re max=1.40529402711408
+Im min=-0.000888917056216393
+Im max=0.000886461719556383
+Julia X=0
+Julia Y=0
+Angle=0
+Maximum Iterations=1024
+Supersample Pixels=1
+Display Style=1
+Fake Emboss=0
+Interior Color=clBlack
+Color Palette=C:\code\delphi\Chaos\Examples\Palettes\JACCO179.MAP
+[Orbit Traps]
+Style=0
+Num Pals=1
+Palette 1=orbit traps silver 01.MAP
+Palette 2=orbit traps gold 01.MAP
+Palette 3=orbit traps red 01.MAP
+Palette 4=orbit traps green 01.MAP
+Palette 5=orbit traps blue 01.MAP
+Only Show Traps=0
+[Buddhabrot]
+Enable=1
+Rendering Style=3
+Minimum Iterations=1024
+Maximum Iterations=8192
+Bailout=4
+R Start=78
+R Finish=100
+G Start=32
+G Finish=78
+B Start=0
+B Finish=54
+Contrast=0
+Brightness=100
+Sqrt Gamma=1

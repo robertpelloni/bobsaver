@@ -1,0 +1,9 @@
+[Settings]
+Range=1
+Threshold=8
+States=3
+Neighborhood=0
+Coloring=3
+Color Palette=carr519.map
+State 1 Color=$004080FF
+Final State Color=clAqua

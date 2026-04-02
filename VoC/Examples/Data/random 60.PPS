@@ -1,0 +1,15 @@
+[Settings]
+Sense Angle=143
+Sense Distance=8.160
+Turn Angle=63
+Move Speed=8.050
+Deposit Amount=0.161
+Eat Amount=0
+Evaporation Rate=0.192
+Blur Radius=4
+Display=0
+Trail Shading=0
+Particles Move Towards=1
+Blur Particles=0
+Particle Color=clYellow
+Palette=kuler baby blue.MAP

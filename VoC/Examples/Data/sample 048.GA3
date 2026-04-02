@@ -1,0 +1,31 @@
+[Settings]
+Formula=((((((pi/sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))%(pi*arctan(y)))-((((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))-((y%x)+(y/tan(3.3))))-(x+cos(y)))%((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))-((y%x)+(y/tan(3.3))))))+(pi*arctan(y)))
+Color Palette=Genetic05.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((x-sgn(pi))-(pi+sgn(y)))
+Gene1=((y/8.1)*round((x*sqr(x))))
+Gene2=((y%x)+(y/tan(3.3)))
+Gene3=(x*cos(y))
+Gene4=(((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))
+Gene5=(x+cos(y))
+Gene6=((y%x)/(y/tan(3.3)))
+Gene7=(x+arctan(y))
+Gene8=((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))-((y%x)+(y/tan(3.3))))
+Gene9=(((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))-((y%x)+(y/tan(3.3))))-(x+cos(y)))
+Gene10=(x%arctan(y))
+Gene11=(pi*arctan(y))
+Gene12=((((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))-((y%x)+(y/tan(3.3))))-(x+cos(y)))%(pi*arctan(y)))
+Gene13=((((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))-((y%x)+(y/tan(3.3))))-(x+cos(y)))%((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))-((y%x)+(y/tan(3.3)))))
+Gene14=((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))%(pi*arctan(y)))
+Gene15=((((pi+sqr(0.8))-(y-floor(9.4)))-((x/y)*(x%y)))*(pi*arctan(y)))
+Gene16=(((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))%(pi*arctan(y)))*((((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))-((y%x)+(y/tan(3.3))))-(x+cos(y)))%((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))-((y%x)+(y/tan(3.3))))))
+Gene17=((((((pi+sqr(3.5))-(y-floor(9.2)))-((x/y)*(x%y)))-((y%x)+(y/tan(1))))-(x+cos(y)))%((((pi/sqr(1.2))-(y-floor(7.2)))-((x/y)*(x%y)))-((y%x)+(x/tan(4.9)))))
+Gene18=((((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))%(pi*arctan(y)))*((((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))-((y%x)+(y/tan(3.3))))-(x+cos(y)))%((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))-((y%x)+(y/tan(3.3))))))*((((pi+sqr(0.8))-(y-floor(9.4)))-((x/y)*(x%y)))*(pi*arctan(y))))
+Gene19=((((pi+sqr(9.1))-(y-floor(9.4)))-((x/y)*(x%y)))+(pi*arctan(y)))
+Gene20=(((((pi+sqr(7.2))+(y-floor(9.2)))-((x/y)*(x%y)))%(pi*arctan(y)))%((((((pi+sqr(8.8))-(y-ceil(1.6)))-((x/y)*(x%y)))-((y/x)+(y/tan(3.3))))-(x+cos(y)))%((((pi+sqr(1.2))-(y-floor(9)))-((x/y)*(x%y)))-((y%x)+(y*tan(3.5))))))
+Gene21=(((((pi+sqr(9.1))-(y-floor(9.4)))-((x/y)*(x%y)))+(pi*arctan(y)))%((((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))%(pi*arctan(y)))*((((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))-((y%x)+(y/tan(3.3))))-(x+cos(y)))%((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))-((y%x)+(y/tan(3.3))))))*((((pi+sqr(0.8))-(y-floor(9.4)))-((x/y)*(x%y)))*(pi*arctan(y)))))
+Gene22=((((((pi/sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))%(pi*arctan(y)))-((((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))-((y%x)+(y/tan(3.3))))-(x+cos(y)))%((((pi+sqr(1.2))-(y-floor(9.2)))-((x/y)*(x%y)))-((y%x)+(y/tan(3.3))))))-((((pi%sqr(8.5))-(y-floor(5.2)))-((x/y)*(x%y)))*(pi*arctan(y))))

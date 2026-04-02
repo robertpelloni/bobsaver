@@ -1,0 +1,10 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.41.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy==1.12.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts matplotlib==3.8.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pydub==0.25.1
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

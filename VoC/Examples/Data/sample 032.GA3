@@ -1,0 +1,20 @@
+[Settings]
+Formula=((((y+x)/(pi-arctan(y)))%((y+x)%(pi-sin(y))))+((y+x)-((y+x)%(pi-sin(y)))))
+Color Palette=colorschemer solutions.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((x*6.6)*floor(((y/x)*int((x-pi)))))
+Gene1=((y+x)/(pi-arctan(y)))
+Gene2=((5.1%x)-((pi+ln(1.7))+(pi%y)))
+Gene3=((x*pi)-abs(((pi+3.9)+(y/frac(4.1)))))
+Gene4=((y+x)/(pi-sin(y)))
+Gene5=((y+x)%(pi-sin(y)))
+Gene6=(((y+x)/(pi-arctan(y)))%((y+x)%(pi-sin(y))))
+Gene7=((x*pi)+((y+x)%(pi-sin(y))))
+Gene8=((y+x)-((y+x)%(pi-sin(y))))
+Gene9=((x*pi)-((y+x)%(pi-sin(y))))
+Gene10=((((((y+x)/(pi-arctan(y)))%((y+x)%(pi-sin(y))))-((5.1%x)-((pi+ln(1.7))+(pi%y))))-(((y+x)/(pi-arctan(y)))%((y+x)%(pi-sin(y)))))%((x*pi)+((y+x)%(pi-sin(y)))))
+Gene11=((((y+x)/(pi-arctan(y)))%((y+x)%(pi-sin(y))))+((y+x)-((y+x)%(pi-sin(y)))))

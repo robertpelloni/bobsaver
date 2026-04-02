@@ -1,0 +1,22 @@
+[Rule]
+n1s0=0
+n1s1=1
+n1s2=0
+n1s3=1
+n1s4=0
+n1b0=0
+n1b1=1
+n1b2=0
+n1b3=1
+n1b4=1
+n2s0=1
+n2s1=0
+n2s2=1
+n2s3=0
+n2s4=0
+n2b0=0
+n2b1=0
+n2b2=0
+n2b3=0
+n2b4=0
+Number Of States=3

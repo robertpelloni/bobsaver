@@ -1,0 +1,9 @@
+[Effects Order]
+Effect0=Contrast 100
+Effect1=Blend 5
+Effect2=Brightness 293
+Effect3=Gaussian 1 1
+Effect4=Emboss 1 5
+Effect5=Brightness 293
+[Settings]
+Passes=1

@@ -1,0 +1,15 @@
+[GA Rule]
+Rule=AmO
+[Image Options]
+Palette File=JACCO183.MAP
+Smooth Colors=0
+Random Offsets=1
+Overlay Mode=0
+Coordinate Width=7
+[Gene Character Offsets]
+Xoffset1=2
+Yoffset1=1
+Xoffset2=5
+Yoffset2=4
+Xoffset3=-1
+Yoffset3=1

@@ -1,0 +1,9 @@
+[Settings]
+Aggregation Threshold=5
+Threshold Growth Rate=0.095
+Accretion Amount=90
+Max Particle Velocity=18
+Blur Frequency=4
+Random Seed=949793618
+Start Pattern=0
+Palette=kuler drholwegneu.MAP

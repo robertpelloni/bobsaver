@@ -1,0 +1,8 @@
+[Settings]
+Particle Count=1000
+Radius=31
+Velocity=3
+Alpha=4
+Beta=-20
+World Width=800
+Palette=rebghst2.map

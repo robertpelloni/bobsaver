@@ -1,0 +1,6 @@
+torch
+torchvision
+Pillow
+requests
+tqdm
+open_clip_torch

@@ -1,0 +1,44 @@
+[Emitter 1]
+Active=1
+Xpos=-30
+Ypos=-30
+Amplitude=1
+Frequency=0.3
+Shift=0
+Amplitude Change=0
+Frequency Change=0
+Shift Change=0
+[Emitter 2]
+Active=1
+Xpos=0
+Ypos=0
+Amplitude=1
+Frequency=0.2
+Shift=180
+Amplitude Change=0
+Frequency Change=0
+Shift Change=10
+[Emitter 3]
+Active=1
+Xpos=30
+Ypos=30
+Amplitude=1
+Frequency=0.3
+Shift=0
+Amplitude Change=0
+Frequency Change=0
+Shift Change=0
+[Emitter 4]
+Active=0
+Xpos=20
+Ypos=0
+Amplitude=1
+Frequency=0.3
+Shift=0
+Amplitude Change=0
+Frequency Change=0
+Shift Change=0
+[Settings]
+Display Speed=30
+Display Mode=0
+Palette=kuler minotaur.MAP

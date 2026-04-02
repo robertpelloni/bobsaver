@@ -1,0 +1,7 @@
+[Settings]
+Formula=frac(y/0.24)-arctan(pi/sin((x+sin(((x))*ceil(((pi))*cos((y+x))+abs(((x-y)))))))
+Palette=ROYGBIV3.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

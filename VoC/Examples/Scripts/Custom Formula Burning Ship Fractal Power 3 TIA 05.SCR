@@ -1,0 +1,227 @@
+Global Script Settings
+	Palette=matrix02.MAP
+	Fractal Type=Custom Formula
+	Bailout=8000000
+	Samplepixels=2
+	Total Shader Lines=123
+	Line 0=#version 400
+	Line 1=
+	Line 2=//the following uniform values are set by Visions of Chaos prior to shader execution
+	Line 3=uniform vec2 resolution;
+	Line 4=uniform vec3 palette[256];
+	Line 5=uniform double xmin;
+	Line 6=uniform double xmax;
+	Line 7=uniform double ymin;
+	Line 8=uniform double ymax;
+	Line 9=uniform double bailout;
+	Line 10=uniform int maxiters;
+	Line 11=uniform int samplepixels;
+	Line 12=
+	Line 13=
+	Line 14=
+	Line 15=double sqrsamplepixels=double(samplepixels*samplepixels);
+	Line 16=double bailout_squared=double(bailout*bailout);
+	Line 17=double magnitude,r1,r2,g1,g2,b1,b2,tweenval;
+	Line 18=float realiters;
+	Line 19=vec4 finalcol,col;
+	Line 20=int superx,supery;
+	Line 21=double stepx=(xmax-xmin)/resolution.x/double(samplepixels);
+	Line 22=double stepy=(ymax-ymin)/resolution.y/double(samplepixels);
+	Line 23=int colval,colval1,colval2;
+	Line 24=dvec2 z,c;
+	Line 25=//triangle inequality average coloring
+	Line 26=double sum,sum2,ac,il,lp,az2,lowbound,f,index,tr,ti;
+	Line 27=int fractalPower;
+	Line 28=double rval,gval,bval,rval1,gval1,bval1,rval2,gval2,bval2;
+	Line 29=
+	Line 30=void main(void)
+	Line 31={
+	Line 32=	sum=0;
+	Line 33=	sum2=0;
+	Line 34=	ac=0;
+	Line 35=	il=0;
+	Line 36=	lp=0;
+	Line 37=	fractalPower=3;
+	Line 38=
+	Line 39=	finalcol=vec4(0,0,0,0);
+	Line 40=	for (supery=0;supery<samplepixels;supery++)
+	Line 41=	{
+	Line 42=		for (superx=0;superx<samplepixels;superx++)
+	Line 43=		{
+	Line 44=			c.x = xmin+gl_FragCoord.x/resolution.x*(xmax-xmin)+(stepx*double(superx));
+	Line 45=			
+	Line 46=			c.y = ymin+gl_FragCoord.y/resolution.y*(ymax-ymin)+(stepy*double(supery));
+	Line 47=			int i;
+	Line 48=			z = dvec2(0.0,0.0);
+	Line 49=
+	Line 50=			//triangle inequality average coloring
+	Line 51=			sum = 0;
+	Line 52=			sum2 = 0;
+	Line 53=			ac = sqrt(c.x * c.x + c.y * c.y);
+	Line 54=			il = 1.0 / log(fractalPower);
+	Line 55=			lp = log(float(log(float(bailout)) / fractalPower));
+	Line 56=			az2 = 0.0;
+	Line 57=			lowbound = 0.0;
+	Line 58=			f = 0.0;
+	Line 59=			index = 0.0;
+	Line 60=
+	Line 61=			for(i=0; i<maxiters; i++) 
+	Line 62=			{
+	Line 63=				////////////////////////////////////////////////////////////////////
+	Line 64=				//START OF FRACTAL FORMULA
+	Line 65=				////////////////////////////////////////////////////////////////////
+	Line 66=				double zisqr = z.y * z.y;
+	Line 67=				double zrsqr = z.x * z.x;
+	Line 68=				double x = (zrsqr-(zisqr*3.0))*abs(z.x)-c.x;
+	Line 69=				double y = ((zrsqr*3.0)-zisqr)*abs(z.y)+c.y;
+	Line 70=				////////////////////////////////////////////////////////////////////
+	Line 71=				//END OF FRACTAL FORMULA
+	Line 72=				////////////////////////////////////////////////////////////////////
+	Line 73=                
+	Line 74=				magnitude=(x * x + y * y);
+	Line 75=				if(magnitude>bailout_squared) break;
+	Line 76=				z.x = x;
+	Line 77=				z.y = y;
+	Line 78=
+	Line 79=				//tia
+	Line 80=				sum2=sum;
+	Line 81=				if ((i!=0)&&(i!=maxiters-1)) {
+	Line 82=					tr=z.x-c.x;
+	Line 83=					ti=z.y-c.y;
+	Line 84=					az2=sqrt(tr * tr + ti * ti);
+	Line 85=					lowbound=abs(az2 - ac);
+	Line 86=					sum+=((sqrt(z.x * z.x + z.y * z.y)-lowbound)/(az2+ac-lowbound));
+	Line 87=				}
+	Line 88=
+	Line 89=			}
+	Line 90=
+	Line 91=			if (i==maxiters) {
+	Line 92=				col=vec4(0.0,0.0,0.0,1.0);
+	Line 93=			} else {
+	Line 94=				//triangle inequality average
+	Line 95=				sum=sum/i;
+	Line 96=				sum2=sum2/(i-1.0);
+	Line 97=				double cabs=sqrt(z.x * z.x + z.y * z.y);
+	Line 98=				f=il*lp - il*log(log(float(cabs)));
+	Line 99=				index=sum2+(sum-sum2)*(f+1.0);
+	Line 100=				realiters=float(255*index);
+	Line 101=				colval1= int(int(realiters) % 255);
+	Line 102=				colval2=(colval1+1) % 255;
+	Line 103=				tweenval=realiters-floor(realiters);
+	Line 104=				if (colval1<0) { colval1=colval1+255; }
+	Line 105=				if (colval2<0) { colval2=colval2+255; }
+	Line 106=				rval1 =palette[colval1].r;
+	Line 107=				gval1 =palette[colval1].g;
+	Line 108=				bval1 =palette[colval1].b;
+	Line 109=				rval2 =palette[colval2].r;
+	Line 110=				gval2 =palette[colval2].g;
+	Line 111=				bval2 =palette[colval2].b;
+	Line 112=				rval =rval1 +((rval2 - rval1)*tweenval);
+	Line 113=				gval =gval1 +((gval2 - gval1)*tweenval);
+	Line 114=				bval =bval1 +((bval2 - bval1)*tweenval);
+	Line 115=				col=vec4(rval,gval,bval,1.0);
+	Line 116=			}
+	Line 117=            finalcol+=col;
+	Line 118=        }
+	Line 119=    }
+	Line 120=    gl_FragColor = vec4(finalcol/double(sqrsamplepixels));
+	Line 121=}
+	Line 122=	
+Point 1
+	XMin=-3.73763958333333
+	XMax=3.73663958333333
+	YMin=-2.164015
+	YMax=2.163015
+	Iterations=256
+	Tween Steps=0
+Point 2
+	XMin=-1.40941912708333
+	XMax=-0.639568372916665
+	YMin=-1.07973339916667
+	YMax=-0.634049309166666
+	Iterations=256
+	Tween Steps=120
+Point 3
+	XMin=-0.958669707589582
+	XMax=-0.879375079910416
+	YMin=-0.941125647176666
+	YMax=-0.895220185906666
+	Iterations=256
+	Tween Steps=120
+Point 4
+	XMin=-0.930719836946309
+	XMax=-0.922552490295355
+	YMin=-0.928953049029905
+	YMax=-0.924224786519095
+	Iterations=256
+	Tween Steps=120
+Point 5
+	XMin=-0.925870890890548
+	XMax=-0.9250296541855
+	YMin=-0.927738673608378
+	YMax=-0.927251662569765
+	Iterations=256
+	Tween Steps=120
+Point 6
+	XMin=-0.925345838024871
+	XMax=-0.925259190644251
+	YMin=-0.927677513138779
+	YMax=-0.927627351001802
+	Iterations=256
+	Tween Steps=120
+Point 7
+	XMin=-0.92529655559521
+	XMax=-0.9252873631746
+	YMin=-0.927658967945928
+	YMax=-0.927653646244816
+	Iterations=256
+	Tween Steps=120
+Point 8
+	XMin=-0.925291743901219
+	XMax=-0.925290797081896
+	YMin=-0.927658421584614
+	YMax=-0.927657873449399
+	Iterations=256
+	Tween Steps=120
+Point 9
+	XMin=-0.925291327013567
+	XMax=-0.925291229491176
+	YMin=-0.927658331050948
+	YMax=-0.927658274593021
+	Iterations=256
+	Tween Steps=120
+Point 10
+	XMin=-0.925291270827538
+	XMax=-0.925291260782731
+	YMin=-0.927658320432153
+	YMax=-0.927658314616986
+	Iterations=256
+	Tween Steps=120
+Point 11
+	XMin=-0.925291264028839
+	XMax=-0.925291262994224
+	YMin=-0.927658319253612
+	YMax=-0.92765831865465
+	Iterations=256
+	Tween Steps=120
+Point 12
+	XMin=-0.925291263576929
+	XMax=-0.925291263470363
+	YMin=-0.927658318982482
+	YMax=-0.927658318920789
+	Iterations=256
+	Tween Steps=120
+Point 13
+	XMin=-0.925291263529009
+	XMax=-0.925291263518033
+	YMin=-0.927658318954427
+	YMax=-0.927658318948073
+	Iterations=256
+	Tween Steps=120
+Point 14
+	XMin=-0.925291263524241
+	XMax=-0.92529126352311
+	YMin=-0.927658318951392
+	YMax=-0.927658318950737
+	Iterations=256
+	Tween Steps=120

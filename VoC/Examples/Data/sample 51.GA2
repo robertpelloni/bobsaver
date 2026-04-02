@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos((y/x)+frac((y)+tan(y/x/pi)/sin((x)/sin((y/x)))))
+Palette=kuler orange tweak.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

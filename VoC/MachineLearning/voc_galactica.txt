@@ -1,0 +1,16 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.25.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tokenizers==0.13.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts parallelformers==1.2.7
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.15.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts markdown==3.4.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts bleach==5.0.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts psutil==5.9.4
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

@@ -1,0 +1,24 @@
+[Settings]
+Formula=(((2.3%(x/cos(3.6)))*((8.8*abs(1))%((y/sgn(y))+floor((pi+abs(x))))))+((5.3*abs(1))%((y%sgn(y))+floor((pi+abs(x))))))
+Color Palette=ROYGBIV1.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(9.3%(x/cos(3.6)))
+Gene1=((y%exp(x))-(8.8%x))
+Gene2=(x+sin(y))
+Gene3=((8.8*abs(1))%((y/sgn(y))+floor((pi+abs(x)))))
+Gene4=(((2-pi)/7.4)-arctan(((2%x)+(pi%y))))
+Gene5=((9.3%(x/cos(3.6)))/((8.8*abs(1))%((y/sgn(y))+floor((pi+abs(x))))))
+Gene6=((2.3%(x/cos(3.6)))*((8.8*abs(1))%((y/sgn(y))+floor((pi+abs(x))))))
+Gene7=((2.3%(x/cos(3.6)))%((8.8*abs(1))%((y/sgn(y))+floor((pi+abs(x))))))
+Gene8=((9.3%(x/cos(3.6)))-((7.4*abs(1))%((y/sgn(y))+log((pi+abs(x))))))
+Gene9=((9.3%(y*cos(3.6)))-((8.8*abs(1))%((y/exp(y))+log((pi+abs(x))))))
+Gene10=(((2.3%(x/cos(3.6)))*((8.8*abs(1))%((y/sgn(y))+floor((pi+abs(x))))))%((9.3%(x/cos(3.6)))-((7.4*abs(1))%((y/sgn(y))+log((pi+abs(x)))))))
+Gene11=((0.9%(x/cos(8.7)))*((4.3*abs(1))%((y/sgn(y))+floor((pi+abs(x))))))
+Gene12=(((2.3%(x/cos(3.6)))*((8.8*abs(1))%((y/sgn(y))+floor((pi+abs(x))))))%((8.8*abs(1))%((y/exp(y))+log((pi+abs(x))))))
+Gene13=((0.9%(x/cos(8.5)))-((5.3*abs(1))%((y%sgn(y))+floor((pi+abs(x))))))
+Gene14=(((2.3%(x/cos(3.6)))*((8.8*abs(1))%((y/sgn(y))+floor((pi+abs(x))))))+((5.3*abs(1))%((y%sgn(y))+floor((pi+abs(x))))))
+Gene15=(((2.3%(x/cos(3.6)))*((8.8*abs(1))%((y/sgn(y))+floor((pi+abs(x))))))-((4.3*abs(1))%((y/sgn(y))+floor((pi+abs(x))))))

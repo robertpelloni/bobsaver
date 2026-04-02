@@ -1,0 +1,43 @@
+[Settings]
+Input Phrase=
+Script=Kolors
+Random seed=38360364
+Iterations=50
+Image Size=1024
+[Kolors]
+Negative Prompt=blurry, low texture, smooth, out of focus, low details, flat colors, low details
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Render Every=1
+KolorsGuidanceScale=5.0
+KolorsInitImage=
+KolorsInitImageStrength=0.17
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Movie Rotate=0:0,30:-0.065,60:0.198,90:0.303,120:0.744,150:-0.927,180:0.241,210:0.855,240:-0.417,270:-0.735,300:0.121,330:0.355,360:-0.678,390:0.979,420:-0.907,450:0.132,480:-0.904,510:-0.534,540:0.950,570:-0.198,600:0.154,630:-0.896,660:0.694,690:0.511,720:-0.758,750:0.973,780:-0.549,810:0.800,840:-0.970,870:-0.444,900:0.827
+In Script Movie Pan X=0:0,30:0.135,60:-0.526,90:-0.336,120:0.570,150:0.991,180:-0.758,210:0.670,240:-0.666,270:0.172,300:0.148,330:-0.760,360:0.581,390:-0.663,420:0.780,450:-0.204,480:-0.552,510:0.162,540:-0.142,570:0.228,600:-0.043,630:-0.670,660:0.913,690:0.554,720:-0.572,750:0.144,780:0.328,810:-0.334,840:-0.100,870:0.216,900:-0.091
+In Script Movie Pan Y=0:0,30:-0.456,60:-0.249,90:-0.094,120:-0.630,150:0.967,180:-0.427,210:-0.121,240:0.326,270:0.973,300:0.047,330:-0.338,360:0.934,390:0.989,420:0.943,450:-0.311,480:0.715,510:0.827,540:-0.628,570:0.648,600:0.041,630:-0.157,660:0.109,690:0.453,720:-0.870,750:0.369,780:-0.517,810:-0.101,840:0.026,870:-0.749,900:0.556
+In Script Movie Contrast=1
+In Script Movie Sharpness=0
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Noise=30
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=1
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+KolorsTween=easeInOutQuad
+In Script Movie Color Matching=1
+[Kolors In Script Movie Prompts]
+Line0=0:disturbing flesh horror macabre bloody rotting

@@ -1,0 +1,11 @@
+[Settings]
+Min Neighbors=7
+Hits Per Stick=20
+Diagonal Neighbors=1
+Display Style=1
+Grid Size=1000
+Palette Shading=1
+Ambient Occlusion=0
+Ambient Occlusion Radius=5
+Color Palette=Jason43.MAP
+Particle Color=clWhite

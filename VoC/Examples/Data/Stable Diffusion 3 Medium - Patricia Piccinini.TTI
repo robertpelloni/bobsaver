@@ -1,0 +1,46 @@
+[Settings]
+Input Phrase=
+Script=Stable Diffusion 3 Medium
+Random seed=244820752
+Iterations=30
+Image Size=1024
+[Stable Diffusion 3 Medium]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Model Version=sd_xl_base_1.0_0.9vae.safetensors
+NegativePrompt=blurry, out of focus, shallow depth of field
+GuidanceScale=7
+InitImage=
+InitImageStrength=0.3
+Scheduler=DDIMScheduler
+ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1.015
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Movie Rotate=0:0,30:0.339,60:0.037,90:-0.358,120:0.506,150:-0.588,180:0.612,210:-0.485,240:0.452,270:-0.014,300:-0.038,330:0.601,360:-0.614,390:0.610,420:-0.706,450:0.791,480:0.988,510:0.477,540:-0.352,570:-0.480,600:0.756,630:-0.934,660:-0.749,690:0.576,720:-0.749,750:0.184,780:0.452,810:-0.170,840:0.978,870:-0.551,900:-0.608
+In Script Movie Pan X=0:0,30:0.926,60:-0.708,90:0.991,120:-0.263,150:0.511,180:-0.284,210:0.397,240:0.484,270:0.673,300:-0.426,330:0.739,360:-0.461,390:-0.958,420:0.881,450:0.941,480:-0.286,510:0.122,540:-0.398,570:0.493,600:-0.809,630:-0.606,660:0.390,690:0.199,720:-0.347,750:0.061,780:-0.170,810:-0.986,840:0.942,870:0.940,900:-0.749
+In Script Movie Pan Y=0:0,30:0.930,60:-0.829,90:0.733,120:-0.415,150:0.745,180:-0.275,210:-0.604,240:0.308,270:0.843,300:-0.166,330:-0.749,360:0.441,390:-0.057,420:0.079,450:-0.051,480:0.672,510:-0.853,540:0.569,570:-0.949,600:-0.959,630:0.258,660:-0.364,690:0.275,720:-0.204,750:-0.102,780:0.364,810:0.401,840:0.920,870:-0.571,900:-0.468
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.2
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Noise=10
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=1
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+In Script Movie Color Matching=1
+[Stable Diffusion 3 Medium In Script Movie Prompts]
+Line0=0:Patricia Piccinini hyperrealistic nightmare sculptures

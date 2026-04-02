@@ -1,0 +1,25 @@
+[Settings]
+Formula=(((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))*(((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))-(((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))%cos(((y*x)*sin((0.6/log(4.7))))))))
+Color Palette=kuler archeron.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(((pi-x)-(x*(9.7-pi)))%(((8.9+y)*y)-frac((2.8-(9.6*3)))))
+Gene1=(((y+sqr(x))+round((y/arctan(0.9))))*abs((4.3*y)))
+Gene2=((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))
+Gene3=((y+x)+cos(((y*x)*sin((0.6/log(4.7))))))
+Gene4=(((y*pi)*arctan((x+y)))/abs((1.5+pi)))
+Gene5=(((y*pi)*arctan((x+y)))-cos(((y*x)*sin((0.6/log(4.7))))))
+Gene6=(((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))%((y+x)+cos(((y*x)*sin((0.6/log(4.7)))))))
+Gene7=(((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))%cos(((y*x)*sin((0.6/log(4.7))))))
+Gene8=((((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))%cos(((y*x)*sin((0.6/log(4.7))))))%((y+x)+cos(((y*x)*sin((0.6/log(4.7)))))))
+Gene9=(((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))*cos(((y*x)*sin((0.6/log(4.7))))))
+Gene10=((((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))*cos(((y*x)*sin((0.6/log(4.7))))))%(((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))%cos(((y*x)*sin((0.6/log(4.7)))))))
+Gene11=((((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))%cos(((y*x)*sin((0.6/log(4.7))))))%((y+x)+cos(((y-x)*sin((0.6/log(4.7)))))))
+Gene12=(((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))-(((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))%cos(((y*x)*sin((0.6/log(4.7)))))))
+Gene13=((((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))-(((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))%cos(((y*x)*sin((0.6/log(4.7)))))))-((((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))%cos(((y*x)*sin((0.6/log(4.7))))))%((y+x)+cos(((y*x)*sin((0.6/log(4.7))))))))
+Gene14=(((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))-((((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))%cos(((y*x)*sin((0.6/log(4.7))))))%((y+x)+cos(((y*x)*sin((0.6/log(4.7))))))))
+Gene15=((((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))-((((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))%cos(((y*x)*sin((0.6/log(4.7))))))%((y+x)+cos(((y*x)*sin((0.6/log(4.7))))))))*(((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))-(((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))%cos(((y*x)*sin((0.6/log(4.7))))))))
+Gene16=(((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))*(((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))-(((x/(y+sin(y)))%sgn(((0.5+ln(pi))%(y-0.6))))%cos(((y*x)*sin((0.6/log(4.7))))))))

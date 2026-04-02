@@ -1,0 +1,14 @@
+[Settings]
+Attractor Name=Mira
+Palette=Movie Anchorman.MAP
+Brightness=100
+Contrast=0
+A=0.36
+B=1.0
+Start X=11.5
+Start Y=0.0
+[Coordinates]
+Xmin=-19.085
+Xmax=21.085
+Ymin=-11.7782216666667
+Ymax=11.6676683333333

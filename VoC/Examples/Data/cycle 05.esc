@@ -1,0 +1,9 @@
+[Settings]
+Parameter String=SLHYWSEVTWIE
+Palette=FIRE2.MAP
+ESCMaxIters=255
+[Coordinates]
+ESCXmin=-1.5328125
+ESCXmax=-1.4328125
+ESCYmin=-0.4
+ESCYmax=-0.3

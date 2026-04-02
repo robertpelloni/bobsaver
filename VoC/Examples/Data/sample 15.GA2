@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos(x)*sin(x)*ln(x)%sin(y)/sqrt(x)
+Palette=Jason38.MAP
+Xmin=-5
+Xmax=5
+ymin=-5
+ymax=5

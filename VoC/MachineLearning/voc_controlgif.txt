@@ -1,0 +1,41 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.41.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.23.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts controlnet_aux==0.0.7
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts decord==0.6.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts diffusers==0.21.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.7.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==3.44.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio==2.27.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio[ffmpeg]==2.27.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts omegaconf==2.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv_python==4.8.0.76
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts packaging==23.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pandas==2.1.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts Pillow==10.0.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts Requests==2.31.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts safetensors==0.3.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy==1.11.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.66.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.33.2
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.16
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts open-clip-torch==2.23.0
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.22
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.30
+pip uninstall -y torch
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y charset-normalizer
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts charset-normalizer==3.3.2
+pip uninstall -y typing_extensions
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts typing_extensions==4.11.0
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y pydantic
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pydantic==2.10.6
+pip uninstall -y huggingface-hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface-hub==0.25.0
+pip install hf_xet
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts triton-windows==3.5.0.post21

@@ -1,0 +1,20 @@
+[Settings]
+Formula=(((pi%y)-(pi%x))/((pi%y)+(pi%x)))
+Color Palette=kuler espresso shot.MAP
+Xmin=-3.125
+Xmax=3.125
+Ymin=-3.125
+Ymax=3.125
+[Gene Pool]
+Gene0=((((y/log2(4.2))-(pi*0.3))*sgn(((x+6.5)*frac(((y-sqr(pi))-int((x-y)))))))-round(((((x+sin(y))*ln((6.5-sqrt(pi))))+(x-pi))*(6.8+8.6))))
+Gene1=((((y/log2(4.2))-(pi*0.3))*sgn(((x-6.5)*frac(((y-sqr(pi))-int((x-y)))))))+round(((((pi+sin(y))*ln((6.5-sqrt(pi))))+(x-pi))*(6.8+8.6))))
+Gene2=((pi+x)-(y+x))
+Gene3=((pi%y)+(pi%x))
+Gene4=((((8.7*sin(y))-cos((x-2.6)))*(pi*(pi*x)))*((x-8.7)-log((9.5%y))))
+Gene5=(((pi%y)+(pi%x))%((((y/log2(4.2))-(pi*0.3))*sgn(((x-6.5)*frac(((y-sqr(pi))-int((x-y)))))))+round(((((pi+sin(y))*ln((6.5-sqrt(pi))))+(x-pi))*(6.8+8.6)))))
+Gene6=((pi%y)-(pi%x))
+Gene7=((pi+x)%((x-8.7)-log((9.5%y))))
+Gene8=((pi%y)+(pi%x))
+Gene9=(((pi%y)-(pi%x))%((((8.7*sin(y))-cos((x-2.6)))*(pi*(pi*x)))*((x-8.7)-log((9.5%y)))))
+Gene10=((pi%y)+(pi%x))
+Gene11=((pi%y)-(pi%x))

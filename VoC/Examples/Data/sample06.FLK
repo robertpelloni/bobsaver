@@ -1,0 +1,4 @@
+[Settings]
+Influx=0.001
+Background=0.4
+Palette=kuler winter.MAP

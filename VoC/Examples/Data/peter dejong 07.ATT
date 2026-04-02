@@ -1,0 +1,13 @@
+[Settings]
+Attractor Name=Peter DeJong
+Palette=colorbrewer2 09.MAP
+Parameter A=-0.709
+Parameter B=1.638
+Parameter C=0.452
+Parameter D=1.740
+Formula=5
+[Coordinates]
+Xmin=-1.31980911455037
+Xmax=1.01255584516643
+Ymin=-1.20105097074805
+Ymax=0.166995080224687

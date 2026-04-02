@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos((x+y)+sin((x+y+pi)+cos(y+x+7.7)+sin(y))+cos(x+y))
+Palette=Jason39.MAP
+Xmin=-6.1875
+Xmax=4.8125
+Ymin=2.13888888888889
+Ymax=13.1388888888889

@@ -1,0 +1,7 @@
+[Settings]
+Formula=sin((x*y*1.5)*tan(x)*tan(((y*x/6)/sin(x)+sin(y))))
+Palette=kuler saturated classics.MAP
+Xmin=-10.3888888888889
+Xmax=9.77777777777778
+Ymin=-10.3125
+Ymax=9.93055555555556

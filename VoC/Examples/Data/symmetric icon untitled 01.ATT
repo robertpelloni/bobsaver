@@ -1,0 +1,14 @@
+[Settings]
+Attractor Name=Symmetric Icon
+Palette=design-seeds sky spectrum.MAP
+L=1.455
+A=-1
+B=0.03
+G=-0.8
+O=0
+D=3
+[Coordinates]
+Xmin=-1.51199429642919
+Xmax=1.50314012976252
+Ymin=-1.19213142649039
+Ymax=1.18301163482373

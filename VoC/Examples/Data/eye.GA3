@@ -1,0 +1,30 @@
+[Settings]
+Formula=((((x-sqr(y))-(y-y))%((5.1+frac(2.2))/abs((pi/5.7))))-(((x+sin(x))%(9.4/y))*(pi+x)))
+Color Palette=Genetic08.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((x+sin(x))%(6.2/y))
+Gene1=((y-sgn(pi))/(4.1-cos(x)))
+Gene2=((y-floor(9.9))+(y%x))
+Gene3=((pi-x)*(y+x))
+Gene4=(((x-sqr(y))-(y+pi))%((6.6+frac(3.8))/abs((x/3.5))))
+Gene5=(((x+sin(x))%(6.2/y))*((y-floor(9.9))+(y%x)))
+Gene6=(((x+sin(x))%(6.2/y))+(y%x))
+Gene7=(((x+sin(x))%(5.7/y))*(y%x))
+Gene8=((((x-sqr(y))-(y+pi))%((6.6+frac(3.8))/abs((x/3.5))))*(((x+sin(x))%(6.2/y))*((y-floor(9.9))+(y%x))))
+Gene9=((((x+sin(x))%(6.2/y))*((y-floor(9.9))+(y%x)))*(((x+sin(x))%(5.7/y))*(y%x)))
+Gene10=((((x+sin(x))%(6.2/y))*((y-floor(9.9))+(x%x)))*(((x+sin(x))%(0.7/y))*(y%x)))
+Gene11=((((x+sin(x))%(6.2/y))*((y-floor(9.9))+(y%x)))*(((x+sin(x))%(6.2/y))*((y-floor(9.9))+(y%x))))
+Gene12=((((x-sqr(y))-(y+pi))%((6.6+frac(3.8))/abs((x/3.5))))*(((x+sin(x))%(5.7/y))*(y%x)))
+Gene13=((((x+sin(y))%(7.6/y))*((y-floor(2.9))+(x%x)))+(((x+sin(x))%(0.7/y))*(y%x)))
+Gene14=(((((x+sin(x))%(6.2/y))*((y-floor(9.9))+(y%x)))*(((x+sin(x))%(6.2/y))*((y-floor(9.9))+(y%x))))%((((x+sin(y))%(7.6/y))*((y-floor(2.9))+(x%x)))+(((x+sin(x))%(0.7/y))*(y%x))))
+Gene15=((((x+sin(y))%(0.8/x))*((y-floor(8.2))-(x%x)))*(((x+sin(x))%(9.9/y))*(y%x)))
+Gene16=((((x+sin(y))%(7.6/y))*((y-floor(4.1))+(x%x)))-(((x+sin(x))%(0.7/y))*(y%x)))
+Gene17=((((x-sqr(y))-(y+pi))%((1.5+frac(3.8))/abs((x/3.5))))+(((x+sin(x))%(5.7/y))*(pi%x)))
+Gene18=((((x-sqr(y))-(y+y))%((1.5+frac(3.8))/abs((y/8.8))))-(((x+sin(x))%(5.7/y))*(pi+x)))
+Gene19=((((x+cos(y))%(9.1/x))*((y-floor(0.8))-(x%x)))-(((x+sin(x))%(8.8/x))*(y-x)))
+Gene20=((((x-sqr(y))-(y+y))%((8.1+frac(4.9))/abs((pi/8.8))))-(((x+sin(x))%(8.1/y))*(pi+x)))
+Gene21=((((x-sqr(y))-(y-y))%((5.1+frac(2.2))/abs((pi/5.7))))-(((x+sin(x))%(9.4/y))*(pi+x)))

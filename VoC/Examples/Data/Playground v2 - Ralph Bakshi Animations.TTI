@@ -1,0 +1,46 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=84926560
+Iterations=100
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Model Version=v2
+Playgroundv2NegativePrompt=blurry, out of focus, tiltshift, low depth of field
+Playgroundv2GuidanceScale=7.5
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.2
+PlaygroundV2Scheduler=DDPMScheduler
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1
+In Script Movie Zoom Method=INTER_AREA
+In Script Movie Rotate=0:0,30:-0.160,60:0.915,90:-0.113,120:0.402,150:-0.255,180:-0.836,210:-0.211,240:0.862,270:-0.842,300:0.224,330:-0.414,360:-0.895,390:0.668,420:-0.592,450:0.571,480:-0.602,510:0.820,540:-0.085,570:0.371,600:-0.287,630:0.559,660:-0.323,690:0.590,720:0.460,750:-0.468,780:0.068,810:0.638,840:-0.659,870:0.907,900:-0.696
+In Script Movie Pan X=0:0,30:-0.147,60:0.316,90:-0.255,120:0.113,150:-0.324,180:-0.393,210:0.359,240:-0.332,270:0.383,300:-0.032,330:0.311,360:-0.072,390:-0.376,420:0.340,450:-0.096,480:0.451,510:-0.410,540:0.177,570:-0.201,600:-0.457,630:0.110,660:-0.146,690:0.090,720:-0.332,750:0.360,780:-0.128,810:0.462,840:-0.002,870:0.325,900:-0.341
+In Script Movie Pan Y=0:0,30:0.964,60:-0.412,90:0.245,120:-0.273,150:0.406,180:0.539,210:-0.404,240:0.874,270:0.864,300:-0.004,330:0.260,360:-0.711,390:-0.290,420:-0.554,450:0.049,480:-0.519,510:0.855,540:-0.109,570:0.847,600:-0.603,630:0.703,660:-0.455,690:0.098,720:-0.080,750:0.756,780:0.513,810:-0.203,840:0.663,870:-0.589,900:0.162
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.3
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Noise=25
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+In Script Movie Color Matching=1
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:1970s animations by Ralph Bakshi

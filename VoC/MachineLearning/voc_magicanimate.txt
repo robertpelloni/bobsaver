@@ -1,0 +1,144 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.42.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts setuptools==69.0.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ninja==1.11.1.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts absl-py==1.4.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.22.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts aiofiles==23.2.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts aiohttp==3.8.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts aiosignal==1.3.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts altair==5.0.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts annotated-types==0.5.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts antlr4-python3-runtime==4.9.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts anyio==3.7.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts async-timeout==4.0.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts attrs==23.1.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts cachetools==5.3.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts certifi==2023.7.22
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts charset-normalizer==3.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts click==8.1.7
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts cmake==3.27.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts contourpy==1.1.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts cycler==0.11.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts datasets==2.14.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts dill==0.3.7
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.6.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts exceptiongroup==1.1.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts fastapi==0.103.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ffmpy==0.3.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts filelock==3.12.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts fonttools==4.42.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts frozenlist==1.4.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts fsspec==2023.6.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts google-auth==2.22.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts google-auth-oauthlib==1.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==3.41.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio-client==0.5.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts grpcio==1.57.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts h11==0.14.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts httpcore==0.17.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts httpx==0.24.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface-hub==0.16.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts idna==3.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts importlib-metadata==6.8.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts importlib-resources==6.0.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts jinja2==3.1.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts joblib==1.3.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts jsonschema==4.19.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts jsonschema-specifications==2023.7.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts kiwisolver==1.4.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts lightning-utilities==0.9.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts lit==16.0.6
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts markdown==3.4.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts markupsafe==2.1.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts matplotlib==3.7.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts mpmath==1.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts multidict==6.0.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts multiprocess==0.70.15
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts networkx==3.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.24.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts nvidia-cublas-cu11==11.10.3.66
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts nvidia-cuda-cupti-cu11==11.7.101
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts nvidia-cuda-nvrtc-cu11==11.7.99
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts nvidia-cuda-runtime-cu11==11.7.99
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts nvidia-cudnn-cu11==8.5.0.96
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts nvidia-cufft-cu11==10.9.0.58
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts nvidia-curand-cu11==10.2.10.91
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts nvidia-cusolver-cu11==11.4.0.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts nvidia-cusparse-cu11==11.7.4.91
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts nvidia-nccl-cu11==2.14.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts nvidia-nvtx-cu11==11.7.91
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts oauthlib==3.2.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts omegaconf==2.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.8.0.76
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts orjson==3.9.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pandas==2.0.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pillow==9.5.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pkgutil-resolve-name==1.3.10
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts protobuf==4.24.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts psutil==5.9.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pyarrow==13.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pyasn1==0.5.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pyasn1-modules==0.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pydantic==2.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pydantic-core==2.6.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pydub==0.25.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pyparsing==3.0.9
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts python-multipart==0.0.6
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pytorch-lightning==2.0.7
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pytz==2023.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pyyaml==6.0.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts referencing==0.30.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts regex==2023.8.8
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts requests==2.31.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts requests-oauthlib==1.3.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts rpds-py==0.9.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts rsa==4.9
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts safetensors==0.3.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts semantic-version==2.10.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts sniffio==1.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts starlette==0.27.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts sympy==1.12
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tensorboard==2.14.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tensorboard-data-server==0.7.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tokenizers==0.13.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts toolz==0.12.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torchmetrics==1.1.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.66.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.32.0
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts triton==2.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tzdata==2023.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts urllib3==1.26.16
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts uvicorn==0.23.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts websockets==11.0.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts werkzeug==2.3.7
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xxhash==3.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts yarl==1.9.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts zipp==3.16.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts decord==0.6.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio==2.33.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio-ffmpeg==0.4.9
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts timm==0.9.12
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy==1.11.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scikit-image==0.22.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts av==11.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imgaug==0.4.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts lpips==0.1.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ffmpeg-python==0.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts diffusers==0.21.4
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.22
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.30
+pip uninstall -y torch
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.1.1+cu118 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/facebookresearch/detectron2@main#subdirectory=projects/DensePose
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts https://softology.pro/wheels/detectron2-0.6-cp310-cp310-win_amd64.whl
+pip uninstall -y charset-normalizer
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts charset-normalizer==3.3.2
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

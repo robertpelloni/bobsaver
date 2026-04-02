@@ -1,0 +1,13 @@
+[MIDI]
+Instrument=112
+Lower Octave=2
+Upper Octave=6
+Scale Type=0
+Delay=50
+[L-System Parameters]
+Turn Angle=42
+Stages=10
+Axiom=X
+[L-System Rule]
+LRule0=X=>1F[+@.95X][++++++++@.4Y]+@.95G
+LRule1=Y=>1F[+@.95Y][++++++++@.4X]+@.95G

@@ -1,0 +1,11 @@
+[Coords]
+amin=1
+amax=4
+bmin=1
+bmax=4
+[Settings]
+absequence=BBBBBAAAAA
+xstart=0.1
+init=100
+nlyap=300
+palette=JACCO313.MAP

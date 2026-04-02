@@ -1,0 +1,30 @@
+[Rule Table]
+s0r0=C
+s0r1=3,7,16,13
+s0r2=
+s0r3=11
+s0r4=12,5,25
+s1r0=
+s1r1=7
+s1r2=
+s1r3=C
+s1r4=
+s2r0=
+s2r1=6,12
+s2r2=14,9
+s2r3=C
+s2r4=
+s3r0=
+s3r1=
+s3r2=
+s3r3=A
+s3r4=
+s4r0=
+s4r1=
+s4r2=13,2
+s4r3=C
+s4r4=
+[Settings]
+Starting Pattern=4
+Cell Shading=3
+Color Palette=LBM07.MAP

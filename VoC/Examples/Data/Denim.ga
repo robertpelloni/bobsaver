@@ -1,0 +1,19 @@
+[GA Rule]
+Rule=AXiQl
+[Image Options]
+Palette File=JACCO198.MAP
+Smooth Colors=0
+Random Offsets=1
+Overlay Mode=0
+Coordinate Width=3
+[Gene Character Offsets]
+Xoffset1=1
+Yoffset1=-3
+Xoffset2=-9
+Yoffset2=-4
+Xoffset3=-6
+Yoffset3=-7
+Xoffset4=-1
+Yoffset4=-2
+Xoffset5=0
+Yoffset5=-7

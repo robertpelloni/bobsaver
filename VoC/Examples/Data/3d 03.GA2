@@ -1,0 +1,7 @@
+[Settings]
+Formula=log((x/pi)-tan(((y-6.3)+sin((x+y-pi)))))
+Palette=Gravity 2D 01.MAP
+Xmin=-7
+Xmax=7
+ymin=-7
+ymax=7

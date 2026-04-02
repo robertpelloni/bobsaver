@@ -1,0 +1,11 @@
+[Coords]
+amin=2.8125
+amax=4.0625
+bmin=2.83333333333333
+bmax=4.08333333333333
+[Settings]
+absequence=BBABABA
+xstart=0.1
+init=100
+nlyap=300
+palette=GAMMA5.MAP

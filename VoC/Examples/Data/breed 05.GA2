@@ -1,0 +1,7 @@
+[Settings]
+Formula=sin((x/pi)-round(((y-6.3)+sin((x+x-sin(pi)-cos(y+x+1.5)+x-sin((x+y+7.8)+x+cos(x+4))-sin(pi)+cos((y-pi)-cos(x+y)-sin(((x+y+2.3)-sin(y+pi)+sin(y-x))-y+cos(((x-y)+cos(((x))+cos(y-3.1)+sin(y-0.3)-sin(x-2.5)+y-sin(x)-sin((y+x)+cos(x+y-pi)+cos(y-x)-cos(x+y-0.8)-x+sin(y-x+pi)))))))))
+Palette=UNKNOWN.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

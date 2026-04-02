@@ -1,0 +1,22 @@
+[Settings]
+headprompt=
+tailprompt=
+negativeprompt=
+scheduler=k_dpmpp_2m_sde
+motionmodule=improved3DMotion_improved3DV1.ckpt
+motionlora=v2_lora_ZoomIn.ckpt
+motionlorastrength=1.0
+lora=epicphotogasm_v4One4All.safetensors
+controlnet=
+seed=573668030
+steps=25
+frames=16
+lengthparameter=650
+guidancescale=7.5
+w=640
+h=384
+format=mp4
+loopmovie=0
+fps=8
+[Prompt]
+Line0="0": "a lush rainforest"

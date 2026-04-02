@@ -1,0 +1,23 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts click==8.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pillow==9.5.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy==1.11.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts requests==2.31.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.65.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ninja==1.11.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts matplotlib==3.7.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio==2.31.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imgui==2.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts glfw==2.6.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pyopengl==3.1.7
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio-ffmpeg==0.4.8
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pyspng==0.1.1
+rem pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.0+cu118 torchvision==0.15.1+cu118 torchaudio==2.0.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

@@ -1,0 +1,12 @@
+[Settings]
+Attractor Name=Clifford
+Palette=design-seeds tiles hues.MAP
+Parameter A=-1.7
+Parameter B=1.8
+Parameter C=-1.9
+Parameter D=-0.4
+[Coordinates]
+Xmin=-3.05949436238978
+Xmax=3.01873862240331
+Ymin=-1.76744680726958
+Ymax=1.75862697137994

@@ -1,0 +1,12 @@
+[Settings]
+Formula=5
+Root Finding Method=2
+Palette Step Amount=4
+Genralized Newton Factor=1
+Genralized Newton I=0
+Coloring=2
+Palette=FIRE2.MAP
+Xmin=0.195360546874999
+Xmax=1.1914443359375
+Ymin=-1.3832695
+Ymax=-0.3832795

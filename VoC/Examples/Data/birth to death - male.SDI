@@ -1,0 +1,20 @@
+[Settings]
+num_interpolation_steps=50
+randomseed=2053745143
+num_inference_steps=4
+guidance_scale=1.0
+resolution=1024x1024
+model=RunDiffusion/Juggernaut-XL-v9
+[Prompts]
+Line0=a portrait of a male human newborn baby
+Line1=a portrait of a male human baby
+Line2=a portrait of a male human toddler
+Line3=a portrait of a male human child
+Line4=a portrait of a male human teenager
+Line5=a portrait of a male human young adult
+Line6=a portrait of a male human adult
+Line7=a portrait of a male human middle aged adult
+Line8=a portrait of a male human elderly person
+Line9=a male human elderly corpse
+Line10=a human skull
+Line11=a mound of dirt and a gravestone

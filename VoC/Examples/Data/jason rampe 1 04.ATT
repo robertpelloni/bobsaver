@@ -1,0 +1,12 @@
+[Settings]
+Attractor Name=Jason Rampe 1
+Palette=design-seeds color terrain.MAP
+Parameter A=-1.8669
+Parameter B=1.2768
+Parameter C=-2.9296
+Parameter D=-0.4121
+[Coordinates]
+Xmin=-3.44444444444444
+Xmax=4.33333333333333
+Ymin=-2.37472222222222
+Ymax=2.14583333333333

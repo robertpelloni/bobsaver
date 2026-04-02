@@ -1,0 +1,16 @@
+[Settings]
+Formula=(((((3.9/pi)-sqr((x%tan(9))))%((x*frac(pi))-tan((y/5.4))))*((8.4+y)%(x+sqr(pi))))/((8.4+y)%(x+sqr(pi))))
+Color Palette=kuler drholwegneu.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((x*y)+(pi%sgn(pi)))
+Gene1=((9.9*(pi*abs(pi)))*int((x%pi)))
+Gene2=((7.1-arctan(1))-((4.8+abs(pi))-arctan((y+x))))
+Gene3=(((x*sgn(4.2))+cos((x+pi)))/(7.5%1.2))
+Gene4=(((3.9/pi)-sqr((x%tan(9))))%((x*frac(pi))-tan((y/5.4))))
+Gene5=((8.4+y)%(x+sqr(pi)))
+Gene6=((((3.9/pi)-sqr((x%tan(9))))%((x*frac(pi))-tan((y/5.4))))*((8.4+y)%(x+sqr(pi))))
+Gene7=(((8.4+y)%(x+sqr(pi)))%(((x*sgn(4.2))+cos((x+pi)))/(7.5%1.2)))

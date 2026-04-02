@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos((x)-y/cos(pi)-cos(x-y/pi)+cos(((y+x/pi)-x+cos((y)))))
+Palette=Jason6.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

@@ -1,0 +1,30 @@
+[Settings]
+Formula=((((y+cos(x))*pi)%((((pi+cos(x))+(y*x))/((y-ceil(8.5))-(y+cos(x))))-((y+cos(x))-x)))+((y*sin(4.9))-(pi+cos(x))))
+Color Palette=iq 08.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(x*cos(x))
+Gene1=(y-round(8.5))
+Gene2=(y+x)
+Gene3=(y*x)
+Gene4=(y-x)
+Gene5=(y+cos(x))
+Gene6=((y+cos(x))-(y*x))
+Gene7=((y-round(8.5))-(y+cos(x)))
+Gene8=(((y+cos(x))-(y*x))/((y-round(8.5))-(y+cos(x))))
+Gene9=((y+cos(x))%x)
+Gene10=((y+cos(x))-x)
+Gene11=((y-round(1.7))*(y+cos(x)))
+Gene12=((y+cos(x))*x)
+Gene13=((((y+cos(x))-(y*x))/((y-round(8.5))-(y+cos(x))))-((y+cos(x))-x))
+Gene14=((y+cos(x))*x)
+Gene15=((y*round(4.9))/(pi+cos(x)))
+Gene16=((y*sin(4.9))-(pi+cos(x)))
+Gene17=(((y+cos(x))*x)-((((y+cos(x))-(y*x))/((y-round(8.5))-(y+cos(x))))-((y+cos(x))-x)))
+Gene18=((y-sin(8.2))%(pi+cos(x)))
+Gene19=(((y+cos(x))*pi)%((((pi+cos(x))+(y*x))/((y-ceil(8.5))-(y+cos(x))))-((y+cos(x))-x)))
+Gene20=((x-sin(8.2))%(pi+cos(y)))
+Gene21=((((y+cos(x))*pi)%((((pi+cos(x))+(y*x))/((y-ceil(8.5))-(y+cos(x))))-((y+cos(x))-x)))+((y*sin(4.9))-(pi+cos(x))))

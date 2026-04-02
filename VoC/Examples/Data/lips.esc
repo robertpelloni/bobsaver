@@ -1,0 +1,10 @@
+[Settings]
+Parameter String=RKPTGMHVANCM
+Palette=JASON18.MAP
+ESCMaxIters=255
+
+[Coordinates]
+ESCXmin=-5
+ESCXmax=5
+ESCYmin=-5
+ESCYmax=5

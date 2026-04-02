@@ -1,0 +1,43 @@
+[Settings]
+Input Phrase=
+Script=SDXL v1.0 *
+Random seed=1530964512
+Iterations=50
+Image Size=1024
+[SDXL]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+SDXLNegativePrompt=
+SDXLModel=sd_xl_base_1.0_0.9vae.safetensors
+SDXLLora=Alex Grey Style_al3xxl.safetensors
+SDXLLoraWeight=2
+SDXLScheduler=DDIMScheduler
+SDXLImg2ImgModel=sd_xl_refiner_1.0_0.9vae.safetensors
+SDXLGuidanceScale=30
+SDXLInitImage=
+SDXLInitImageStrength=0.2
+SDXLZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.02
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Movie Rotate=0:0,30:0.679,60:-0.109,90:0.313,120:0.109,150:-0.064,180:0.248,210:-0.659,240:0.916,270:-0.277,300:-0.783,330:0.501,360:-0.976,390:0.124,420:-0.571,450:-0.788,480:0.003,510:-0.699,540:-0.264,570:-0.894,600:-0.990,630:0.801,660:-0.801,690:0.071,720:0.497,750:-0.919,780:-0.976,810:0.461,840:-0.985,870:0.775,900:-0.052
+In Script Movie Pan X=0:0,30:0.960,60:-0.822,90:0.380,120:-0.901,150:0.947,180:-0.819,210:0.317,240:-0.492,270:0.664,300:-0.654,330:0.393,360:0.972,390:0.274,420:0.723,450:-0.852,480:0.535,510:-0.257,540:-0.911,570:0.758,600:-0.533,630:0.684,660:-0.572,690:0.558,720:-0.491,750:0.565,780:-0.077,810:0.704,840:-0.683,870:-0.246,900:0.918
+In Script Movie Pan Y=0:0,30:-0.392,60:0.292,90:0.867,120:-0.511,150:0.872,180:0.079,210:0.287,240:0.360,270:-0.567,300:0.257,330:0.368,360:-0.593,390:0.984,420:0.927,450:0.644,480:-0.979,510:0.982,540:0.084,570:0.204,600:-0.337,630:0.762,660:-0.377,690:0.589,720:-0.946,750:-0.167,780:0.677,810:-0.005,840:-0.768,870:-0.299,900:0.458
+In Script Movie Contrast=1
+In Script Movie Sharpness=1
+In Script Movie Sharpness Radius=5
+In Script Movie Noise=0
+In Script Movie Auto-Contrast=1
+In Script Movie Auto-Color=1
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+In Script Randomize Seed=1
+In Script Zoom After Sharpen=0
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+SDXLTween=easeInOutQuad
+[SDXL In Script Movie Prompts]
+Line0=0:rflowers by al3xxl

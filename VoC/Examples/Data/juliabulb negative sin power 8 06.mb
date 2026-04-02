@@ -1,0 +1,59 @@
+[Eye]
+X=0
+Y=0
+Z=1
+[Look At]
+X=0
+Y=0
+Z=0
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=52
+[Light]
+X=-3.51543701895299
+Y=4.92925197045246
+Z=6.19226756346699
+[Rotation]
+X=171
+Y=132
+Z=129
+[Settings]
+Iterations=5
+Epsilon=0.0001
+Power=8
+Gamma=0
+Contrast=0
+Shading=0
+Formula=1
+Bailout=4
+Palette=colorschemer evening shade.MAP
+Spikes=1
+Spikes Y Maximum=0.239660752005875
+Juliabulb=1
+Julia Real=-1.08670210633306
+Julia Imaginary=-0.332557218496133
+Julia Imaginary 2=-0.339683793019503
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=clBlue
+Glow Threshold=150
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.4
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=0
+Anaglyph Tilt=3
+Background Color=clBlack
+Phase=0.241505096666515
+Theta Scale=0.196452059783041
+Phi Scale=0.0727840191684663

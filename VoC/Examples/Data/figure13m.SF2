@@ -1,0 +1,10 @@
+[Settings]
+rho=0.36
+beta=1.09
+alpha=0.01
+theta=0.745
+kappa=0.0001
+mu=0.14
+gamma=0.00001
+sigma=0
+Palette=ifs07.map

@@ -1,0 +1,15 @@
+[Settings]
+Rotataion=0.2
+Zoom=16
+HSL Pixel Flow=0
+Angle Formula=l*528
+Length Formula=h-9+s*4
+Zoom Style=7
+Blend Mode=23
+Sharpening Strength=9
+Blur Strength=1
+Random Seed=1
+Start Style=0
+Start Image=
+Contrast=-10
+Brightness=59

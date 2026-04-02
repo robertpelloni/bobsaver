@@ -1,0 +1,14 @@
+[Settings]
+Attractor Name=Symmetric Icon
+Palette=design-seeds peacock hues.MAP
+L=2.39
+A=-2.5
+B=-0.1
+G=0.9
+O=-0.15
+D=16
+[Coordinates]
+Xmin=-1.20859375
+Xmax=1.20859375
+Ymin=-0.934778645833333
+Ymax=0.934778645833333

@@ -1,0 +1,12 @@
+[Settings]
+Attractor Name=Gumowski Mira
+Palette=Genetic13.MAP
+Initial X=0.78662442881614
+Initial Y=0.919355855789036
+A=0.900278024375439
+B=0.661233567167073
+[Coordinates]
+Xmin=-10.1333333333333
+Xmax=13.8
+Ymin=-6.96966666666667
+Ymax=6.901

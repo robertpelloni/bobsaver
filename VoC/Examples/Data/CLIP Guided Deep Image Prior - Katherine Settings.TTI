@@ -1,0 +1,15 @@
+[Settings]
+Input Phrase=a painting of a cabin next to a stream in a secluded forest
+Script=CLIP Guided Deep Image Prior
+Random seed=22964209
+Iterations=350
+[CLIP Guided Deep Image Prior]
+CLIP Model=ViT-B/16
+Optimizer=MADGRAD
+Cutouts=16
+Learning Rate=0.001
+Skip_n33d=192
+Skip_n33u=192
+Skip_n11=4
+Input_depth=32
+Num_scales=7

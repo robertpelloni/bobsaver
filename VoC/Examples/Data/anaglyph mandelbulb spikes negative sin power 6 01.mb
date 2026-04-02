@@ -1,0 +1,53 @@
+[Eye]
+X=1.10995197408205E-18
+Y=-0.255958497432787
+Z=1.38712835074846
+[Look At]
+X=-4.43980789632814E-18
+Y=0.198032002306754
+Z=0.496121826560103
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.8
+[Light]
+X=7.75974269298267
+Y=5.19412804796414
+Z=2.98252173349626
+[Rotation]
+X=284
+Y=159
+Z=235
+[Settings]
+Iterations=5
+Epsilon=0.0001
+Power=6
+Gamma=128
+Contrast=0
+Shading=2
+Negative SIN=1
+Bailout=4
+Palette=kuler cadet.MAP
+Spikes=1
+Spikes Y Maximum=0.953951319446787
+Juliabulb=0
+Julia Real=-0.501740430495304
+Julia Imaginary=-0.828688218473116
+Julia Imaginary 2=0.447568900883198
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=$0080FFFF
+Glow Threshold=221
+Outside Glow=1
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.4
+Ambient Occlusion Max Orbit=1.2
+Supersample=1
+Supersample Pixels=0
+Anaglyph=1
+Anaglyph Style=2
+Anaglyph Tilt=3

@@ -1,0 +1,9 @@
+[Settings]
+Parameter String=LUIFEXRVRFRM
+Palette=Jason20.map
+ESCMaxIters=256
+[Coordinates]
+ESCXmin=-5
+ESCXmax=5
+ESCYmin=-5
+ESCYmax=5

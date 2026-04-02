@@ -1,0 +1,7 @@
+[Settings]
+Formula=abs(y%pi)%cos(x*y)/arctan(1%y)%round(pi)%tan(1/x)
+Palette=JACCO289.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

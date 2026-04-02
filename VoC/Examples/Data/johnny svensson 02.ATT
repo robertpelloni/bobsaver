@@ -1,0 +1,13 @@
+[Settings]
+Attractor Name=Johnny Svensson
+Palette=kuler sunlight trees.MAP
+Parameter A=-2.538
+Parameter B=1.362
+Parameter C=1.315
+Parameter D=0.513
+Formula=6
+[Coordinates]
+Xmin=-3.7427662037037
+Xmax=3.79253472222222
+Ymin=-2.01814300411523
+Ymax=2.36076989026063

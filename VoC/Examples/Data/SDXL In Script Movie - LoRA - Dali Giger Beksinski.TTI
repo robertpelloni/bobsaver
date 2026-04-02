@@ -1,0 +1,43 @@
+[Settings]
+Input Phrase=
+Script=SDXL v1.0 *
+Random seed=606058049
+Iterations=50
+Image Size=1024
+[SDXL]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+SDXLNegativePrompt=blurry, unfocused
+SDXLModel=sd_xl_base_1.0_0.9vae.safetensors
+SDXLLora=Realistic Film Photgraphy_realistic film photography.safetensors
+SDXLLoraWeight=3
+SDXLScheduler=PNDMScheduler
+SDXLImg2ImgModel=sd_xl_refiner_1.0_0.9vae.safetensors
+SDXLGuidanceScale=8
+SDXLInitImage=
+SDXLInitImageStrength=0.2
+SDXLZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.02
+In Script Movie Zoom Method=INTER_LINEAR
+In Script Movie Rotate=0:0
+In Script Movie Pan X=0:0
+In Script Movie Pan Y=0:0
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.5
+In Script Movie Sharpness Radius=5
+In Script Movie Noise=150
+In Script Movie Auto-Contrast=1
+In Script Movie Auto-Color=1
+In Script Movie Equalize=1
+In Script Hard Cuts=0
+In Script Randomize Seed=1
+In Script Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1.05
+In Script Green Scale=1.05
+In Script Blue Scale=1.05
+SDXLTween=easeInOutQuad
+[SDXL In Script Movie Prompts]
+Line0=0:realistic film photography, Dali, Giger and Beksinski, 4K, 8K

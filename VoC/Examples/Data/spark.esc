@@ -1,0 +1,9 @@
+[Settings]
+Parameter String=JFLEYNNKURFE
+Palette=jason6.MAP
+ESCMaxIters=256
+[Coordinates]
+ESCXmin=-5
+ESCXmax=5
+ESCYmin=-5
+ESCYmax=5

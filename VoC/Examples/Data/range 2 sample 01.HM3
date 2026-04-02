@@ -1,0 +1,12 @@
+[Settings]
+Q=100
+K1=20
+K2=31
+G=14
+Range=2
+Min Visible State=0
+Max Visible State=99
+Coloring=0
+Color Palette=ROYGBIV3.MAP
+State 1 Color=clYellow
+Final State Color=clRed

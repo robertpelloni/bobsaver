@@ -1,0 +1,56 @@
+[Eye]
+X=0.192353258509045
+Y=-0.654774300004222
+Z=1.4
+[Look At]
+X=0.192353258509045
+Y=-0.654774300004222
+Z=0.4
+[Up]
+X=0.277837084267089
+Y=0.975692404819533
+Z=0
+[Zoom]
+Zoom=0.8
+[FOV]
+FOV=55
+[Light]
+X=-4.56784135546821
+Y=-4.09840050104051
+Z=6.11047777872935
+[Rotation]
+X=286
+Y=267
+Z=163
+[Settings]
+Iterations=15
+Epsilon=0.000001
+Power=2
+Gamma=108
+Contrast=0
+Shading=2
+Formula=3
+Bailout=4
+Palette=kuler drholwegneu.MAP
+Spikes=0
+Spikes Y Maximum=0.378059356007725
+Juliabulb=0
+Julia Real=-0.758093162816239
+Julia Imaginary=0.140730878504227
+Julia Imaginary 2=0.134653009008616
+Shadows=0
+Specularity=0.45
+Glow Effect=0
+Glow Color=clRed
+Glow Threshold=191
+Outside Glow=1
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.1
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=1
+Anaglyph=0
+Anaglyph Style=1
+Anaglyph Tilt=3
+Background Color=clBlack

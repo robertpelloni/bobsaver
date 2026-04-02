@@ -1,0 +1,48 @@
+[Objects]
+Count=4
+[Object Settings]
+Object 1 X=50
+Object 1 Y=25
+Object 1 Z=50
+Object 1 Mass=1
+Object 1 Show=No
+Object 1 Color=clRed
+Object 2 X=50
+Object 2 Y=75
+Object 2 Z=50
+Object 2 Mass=1
+Object 2 Show=No
+Object 2 Color=$0000FBF8
+Object 3 X=25
+Object 3 Y=50
+Object 3 Z=50
+Object 3 Mass=1
+Object 3 Show=Yes
+Object 3 Color=$000071E1
+Object 4 X=75
+Object 4 Y=50
+Object 4 Z=50
+Object 4 Mass=1
+Object 4 Show=Yes
+Object 4 Color=$00007100
+[Settings]
+Grid Size=500
+Simulation Space Width=2
+Iterations=1024
+Mingravdist=0
+Algorithm=0
+Slice=0
+Cell Shape=2
+Hide Surrounded=1
+Color palette=ROYGBIV2.MAP
+[MGS]
+Gravity Constant=1
+Delta Time=0.1
+Escape Velocity=0
+Escape Radius=2
+[Magnetic Pendulum]
+Friction=0.97
+Field Strength=1
+Gravitation=0.1
+Distance Above Magnets=0.25
+Pendulum Mass=50

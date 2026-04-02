@@ -1,0 +1,26 @@
+[Settings]
+Formula=((((y*sin(x))-((x+cos(y))*(y/pi)))%(y*1.1))%(((y*sin(x))-((x+cos(y))*(y/pi)))/(y*1.1)))
+Color Palette=sinpal14.map
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(y*sin(x))
+Gene1=(y*x)
+Gene2=((x+cos(y))*(y/pi))
+Gene3=(x-log(pi))
+Gene4=(y*1.1)
+Gene5=((y*sin(x))-((x+cos(y))*(y/pi)))
+Gene6=(((y*sin(x))-((x+cos(y))*(y/pi)))%(x-log(pi)))
+Gene7=((y*1.1)-(((y*sin(x))-((x+cos(y))*(y/pi)))%(x-log(pi))))
+Gene8=(((y*1.1)-(((y*sin(x))-((x+cos(y))*(y/pi)))%(x-log(pi))))/(y*1.1))
+Gene9=(((y*sin(x))-((x+cos(y))*(y/pi)))-(((y*sin(x))-((x+cos(y))*(y/pi)))%(x-log(pi))))
+Gene10=(((pi*sin(x))-((x+cos(y))*(y/pi)))-(((y*ceil(x))-((x+cos(y))*(y/pi)))%(x-log(pi))))
+Gene11=(((y*sin(x))-((x+cos(y))*(y/pi)))/(y*1.1))
+Gene12=(((y*1.1)-(((y*sin(x))-((x+cos(y))*(y/pi)))%(x-log(pi))))-(((pi*sin(x))-((x+cos(y))*(y/pi)))-(((y*ceil(x))-((x+cos(y))*(y/pi)))%(x-log(pi)))))
+Gene13=(((y*sin(x))-((x+cos(y))*(y/pi)))%(y*1.1))
+Gene14=(((pi*sin(x))-((x+cos(y))*(y/pi)))%(y*1.1))
+Gene15=((((y*sin(x))-((x+cos(y))*(y/pi)))/(y*1.1))%(((pi*sin(x))-((x+cos(y))*(y/pi)))%(y*1.1)))
+Gene16=((((y*sin(x))-((x+cos(y))*(y/pi)))%(y*1.1))/(((y*sin(x))-((x+cos(y))*(y/pi)))/(y*1.1)))
+Gene17=((((y*sin(x))-((x+cos(y))*(y/pi)))%(y*1.1))%(((y*sin(x))-((x+cos(y))*(y/pi)))/(y*1.1)))

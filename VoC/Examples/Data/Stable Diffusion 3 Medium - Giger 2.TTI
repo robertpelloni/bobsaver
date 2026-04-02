@@ -1,0 +1,46 @@
+[Settings]
+Input Phrase=
+Script=Stable Diffusion 3 Medium
+Random seed=1940300131
+Iterations=150
+Image Size=1024
+[Stable Diffusion 3 Medium]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Model Version=sd_xl_base_1.0_0.9vae.safetensors
+NegativePrompt=blurry, out of focus, shallow depth of field
+GuidanceScale=15
+InitImage=
+InitImageStrength=0.2
+Scheduler=DDIMScheduler
+ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1.015
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Movie Rotate=0:0,30:-0.974,60:-0.857,90:-0.795,120:0.989,150:-0.830,180:-0.875,210:-0.314,240:0.372,270:-0.384,300:0.932,330:-0.479,360:-0.913,390:-0.468,420:-0.077,450:0.481,480:-0.885,510:0.696,540:-0.454,570:0.553,600:0.274,630:0.130,660:-0.054,690:0.673,720:0.307,750:-0.511,780:0.521,810:-0.830,840:0.046,870:-0.060,900:0.030
+In Script Movie Pan X=0:0,30:0.416,60:-0.643,90:0.591,120:-0.433,150:0.159,180:-0.702,210:-0.321,240:-0.362,270:1.000,300:-0.116,330:0.552,360:-0.756,390:0.789,420:-0.926,450:0.146,480:-0.793,510:0.121,540:-0.404,570:0.341,600:0.677,630:-0.863,660:-0.284,690:0.564,720:-0.901,750:0.748,780:-0.558,810:0.300,840:-0.076,870:-0.029,900:0.831
+In Script Movie Pan Y=0:0,30:-0.693,60:0.779,90:-0.886,120:0.816,150:-0.793,180:0.748,210:0.690,240:0.494,270:-0.889,300:0.870,330:-0.018,360:0.583,390:-0.500,420:0.018,450:-0.268,480:-0.014,510:-0.018,540:-0.048,570:0.544,600:-0.478,630:0.952,660:0.806,690:-0.802,720:-0.087,750:0.476,780:0.946,810:-0.310,840:0.848,870:-0.299,900:0.559
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.4
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Noise=20
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=0
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+In Script Movie Color Matching=1
+[Stable Diffusion 3 Medium In Script Movie Prompts]
+Line0=0:biomechanical airbrush painting by Giger, high detail, high textures, 4K, 8K, HD

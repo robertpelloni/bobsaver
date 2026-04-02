@@ -1,0 +1,7 @@
+[Settings]
+Number Of Notes=12
+Seconds Per Cycle=20
+Note Duration=500
+Minimum Hz=100
+Maximum Hz=500
+Autoscale=0

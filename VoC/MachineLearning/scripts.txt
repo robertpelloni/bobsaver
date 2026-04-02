@@ -1,0 +1,123 @@
+﻿Deep Daze CLIP SIREN
+Big Sleep CLIP BigGAN
+VQGAN+CLIP z+quantize
+VQGAN+CLIP codebook
+Deep Daze Fourier
+CLIP Pseudo Slime Mold
+Aleph2Image Dall-E Remake
+VQGAN+CLIP v3
+VQGAN+CLIP v4
+VQGAN Gumbel
+OpenAI DVAE+CLIP
+Aphantasia
+Text2Image VQGAN
+MSE VQGAN+CLIP z+quantize
+CLIP Guided Diffusion
+CLIP Guided Diffusion v2
+CLIPRGB
+CLIP Guided Diffusion v3
+Zoetrope 5
+CLIP RGB Optimization
+MSE Regulized VQGAN+CLIP
+Sequential VQGAN+CLIP
+CLIPRGB ImStack
+CLIP Guided Diffusion v4
+CLIP Decision Transformer
+CLIPIT
+Art Machine
+VQGAN+CLIP v5
+Zoetrope 5.5
+Zeta Quantize
+Experimental VQGAN
+SlideShowVisions
+Quick CLIP Guided Diffusion
+CLIP Guided Diffusion v5
+MSE Regulized Modified
+Pixray
+CLIP Guided Diffusion v6
+VQGAN+CLIP Animations
+Pixel Direct
+FourierVisions
+PyramidVisions
+Visions of AI v1
+Visions of AI v2
+Multi-Perceptor CLIP Guided Diffusion
+Pixel MultiColors
+Ultraquick CLIP Guided Diffusion
+ruDALL-E
+ruVQGAN+CLIP
+Multi-Perceptor VQGAN+CLIP
+Hypertron
+CLIP Guided Diffusion Secondary Model Method
+Multi-Perceptor CLIP Guided Diffusion Secondary
+Multi-Perceptor VQGAN+CLIP v2
+360Diffusion
+Multi-Perceptor VQGAN+CLIP v3
+Masked Prompts
+Illustrip
+FuseDream
+Looking Glass
+Velocity Diffusion
+ruDALL-E Arbitrary Resolution v1
+ruDALL-E Arbitrary Resolution v2
+GLIDE
+VQGAN+CLIP Video
+Disco Diffusion
+Infinite Diffusion
+minDALL-E
+ruDOLPH
+CLIP Guided Deep Image Prior
+AudioCLIP+VQGAN
+Augmented CLIP Guided Diffusion
+Halluzinator
+Princess Generator
+Disco Diffusion v4.1
+Hypertron v2
+CC12M Diffusion
+Disco Diffusion v5
+Disco Diffusion v5 Turbo Smooth
+Augmented CLIP Guided Diffusion v2
+v-diffusion
+JAX CLIP Guided Diffusion v2.7
+Huemin JAX Diffusion v2.7
+Huemin JAX Diffusion August 2022
+GLID-3
+Disco Diffusion v5.1
+Latent Diffusion LAION_400M
+GLID-3-XL
+ruDALL-E Aspect Ratio
+Multi-Perceptor VQGAN+CLIP v4
+Disco Diffusion v5.2
+Disco Diffusion v5.4
+Pixel Art Diffusion v3
+Disco Diffusion v5.6
+CLIP Guided k-diffusion
+CLIP Prior + VQGAN (MSE method)
+Latent Diffusion LAION_400M v2
+Stable Diffusion
+Deforum Stable Diffusion v0.3
+Deforum Stable Diffusion v0.4
+Deforum Stable Diffusion v0.5
+MathRock Diffusion
+Deforum Stable Diffusion v0.6
+Stable Diffusion v2
+Pytti
+Deforum Stable Diffusion v0.7
+Stable Diffusion KLMC2 Animation
+Kandinsky
+DeepFloyd IF
+Kandinsky Automatic Outpainting
+SDXL v1.0
+Playground v2
+ArtSpew
+Stable Cascade
+PixArt-sigma
+Stable Diffusion 3 Medium
+AuraFlow
+Flux
+Kolors
+Stable Diffusion v3.5
+CogView
+HiDream-I1-nf4
+HunyuanImage-2.1
+Deforum Stable Diffusion v0.7.1

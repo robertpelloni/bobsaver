@@ -1,0 +1,121 @@
+    float ezv = 0.0;
+    float[VMX] dvmd;
+    for(int i = 0; i < VMX; i++) { 
+        dvmd[i] = ubvn[i] * 1.0
+                ; }
+
+// ---- ---- ---- ---- ---- ---- ---- ----
+
+    vec3 n00r = nhd( vec2(1.0, 0.0), psn, 0.0, 0, div );
+    vec3 n01r = nhd( vec2(6.0, 3.0), psn, 0.0, 0, div );
+    vec3 n10r = nhd( vec2(4.0, 0.0), psn, 0.0, 0, div );
+    vec3 n11r = nhd( vec2(14.0, 11.0), psn, 0.0, 0, div );
+
+    vec3 n20r = nhd( vec2(8.0, 0.0), psn, 0.0, 0, div );
+    vec3 n21r = nhd( vec2(16.0, 12.0), psn, 0.0, 0, div );
+    vec3 n30r = nhd( vec2(7.0, 4.0), psn, 0.0, 0, div );
+    vec3 n31r = nhd( vec2(12.0, 8.0), psn, 0.0, 0, div );
+
+    vec3 nblr = nhd( vec2(1.0, 0.0), psn, 0.0, 0, div );
+
+    float nblrw = nblr[0] / nblr[2];
+    float n00rw = n00r[0] / n00r[2];
+    float n01rw = n01r[0] / n01r[2];
+    float n10rw = n10r[0] / n10r[2];
+    float n11rw = n11r[0] / n11r[2];
+    float n20rw = n20r[0] / n20r[2];
+    float n21rw = n21r[0] / n21r[2];
+    float n30rw = n30r[0] / n30r[2];
+    float n31rw = n31r[0] / n31r[2];
+
+    float res_r = gdv( 0.0, 0.0, 0, div );// * psn;
+    float res_g = gdv( 0.0, 0.0, 1, div );// * psn;
+    float res_b = gdv( 0.0, 0.0, 2, div );// * psn;
+
+    float r0 = res_r;
+    float r1 = res_r;
+    float r2 = res_r;
+    float r3 = res_r;
+
+    float s = mnp * 12.0;
+
+// ---- ---- ---- ---- ---- ---- ---- ----
+
+// Pair 0, MNCA0
+    if( n00rw >= dvmd[0] && n00rw <= dvmd[1] ) { r0 += s; }
+    if( n00rw >= dvmd[2] && n00rw <= dvmd[3] ) { r0 -= s; }
+    if( n01rw >= dvmd[4] && n01rw <= dvmd[5] ) { r0 += s; }
+    if( n01rw >= dvmd[6] && n01rw <= dvmd[7] ) { r0 -= s; }
+// Pair 0, MNCA1
+    if( n10rw >= dvmd[8] && n10rw <= dvmd[9] ) { r1 += s; }
+    if( n10rw >= dvmd[10] && n10rw <= dvmd[11] ) { r1 -= s; }
+    if( n11rw >= dvmd[12] && n11rw <= dvmd[13] ) { r1 += s; }
+    if( n11rw >= dvmd[14] && n11rw <= dvmd[15] ) { r1 -= s; }
+
+// Apply blur(s)
+// r0 = (r0 + (nblrw * 0.08) ) / 1.08;
+// r1 = (r1 + (nblrw * 0.08) ) / 1.08;
+    r0 = (r0 + (n00rw * mnp * 4.0) + (n01rw * mnp * 4.0) + (res_r * 0.15)) / (1.15 + (mnp * 4.0 * 2.0));
+    r1 = (r1 + (n10rw * mnp * 4.0) + (n11rw * mnp * 4.0) + (res_r * 0.15)) / (1.15 + (mnp * 4.0 * 2.0));
+ 
+// Choice of P0MNCA0 and P0MNCA1
+    float cmp0 = res_r;
+    float d0 = abs(cmp0 - r0);
+    float d1 = abs(cmp0 - r1);
+    float rd0 = (d0 > d1) ? ((d0 >= mnp) ? r0 : r1) : ((d1 >= mnp) ? r1 : r0);
+
+// ---- ---- ---- ---- ---- ---- ---- ----
+
+// Pair 1, MNCA0
+    if( n20rw >= dvmd[16] && n20rw <= dvmd[17] ) { r2 += s; }
+    if( n20rw >= dvmd[18] && n20rw <= dvmd[19] ) { r2 -= s; }
+    if( n21rw >= dvmd[20] && n21rw <= dvmd[21] ) { r2 += s; }
+    if( n21rw >= dvmd[22] && n21rw <= dvmd[23] ) { r2 -= s; }
+// Pair 1, MNCA1
+    if( n30rw >= dvmd[24] && n30rw <= dvmd[25] ) { r3 += s; }
+    if( n30rw >= dvmd[26] && n30rw <= dvmd[27] ) { r3 -= s; }
+    if( n31rw >= dvmd[28] && n31rw <= dvmd[29] ) { r3 += s; }
+    if( n31rw >= dvmd[30] && n31rw <= dvmd[31] ) { r3 -= s; }
+
+// Apply blur(s)
+// r2 = (r2 + (nblrw * 0.08) ) / 1.08;
+// r3 = (r3 + (nblrw * 0.08) ) / 1.08;
+    r2 = (r2 + (n20rw * mnp * 4.0) + (n21rw * mnp * 4.0) + (res_r * 0.15)) / (1.15 + (mnp * 4.0 * 2.0));
+    r3 = (r3 + (n30rw * mnp * 4.0) + (n31rw * mnp * 4.0) + (res_r * 0.15)) / (1.15 + (mnp * 4.0 * 2.0));
+
+// Choice of P1MNCA0 and P1MNCA1
+    float cmp1 = res_r;
+    float d2 = abs(cmp1 - r2);
+    float d3 = abs(cmp1 - r3);
+    float rd1 = (d2 > d3) ? ((d2 >= mnp) ? r2 : r3) : ((d3 >= mnp) ? r3 : r2);
+
+// ---- ---- ---- ---- ---- ---- ---- ----
+
+// Choice of P0 and P1
+    float cmp2 = res_r;
+    float dr0 = abs(cmp2 - rd0);
+    float dr1 = abs(cmp2 - rd1);
+    float rddr01 = (dr0 > dr1) ? ((dr0 >= mnp) ? rd0 : rd1) : ((dr1 >= mnp) ? rd1 : rd0);
+// float rddr01 = (dr0 < dr1) ? ((dr0 >= mnp) ? rd0 : rd1) : ((dr1 >= mnp) ? rd1 : rd0);
+// float rddr01 = (rd0 + rd1) / 2.0;
+
+// Apply blur(s)
+// rddr01 = (rddr01 + nblrw * 0.06 + res_r * 0.14) / 1.2;
+
+    res_r = rddr01;
+
+// ---- ---- ---- ---- ---- ---- ---- ----
+
+// Output
+    if(div > 1.0) {
+        res_g = (mod(gl_FragCoord.x,resolution.x/div) <= 1.0 || (mod(gl_FragCoord.y,resolution.y/div) <= 1.0)) ? 0.15 : res_r;
+        res_b = (mod(gl_FragCoord.x,resolution.x/div) <= 1.0 || (mod(gl_FragCoord.y,resolution.y/div) <= 1.0)) ? 0.15 : res_r;
+    } else { res_g = res_r; res_b = res_r; }
+
+    col[0] = res_r;
+    col[1] = res_g;
+    col[2] = res_b;
+
+    if(frames<3) col = vec3(reseed2(),reseed2(),reseed2());
+    glFragColor = vec4(col, 1.0);
+}

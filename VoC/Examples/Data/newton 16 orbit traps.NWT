@@ -1,0 +1,21 @@
+[Settings]
+Formula=16
+Root Finding Method=0
+Palette Step Amount=0
+Genralized Newton Factor=1.3
+Genralized Newton I=0
+Coloring=2
+Palette=orbit traps gold 01.MAP
+Xmin=-0.55658505859375
+Xmax=0.55668505859375
+Ymin=-0.559840234375
+Ymax=0.559940234375
+[Orbit Traps]
+Style=2
+Palette Count=1
+Palette 1=orbit traps silver 01.MAP
+Palette 2=orbit traps gold 01.MAP
+Palette 3=fadered.MAP
+Palette 4=fadegreen.MAP
+Palette 5=fadeyellow.MAP
+Only Show Traps=0

@@ -1,0 +1,53 @@
+[Eye]
+X=-0.0492883087850303
+Y=0.495344280975478
+Z=0.926117406506317
+[Look At]
+X=0.212833647477112
+Y=0.0613277555975549
+Z=0.0641883283658009
+[Up]
+X=0.851970759206782
+Y=0.118045246935052
+Z=-0.167874277952427
+[Zoom]
+Zoom=0.8
+[Light]
+X=5.15696465727575
+Y=1.14348725293791
+Z=5.2376113290559
+[Rotation]
+X=344
+Y=13
+Z=151
+[Settings]
+Iterations=5
+Epsilon=0.0001
+Power=8
+Gamma=72
+Contrast=0
+Shading=2
+Negative SIN=0
+Bailout=4
+Palette=kuler sunlight trees.MAP
+Spikes=0
+Spikes Y Maximum=0.70710250758566
+Juliabulb=1
+Julia Real=-0.27785
+Julia Imaginary=0.851129766839346
+Julia Imaginary 2=0.255647272802889
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=clBlue
+Glow Threshold=221
+Outside Glow=1
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.5
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0
+Anaglyph=1
+Anaglyph Style=2
+Anaglyph Tilt=3

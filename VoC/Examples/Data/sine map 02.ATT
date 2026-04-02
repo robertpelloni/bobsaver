@@ -1,0 +1,12 @@
+[Settings]
+Attractor Name=Sine Map
+Palette=IFS17.MAP
+Brightness=100
+Contrast=0
+A=2.0
+B=0.5
+[Coordinates]
+Xmin=-0.497450086805555
+Xmax=4.73936631944444
+Ymin=0.449207690329218
+Ymax=3.52066345164609

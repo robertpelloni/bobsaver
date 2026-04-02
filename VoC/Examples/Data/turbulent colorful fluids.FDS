@@ -1,0 +1,12 @@
+[Settings]
+randomseed=1403016657
+resolution=512x512
+guidance_scale=12
+video_length=16
+num_partitions=4
+eta=1
+num_inference_steps=16
+fps=10
+new_video_length=300
+[Prompt]
+Line0=turbulent colorful fluids flowing and mixing together, red, green, blue, yellow, 4K, ultra HD

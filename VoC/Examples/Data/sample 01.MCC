@@ -1,0 +1,13 @@
+[Settings]
+Channel 1 Range=1
+Channel 1 Threshold=6
+Channel 1 States=0
+Channel 2 Range=1
+Channel 2 Threshold=6
+Channel 2 States=0
+Channel 3 Range=1
+Channel 3 Threshold=6
+Channel 3 States=0
+Neighborhood=1
+Cell Coloring Method=0
+Color Palette=CLOUDS2.MAP

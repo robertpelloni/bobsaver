@@ -1,0 +1,7 @@
+[Settings]
+Formula=sin((x)*abs(y*x-1.8)/abs(x/pi)/y/abs((x/y)-sin(x/y*8.2)))
+Palette=colorschemer kenya cocoa.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

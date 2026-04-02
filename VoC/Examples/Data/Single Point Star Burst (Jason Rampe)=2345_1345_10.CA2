@@ -1,0 +1,22 @@
+[Settings]
+Initial Population Style=1
+[Rule]
+b0=0
+b1=1
+b2=0
+b3=1
+b4=1
+b5=1
+b6=0
+b7=0
+b8=0
+s0=0
+s1=0
+s2=1
+s3=1
+s4=1
+s5=1
+s6=0
+s7=0
+s8=0
+Num States=8

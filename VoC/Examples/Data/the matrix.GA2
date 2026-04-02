@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos((((pi))+floor(pi+pi)/atan(x/pi)*sin(x*y))/x%%tan(1/x))
+Palette=GREENS.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

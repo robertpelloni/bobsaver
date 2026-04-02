@@ -1,0 +1,21 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install git+https://github.com/ai-forever/Kandinsky-2.git@47c01fa310ce036da46b6335d9f99e66edfdaab2
+pip install git+https://github.com/openai/CLIP.git@a1d071733d7111c9c014f024669f959182114e33
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.7.0.72
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/ai-forever/diffusers.git@e7924e6874690d63c87878c3fea191780bea16a4
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.30.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.39.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.21.0
+pip uninstall -y torch
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.1.0+cu118 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y charset-normalizer
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts charset-normalizer==3.3.2
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

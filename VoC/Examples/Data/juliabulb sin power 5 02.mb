@@ -1,0 +1,44 @@
+[Eye]
+X=-0.83
+Y=0
+Z=0.85
+[Look At]
+X=-0.83
+Y=0
+Z=0
+[Zoom]
+Zoom=0
+[Light]
+X=0
+Y=-2
+Z=5
+[Rotation]
+X=0
+Y=0
+Z=86
+[Settings]
+Iterations=7
+Epsilon=0.00001
+Power=5
+Brightness=100
+Shading=2
+Negative SIN=0
+Bailout=4
+Palette=COLDFIRE.MAP
+Spikes=0
+Spikes Y Maximum=0.5
+Juliabulb=0
+Julia Real=0
+Julia Imaginary=0
+Julia Imaginary 2=0
+Shadows=1
+Specularity=0.45
+Glow Effect=1
+Glow Color=clRed
+Glow Threshold=152
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.3
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0

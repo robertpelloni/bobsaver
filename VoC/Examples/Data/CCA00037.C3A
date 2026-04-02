@@ -1,0 +1,9 @@
+[Settings]
+Range=3
+Threshold=9
+States=6
+Neighborhood=1
+Coloring=3
+Color Palette=carr320.map
+State 1 Color=clBlue
+Final State Color=clWhite

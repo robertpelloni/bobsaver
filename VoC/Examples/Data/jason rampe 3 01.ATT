@@ -1,0 +1,14 @@
+[Settings]
+Attractor Name=Jason Rampe 3
+Palette=kuler drholwegneu.MAP
+Brightness=100
+Contrast=0
+Parameter A=2.0246
+Parameter B=-1.323
+Parameter C=-2.8151
+Parameter D=0.2277
+[Coordinates]
+Xmin=-4.11111111111111
+Xmax=4.05555555555556
+Ymin=-2.20305555555556
+Ymax=2.54638888888889

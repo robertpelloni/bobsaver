@@ -1,0 +1,5 @@
+﻿config:
+  experiment_name: "experiment"
+  init_img: "D:\\Scarlet1024x1024.png"
+  ddim_steps: 999 # we use 999 steps for the best reconstruction
+  save_feature_timesteps: 50

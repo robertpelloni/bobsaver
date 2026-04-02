@@ -1,0 +1,20 @@
+[Settings]
+prompt=bangeroo hyperrealistic oil painting depicting psychedelic trippy hallucinatory visuals
+negative_prompt=
+model=SG161222/RealVisXL_V4.0 fp16
+initimage=
+border_size=200
+zoom_factor=0.9
+rotation=0
+noise=10
+steps=25
+total_frames=250
+randomseed=0
+increment_seed_each_frame=1
+check_for_black_borders=1
+border_threshold=30
+lora=Psychedelic Art Style_bangerooo.safetensors
+loraweight=1.0
+panx=0
+pany=0
+crop_edges=1

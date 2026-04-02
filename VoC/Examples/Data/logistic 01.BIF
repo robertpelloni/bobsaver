@@ -1,0 +1,10 @@
+[Settings]
+Formula=0
+Xmin=1
+Xmax=4
+Ymin=0
+Ymax=1
+Iterations=50000
+Skip Iterations=100
+Background Color=clBlack
+Palette=kuler sunlight trees.MAP

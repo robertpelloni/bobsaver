@@ -1,0 +1,12 @@
+[Settings]
+Xmin=-8
+Xmax=8
+Ymin=-5.15
+Ymax=5.15
+CX=-0.327450980392157
+CY=1.48693467336683
+Maximum Iterations=50
+Color Scale Factor=998
+Color Palette=Flame 558_Explosion.map
+Variation=0
+Symmetry=1

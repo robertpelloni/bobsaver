@@ -1,0 +1,13 @@
+[Settings]
+Attractor Name=Clifford
+Palette=design-seeds liquified brights.MAP
+Parameter A=-1.7
+Parameter B=1.8
+Parameter C=-0.9
+Parameter D=-0.4
+Formula=4
+[Coordinates]
+Xmin=-2.6140479200321
+Xmax=2.51919859826749
+Ymin=-1.55965579662628
+Ymax=1.41810425150777

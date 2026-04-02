@@ -1,0 +1,15 @@
+[GA Rule]
+Rule=aDa
+[Image Options]
+Palette File=sinpal14.MAP
+Smooth Colors=0
+Random Offsets=1
+Overlay Mode=1
+Coordinate Width=3
+[Gene Character Offsets]
+Xoffset1=0
+Yoffset1=-2
+Xoffset2=-5
+Yoffset2=-7
+Xoffset3=-2
+Yoffset3=2

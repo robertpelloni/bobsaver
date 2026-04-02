@@ -1,0 +1,45 @@
+[Eye]
+X=-0.1
+Y=0.01
+Z=0.98
+[Look At]
+X=-0.1
+Y=0.01
+Z=-0.02
+[Zoom]
+Zoom=0
+[Light]
+X=1
+Y=1
+Z=-10
+[Rotation]
+X=140
+Y=50
+Z=0
+[Settings]
+Iterations=10
+Epsilon=0.00001
+Power=3
+Brightness=73
+Shading=0
+Negative SIN=1
+Palette=kuler baby blue.MAP
+Juliabulb=1
+Julia Real=-0.626855384857824
+Julia Imaginary=0.0273341931444914
+Shadows=1
+Supersample=1
+Supersample Pixels=0
+Bailout=4
+Spikes=0
+Spikes Y Maximum=0.5
+Julia Imaginary 2=0
+Specularity=0.45
+Glow Effect=0
+Glow Color=clRed
+Glow Threshold=346
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.5
+Ambient Occlusion Max Orbit=1.0
+Gamma=0

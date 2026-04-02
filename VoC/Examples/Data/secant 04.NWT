@@ -1,0 +1,12 @@
+[Settings]
+Formula=2
+Root Finding Method=4
+Palette Step Amount=3
+Genralized Newton Factor=1.3
+Genralized Newton I=0
+Coloring=2
+Palette=image h zebra.MAP
+Xmin=0.779864035276968
+Xmax=0.794514034548105
+Ymin=-0.57953045979018
+Ymax=-0.56438164749621

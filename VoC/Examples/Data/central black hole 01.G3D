@@ -1,0 +1,21 @@
+[Settings]
+Number of objects=1,000,000
+Object Style=2
+Display Style=1
+Start Pattern=1
+Initial Speed Scale=45
+Time Step=0.01
+Object Size=0.2
+World Grid Size=150
+Minimum Gravity Distance=10
+Force Scale Factor=1
+Wrap Edges=0
+Leave Trails=0
+Trail Length=100
+Trail Thickness=1
+Color Palette=C:\code\Delphi\Chaos\Palettes\IFS20.MAP
+Black Hole=1
+Black Hole Mass=500
+Fixed Black Hole=1
+Speed Limit=0
+Scale By Radius=1

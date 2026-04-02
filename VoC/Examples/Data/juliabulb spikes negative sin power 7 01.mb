@@ -1,0 +1,36 @@
+[Eye]
+X=0
+Y=0
+Z=1
+[Look At]
+X=0
+Y=0
+Z=0
+[Zoom]
+Zoom=0.9
+[Light]
+X=-5
+Y=-5
+Z=-5
+[Rotation]
+X=140
+Y=0
+Z=0
+[Settings]
+Iterations=4
+Epsilon=0.001
+Power=7
+Brightness=100
+Shading=0
+Negative SIN=1
+Bailout=4
+Palette=GAMMA2.MAP
+Spikes=1
+Spikes Y Maximum=1
+Juliabulb=1
+Julia Real=0.3
+Julia Imaginary=0.3
+Julia Imaginary 2=0.3
+Shadows=1
+Supersample=1
+Supersample Pixels=1

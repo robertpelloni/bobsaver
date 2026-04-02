@@ -1,0 +1,7 @@
+[Settings]
+Range=1
+Threshold=6
+States=6
+Neighborhood=0
+Coloring=4
+Color Palette=carr320.map

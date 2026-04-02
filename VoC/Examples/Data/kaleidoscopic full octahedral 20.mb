@@ -1,0 +1,76 @@
+[Eye]
+X=-0.197478316113838
+Y=-0.368494943090236
+Z=-0.197261129238076
+[Look At]
+X=-0.089394592459099
+Y=0.50054013543395
+Z=-0.680061233810754
+[Up]
+X=-0.369381754791722
+Y=0.934868030448781
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=45
+[Light]
+X=0
+Y=-3
+Z=-10
+[Rotation]
+X=120
+Y=30
+Z=48
+[Settings]
+Iterations=30
+Epsilon=0.0001
+Power=1.3
+Gamma=91
+Contrast=0
+Shading=0
+Formula=7
+Formula Variation=0
+Bailout=8
+Palette=kuler cadet.MAP
+Spikes=0
+Spikes Y Maximum=0.5
+Juliabulb=0
+Julia Real=0
+Julia Imaginary=0
+Julia Imaginary 2=0
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=clYellow
+Glow Threshold=150
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0
+Ambient Occlusion Max Orbit=0.7
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Ambient Color=$0080FFFF
+Phase=0
+Theta Scale=1
+Phi Scale=1
+Scalar Distance Estimation=1
+Kaleidoscope Rotation 1 X=0
+Kaleidoscope Rotation 1 Y=32
+Kaleidoscope Rotation 1 Z=0
+Kaleidoscope Rotation 2 X=7
+Kaleidoscope Rotation 2 Y=0
+Kaleidoscope Rotation 2 Z=0
+Kaleidoscope Center X=2
+Kaleidoscope Center Y=4.8
+Kaleidoscope Center Z=0
+Kaleidoscope Fold Style=5
+Kaleidoscope Z Wrap=0
+Kaleidoscope Normailze C=1
+Kaleidoscope Rotate Around Origin=1
+Kaleidoscope Pre Rotate=1

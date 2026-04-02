@@ -1,0 +1,102 @@
+#version 420
+
+// original https://www.shadertoy.com/view/4slBW2
+
+uniform float time;
+uniform vec2 mouse;
+uniform vec2 resolution;
+
+out vec4 glFragColor;
+
+/*
+* License Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+* Created by bal-khan
+*/
+
+#define I_MAX 12
+float    t;
+vec2     cmult(vec2 a, vec2 b);
+vec2    cadd(vec2 a, vec2 b);
+vec2    g(vec2 n);
+vec2    dg(vec2 n);
+vec2    cdiv(vec2 a, vec2 b);
+
+void main(void)
+{
+    t = time*.125;
+    vec2 R = resolution.xy,
+          uv  = vec2(gl_FragCoord.xy-R/2.) / R.y;
+    vec4    z = vec4(0.0, 0.0, 0.0, 0.0);
+    vec2    of = 2.*vec2( (uv.x )/0.125, (uv.y )/0.125);
+    vec3    col = vec3(0.0);
+    vec2    dist = vec2(0.0);
+    z.xy = of;
+    int ii = -1;
+    float    param_i = .0;
+    float    r = 1.;
+    for (int i = -1; i < I_MAX; ++i)
+    {
+        r*=-1.;
+        ++ii;
+        z.xy = float(ii)*.1251*0.+cmult(z.xy, vec2(1.,1.)).xy;
+        z.xy = abs(z.xy)-5.5+r;
+        z.xy = cmult(z.xy, vec2(sin(t*1.*float(ii)*sin(t*.1+float(ii) ) ), cos(t*1.*float(ii)*sin(t*.1+float(ii) ) ) )-0.*vec2(1., -1.) );    
+        z.z = 2.0 * (z.x*z.z - z.y*z.w);
+        z.w = 2.0 * (z.y*z.z - z.x*z.w);
+        dist.x = dot(z.xy,z.xy);
+        dist.y = dot(z.zw,z.zw);
+        if ( float(ii) > 0.
+            &&
+            (
+             sqrt(z.x*z.x -float(ii)*.0) < .51
+            ||
+             sqrt(z.y*z.y -float(ii)*.0) < .51
+                )
+           )
+        {
+        col.x = exp(-abs(z.x*z.x*z.y)-0.*abs(cos(float(ii)*.06125+t*8.)) )*1.; // expensive but pretty
+        col.y = exp(-abs(z.y*z.x*z.y)-0.*abs(cos(float(ii)*.06125+t*8.)) )*1.;
+        col.z = exp(-abs(min(z.x,z.y)-0.*abs(cos(float(ii)*.06125+t*8.)) ))*1.;
+            break;
+        }
+
+         col.x += .0*exp(-abs(-z.x/float(ii)+float(ii)/z.x))*2.; // expensive but pretty
+        col.y += .0*exp(-abs(-z.y/float(ii)+float(ii)/z.y))*2.;
+        col.z += .0*exp(-abs((-z.x-z.y)/float(ii)+float(ii)/(z.x+z.y)))*2.;
+        if (dist.x > 10000000.0 || dist.y > 100000000000.0)
+            break;
+    }
+    glFragColor = 1.*vec4(col, 1.0);
+}
+
+vec2     cmult(vec2 a, vec2 b)
+{
+    return (vec2(a.x * b.x - a.y * b.y, a.x * b.y + a.y * b.x));
+}
+
+vec2    cadd(vec2 a, vec2 b)
+{
+    return (vec2(a.x + b.x, a.y + b.y));
+}
+
+vec2 g(vec2 n) {
+    return vec2(
+        n.x*n.x*n.x - 3.*n.x*n.y*n.y - 100.,
+        -n.y*n.y*n.y + 3.*n.x*n.x*n.y
+    );
+}
+
+vec2 dg(vec2 n) {
+    return 2. * vec2(
+        n.x*n.x - n.y*n.y,
+        2. * n.x * n.y
+    );
+}
+
+vec2 cdiv(vec2 a, vec2 b) {
+    float d = dot(b, b);
+    if(d == 0.) return a;
+    else return vec2(
+        (a.x*b.x + a.y*b.y),
+        (a.y*b.x - a.x*b.y)) / d;;
+}

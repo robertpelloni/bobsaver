@@ -1,0 +1,91 @@
+[Settings]
+Segments=5
+[Body0]
+Size X=2.97248657557648
+Size Y=0.110084701888263
+Size Z=0.295853311591782
+Tranform X=-1.8229072223301
+Tranform Y=6
+Tranform Z=0
+Restitution=0.3
+Density=1
+[Body1]
+Size X=4.16058587885927
+Size Y=0.739106196165085
+Size Z=0.281486791581847
+Tranform X=2.4169568739715
+Tranform Y=6
+Tranform Z=0
+Restitution=0.3
+Density=1
+[Body2]
+Size X=0.673327869083732
+Size Y=2.86328744294588
+Size Z=0.739763328572735
+Tranform X=0
+Tranform Y=6
+Tranform Z=0
+Restitution=0.3
+Density=1
+[Body3]
+Size X=0.522924139979295
+Size Y=0.103035345301032
+Size Z=4.53371488975827
+Tranform X=0
+Tranform Y=6
+Tranform Z=2.6367391091655
+Restitution=0.3
+Density=1
+[Body4]
+Size X=0.254030491854064
+Size Y=0.366421375609934
+Size Z=4.35799513889942
+Tranform X=0
+Tranform Y=6
+Tranform Z=-2.54887923373608
+Restitution=0.3
+Density=1
+[Joint0]
+Position X=0.336663934541866
+Position Y=6
+Position Z=0
+Rotation Axis X=0.964899900369346
+Rotation Axis Y=0.535897627007216
+Rotation Axis Z=0.364668322727084
+Parent 1=2
+Parent 2=1
+Speed=0.335444572614506
+Torque=-15.8583635012619
+[Joint1]
+Position X=-0.336663934541866
+Position Y=6
+Position Z=0
+Rotation Axis X=-0.336611778475344
+Rotation Axis Y=-0.109390411991626
+Rotation Axis Z=0.28942365385592
+Parent 1=2
+Parent 2=0
+Speed=0.624931090744212
+Torque=-13.3604197590612
+[Joint2]
+Position X=0
+Position Y=6
+Position Z=0.369881664286368
+Rotation Axis X=-0.723520104773343
+Rotation Axis Y=-0.342672430444509
+Rotation Axis Z=0.594155376777053
+Parent 1=2
+Parent 2=3
+Speed=0.476724311010912
+Torque=-9.90040787635371
+[Joint3]
+Position X=0
+Position Y=6
+Position Z=-0.369881664286368
+Rotation Axis X=-0.38970706705004
+Rotation Axis Y=-0.793514620978385
+Rotation Axis Z=-0.169748721644282
+Parent 1=2
+Parent 2=4
+Speed=0.517340575577691
+Torque=-11.0705691403709

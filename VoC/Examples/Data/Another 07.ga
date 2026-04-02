@@ -1,0 +1,15 @@
+[GA Rule]
+Rule=QKa
+[Image Options]
+Palette File=GAUCHE.MAP
+Smooth Colors=0
+Random Offsets=1
+Overlay Mode=0
+Coordinate Width=10
+[Gene Character Offsets]
+Xoffset1=0
+Yoffset1=1
+Xoffset2=5
+Yoffset2=2
+Xoffset3=-26
+Yoffset3=-23

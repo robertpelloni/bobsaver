@@ -1,0 +1,13 @@
+[Settings]
+Rule number=1956
+Universe Size=4
+Flip Probability=0
+Show State 1 Cells=1
+State 1 Color=clRed
+Show State 2 Cells=1
+State 2 Color=clWhite
+Start Pattern=1
+Brightness=90
+Contrast=40
+Color Method=0
+Color Palette=ROYGBIV2.MAP

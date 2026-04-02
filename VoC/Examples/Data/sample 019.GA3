@@ -1,0 +1,31 @@
+[Settings]
+Formula=((((pi*ceil(4.9))%(y/(x/ceil(pi))))/ceil((y*(y/2))))%((((pi+ceil(4.9))%(x/(x/ceil(pi))))/ceil((y/(y/2))))-((((pi*ceil(4.9))%(pi+(x/ceil(pi))))/ceil((y*(y/2))))/(((y*floor(y))/pi)+(y-8.3)))))
+Color Palette=Gray Scale 1.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(((y*floor(y))/pi)%(pi-8.3))
+Gene1=(((3.9/3.3)+(4.9*floor(x)))-round(((7.1%pi)+floor((pi-ceil(y))))))
+Gene2=(((x-9.6)+ceil((x*y)))%ceil((y*(y/2))))
+Gene3=(((pi*ceil(4.9))%(pi+(x/ceil(pi))))%((pi*y)%(x/pi)))
+Gene4=(((y*floor(y))/pi)+(pi-8.3))
+Gene5=(((x/y)%x)/((pi/3.5)%x))
+Gene6=((((x/y)%x)/((pi/3.5)%x))%(((y*floor(y))/pi)+(pi-8.3)))
+Gene7=(((pi*ceil(4.9))%(pi+(x/ceil(pi))))/ceil((y*(y/2))))
+Gene8=(((x-9.6)+ceil((x*y)))%(pi-8.3))
+Gene9=((((pi*ceil(4.9))%(pi+(x/ceil(pi))))/ceil((y*(y/2))))+(((y*floor(y))/pi)+(pi-8.3)))
+Gene10=(((pi*ceil(4.9))%(pi/(x/ceil(pi))))/ceil((y*(y/2))))
+Gene11=((((pi*ceil(4.9))%(pi/(x/ceil(pi))))/ceil((y*(y/2))))-((((pi*ceil(4.9))%(pi+(x/ceil(pi))))/ceil((y*(y/2))))+(((y*floor(y))/pi)+(pi-8.3))))
+Gene12=((((pi*ceil(4.9))%(pi/(x/ceil(pi))))/ceil((y*(y/2))))*((((pi*ceil(4.9))%(pi/(x/ceil(pi))))/ceil((y*(y/2))))-((((pi*ceil(4.9))%(pi+(x/ceil(pi))))/ceil((y*(y/2))))+(((y*floor(y))/pi)+(pi-8.3)))))
+Gene13=((((pi*ceil(4.9))%(pi/(x/ceil(pi))))/ceil((y*(y/2))))%(((pi*ceil(4.9))%(pi+(x/ceil(pi))))/ceil((y*(y/2)))))
+Gene14=((((pi*ceil(4.9))%(y/(x/ceil(pi))))/ceil((y*(y/2))))*((((pi*ceil(4.9))%(pi/(x/ceil(pi))))/ceil((y*(y/2))))-((((pi*ceil(4.9))%(pi+(x/ceil(pi))))/ceil((y*(y/2))))+(((y*floor(y))/pi)+(pi-8.3)))))
+Gene15=((((pi*ceil(4.9))%(pi/(x/ceil(pi))))/ceil((y*(y/2))))%((((pi*ceil(4.9))%(pi+(x/ceil(pi))))/ceil((y*(y/2))))+(((y*floor(y))/pi)+(pi-8.3))))
+Gene16=(((((pi*ceil(4.9))%(pi/(x/ceil(pi))))/ceil((y*(y/2))))*((((pi*ceil(4.9))%(pi/(x/ceil(pi))))/ceil((y*(y/2))))-((((pi*ceil(4.9))%(pi+(x/ceil(pi))))/ceil((y*(y/2))))+(((y*floor(y))/pi)+(pi-8.3)))))/((((pi*ceil(4.9))%(pi/(x/ceil(pi))))/ceil((y*(y/2))))-((((pi*ceil(4.9))%(pi+(x/ceil(pi))))/ceil((y*(y/2))))+(((y*floor(y))/pi)+(pi-8.3)))))
+Gene17=((((pi*ceil(4.9))%(y/(x/ceil(pi))))/ceil((y*(y/2))))%((((pi*ceil(4.9))%(x/(x/ceil(pi))))/ceil((y*(y/2))))-((((pi*ceil(4.9))%(pi+(x/ceil(pi))))/ceil((y*(y/2))))+(((y*floor(y))/pi)+(pi-8.3)))))
+Gene18=((((pi*ceil(4.9))%(y/(x/ln(pi))))/ceil((y*(y/2))))+((((pi*ceil(4.9))%(y/(x/ceil(pi))))/ceil((y*(y/2))))+((((pi*ceil(4.9))%(x+(x/sin(pi))))/ceil((y*(y/2))))+(((y*floor(y))/pi)+(y-8.3)))))
+Gene19=((((pi*ceil(4.9))%(y/(x/ceil(pi))))/ceil((y*(y/2))))%((((pi+ceil(4.9))%(x/(x/ceil(pi))))/ceil((y/(y/2))))-((((pi*ceil(4.9))%(pi+(x/ceil(pi))))/ceil((y*(y/2))))/(((y*floor(y))/pi)+(y-8.3)))))
+Gene20=((((pi*ceil(4.9))%(y/(x/ceil(pi))))/ceil((y*(y/2))))%((((pi*ceil(4.9))%(x/(x/ceil(pi))))/ceil((y*(y/2))))-((((pi*ceil(4.9))%(pi+(x/ceil(pi))))/ceil((y*(y/2))))+(((y*floor(y))/pi)+(pi-8.3)))))
+Gene21=(((((pi*ceil(4.9))%(y/(x/ceil(pi))))/ceil((y*(y/2))))%((((pi*ceil(4.9))%(x/(x/ceil(pi))))/ceil((y*(y/2))))-((((pi*ceil(4.9))%(pi+(x/ceil(pi))))/ceil((y*(y/2))))+(((y*floor(y))/pi)+(pi-8.3)))))%((((pi*ceil(4.9))%(y/(x/ceil(pi))))/ceil((y*(y/2))))%((((pi+ceil(4.9))%(x/(x/ceil(pi))))/ceil((y/(y/2))))-((((pi*ceil(4.9))%(pi+(x/ceil(pi))))/ceil((y*(y/2))))/(((y*floor(y))/pi)+(y-8.3))))))
+Gene22=(((((pi*ceil(4.9))%(y/(x/ceil(pi))))/ceil((y*(y/2))))%((((pi*ceil(4.9))%(x/(x/ceil(pi))))/ceil((y*(y/2))))-((((pi*ceil(4.9))%(pi+(x/ceil(pi))))/ceil((y*(y/2))))+(((y*floor(y))/pi)+(pi-8.3)))))%((((pi*ceil(4.9))%(y/(x/ceil(pi))))/ceil((y*(y/2))))%((((pi+ceil(4.9))%(x/(x/ceil(pi))))/ceil((y/(y/2))))-((((pi*ceil(4.9))%(pi+(x/ceil(pi))))/ceil((y*(y/2))))/(((y*floor(y))/pi)+(y-8.3))))))

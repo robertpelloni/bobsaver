@@ -1,0 +1,32 @@
+[Rule Table]
+s0r0=C
+s0r1=5,3,23
+s0r2=4,2,6,24,10
+s0r3=7,19,1
+s0r4=
+s1r0=14,3,18,8
+s1r1=
+s1r2=
+s1r3=
+s1r4=C
+s2r0=C
+s2r1=
+s2r2=
+s2r3=4,15,1,26,9
+s2r4=
+s3r0=C
+s3r1=20,13
+s3r2=
+s3r3=6,21,4,15,26
+s3r4=16,2,18,14
+s4r0=
+s4r1=
+s4r2=
+s4r3=
+s4r4=A
+[Settings]
+Starting Pattern=2
+Cell Shading=3
+Color Palette=LBM07.MAP
+State 1 Color=clAqua
+Final State Color=$000080FF

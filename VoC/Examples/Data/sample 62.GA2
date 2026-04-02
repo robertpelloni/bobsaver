@@ -1,0 +1,7 @@
+[Settings]
+Formula=arctan((x*y)*sin((y*x)+x+sqr(x)+sqr(y)-x*sin(y-x-2.3)))
+Palette=kuler halloween.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

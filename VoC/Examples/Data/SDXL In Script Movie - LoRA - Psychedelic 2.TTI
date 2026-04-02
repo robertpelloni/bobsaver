@@ -1,0 +1,44 @@
+[Settings]
+Input Phrase=
+Script=SDXL v1.0 *
+Random seed=555766163
+Iterations=100
+Image Size=1024
+[SDXL]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1088
+SDXLNegativePrompt=smooth, blurry, plastic, shiny, low res, low detail, simple, plain
+SDXLModel=sd_xl_base_1.0_0.9vae.safetensors
+SDXLLora=Psychedelic Art Style_bangerooo.safetensors
+SDXLLoraWeight=2
+SDXLScheduler=DDIMScheduler
+SDXLImg2ImgModel=sd_xl_refiner_1.0_0.9vae.safetensors
+SDXLGuidanceScale=30
+SDXLInitImage=
+SDXLInitImageStrength=0.3
+SDXLZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.02
+In Script Movie Zoom Method=INTER_CUBIC
+In Script Movie Rotate=0:0,30:0.307,60:-0.671,90:-0.753,120:-0.990,150:-0.277,180:0.601,210:-0.106,240:0.931,270:0.894,300:-0.895,330:0.239,360:0.126,390:-0.741,420:0.894,450:-0.474,480:0.216,510:-0.971,540:0.871,570:-0.086,600:0.321,630:-0.341,660:0.764,690:-0.616,720:0.804,750:0.299,780:0.473,810:-0.242,840:0.595,870:-0.143,900:0.714
+In Script Movie Pan X=0:0,30:0.117,60:-0.946,90:0.772,120:-0.749,150:0.197,180:-0.744,210:-0.923,240:0.657,270:-0.527,300:0.469,330:-0.524,360:0.103,390:-0.942,420:0.133,450:0.308,480:0.861,510:-0.037,540:0.382,570:-0.454,600:0.500,630:-0.932,660:0.586,690:0.884,720:0.761,750:-0.595,780:-0.994,810:0.119,840:-0.987,870:-0.736,900:0.951
+In Script Movie Pan Y=0:0,30:0.841,60:-0.595,90:0.877,120:-0.446,150:0.450,180:0.667,210:-0.579,240:0.010,270:-0.229,300:-0.464,330:0.051,360:-0.797,390:-0.869,420:0.386,450:-0.307,480:-0.881,510:0.245,540:0.495,570:-0.024,600:0.980,630:-0.571,660:-0.565,690:0.858,720:-0.422,750:-0.382,780:0.450,810:-0.575,840:0.415,870:-0.318,900:0.763
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.6
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Laplacian
+In Script Movie Noise=0
+In Script Movie Auto-Contrast=1
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+In Script Randomize Seed=1
+In Script Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+SDXLTween=easeInOutQuad
+[SDXL In Script Movie Prompts]
+Line0=0:bangerooo, a hyper realistic psychedelic highly detailed oil painting of fear, anxiety and paranoia by dali and giger, HD, 4K, 8K, highly textured, ultra details

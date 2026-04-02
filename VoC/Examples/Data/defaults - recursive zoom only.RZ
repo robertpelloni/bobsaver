@@ -1,0 +1,35 @@
+[ImageMagick]
+Pan X=0
+Pan Y=0
+Rotate=0
+Barrel=0.0 0.0 0.0 1.0
+Zoom=1.02
+Sharpen=0
+Adaptive Sharpen=0x0
+Brightness=0
+Contrast=0
+Red Change=0
+Green Change=0
+Blue Change=0
+Gamma=1
+Saturation=100
+C Stretch Contrast=0x0%
+M Stretch Contrast=0x0%
+Y Stretch Contrast=0x0%
+K Stretch Contrast=0x0%
+Auto Levels=0
+Auto Gamma=0
+Normalize=0
+Noise Type=Gaussian
+Noise Amount=0
+Edge=Mirror
+[CLIP]
+Auto Prompt=0
+Personality=Original (no personality)
+Accuracy=Worst
+Randomize Personality=0
+Warmup=60
+Frames=60
+Show Prompt=0
+[Settings]
+Auto Change Seed=1

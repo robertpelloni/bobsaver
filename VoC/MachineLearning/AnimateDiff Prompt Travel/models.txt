@@ -1,0 +1,100 @@
+animatediff-cli-prompt-travel/data/models/motion-module/mm_sd_v14.ckpt	1672133921	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/mm_sd_v14.ckpt
+animatediff-cli-prompt-travel/data/models/motion-module/mm_sd_v15.ckpt	1672133921	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/mm_sd_v15.ckpt
+animatediff-cli-prompt-travel/data/models/motion-module/mm_sd_v15_v2.ckpt	1817888431	https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15_v2.ckpt
+animatediff-cli-prompt-travel/data/models/motion-module/improved3DMotion_improved3DV1.ckpt	1817894327	https://civitai.com/api/download/models/178017
+
+animatediff-cli-prompt-travel/data/models/sd/absolutereality_v181.safetensors	2132625432	https://civitai.com/api/download/models/132760
+animatediff-cli-prompt-travel/data/models/sd/CounterfeitV30_v30.safetensors	4244124028	https://civitai.com/api/download/models/57618
+animatediff-cli-prompt-travel/data/models/sd/dreamshaper_8.safetensors	2132625894	https://civitai.com/api/download/models/128713
+animatediff-cli-prompt-travel/data/models/sd/epicphotogasm_v4One4All.safetensors	2132626004	https://civitai.com/api/download/models/165888
+animatediff-cli-prompt-travel/data/models/sd/epicrealism_naturalSinRC1VAE.safetensors	2132625612	https://civitai.com/api/download/models/143906
+animatediff-cli-prompt-travel/data/models/sd/leosamsMoonfilm_filmGrain10.safetensors	5838304246	https://civitai.com/api/download/models/92475
+animatediff-cli-prompt-travel/data/models/sd/leosamsMoonfilm_reality20.safetensors	5816955842	https://civitai.com/api/download/models/50705
+animatediff-cli-prompt-travel/data/models/sd/lyriel_v16.safetensors	2132625432	https://civitai.com/api/download/models/72396
+animatediff-cli-prompt-travel/data/models/sd/majicmixRealistic_v5Preview.safetensors	2400040290	https://civitai.com/api/download/models/79068
+animatediff-cli-prompt-travel/data/models/sd/mistoonAnime_v20.safetensors	2132626066	https://civitai.com/api/download/models/108545
+animatediff-cli-prompt-travel/data/models/sd/plasticgamma_v10.safetensors	2132651163	https://civitai.com/api/download/models/115013
+animatediff-cli-prompt-travel/data/models/sd/rcnzCartoon3d_v10.safetensors	2132625644	https://civitai.com/api/download/models/71009
+animatediff-cli-prompt-travel/data/models/sd/realisticVisionV40_v20Novae.safetensors	2132650523	https://civitai.com/api/download/models/29460
+animatediff-cli-prompt-travel/data/models/sd/toonyou_beta3.safetensors	2132626252	https://civitai.com/api/download/models/78775
+animatediff-cli-prompt-travel/data/models/sd/TUSUN.safetensors	188857736	https://civitai.com/api/download/models/97261
+animatediff-cli-prompt-travel/data/models/sd/xxmix9realistic_v40.safetensors	2400040320	https://civitai.com/api/download/models/102222
+animatediff-cli-prompt-travel/data/models/sd/sd-v1-5.safetensors	4265146304	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/sd-v1-5.safetensors
+
+animatediff-cli-prompt-travel/data/models/motion_lora/v2_lora_PanLeft.ckpt	77474499	https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_PanLeft.ckpt
+animatediff-cli-prompt-travel/data/models/motion_lora/v2_lora_PanRight.ckpt	77474499	https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_PanRight.ckpt
+animatediff-cli-prompt-travel/data/models/motion_lora/v2_lora_RollingAnticlockwise.ckpt	77474499	https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_RollingAnticlockwise.ckpt
+animatediff-cli-prompt-travel/data/models/motion_lora/v2_lora_RollingClockwise.ckpt	77474499	https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_RollingClockwise.ckpt
+animatediff-cli-prompt-travel/data/models/motion_lora/v2_lora_TiltDown.ckpt	77474499	https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_TiltDown.ckpt
+animatediff-cli-prompt-travel/data/models/motion_lora/v2_lora_TiltUp.ckpt	77474499	https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_TiltUp.ckpt
+animatediff-cli-prompt-travel/data/models/motion_lora/v2_lora_ZoomIn.ckpt	77474499	https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_ZoomIn.ckpt
+animatediff-cli-prompt-travel/data/models/motion_lora/v2_lora_ZoomOut.ckpt	77474499	https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_ZoomOut.ckpt
+
+animatediff-cli-prompt-travel/data/models/lora/Aardman Style_aardman style.safetensors	151112462	https://civitai.com/api/download/models/136883
+animatediff-cli-prompt-travel/data/models/lora/Airbrush Surrealism_airbrush surrealism.safetensors	151117382	https://civitai.com/api/download/models/39712
+animatediff-cli-prompt-travel/data/models/lora/Anaglyph Image Generator.safetensors	151108831 https://civitai.com/api/download/models/7401
+animatediff-cli-prompt-travel/data/models/lora/Anime Screencap Style_anime screencap.safetensors	151108831	https://civitai.com/api/download/models/60568
+animatediff-cli-prompt-travel/data/models/lora/Aurora (Style)_aurorastyle.safetensors	37866089	https://civitai.com/api/download/models/258195
+animatediff-cli-prompt-travel/data/models/lora/Bad VHS_vhs footage of.safetensors	6839793	https://civitai.com/api/download/models/4062
+animatediff-cli-prompt-travel/data/models/lora/Beeple Style_Beeple.safetensors	19161122	https://civitai.com/api/download/models/213781
+animatediff-cli-prompt-travel/data/models/lora/Biomechanicals (HR Giger)_hnsrdlf style.safetensors	37862934	https://civitai.com/api/download/models/24810
+animatediff-cli-prompt-travel/data/models/lora/Black-and-white Comic Cartoon_cartoon_white.safetensors	151110905	https://civitai.com/api/download/models/109891
+animatediff-cli-prompt-travel/data/models/lora/Bubble Drip_Sy3.safetensors	75610142	https://civitai.com/api/download/models/101470
+animatediff-cli-prompt-travel/data/models/lora/Cartoon Caricature Style_caricature.safetensors	9555292	https://civitai.com/api/download/models/38943
+animatediff-cli-prompt-travel/data/models/lora/Cartoon Portrait_cartoon_portrait.safetensors	151113232	https://civitai.com/api/download/models/120882
+animatediff-cli-prompt-travel/data/models/lora/Chinese ink painting_chinkstyle ink painting monochrome.safetensors	27219856	https://civitai.com/api/download/models/177736
+animatediff-cli-prompt-travel/data/models/lora/Chinese Mural painting style_long sleeves beard hanfu.safetensors	75613377	https://civitai.com/api/download/models/70650
+animatediff-cli-prompt-travel/data/models/lora/Cinematic Style v1_111cine8matic55.safetensors	151111925	https://civitai.com/api/download/models/109018
+animatediff-cli-prompt-travel/data/models/lora/Colorful Space.safetensors	37866248	https://civitai.com/api/download/models/181603
+animatediff-cli-prompt-travel/data/models/lora/Cubism Style_cubism.safetensors	17050543	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Cubism_Style_cubism.safetensors
+animatediff-cli-prompt-travel/data/models/lora/Frosted (Style)_frostedstyle.safetensors	37867622	https://civitai.com/api/download/models/258193
+animatediff-cli-prompt-travel/data/models/lora/Glitch Style.safetensors	37866097	https://civitai.com/api/download/models/111044
+animatediff-cli-prompt-travel/data/models/lora/Grand Theft Auto San Andreas (Style)_simple background.safetensors	37871417	https://civitai.com/api/download/models/242620
+animatediff-cli-prompt-travel/data/models/lora/High Quality Cats_hqcat.safetensors	151111079	https://civitai.com/api/download/models/114127
+animatediff-cli-prompt-travel/data/models/lora/Impressionism Style_impressionist.safetensors	151110218	https://civitai.com/api/download/models/122478
+animatediff-cli-prompt-travel/data/models/lora/Leonid Afremov Style_afrem0vDabbs afrem0vStrokes.safetensors	151117495	https://civitai.com/api/download/models/83701
+animatediff-cli-prompt-travel/data/models/lora/Marble (Make everything into marble)_M4rbleSCNEW.safetensors	37861172	https://civitai.com/api/download/models/75208
+animatediff-cli-prompt-travel/data/models/lora/Neon CyberpunkAI_CyberpunkAI neon.safetensors	151112443	https://civitai.com/api/download/models/81907
+animatediff-cli-prompt-travel/data/models/lora/Oil painting (brush stroke)_bichu oil painting Impressionism.safetensors	75610144	https://civitai.com/api/download/models/94277
+animatediff-cli-prompt-travel/data/models/lora/Oil painting style by Konstantin Razumov_oil painting style Razumov.safetensors	151110916	https://civitai.com/api/download/models/179771
+animatediff-cli-prompt-travel/data/models/lora/On Fire_red fire blue fire.safetensors	151114045	https://civitai.com/api/download/models/58889
+animatediff-cli-prompt-travel/data/models/lora/Painting in the style of Alan Lee_AlanLeeStyle.safetensors	37865496	https://civitai.com/api/download/models/137927
+animatediff-cli-prompt-travel/data/models/lora/PaintPop_paintpop wet paint slime.safetensors	9550472	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/PaintPop_paintpop_wet_paint_slime.safetensors
+animatediff-cli-prompt-travel/data/models/lora/Picasso.safetensors	94486818	https://civitai.com/api/download/models/76700
+animatediff-cli-prompt-travel/data/models/lora/Pointillism Black and White_pointillism.safetensors	9550712	https://civitai.com/api/download/models/131956
+animatediff-cli-prompt-travel/data/models/lora/Print Graphic_drckgrfk style.safetensors	37862934	https://civitai.com/api/download/models/41170
+animatediff-cli-prompt-travel/data/models/lora/Psychedelic Fluids_PsychedelicFluids.safetensors	302105667	https://civitai.com/api/download/models/116079
+animatediff-cli-prompt-travel/data/models/lora/Puffy Smoke_smokeanywhere.safetensors	9549940	https://civitai.com/api/download/models/91191
+animatediff-cli-prompt-travel/data/models/lora/Salvador Dali_dali69.safetensors	75614567	https://civitai.com/api/download/models/121508
+animatediff-cli-prompt-travel/data/models/lora/Scenery_scenery.safetensors	23717733	https://civitai.com/api/download/models/197079
+animatediff-cli-prompt-travel/data/models/lora/Shrek Diffusion_shrex.safetensors	108640808	https://civitai.com/api/download/models/110977
+animatediff-cli-prompt-travel/data/models/lora/Smoke looks like_smoke looks like.safetensors	151144457	https://civitai.com/api/download/models/45353
+animatediff-cli-prompt-travel/data/models/lora/Simply Smoke_smoke.safetensors	151111344	https://civitai.com/api/download/models/190451
+animatediff-cli-prompt-travel/data/models/lora/Smoke_smoke.safetensors	151110800	https://civitai.com/api/download/models/67323
+animatediff-cli-prompt-travel/data/models/lora/South Park Style_south park style.safetensors	151112695	https://civitai.com/api/download/models/94964
+animatediff-cli-prompt-travel/data/models/lora/Splashes Of Color_splash00d.safetensors	188865795	https://civitai.com/api/download/models/78087
+animatediff-cli-prompt-travel/data/models/lora/Stained glass painting_stained glass painting blh.safetensors	151112080	https://civitai.com/api/download/models/223615
+animatediff-cli-prompt-travel/data/models/lora/Steampunk Redone_SteampunkAI.safetensors	22459569	https://civitai.com/api/download/models/79552
+animatediff-cli-prompt-travel/data/models/lora/SurrealismAI_surrealismai.safetensors	151112889	https://civitai.com/api/download/models/55475
+animatediff-cli-prompt-travel/data/models/lora/Synthwave 1983_Synthwave.safetensors	75622896	https://civitai.com/api/download/models/193495
+animatediff-cli-prompt-travel/data/models/lora/Thick Impasto Painting_thick impasto painting.safetensors	151176813	https://civitai.com/api/download/models/87717
+animatediff-cli-prompt-travel/data/models/lora/Van Gogh style oil painting_Van Gogh oil painting.safetensors	37865824	https://civitai.com/api/download/models/171709
+animatediff-cli-prompt-travel/data/models/lora/Van Gogh Style_vg.safetensors	151112227	https://civitai.com/api/download/models/107976
+animatediff-cli-prompt-travel/data/models/lora/Vector Art_in the style of 0mi.safetensors	151112223	https://civitai.com/api/download/models/68115
+animatediff-cli-prompt-travel/data/models/lora/Vermeer_vermeer.safetensors	73868272	https://civitai.com/api/download/models/209938
+animatediff-cli-prompt-travel/data/models/lora/VOXEL 3d pixel art_3d pixel art vpa vbcb.safetensors	151126648	https://civitai.com/api/download/models/188458
+animatediff-cli-prompt-travel/data/models/lora/Watercolor Style_watercolor.safetensors	151112339	https://civitai.com/api/download/models/156370
+animatediff-cli-prompt-travel/data/models/lora/X-Ray Art_x-ray transparent.safetensors	37868728	https://civitai.com/api/download/models/215689
+
+animatediff-cli-prompt-travel/data/models/lora/Acrylic-Pour-Painting_acryl1c.safetensors	37862104	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Acrylic-Pour-Painting_acryl1c.safetensors
+animatediff-cli-prompt-travel/data/models/lora/Christmas-Imagery_chr1stmas.safetensors	37862104	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Christmas-Imagery_chr1stmas.safetensors
+animatediff-cli-prompt-travel/data/models/lora/Fur-Texture_furt3xtur3.safetensors	37862104	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Fur-Texture_furt3xtur3.safetensors
+animatediff-cli-prompt-travel/data/models/lora/Gore_g0re.safetensors	37862104	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Gore_g0re.safetensors
+animatediff-cli-prompt-travel/data/models/lora/Hyperrealism_hyp3rr3alism.safetensors	37862104	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Hyperrealism_hyp3rr3alism.safetensors
+animatediff-cli-prompt-travel/data/models/lora/Movie-EyesWideShut_3y3swideshut.safetensors	37862104	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Movie-EyesWideShut_3y3swideshut.safetensors
+animatediff-cli-prompt-travel/data/models/lora/Movie-Suspiria_susp1r1a.safetensors	37862104	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Movie-Suspiria_susp1r1a.safetensors
+animatediff-cli-prompt-travel/data/models/lora/Movie-ToyStory_t0yst0ry.safetensors	37862104	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Movie-ToyStory_t0yst0ry.safetensors
+animatediff-cli-prompt-travel/data/models/lora/Psychedelic_psych3d3lic.safetensors	37862104	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Psychedelic_psych3d3lic.safetensors
+animatediff-cli-prompt-travel/data/models/lora/Trypophobia_tryp0ph0bia.safetensors	37862104	https://huggingface.co/datasets/Softology-Pro/VoC/resolve/main/Trypophobia_tryp0ph0bia.safetensors
+
+animatediff-cli-prompt-travel/data/share/Lora/add_detail.safetensors	37861176	https://huggingface.co/OedoSoldier/detail-tweaker-lora/resolve/main/add_detail.safetensors

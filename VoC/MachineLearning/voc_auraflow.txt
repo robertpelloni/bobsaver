@@ -1,0 +1,19 @@
+python -m pip install --upgrade pip==24.3.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.43.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/huggingface/diffusers.git@1a92bc05a7c22d600ecadc775b31f4d8b0be27b9
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.42.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.32.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts protobuf==5.27.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts sentencepiece==0.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv_python==4.10.0.84
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy==1.14.0
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.3.0+cu118 torchvision --index-url https://download.pytorch.org/whl/cu118
+pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y charset-normalizer
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts charset-normalizer==3.3.0
+pip uninstall -y numpy
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.23.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

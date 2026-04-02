@@ -1,0 +1,12 @@
+[Settings]
+Formula=3
+Root Finding Method=2
+Palette Step Amount=2
+Genralized Newton Factor=1.2
+Genralized Newton I=0
+Coloring=2
+Palette=chrome.MAP
+Xmin=-2.4413318359375
+Xmax=2.4414318359375
+Ymin=-2.466592
+Ymax=2.433359

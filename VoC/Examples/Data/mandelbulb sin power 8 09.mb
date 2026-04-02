@@ -1,0 +1,46 @@
+[Eye]
+X=-0.595
+Y=0.287
+Z=-0.032
+[Look At]
+X=-0.595
+Y=0.287
+Z=-1.032
+[Zoom]
+Zoom=0.8
+[Light]
+X=0
+Y=0
+Z=-30
+[Rotation]
+X=180
+Y=0
+Z=0
+[Settings]
+Iterations=6
+Epsilon=0.000005
+Power=8
+Gamma=0
+Contrast=0
+Shading=2
+Negative SIN=0
+Bailout=4
+Palette=kuler nothing gold.MAP
+Spikes=0
+Spikes Y Maximum=0.5
+Juliabulb=0
+Julia Real=0
+Julia Imaginary=0
+Julia Imaginary 2=0
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=clYellow
+Glow Threshold=295
+Outside Glow=1
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.3
+Ambient Occlusion Max Orbit=1
+Supersample=1
+Supersample Pixels=0

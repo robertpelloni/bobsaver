@@ -1,0 +1,25 @@
+[Settings]
+Formula=(((0%(5.1*3.1))%(((5.6%abs(5.9))/7.3)/ceil(((y/pi)/y))))+((y%round(x))%(pi*0.5)))
+Color Palette=Movie Fanstastic Mr Fox.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((y+x)*(y/4.2))
+Gene1=(((7.3*1.7)%y)/(2.4/sqr(y)))
+Gene2=(((9.4%abs(3.2))/8.6)/sqr(((y/x)/y)))
+Gene3=((y-round(x))+(y*7.4))
+Gene4=(((y-x)%sqr((4.4+9.2)))+(y-x))
+Gene5=((0%(2*8.5))-arctan(((x/9.8)%x)))
+Gene6=(((y-round(x))+(y*7.4))-(((9.4%abs(3.2))/8.6)/sqr(((y/x)/y))))
+Gene7=((y%round(y))*(y*5.1))
+Gene8=((y%round(y))-(y*0.5))
+Gene9=((0%(2*8.5))-(((9.4%abs(3.2))/8.6)/sqr(((y/x)/y))))
+Gene10=((y%round(y))/(y*5.1))
+Gene11=((y%round(y))+(((9.4%abs(3.2))/8.6)/sqr(((y/x)/y))))
+Gene12=(((0%(2*8.5))-(((9.4%abs(3.2))/8.6)/sqr(((y/x)/y))))%((y%round(y))-(y*0.5)))
+Gene13=(((0%(2*8.5))-(((9.4%abs(3.2))/8.6)/sqr(((y/x)/y))))-(y*5.1))
+Gene14=(((0%(5.1*3.1))%(((5.6%abs(5.9))/7.3)/ceil(((y/pi)/y))))+((y%round(x))%(pi*0.5)))
+Gene15=((y%round(y))*(y%0.2))
+Gene16=(((0%(2*8.5))-(((9.4%abs(3.2))/8.6)/sqr(((y/x)/y))))+(y*5.1))

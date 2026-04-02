@@ -1,0 +1,19 @@
+[Settings]
+Formula=((((x*y)/pi)%(y%2.4))/((x*y)/pi))
+Color Palette=IFS20.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((7.2+7.1)*sin((x+y)))
+Gene1=(x*floor(x))
+Gene2=(y%4.2)
+Gene3=((x*y)/pi)
+Gene4=(((pi*exp(pi))+sqr((y/9.8)))*(5.2%(y/x)))
+Gene5=(((x*y)/pi)%(y%4.2))
+Gene6=((((x*y)/pi)%(y%4.2))/((x*y)/pi))
+Gene7=(((((x*y)/pi)%(y%4.2))/((x*y)/pi))+(y%4.2))
+Gene8=((((((x*y)/pi)%(y%4.2))/((x*y)/pi))+(y%4.2))+((((x*y)/pi)%(y%4.2))/((x*y)/pi)))
+Gene9=(((pi*exp(pi))+sqr((y/9.8)))+((((x*y)/pi)%(y%4.2))/((x*y)/pi)))
+Gene10=((((x*y)/pi)%(y%2.4))/((x*y)/pi))

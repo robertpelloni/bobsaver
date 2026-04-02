@@ -1,0 +1,4 @@
+ComfyUI\models\checkpoints\sd3.5_large.safetensors	16460379262	https://huggingface.co/second-state/stable-diffusion-3.5-large-GGUF/resolve/main/sd3.5_large.safetensors	3b281fb685ad9f9a736597b2eec2a622
+ComfyUI\models\clip\clip_l.safetensors	246144152	https://huggingface.co/second-state/stable-diffusion-3.5-large-GGUF/resolve/main/clip_l.safetensors	81b87e641699a4cd5985f47e99e71eeb
+ComfyUI\models\clip\clip_g.safetensors	1389382176	https://huggingface.co/second-state/stable-diffusion-3.5-large-GGUF/resolve/main/clip_g.safetensors	5e540a9d92f6f88d3736189fd28fa6cd
+ComfyUI\models\clip\t5xxl_fp16.safetensors	9787841024	https://huggingface.co/second-state/stable-diffusion-3.5-large-GGUF/resolve/main/t5xxl_fp16.safetensors	4448d501df4ccf1370636adc33740c45

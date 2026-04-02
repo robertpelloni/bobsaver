@@ -1,0 +1,32 @@
+[Settings]
+Formula=(((((y+cos(x))-y)+(((y/int(5.5))+sin((8.5-x)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(6.1))+sin((6.5-x)))/(3.4/cos(y)))))+((((y+cos(x))-y)+(((y/int(7))+sin((7.7-y)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(2))+sin((8.4-x)))/(1.2/cos(y))))))
+Color Palette=image frequency fire.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(((pi%floor(pi))%(y+x))+((0.4*sqrt(pi))-sqr((y*sin(y)))))
+Gene1=(((9.6-sin(x))-(5.1-pi))+(y-pi))
+Gene2=((y/int(6.1))+sin((6.5-x)))
+Gene3=(1.2/cos(y))
+Gene4=((y+cos(x))-x)
+Gene5=((y/int(6.1))*sin((6.5-x)))
+Gene6=(((y/int(6.1))+sin((6.5-x)))/(1.2/cos(y)))
+Gene7=(((y/int(6.1))*sin((6.5-x)))+(((y/int(6.1))+sin((6.5-x)))/(1.2/cos(y))))
+Gene8=(((y+cos(x))-x)+(((y/int(6.1))+sin((6.5-x)))/(1.2/cos(y))))
+Gene9=(((y+cos(x))-y)+(((y/int(1.6))+sin((8.5-x)))/(3.8/cos(y))))
+Gene10=(((y+cos(x))-y)-(((y/int(6.1))+sin((6.5-x)))/(1.2/cos(y))))
+Gene11=((((y+cos(x))-y)+(((y/int(1.6))+sin((8.5-x)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(6.1))+sin((6.5-x)))/(1.2/cos(y)))))
+Gene12=(((y+cos(x))-y)+(((y/int(4.3))+sin((8.5-x)))/(6.5/cos(y))))
+Gene13=((((y+cos(x))-y)+(((y/int(7))+sin((0.2-y)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(5.2))+sin((6.5-x)))/(1.2/cos(y)))))
+Gene14=(((((y+cos(x))-y)+(((y/int(1.6))+sin((8.5-x)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(6.1))+sin((6.5-x)))/(1.2/cos(y)))))*(((y+cos(x))-y)+(((y/int(4.3))+sin((8.5-x)))/(6.5/cos(y)))))
+Gene15=((((y+cos(x))-y)+(((y/int(4.3))+sin((8.5-x)))/(6.5/cos(y))))+((((y+cos(x))-y)+(((y/int(7))+sin((0.2-y)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(5.2))+sin((6.5-x)))/(1.2/cos(y))))))
+Gene16=(((((y+cos(x))-y)+(((y/int(7))+sin((0.2-y)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(5.2))+sin((6.5-x)))/(1.2/cos(y)))))*((((y+cos(x))-y)+(((y/int(4.3))+sin((8.5-x)))/(6.5/cos(y))))+((((y+cos(x))-y)+(((y/int(7))+sin((0.2-y)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(5.2))+sin((6.5-x)))/(1.2/cos(y)))))))
+Gene17=(((((y+cos(x))-y)+(((y/int(1.6))+sin((8.5-x)))/(5.7/cos(pi))))*(((y+cos(x))-y)-(((y/int(6.1))+sin((8.3-x)))/(5.5/cos(y)))))+(((y+cos(x))-y)+(((y/int(4.3))+sin((2.2-x)))/(8.4/cos(y)))))
+Gene18=((((y+cos(x))-y)+(((y/int(4.3))+sin((8.5-x)))/(6.5/cos(y))))-((((y+cos(x))-y)+(((y/int(7))+sin((0.2-y)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(5.2))+sin((6.5-x)))/(1.2/cos(y))))))
+Gene19=((((((y+cos(x))-y)+(((y/int(7))+sin((0.2-y)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(5.2))+sin((6.5-x)))/(1.2/cos(y)))))*((((y+cos(x))-y)+(((y/int(4.3))+sin((8.5-x)))/(6.5/cos(y))))+((((y+cos(x))-y)+(((y/int(7))+sin((0.2-y)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(5.2))+sin((6.5-x)))/(1.2/cos(y)))))))-((((y+cos(x))-y)+(((y/int(4.3))+sin((8.5-x)))/(6.5/cos(y))))-((((y+cos(x))-y)+(((y/int(7))+sin((0.2-y)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(5.2))+sin((6.5-x)))/(1.2/cos(y)))))))
+Gene20=((((((y+cos(x))-y)+(((y/int(7))+sin((0.2-y)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(5.2))+sin((6.5-x)))/(1.2/cos(y)))))*((((y+cos(x))-y)+(((y/int(4.3))+sin((8.5-x)))/(6.5/cos(y))))+((((y+cos(x))-y)+(((y/int(7))+sin((0.2-y)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(5.2))+sin((6.5-x)))/(1.2/cos(y)))))))%((((y+cos(x))-y)+(((y/int(4.3))+sin((8.5-x)))/(6.5/cos(y))))+((((y+cos(x))-y)+(((y/int(7))+sin((0.2-y)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(5.2))+sin((6.5-x)))/(1.2/cos(y)))))))
+Gene21=(((((y+cos(x))-y)+(((y/int(1.6))+sin((8.5-x)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(6.1))+sin((6.5-x)))/(1.2/cos(y)))))+((((y+cos(x))-y)+(((y/int(7))+sin((0.2-y)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(5.2))+sin((6.5-x)))/(1.2/cos(y))))))
+Gene22=(((((y+cos(x))-y)+(((y/int(1.6))+sin((8.5-x)))/(5.7/cos(pi))))*(((y+cos(x))-y)-(((y/int(7.2))+sin((2.5-x)))/(5.5/cos(y)))))*(((y+cos(x))-y)+(((y/int(2.6))+cos((2.2-x)))/(6/cos(y)))))
+Gene23=(((((y+cos(x))-y)+(((y/int(5.5))+sin((8.5-x)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(6.1))+sin((6.5-x)))/(3.4/cos(y)))))+((((y+cos(x))-y)+(((y/int(7))+sin((7.7-y)))/(3.8/cos(y))))*(((y+cos(x))-y)-(((y/int(2))+sin((8.4-x)))/(1.2/cos(y))))))

@@ -1,0 +1,12 @@
+[Settings]
+Attractor Name=Gumowski Mira
+Palette=colourlovers slow motion.MAP
+Initial X=0
+Initial Y=0.5
+A=0.008
+B=-0.7
+[Coordinates]
+Xmin=-18.4714756944444
+Xmax=22.8817129629629
+Ymin=-11.8060292824074
+Ymax=12.157540625

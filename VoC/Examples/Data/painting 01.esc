@@ -1,0 +1,9 @@
+[Settings]
+Parameter String=TWEECMIFPHGD
+Palette=jason18.MAP
+ESCMaxIters=255
+[Coordinates]
+ESCXmin=-0.8125
+ESCXmax=0.1875
+ESCYmin=-1.33093525179856
+ESCYmax=-0.323741007194245

@@ -1,0 +1,14 @@
+[Settings]
+Rule=8,161,120,42
+Cell States=0
+State 1 Color=clBlack
+Final State Color=clBlack
+Empty Color=clWhite
+[Music]
+Active=1
+Note Delay=150
+Scale Type=5
+Instrument=46
+Octave=3
+Offset=0
+Highlight Color=$000080FF

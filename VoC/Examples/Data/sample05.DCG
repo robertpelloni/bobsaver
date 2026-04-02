@@ -1,0 +1,7 @@
+[Settings]
+k=1.7
+anisotropy=5
+alpha=0.9
+gamma=10.0
+teq=1.3
+Color palette=plasma 3d mars.MAP

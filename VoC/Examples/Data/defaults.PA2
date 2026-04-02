@@ -1,0 +1,12 @@
+[Settings]
+Population Density=30
+Move Probability=30
+Infection Probability=30
+Recovery Probability=50
+Death Time=100
+Diagonal Neighbors=0
+[Colors]
+Healthy=$0000E600
+Infected=clRed
+Recovered=$00FF4A4A
+Dead=clSilver

@@ -1,0 +1,34 @@
+[Settings]
+Formula=(((((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(6.9))%abs((pi-cos(x)))))-(((y+log2(1.4))%abs((pi-cos(x))))+((y+floor(7.2))%abs((pi-cos(x))))))*(((((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(6.9))%abs((pi-cos(x)))))-(((y+log2(1.4))%abs((pi-cos(x))))+((y+floor(7.2))%abs((pi-cos(x))))))-((((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(6.9))%abs((pi-cos(x)))))-(((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(8.6))%abs((pi-cos(x))))))))
+Color Palette=ROYGBIV1.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((x+6.5)*sin((x/y)))
+Gene1=(x*(x-y))
+Gene2=(x-sin(y))
+Gene3=((y+floor(7))*abs((pi-cos(x))))
+Gene4=((1.5*frac(9.5))-floor((y%pi)))
+Gene5=(((y+floor(7))*abs((pi-cos(x))))/((1.5*frac(9.5))-floor((y%pi))))
+Gene6=((y+floor(8.6))%abs((pi-cos(x))))
+Gene7=(((y+floor(8.6))%abs((pi-cos(x))))+(x-sin(y)))
+Gene8=(((y+floor(7))*abs((pi-cos(x))))-((y+floor(8.6))%abs((pi-cos(x)))))
+Gene9=((y+floor(8.6))-((y+floor(8.6))%abs((pi-cos(x)))))
+Gene10=(((y+floor(0.1))%abs((pi-cos(x))))-(x-sin(y)))
+Gene11=(((y+floor(0.1))%abs((pi-cos(x))))*((y+floor(8.6))%abs((pi-cos(x)))))
+Gene12=((((y+floor(7))*abs((pi-cos(x))))-((y+floor(8.6))%abs((pi-cos(x)))))-(((y+floor(0.1))%abs((pi-cos(x))))-(x-sin(y))))
+Gene13=(((y+floor(8.6))-((y+floor(8.6))%abs((pi-cos(x)))))+(((y+floor(0.1))%abs((pi-cos(x))))-(x-sin(y))))
+Gene14=(((y+floor(0.1))%abs((pi-cos(x))))+((pi+floor(5.6))%abs((pi-cos(x)))))
+Gene15=(((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(8.6))%abs((pi-cos(x)))))
+Gene16=(((y+floor(2.3))%abs((pi-cos(x))))-((y+floor(8.6))%abs((pi-cos(x)))))
+Gene17=(((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(6.9))%abs((pi-cos(x)))))
+Gene18=((((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(6.9))%abs((pi-cos(x)))))-(((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(8.6))%abs((pi-cos(x))))))
+Gene19=((((y+floor(2.3))%abs((pi-cos(x))))-((y+floor(8.6))%abs((pi-cos(x)))))/((((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(6.9))%abs((pi-cos(x)))))-(((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(8.6))%abs((pi-cos(x)))))))
+Gene20=((((y+floor(3.7))%abs((pi-cos(x))))+((y+floor(6.9))*abs((pi-cos(x)))))+(((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(8.6))%abs((pi-cos(x))))))
+Gene21=((((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(6.9))%abs((pi-cos(x)))))-(((y+log2(1.4))%abs((pi-cos(x))))+((y+floor(7.2))%abs((pi-cos(x))))))
+Gene22=(((((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(6.9))%abs((pi-cos(x)))))-(((y+log2(1.4))%abs((pi-cos(x))))+((y+floor(7.2))%abs((pi-cos(x))))))-((((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(6.9))%abs((pi-cos(x)))))-(((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(8.6))%abs((pi-cos(x)))))))
+Gene23=(((((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(6.9))%abs((pi-cos(x)))))-(((y+log2(1.4))%abs((pi-cos(x))))+((y+floor(7.2))%abs((pi-cos(x))))))-((((y+floor(2.3))%abs((pi-cos(x))))-((y+floor(8.6))%abs((pi-cos(x)))))/((((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(6.9))%abs((pi-cos(x)))))-(((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(8.6))%abs((pi-cos(x))))))))
+Gene24=(((((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(6.9))%abs((pi-cos(x)))))-(((y+log2(1.4))%abs((pi-cos(x))))+((y+floor(7.2))%abs((pi-cos(x))))))%(((((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(6.9))%abs((pi-cos(x)))))-(((y+log2(1.4))%abs((pi-cos(x))))+((y+floor(7.2))%abs((pi-cos(x))))))-((((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(6.9))%abs((pi-cos(x)))))-(((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(8.6))%abs((pi-cos(x))))))))
+Gene25=(((((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(6.9))%abs((pi-cos(x)))))-(((y+log2(1.4))%abs((pi-cos(x))))+((y+floor(7.2))%abs((pi-cos(x))))))*(((((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(6.9))%abs((pi-cos(x)))))-(((y+log2(1.4))%abs((pi-cos(x))))+((y+floor(7.2))%abs((pi-cos(x))))))-((((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(6.9))%abs((pi-cos(x)))))-(((y+floor(0.1))%abs((pi-cos(x))))+((y+floor(8.6))%abs((pi-cos(x))))))))

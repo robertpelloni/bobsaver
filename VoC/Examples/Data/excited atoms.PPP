@@ -1,0 +1,8 @@
+[Settings]
+Particle Count=1000
+Radius=16
+Velocity=5
+Alpha=178
+Beta=-21
+World Width=800
+Palette=RainbowTropical30.map

@@ -1,0 +1,38 @@
+[Coordinates]
+Xmin=-58.0390625
+Xmax=-57.1015625
+Ymin=-68.4888888888889
+Ymax=-67.5305555555556
+[Stars]
+How Many=6
+Patern=1
+[Star Settings]
+Star 1 X=0
+Star 1 Y=-100
+Star 1 Mass=24663
+Star 2 X=86
+Star 2 Y=-50
+Star 2 Mass=49810
+Star 3 X=86
+Star 3 Y=50
+Star 3 Mass=-17967
+Star 4 X=0
+Star 4 Y=100
+Star 4 Mass=55693
+Star 5 X=-86
+Star 5 Y=49
+Star 5 Mass=37403
+Star 6 X=-86
+Star 6 Y=-50
+Star 6 Mass=16155
+[Orbit]
+X Velocity=0
+Y Velocity=0
+[Globals]
+Gravity Constant=0.1
+Delta Time=6
+Escape Velocity=0
+Escape Radius=10000
+Iterations=256
+[Settings]
+Palette=JACCO307.MAP

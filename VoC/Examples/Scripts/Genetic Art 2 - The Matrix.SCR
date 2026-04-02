@@ -1,0 +1,39 @@
+Global Script Settings
+	Palette=matrix2.MAP
+	Fractal Type=Genetic Art 2
+	Formula=cos((((pi))+floor(pi+pi)/arctan(x/pi)*sin(x*y))/x%tan(1/x))
+Point 1
+	XMin=-5
+	XMax=5
+	YMin=-5
+	YMax=5
+	Iterations=1024
+	Tween Steps=0
+Point 2
+	XMin=-0.523012552301255
+	XMax=0.439330543933054
+	YMin=-0.666666666666667
+	YMax=0.333333333333333
+	Iterations=1024
+	Tween Steps=30
+Point 3
+	XMin=-0.0498940844873164
+	XMax=0.0427163389996674
+	YMin=-0.216666666666667
+	YMax=-0.116666666666667
+	Iterations=1024
+	Tween Steps=30
+Point 4
+	XMin=-0.00339512708799401
+	XMax=0.00551717308020945
+	YMin=-0.171666666666667
+	YMax=-0.161666666666667
+	Iterations=1024
+	Tween Steps=30
+Point 5
+	XMin=-0.0003000605023836
+	XMax=0.000557608551460248
+	YMin=-0.167222222222222
+	YMax=-0.166222222222222
+	Iterations=1024
+	Tween Steps=30

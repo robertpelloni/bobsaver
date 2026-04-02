@@ -1,0 +1,15 @@
+[Settings]
+Formula=3
+Xmin=0.2652
+Xmax=0.26705
+Ymin=-0.00186666666666666
+Ymax=0.00186666666666667
+Iterations=3500
+Skip Iterations=100
+Color Display=3
+Background Color=clBlack
+Palette=IFS20.MAP
+Sample Pixels=2
+Henon Multiplier=0.4
+Bouncing Ball Slope Degrees=60
+Bouncing Ball Initial Velocity=1

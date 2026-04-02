@@ -1,0 +1,97 @@
+[Eye]
+X=-0.219
+Y=0.013
+Z=0.74
+[Look At]
+X=-0.219
+Y=0.013
+Z=-0.26
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=60
+[Light]
+X=0
+Y=-3
+Z=-10
+[Rotation]
+X=140
+Y=0
+Z=0
+[Settings]
+Iterations=13
+Epsilon=0.0001
+Power=2.9
+Gamma=0
+Contrast=0
+Shading=0
+Formula=7
+Formula Variation=53
+Bailout=1000
+Palette=IFS22.MAP
+Spikes=0
+Spikes Y Maximum=0.5
+Juliabulb=0
+Julia Real=0.322265741994108
+Julia Imaginary=-0.608307885298479
+Julia Imaginary 2=0.359902477823198
+Shadows=1
+Specularity=0.45
+Glow Effect=1
+Glow Color=$00C08000
+Glow Threshold=87
+Outside Glow=1
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.2
+Ambient Occlusion Max Orbit=1.2
+Supersample=1
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Ambient Color=clWhite
+Phase=0
+Theta Scale=1
+Phi Scale=1
+Scalar Distance Estimation=1
+Kaleidoscope Rotation 1 X=11
+Kaleidoscope Rotation 1 Y=-20
+Kaleidoscope Rotation 1 Z=-10
+Kaleidoscope Rotation 2 X=18
+Kaleidoscope Rotation 2 Y=-22
+Kaleidoscope Rotation 2 Z=-25
+Kaleidoscope Center X=1
+Kaleidoscope Center Y=1
+Kaleidoscope Center Z=1
+Kaleidoscope Fold Style=5
+Kaleidoscope Z Wrap=1
+Shadow Intensity=60
+Kaleidoscope Normailze C=0
+Kaleidoscope Rotate Around Origin=0
+Kaleidoscope Pre Rotate=0
+Fog=0
+Fog Color=clSilver
+Fog Cutoff=1.00042361347229
+Depth Of Field=0
+Depth Of Field Focal Point=0.420806894186422
+Version=2
+Box Folding=0
+Min Box Folding=1
+Max Box Folding=2
+Sphere Folding=0
+Min Sphere Folding=0.5
+Max Sphere Folding=1
+[Hybrids]
+Enabled=0
+Hybrid 1 Formula=0
+Hybrid 1 Variation=0
+Hybrid 1 Power=8
+Hybrid 2 Formula=0
+Hybrid 2 Variation=0
+Hybrid 2 Power=8

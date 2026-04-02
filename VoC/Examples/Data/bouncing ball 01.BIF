@@ -1,0 +1,12 @@
+[Settings]
+Formula=3
+Xmin=0
+Xmax=1
+Ymin=-1
+Ymax=1
+Iterations=50000
+Skip Iterations=100
+Color Display=0
+Background Color=clBlack
+Palette=kuler drholwegneu.MAP
+Sample Pixels=9

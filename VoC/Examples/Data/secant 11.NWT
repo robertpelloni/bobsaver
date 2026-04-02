@@ -1,0 +1,12 @@
+[Settings]
+Formula=14
+Root Finding Method=4
+Palette Step Amount=5
+Genralized Newton Factor=1.95
+Genralized Newton I=0
+Coloring=2
+Palette=image frequency fire.MAP
+Xmin=-0.499945
+Xmax=0.500045
+Ymin=-0.499945
+Ymax=0.500045

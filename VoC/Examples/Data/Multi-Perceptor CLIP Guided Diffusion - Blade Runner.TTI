@@ -1,0 +1,25 @@
+[Settings]
+Input Phrase=a rainy Blade Runner cyberpunk neon street
+Script=Multi-Perceptor CLIP Guided Diffusion *
+Random seed=401685214
+Iterations=200
+[Multi-Perceptor CLIP Guided Diffusion]
+Guidance Scale=3000
+TV Scale=150
+Range Scale=150
+Saturation Scale Scale=0
+Cutouts=12
+Cutout Batches=1
+Use Checkpoints=1
+256 Model=0
+ddim=0
+CLIP Denoised=0
+Model 1=1
+Model 2=1
+Model 3=1
+Model 4=0
+Model 5=0
+Model 6=0
+Seed Image=
+Seed Image Init Scale=1000
+Seed Image SkipTimesteps=50

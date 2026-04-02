@@ -1,0 +1,16 @@
+[Settings]
+model=Lykon/dreamshaper-xl-lightning
+num_interpolation_steps=100
+num_inference_steps=4
+guidance_scale=1.0
+resolution=1024x1024
+randomseed=0
+[Prompts]
+Line0=midnight landscape
+Line1=dawn landscape
+Line2=morning landscape
+Line3=midday landscape
+Line4=afternoon landscape
+Line5=dusk landscape
+Line6=evening landscape
+Line7=midnight landscape

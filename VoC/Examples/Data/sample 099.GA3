@@ -1,0 +1,35 @@
+[Settings]
+Formula=(((((x/sin(0.1))%tan((x-cos(y))))%floor(((x%pi)*exp((x%0)))))-(((pi+exp(6.7))/floor((7-frac(y))))+sqrt(((0.7+y)+abs((x*cos(x)))))))-((((x/sin(7.6))%tan((x-cos(y))))%floor(((x%pi)*exp((x%2.7)))))%floor(((x%pi)*int((x%6.3))))))
+Color Palette=matrix11.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((((x/sqrt(7.6))%round((x/cos(y))))%floor(((x%pi)*ceil((x/8.6)))))+floor(((x%pi)*int((x%1)))))
+Gene1=(((x-exp(6.8))/floor((7-sin(x))))+sqrt(((3.6+y)+ceil((x+cos(x))))))
+Gene2=((((x/sin(7.6))%exp((x*cos(y))))%floor(((x%pi)*int((x%6.3)))))-(((x-exp(6.8))/floor((7-sin(x))))+sqrt(((3.6+y)+ceil((x+cos(x)))))))
+Gene3=((((x-exp(6.8))/floor((7-sin(x))))/(((x-exp(6.8))/floor((7-sin(x))))+sqrt(((3.6+y)+ceil((x+cos(x)))))))%(((2.1-6.8)+(y+ceil(8.7)))-(((pi-exp(1.4))/floor((7-frac(x))))+sqrt(((3.6+y)+abs((x*cos(x))))))))
+Gene4=(((x/sin(7.6))%exp((x*cos(y))))+floor(((x%pi)*int((x%6.3)))))
+Gene5=(((2.1-6.8)+(y+ceil(8.7)))-(((pi-exp(1.4))/floor((7-frac(x))))+sqrt(((3.6+y)+abs((x*cos(x)))))))
+Gene6=((((x/sin(7.6))%tan((x-cos(y))))%floor(((x%pi)*exp((x%2.7)))))+floor(((x%pi)*int((x%6.3)))))
+Gene7=(((y/x)-0.9)%(pi-(1.6*y)))
+Gene8=((((x/sin(7.6))%tan((x-cos(y))))%floor(((x%pi)*exp((x%2.7)))))-(((pi+exp(1.4))/floor((7-frac(x))))+sqrt(((3.6+y)+abs((x*cos(x)))))))
+Gene9=(((y%exp(5.2))%sin((y-3.7)))+floor(((x%pi)*int((x%6.3)))))
+Gene10=(((x-sqr(6.8))/floor((9.1-sin(x))))/sqrt(((3.6+y)-ceil((x%cos(x))))))
+Gene11=(((9.9-6.8)*(y+ceil(8.7)))+floor(((x%pi)*int((x%6.3)))))
+Gene12=((((x/sin(7.6))%exp((x*cos(y))))%floor(((x%pi)*exp((x%2.7)))))*(((pi-exp(1.4))/floor((7-frac(x))))+sqrt(((3.6+y)+abs((x*cos(x)))))))
+Gene13=(((2.1-6.8)+(y+ceil(8.7)))%floor(((x+x)*int((x%2.1)))))
+Gene14=(((x/sin(7.6))%cos((x*tan(y))))%round(((x%y)*int((x%3.8)))))
+Gene15=(((9.9-6.8)*(y+ceil(8.7)))%floor(((x%pi)*int((x%6.3)))))
+Gene16=((((2.1-6.8)+(y+ceil(8.7)))%floor(((x+x)*int((x%2.1)))))*((((x/sin(7.6))%exp((x*cos(y))))%floor(((x%pi)*int((x%6.3)))))-(((x-exp(6.8))/floor((7-sin(x))))+sqrt(((3.6+y)+ceil((x+cos(x))))))))
+Gene17=(((9.9-6.8)*(y+ceil(8.7)))*floor(((x%pi)*int((x%6.3)))))
+Gene18=(((x-exp(6.8))/floor((7-sin(x))))/(((x-exp(6.8))/floor((7-sin(x))))+sqrt(((3.6+y)+ceil((x+cos(x)))))))
+Gene19=(((((x/sqrt(7.6))%round((x/cos(y))))%floor(((x%pi)*ceil((x/8.6)))))+floor(((x%pi)*int((x%1)))))+((((x/sin(7.6))%tan((x-cos(y))))%floor(((x%pi)*exp((x%2.7)))))%floor(((x%pi)*int((x%6.3))))))
+Gene20=(((x/sin(7.6))%exp((x*cos(y))))%floor(((x%pi)*int((x%6.3)))))
+Gene21=((((x/sin(0.1))%tan((x-cos(y))))%floor(((x%pi)*exp((x%0)))))-(((pi+exp(6.7))/floor((7-frac(y))))+sqrt(((0.7+y)+abs((x*cos(x)))))))
+Gene22=(((x/sin(7.6))%exp((x*cos(y))))+ln((pi+x)))
+Gene23=(((((x/sin(7.6))%tan((x-cos(y))))%floor(((x%pi)*exp((x%2.7)))))-(((pi+exp(1.4))/floor((7-frac(x))))+sqrt(((3.6+y)+abs((x*cos(x)))))))-(((y%exp(5.2))%sin((y-3.7)))+floor(((x%pi)*int((x%6.3))))))
+Gene24=((((x/sin(7.6))%tan((x-cos(y))))%floor(((x%pi)*exp((x%2.7)))))%floor(((x%pi)*int((x%6.3)))))
+Gene25=(((9.9-6.8)*(y+ceil(8.7)))-((x%pi)*sin((y*pi))))
+Gene26=(((((x/sin(0.1))%tan((x-cos(y))))%floor(((x%pi)*exp((x%0)))))-(((pi+exp(6.7))/floor((7-frac(y))))+sqrt(((0.7+y)+abs((x*cos(x)))))))-((((x/sin(7.6))%tan((x-cos(y))))%floor(((x%pi)*exp((x%2.7)))))%floor(((x%pi)*int((x%6.3))))))

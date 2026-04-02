@@ -1,0 +1,31 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.41.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.23.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts diffusers==0.17.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.7.0
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==4.7.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==4.43.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv_python==4.5.5.64
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts packaging==23.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts Pillow==10.1.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts safetensors==0.4.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.65.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.34.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts lpips==0.1.4
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.1.1+cu118 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+rem pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y charset-normalizer
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts charset-normalizer==3.3.2
+pip uninstall -y typing_extensions
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts typing_extensions==4.11.0
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0
+rem pip uninstall -y pydantic
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pydantic==2.8.2
+pip uninstall -y pydantic
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pydantic==2.10.6

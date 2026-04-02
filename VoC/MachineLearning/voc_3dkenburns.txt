@@ -1,0 +1,18 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.40.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts setuptools==67.7.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts cupy-cuda11x==12.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts flask==2.2.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gevent==22.10.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts moviepy==1.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-contrib-python==4.7.0.72
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy==1.10.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts h5py==3.8.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+pip uninstall -y Werkzeug
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts Werkzeug==2.3.7
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

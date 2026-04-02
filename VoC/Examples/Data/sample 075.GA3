@@ -1,0 +1,26 @@
+[Settings]
+Formula=(((pi%y)-(4.1-cos(x)))-((pi%y)%(3.4-cos(x))))
+Color Palette=kuler jaguar.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(x*y)
+Gene1=(pi+x)
+Gene2=(((y%x)*exp((pi%x)))*sgn(((y/frac(pi))*floor((9.1*x)))))
+Gene3=(3-cos(x))
+Gene4=(x%y)
+Gene5=((x%y)%(3-cos(x)))
+Gene6=((((y%x)*exp((pi%x)))*sgn(((y/frac(pi))*floor((9.1*x)))))/(3-cos(x)))
+Gene7=((((y%x)*exp((pi%x)))*sgn(((y/frac(pi))*floor((9.1*x)))))%(3-cos(x)))
+Gene8=(((((y%x)*exp((pi%x)))*sgn(((y/frac(pi))*floor((9.1*x)))))/(3-cos(x)))*((x%y)%(3-cos(x))))
+Gene9=((pi%y)*(2.5-cos(x)))
+Gene10=(((((y%x)*exp((pi%x)))*sgn(((y/frac(pi))*floor((9.1*x)))))/(3-cos(x)))+((x+y)%(2.5-cos(x))))
+Gene11=((pi%y)/(4.1-cos(x)))
+Gene12=((pi%y)%(3.4-cos(x)))
+Gene13=((pi%y)-(4.1-cos(x)))
+Gene14=(((pi%y)%(3.4-cos(x)))-((pi%y)*(2.5-cos(x))))
+Gene15=(((pi%y)%(3.4-cos(x)))-((x+y)%(2.5-cos(x))))
+Gene16=(((pi%y)/(4.1-cos(x)))-((pi%y)%(3.4-cos(x))))
+Gene17=(((pi%y)-(4.1-cos(x)))-((pi%y)%(3.4-cos(x))))

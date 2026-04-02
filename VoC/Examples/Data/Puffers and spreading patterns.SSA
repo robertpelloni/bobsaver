@@ -1,0 +1,19 @@
+[Settings]
+Target=3
+Reward=5
+Penalty=7
+Floor=0
+Min Init=0
+Max Init=3
+Relative=1
+Color palette=ROYGBIV1.MAP
+[Neighbors]
+N1=1
+N2=1
+N3=1
+N4=1
+N5=0
+N6=1
+N7=1
+N8=1
+N9=1

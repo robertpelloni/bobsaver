@@ -1,0 +1,7 @@
+[Settings]
+Formula=arctan((pi-3.9)/arctan(y*sin(((y-x))+sin(y+x-5.9)+sin(y-0.5))-sin(((x-1.8))-y-sin(x)-sin(y))-sin(x+y))+sin((pi)-sin(x)+sin((pi)+sin(y+x+y+-3.24)
+Palette=IFS22.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

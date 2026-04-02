@@ -1,0 +1,7 @@
+[Settings]
+Formula=sin((x/pi)-round(((y-6.3)+sin((x+sin(((x))*ceil(((pi))*cos((y+x))+abs(((x-y)))))))
+Palette=ROYGBIV3.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

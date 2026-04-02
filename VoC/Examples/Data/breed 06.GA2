@@ -1,0 +1,7 @@
+[Settings]
+Formula=sin((x/pi)-round(((y-6.3)+sin((x+y-y))+y-sin(x+0.5)))
+Palette=JACCO180.MAP
+Xmin=-12.203125
+Xmax=1.890625
+Ymin=2.0625
+Ymax=16.2708333333333

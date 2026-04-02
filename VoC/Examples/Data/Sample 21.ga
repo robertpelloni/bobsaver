@@ -1,0 +1,14 @@
+[GA Rule]
+Rule=QpG
+[Image Options]
+Palette File=Jason12.MAP
+Smooth Colors=0
+Random Offsets=1
+Coordinate Width=5
+[Gene Character Offsets]
+Xoffset1=3
+Yoffset1=2
+Xoffset2=2
+Yoffset2=-2
+Xoffset3=-5
+Yoffset3=4

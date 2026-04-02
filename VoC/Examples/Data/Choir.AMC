@@ -1,0 +1,20 @@
+[Settings]
+Octave=4
+Scale Type=4
+Note Duration=200
+[Instruments]
+Midi Channel 1=-0.438780228141695
+Midi Channel 2=0.0238775424659252
+Midi Channel 3=-0.801712903659791
+Midi Channel 4=-0.383338973857462
+Midi Channel 5=0.14377475855872
+Instrument 1=52
+Instrument 2=53
+Instrument 3=54
+Instrument 4=0
+Instrument 5=0
+1 Enabled=1
+2 Enabled=1
+3 Enabled=1
+4 Enabled=0
+5 Enabled=0

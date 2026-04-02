@@ -1,0 +1,15 @@
+[GA Rule]
+Rule=yyy
+[Image Options]
+Palette File=Jason31.MAP
+Smooth Colors=0
+Random Offsets=1
+Overlay Mode=0
+Coordinate Width=10
+[Gene Character Offsets]
+Xoffset1=9
+Yoffset1=7
+Xoffset2=8
+Yoffset2=8
+Xoffset3=7
+Yoffset3=6

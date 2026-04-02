@@ -1,0 +1,22 @@
+[Settings]
+Formula=3
+Root Finding Method=3
+Palette Step Amount=4
+Genralized Newton Factor=1
+Genralized Newton I=0
+Coloring=2
+Palette=image h giger 1.MAP
+Xmin=-9.14694456059204
+Xmax=9.14704456059204
+Ymin=-5.304396955
+Ymax=5.304496955
+[Orbit Traps]
+Style=0
+Palette Count=1
+Palette 1=fadeblue.MAP
+Palette 2=fadewhite.MAP
+Palette 3=fadered.MAP
+Palette 4=fadegreen.MAP
+Palette 5=fadeyellow.MAP
+Only Show Traps=0
+Perlin Shading=0

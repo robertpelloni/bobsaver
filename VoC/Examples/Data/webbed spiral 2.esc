@@ -1,0 +1,9 @@
+[Settings]
+Parameter String=PKUKNEDPOHEF
+Palette=Jason29.MAP
+ESCMaxIters=255
+[Coordinates]
+ESCXmin=-0.239583333333333
+ESCXmax=0.477083333333333
+ESCYmin=-1.325
+ESCYmax=-0.608333333333333

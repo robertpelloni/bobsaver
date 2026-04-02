@@ -1,0 +1,32 @@
+[Settings]
+Formula=(((1.4/ceil(pi))%(y+cos(x)))%(((y*sin(x))%(((1.4*arctan(y))-sin(x))*sin(x)))%(((1.4*arctan(y))-sin(x))*sin(x))))
+Color Palette=Jason14.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(x*abs(y))
+Gene1=(y+sin(x))
+Gene2=(y*sin(x))
+Gene3=((2.3-y)+(x-abs(x)))
+Gene4=((1.4*arctan(y))-(x+cos(pi)))
+Gene5=(((1.4*arctan(y))-sin(x))*sin(x))
+Gene6=((1.4+arctan(y))%(x+cos(pi)))
+Gene7=(((y*sin(x))%(((1.4*arctan(y))-sin(x))*sin(x)))/(((1.4*arctan(y))-sin(x))*sin(x)))
+Gene8=(((1.4+arctan(y))%(x+cos(pi)))%((1.4*arctan(y))-(x+cos(pi))))
+Gene9=(((y*sin(x))%(((1.4*arctan(y))-sin(x))*sin(x)))*(((1.4*arctan(y))-sin(x))*sin(x)))
+Gene10=(((y*sin(x))%(((1.4*arctan(y))-sin(x))*sin(x)))/sin(x))
+Gene11=(((1.4+arctan(y))%(y+cos(pi)))%((1.4*arctan(y))-(x+cos(pi))))
+Gene12=((((1.4+arctan(y))%(y+cos(pi)))%((1.4*arctan(y))-(x+cos(pi))))%(((y*sin(x))%(((1.4*arctan(y))-sin(x))*sin(x)))/(((1.4*arctan(y))-sin(x))*sin(x))))
+Gene13=(((y*sin(x))%(((1.4*arctan(y))-sin(x))*sgn(x)))-(((1.4*arctan(y))-sin(x))*sin(x)))
+Gene14=(((1.4+arctan(y))%(y+cos(x)))+((1.4*arctan(y))-(x+cos(pi))))
+Gene15=(((1.4+arctan(y))%(y+cos(x)))+sin(x))
+Gene16=((((1.4+arctan(y))%(y+cos(x)))+sin(x))+(((1.4+arctan(y))%(y+cos(x)))%(((y*sin(x))%(((1.4*arctan(y))-sin(x))*sin(x)))/(((1.4*arctan(y))-sin(x))*sin(x)))))
+Gene17=(((1.4+frac(pi))%(y+cos(x)))+(((y*sin(x))%(((1.4*arctan(y))-sin(x))*sin(x)))/(((1.4*arctan(y))-sin(x))*sin(x))))
+Gene18=(((1.4+frac(pi))%(y+cos(x)))%((1.4*arctan(y))-(x+cos(pi))))
+Gene19=(((1.4+frac(pi))%(y+cos(x)))*((1.4*arctan(y))-(pi+cos(pi))))
+Gene20=((((1.4+frac(pi))%(y+cos(x)))+(((y*sin(x))%(((1.4*arctan(y))-sin(x))*sin(x)))/(((1.4*arctan(y))-sin(x))*sin(x))))+(((1.4+frac(pi))%(y+cos(x)))%((1.4*arctan(y))-(x+cos(pi)))))
+Gene21=(((1.4/frac(pi))%(y+cos(x)))%((1.4*arctan(y))-(x+cos(pi))))
+Gene22=(((1.4/frac(pi))%(y+cos(x)))+(((y*sin(x))%(((1.4*arctan(y))-sin(x))*sin(x)))/(((1.4*arctan(y))-sin(x))*sin(x))))
+Gene23=((((1.4+frac(pi))%(y+cos(x)))+(((y*sin(x))%(((1.4*arctan(y))-sin(x))*sin(x)))/(((1.4*arctan(y))-sin(x))*sin(x))))%((1.4*arctan(y))-(pi+cos(pi))))

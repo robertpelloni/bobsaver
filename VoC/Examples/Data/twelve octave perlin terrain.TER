@@ -1,0 +1,12 @@
+[Settings]
+Terrain Type=2
+Perlin Octaves=12
+Perlin Noise Type=0
+Random Seed=1234
+Palette=multiplesinpal04.MAP
+[Erosion]
+Drop Count=5000
+Erosion Rate=0.5
+Deposit Rate=0.005
+Average Heights=1
+Blur Weight=250

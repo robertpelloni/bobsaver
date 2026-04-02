@@ -1,0 +1,34 @@
+[Settings]
+headprompt=
+tailprompt=
+negativeprompt=
+scheduler=k_dpmpp_sde
+motionmodule=mm_sd_v15_v2.ckpt
+motionlora=v2_lora_ZoomIn.ckpt
+motionlorastrength=1.0
+lora=epicrealism_naturalSinRC1VAE.safetensors
+controlnet=
+seed=573668030
+steps=25
+frames=16
+lengthparameter=1680
+guidancescale=7.5
+w=1024
+h=512
+format=mp4
+loopmovie=0
+[Prompt]
+Line0="0": "the universe",
+Line1="120": "a cluster of galaxies",
+Line2="240": "a galaxy",
+Line3="360": "a solar system",
+Line4="480": "a planet",
+Line5="600": "a continent",
+Line6="720": "a city",
+Line7="840": "a house",
+Line8="960": "a person",
+Line9="1080": "a brain",
+Line10="1200": "a neuron",
+Line11="1320": "a cell",
+Line12="1440": "an atom",
+Line13="1560": "subatomic particles"

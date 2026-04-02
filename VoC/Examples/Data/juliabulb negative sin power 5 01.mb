@@ -1,0 +1,33 @@
+[Eye]
+X=0
+Y=0
+Z=1
+[Look At]
+X=0
+Y=0
+Z=0
+[Zoom]
+Zoom=0.8
+[Light]
+X=1
+Y=1
+Z=-10
+[Rotation]
+X=140
+Y=0
+Z=0
+[Settings]
+Iterations=4
+Epsilon=0.0001
+Power=5
+Brightness=100
+Shading=0
+Negative SIN=1
+Palette=IFS15.MAP
+Juliabulb=1
+Julia Real=0.390046739714317
+Julia Imaginary=-0.227988548652613
+Shadows=1
+Supersample=1
+Supersample Pixels=0
+Bailout=4

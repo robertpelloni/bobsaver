@@ -1,0 +1,29 @@
+[Settings]
+Input Phrase=A beautiful painting of dense woodland by james gurney trending on artstation
+Script=Disco Diffusion *
+Random seed=3936407
+Iterations=250
+[Disco Diffusion]
+Guidance Scale=5000
+TV Scale=150
+Range Scale=150
+Saturation Scale Scale=0
+Cutouts=40
+Cutout Batches=1
+ETA=0.5
+256 Model=0
+ddim=1
+CLIP Denoised=0
+Model 1=1
+Model 2=1
+Model 3=1
+Model 4=0
+Model 5=1
+Model 6=0
+Model 7=0
+Model 8=0
+Use Augs=0
+Dango=1
+Seed Image=
+Seed Image Init Scale=2000
+Seed Image SkipTimesteps=175

@@ -1,0 +1,23 @@
+[Settings]
+animations='zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin', 'zoomin'
+prompt_durations=5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 
+model_version=2.2
+seed=12345
+w=512
+h=512
+fps=15
+[Prompts]
+Line0=the universe
+Line1=a cluster of galaxies
+Line2=a galaxy
+Line3=a solar system
+Line4=a planet
+Line5=a continent
+Line6=a city
+Line7=a house
+Line8=a person
+Line9=a brain
+Line10=a neuron
+Line11=a cell
+Line12=an atom
+Line13=subatomic particles

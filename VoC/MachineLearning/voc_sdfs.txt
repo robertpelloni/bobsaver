@@ -1,0 +1,30 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.35.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/huggingface/diffusers@50a749e90990932d49556ee54a333278559722f3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/openai/CLIP@a1d071733d7111c9c014f024669f959182114e33
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torchmetrics==1.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.24.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts peft==0.6.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio-ffmpeg==0.4.9
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts easydict==1.11
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.66.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.7.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv-python==4.8.1.78
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts timm==0.9.12
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scikit-image==0.22.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts jsonmerge==1.9.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts clean-fid==0.1.35
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts resize_right==0.0.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torchdiffeq==0.2.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torchsde==0.2.6
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts ipywidgets==8.1.1
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip uninstall -y charset-normalizer
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts charset-normalizer==3.3.2
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

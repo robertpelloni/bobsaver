@@ -1,0 +1,42 @@
+[Settings]
+Particle Count=1000000
+Rest Density=20
+Stiffness=0.08
+Near Stiffness=0.1
+Surface Tension=0.0003
+Linear Viscosity=20
+Quadratic Viscosity=40
+Delta Time=0.001
+Sub Steps=15
+Gravity=9.8
+View Width Scale=1.0
+[Emitter 1]
+Color=clAqua
+Mass=1
+Position=2
+X Direction=0
+Y Direction=-2.7
+Size=1.9
+Speed=2
+[Emitter 2]
+Color=$004080FF
+Enabled=1
+Mass=3
+Position=3
+X Direction=0
+Y Direction=-2.7
+Size=1.9
+Speed=2
+[Emitter 3]
+Color=clFuchsia
+Enabled=1
+Mass=2
+Position=1
+X Direction=0
+Y Direction=-2.7
+Size=1.9
+Speed=2
+[Rayleigh-Taylor]
+Enabled=0
+Clamped=0
+Clamp Amount=10

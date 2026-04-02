@@ -1,0 +1,119 @@
+#version 460
+
+// original shader by https://www.reddit.com/user/slackermanz/
+
+// uniform values passed in by Visions of Chaos each frame
+uniform vec2 resolution; //image resolution in x and y pixels
+uniform float time; //time elapsed in ms since shader started running
+uniform vec2 mouse; //mouse x and y coordinates
+uniform int frames; //which frame is this being rendered
+uniform sampler2D txdata; //previous frame buffer texture
+uniform float random1; //different random float value each frame
+
+out vec4 glFragColor;
+
+float seed = 0.0;
+// Shader developed by Slackermanz:
+// https://www.reddit.com/user/slackermanz/
+// https://github.com/Slackermanz/VulkanAutomata
+float gdv(float x, float y, int v, float div) {
+// Get Div Value: Return the value of a specified pixel
+// x, y : Relative integer-spaced coordinates to origin [ 0.0, 0.0 ]
+// v : Colour channel [ 0, 1, 2 ]
+// div : Integer-spaced number of toroidal divisions of the surface/medium
+    float divx = resolution.x / div;
+    float divy = resolution.y / div;
+    float pxo = 1.0 / resolution.x;
+    float pyo = 1.0 / resolution.y;
+    float fcxo = gl_FragCoord.x + x;
+    float fcyo = gl_FragCoord.y + y;
+    float fcx = (mod(fcxo,divx) + floor(gl_FragCoord.x/divx)*divx ) * pxo;
+    float fcy = (mod(fcyo,divy) + floor(gl_FragCoord.y/divy)*divy ) * pyo;
+    vec4 pxdata = texture2D( txdata, vec2(fcx, fcy) );
+    return pxdata[v];
+}
+vec3 nhd( vec2 nbhd, vec2 ofst, float psn, float thr, int col, float div ) {
+// Neighbourhood: Return information about the specified group of pixels
+    float dist = 0.0;
+    float cval = 0.0;
+    float c_total = 0.0;
+    float c_valid = 0.0;
+    float c_value = 0.0;
+    for(float i = -nbhd[0]; i <= nbhd[0]; i += 1.0) {
+        for(float j = -nbhd[0]; j <= nbhd[0]; j += 1.0) {
+            dist = floor(sqrt(i*i+j*j)+0.5);
+            if( dist <= nbhd[0] && dist > nbhd[1] && dist != 0.0 ) {
+                cval = gdv(i+ofst[0],j+ofst[1],col,div);
+                c_total += psn;
+                if( cval > thr ) {
+                    c_valid += psn;
+                    cval = psn * cval;
+                    c_value += cval-fract(cval); } } } } 
+    return vec3( c_value, c_valid, c_total );
+}
+float get_xc(float x, float y, float xmod) {
+// Used to reseed the surface with noise
+    float sq = sqrt(mod(x*y+y, xmod)) / sqrt(xmod);
+    float xc = mod((x*x)+(y*y), xmod) / xmod;
+    return clamp((sq+xc)*0.5, 0.0, 1.0);
+}
+float shuffle(float x, float y, float xmod, float val) {
+// Used to reseed the surface with noise
+    val = val * mod( x*y + x, xmod );
+    return (val-floor(val));
+}
+float get_xcn(float x, float y, float xm0, float xm1, float ox, float oy) {
+// Used to reseed the surface with noise
+    float xc = get_xc(x+ox, y+oy, xm0);
+    return shuffle(x+ox, y+oy, xm1, xc);
+}
+float get_lump(float x, float y, float nhsz, float xm0, float xm1) {
+// Used to reseed the surface with noise
+    float nhsz_c = 0.0;
+    float xcn = 0.0;
+    float nh_val = 0.0;
+    for(float i = -nhsz; i <= nhsz; i += 1.0) {
+        for(float j = -nhsz; j <= nhsz; j += 1.0) {
+            nh_val = floor(sqrt(i*i+j*j)+0.5);
+            if(nh_val <= nhsz) {
+                xcn = xcn + get_xcn(x, y, xm0, xm1, i, j);
+                nhsz_c = nhsz_c + 1.0; } } }
+    float xcnf = ( xcn / nhsz_c );
+    float xcaf = xcnf;
+    for(float i = 0.0; i <= nhsz; i += 1.0) {
+            xcaf = clamp((xcnf*xcaf + xcnf*xcaf) * (xcnf+xcnf), 0.0, 1.0); }
+    return xcaf;
+}
+float reseed2(float seed) {
+// Used to reseed the surface with noise
+    float r0 = get_lump(gl_FragCoord.x, gl_FragCoord.y, 2.0, 19.0 + mod(float(frames+random1)+seed,17.0), 23.0 + mod(float(frames+random1)+seed,43.0));
+    float r1 = get_lump(gl_FragCoord.x, gl_FragCoord.y, 12.0, 13.0 + mod(float(frames+random1)+seed,29.0), 17.0 + mod(float(frames+random1)+seed,31.0));
+    float r2 = get_lump(gl_FragCoord.x, gl_FragCoord.y, 4.0, 13.0 + mod(float(frames+random1)+seed,11.0), 51.0 + mod(float(frames+random1)+seed,37.0));
+    return clamp((r0+r1)-r2,0.0,1.0);
+}
+float split_ring_nh(vec2 nh, float[12] e0, float[12] e1){
+    float e0_sum = 0.0;
+    float e1_sum = 0.0;
+    for(int i = int(nh[1]); i < int(nh[0]); i++) {
+        e0_sum = e0_sum + e0[i];
+        e1_sum = e1_sum + e1[i];
+    }
+    return e0_sum / e1_sum;
+}
+void main() {
+// ---- ---- ---- ---- ---- ---- ---- ----
+// Shader Initilisation
+// ---- ---- ---- ---- ---- ---- ---- ----
+    const int VMX = 52; // Evolution Variables
+    const int SMX = 12; // Maximum NH Size
+    float psn = 250.0; // Precision
+    float mnp = 0.004; // Minimum Precision Value : (1.0 / psn);
+    float div = 1.0; // Toroidal Surface Divisions
+    float divi = floor((gl_FragCoord.x*div)/(resolution.x)) 
+                        + floor((gl_FragCoord.y*div)/(resolution.y))*div; // Division Index
+    float dspace = (divi+1.0)/(div*div);
+                dspace = (div == 1.0) ? 0.5 : dspace; // Division Weight
+    vec3 col = vec3( 0.0, 0.0, 0.0 ); // Final colour value output container
+
+// Uniform Buffer V number
+    float[VMX] ubvn = float[VMX]

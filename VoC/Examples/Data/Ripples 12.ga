@@ -1,0 +1,19 @@
+[GA Rule]
+Rule=eAiAd
+[Image Options]
+Palette File=JACCO198.MAP
+Smooth Colors=0
+Random Offsets=1
+Overlay Mode=0
+Coordinate Width=3
+[Gene Character Offsets]
+Xoffset1=-9
+Yoffset1=1
+Xoffset2=7
+Yoffset2=2
+Xoffset3=-6
+Yoffset3=0
+Xoffset4=5
+Yoffset4=-9
+Xoffset5=-7
+Yoffset5=-4

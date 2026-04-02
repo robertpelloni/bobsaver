@@ -1,0 +1,20 @@
+[Settings]
+Boid Count=10000
+Max Steer Force=0.05
+Max Speed=2
+Separation Strength=1.7
+Alignment Strength=1
+Cohesion Strength=1.5
+View Distance=1
+Wall Style=1
+Background Color=clBlack
+Boid Size=0.5
+Boid Shape=0
+Avoid Strength=2
+Start Style=0
+Leave Trails=0
+Trail Length=10
+Trail Thickness=1
+X Size=100
+Y Size=200
+Z Size=100

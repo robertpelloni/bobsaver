@@ -1,0 +1,10 @@
+[Settings]
+Formula=0
+Xmin=3.561625
+Xmax=3.626125
+Ymin=0.874166666666667
+Ymax=0.895833333333333
+Iterations=500000
+Skip Iterations=100
+Background Color=clBlack
+Palette=Flame 561_Fiery_Sky.map

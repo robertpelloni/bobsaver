@@ -1,0 +1,65 @@
+[Objects]
+Count=7
+[Object Settings]
+Object 1 X=50
+Object 1 Y=50
+Object 1 Z=50
+Object 1 Mass=1
+Object 2 X=10
+Object 2 Y=50
+Object 2 Z=50
+Object 2 Mass=1
+Object 3 X=90
+Object 3 Y=50
+Object 3 Z=50
+Object 3 Mass=1
+Object 4 X=50
+Object 4 Y=10
+Object 4 Z=50
+Object 4 Mass=1
+Object 5 X=50
+Object 5 Y=90
+Object 5 Z=50
+Object 5 Mass=1
+Object 6 X=50
+Object 6 Y=50
+Object 6 Z=10
+Object 6 Mass=1
+Object 7 X=50
+Object 7 Y=50
+Object 7 Z=90
+Object 7 Mass=1
+Object 1 Show=Yes
+Object 1 Color=$00082842
+Object 2 Show=Yes
+Object 2 Color=$002B6696
+Object 3 Show=Yes
+Object 3 Color=$0053A0E3
+Object 4 Show=Yes
+Object 4 Color=$003C94EE
+Object 5 Show=Yes
+Object 5 Color=$00126CC7
+Object 6 Show=Yes
+Object 6 Color=$0006598F
+Object 7 Show=Yes
+Object 7 Color=$00004552
+[Settings]
+Grid Size=50
+Iterations=120
+Mingravdist=0
+Algorithm=1
+Only State 0=0
+Color palette=colorschemer kenya cocoa.MAP
+Simulation Space Width=50
+Slice Open=0
+[MGS]
+Gravity Constant=0.36
+Delta Time=2.5
+Escape Velocity=0
+Escape Radius=10000
+[Magnetic Pendulum]
+Friction=0.97
+Field Strength=10
+Gravitation=0.1
+Distance Above Magnets=0
+Pendulum Mass=30

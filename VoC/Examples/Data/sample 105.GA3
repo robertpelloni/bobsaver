@@ -1,0 +1,20 @@
+[Settings]
+Formula=((pi-sin(4.4))-((x/arctan(1.7))-(5.4%int(y))))
+Color Palette=Perlin119.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((y*sin(5.5))/(y/(7.1-arctan(y))))
+Gene1=((y*(y/4.2))/(2.6/x))
+Gene2=(((x/y)%(5.4/frac(1.1)))%(((0.6%5.2)*0.9)/cos(((4*sqrt(7.2))+(7.6%log2(y))))))
+Gene3=(((y-tan(x))-(9.5-9.4))-(9.7+y))
+Gene4=(((x-(x+log2(x)))+(x%1.2))-((x/arctan(2.6))-(3.1%int(y))))
+Gene5=((y*sin(5.5))-((x/arctan(2.6))-(3.1%int(y))))
+Gene6=((y*(y/4.2))+((x/arctan(2.6))-(3.1%int(y))))
+Gene7=((y*sin(1.6))+((x/cos(2.6))-(8.8%int(y))))
+Gene8=((y*sin(5.5))-(9.7+y))
+Gene9=((y*sin(5.5))*((x/arctan(2.6))-(3.1%int(y))))
+Gene10=((pi-sin(4.4))-((x/arctan(1.7))-(5.4%int(y))))
+Gene11=((y*(y/4.2))%(9.7+y))

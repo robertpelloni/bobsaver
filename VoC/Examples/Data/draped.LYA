@@ -1,0 +1,11 @@
+[Coords]
+amin=0.829296875
+amax=2.030078125
+bmin=2.86666666666667
+bmax=4.08888888888889
+[Settings]
+absequence=BBBABAABBABAAAAAABBABABABBBBBAAAABABABBABABAAAAA
+xstart=0.1
+init=100
+nlyap=300
+palette=sinpal17.MAP

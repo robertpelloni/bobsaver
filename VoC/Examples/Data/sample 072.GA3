@@ -1,0 +1,35 @@
+[Settings]
+Formula=(((pi%1.4)%(x%sin(((y/8.4)+abs((x/5.5))))))%((pi%1.4)%(x%sin(((y/8.4)+abs((x/2.9)))))))
+Color Palette=IFS22.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((y-x)*(0.3%pi))
+Gene1=(x%8.3)
+Gene2=(pi-arctan(y))
+Gene3=((x%y)-sgn((x-y)))
+Gene4=((x%8.3)%(pi-arctan(y)))
+Gene5=(pi*sin(((y/1.6)+tan((x/6.9)))))
+Gene6=((x%9.4)%(pi-sgn(y)))
+Gene7=((x%8.3)*(pi*sin(((y/1.6)+tan((x/6.9))))))
+Gene8=(((x%9.4)%(pi-sgn(y)))*((x%8.3)%(pi-arctan(y))))
+Gene9=((pi%8.3)%(pi*sin(((y/1.6)+abs((x/6.9))))))
+Gene10=((x%9.4)%(pi*sin(((y/1.6)+tan((x/6.9))))))
+Gene11=(((pi%8.3)%(pi*sin(((y/1.6)+abs((x/6.9))))))+(((x%9.4)%(pi-sgn(y)))*((x%8.3)%(pi-arctan(y)))))
+Gene12=((x%4.4)-(pi*sin(((y/1.6)+tan((x/0.2))))))
+Gene13=((pi%8.3)%(x*sin(((y/8.4)+abs((x/6.9))))))
+Gene14=((pi%8.3)+(x*sin(((y/5)+abs((x/5.6))))))
+Gene15=(((pi%8.3)%(x*sin(((y/8.4)+abs((x/6.9))))))%((x%9.4)%(pi*sin(((y/1.6)+tan((x/6.9)))))))
+Gene16=((pi%8.3)%(x*sin(((y/5)+abs((x/5.6))))))
+Gene17=((pi%1.4)-(x%sin(((y/8.4)+abs((x/3.1))))))
+Gene18=(((pi%8.3)%(x*sin(((y/8.4)+abs((x/7.4))))))%((x+9.9)%(pi*sin(((y/2.9)+tan((x/6.9)))))))
+Gene19=(((pi%8.3)%(x*sin(((y/8.4)+abs((x/6.9))))))%((pi%1.4)-(x%sin(((y/8.4)+abs((x/3.1)))))))
+Gene20=((pi%2.6)%(x%sin(((y/8.4)+abs((x/2.9))))))
+Gene21=((pi%1.4)%(x%sin(((y/8.4)+abs((x/2.9))))))
+Gene22=((pi%1.4)%(x%sin(((y/8.4)+abs((x/5.5))))))
+Gene23=(((pi%1.4)%(x%sin(((y/8.4)+abs((x/5.5))))))-((pi%2.6)%(x%sin(((y/8.4)+abs((x/2.9)))))))
+Gene24=(((pi%1.4)%(x%sin(((y/8.4)+abs((x/5.5))))))%(x%sin(((y/8.4)+abs((x/2.9))))))
+Gene25=((((pi%1.4)%(x%sin(((y/8.4)+abs((x/5.5))))))-((pi%2.6)%(x%sin(((y/8.4)+abs((x/2.9)))))))+((pi%1.4)%(x%sin(((y/8.4)+abs((x/2.9)))))))
+Gene26=(((pi%1.4)%(x%sin(((y/8.4)+abs((x/5.5))))))%((pi%1.4)%(x%sin(((y/8.4)+abs((x/2.9)))))))

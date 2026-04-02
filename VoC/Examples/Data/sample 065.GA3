@@ -1,0 +1,20 @@
+[Settings]
+Formula=(((5.1*int(x))%(y*pi))-(((5.7*int(x))%(y*pi))-((pi*x)*(pi+cos(y)))))
+Color Palette=colorschemer autumn fire.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((y-x)*(y*pi))
+Gene1=(y*arctan(x))
+Gene2=((pi*x)*(pi+cos(y)))
+Gene3=((5.7*int(x))*arctan((pi*sqr(y))))
+Gene4=((pi+x)%(y/cos(y)))
+Gene5=((5.7*int(x))%(y*pi))
+Gene6=(y+arctan(x))
+Gene7=(((5.7*int(x))%(y*pi))-((pi*x)*(pi+cos(y))))
+Gene8=(((5.7*int(x))%(y*pi))+((pi*x)*(pi+cos(y))))
+Gene9=(((5.1*int(x))%(y*pi))/((pi*x)*(pi+cos(y))))
+Gene10=((y+arctan(x))%(((5.7*int(x))%(y*pi))-((pi*x)*(pi+cos(y)))))
+Gene11=(((5.1*int(x))%(y*pi))-(((5.7*int(x))%(y*pi))-((pi*x)*(pi+cos(y)))))

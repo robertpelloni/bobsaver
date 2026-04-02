@@ -1,0 +1,8 @@
+[Settings]
+Rule String=6666013544441535500610655260402001504453314513444
+Num States=5
+Initial Population=0
+[Colors]
+Background=clWhite
+State 1=clRed
+Final=clBlack

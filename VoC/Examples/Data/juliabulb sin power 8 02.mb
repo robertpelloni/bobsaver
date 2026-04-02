@@ -1,0 +1,44 @@
+[Eye]
+X=0
+Y=0
+Z=1
+[Look At]
+X=0
+Y=0
+Z=0
+[Zoom]
+Zoom=0.8
+[Light]
+X=0
+Y=0
+Z=-10
+[Rotation]
+X=140
+Y=45
+Z=0
+[Settings]
+Iterations=5
+Epsilon=0.0001
+Power=8
+Brightness=100
+Shading=1
+Negative SIN=0
+Palette=JACCO283.MAP
+Juliabulb=1
+Julia Real=-0.793098625715824
+Julia Imaginary=0.281458255882437
+Julia Imaginary 2=0.175516702234745
+Shadows=1
+Supersample=1
+Supersample Pixels=0
+Bailout=4
+Spikes=0
+Spikes Y Maximum=0.5
+Specularity=0.45
+Glow Effect=0
+Glow Color=$00C08080
+Glow Threshold=150
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.7
+Ambient Occlusion Max Orbit=1.0

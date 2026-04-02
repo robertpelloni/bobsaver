@@ -1,0 +1,10 @@
+[Settings]
+prompt=surrealism by magritte, 8K, HD, HQ, 4K
+negative_prompt=frame, ugly, blur, text, collage, multiple images
+width=512
+num_inference_steps=30
+guidance_scale=7
+num_outpainting_steps=60
+num_interpol_frames=60
+seed=582474015
+fps=30

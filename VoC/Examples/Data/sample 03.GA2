@@ -1,0 +1,7 @@
+[Settings]
+Formula=sqr(x+4.82)%cos(y+4.72)+sin(y+9.8)/sin(x-1.97)%cos(y-5.02)
+Palette=Gravity 2D 03.MAP
+Xmin=-5
+Xmax=5
+ymin=-5
+ymax=5

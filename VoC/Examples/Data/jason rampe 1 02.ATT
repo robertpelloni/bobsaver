@@ -1,0 +1,13 @@
+[Settings]
+Attractor Name=Jason Rampe 1
+Palette=image frequency waves.MAP
+Parameter A=1.8285
+Parameter B=-1.8539
+Parameter C=0.3816
+Parameter D=1.9765
+Formula=1
+[Coordinates]
+Xmin=-5.16666666666667
+Xmax=5.38888888888889
+Ymin=-2.97555555555556
+Ymax=3.14722222222222

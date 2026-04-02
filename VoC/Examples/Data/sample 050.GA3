@@ -1,0 +1,23 @@
+[Settings]
+Formula=(((7.8%cos(x))/(((9.7%cos(x))+(0-abs(y)))-((2.1%2.5)+sin((x*arctan(y))))))%((((7.8%cos(x))-(((7.8%cos(x))+(1.3-abs(y)))-((2.1%3.2)+sin((x*arctan(y))))))%(((7.8%cos(x))+(1.3-abs(y)))*((2.1%4.1)+sin((x*int(y))))))%(((5.8%cos(x))+(1.3-abs(y)))%((2.1%4.1)+sin((x*int(y)))))))
+Color Palette=FIRECOD2.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(y%cos(x))
+Gene1=(1.3-abs(y))
+Gene2=((2.1%4.1)+sin((x*int(y))))
+Gene3=((x%y)%(x+7.5))
+Gene4=(7.8%cos(x))
+Gene5=((7.8%cos(x))+(1.3-abs(y)))
+Gene6=(((7.8%cos(x))+(1.3-abs(y)))*((2.1%4.1)+sin((x*int(y)))))
+Gene7=(((5.8%cos(x))+(1.3-abs(y)))%((2.1%4.1)+sin((x*int(y)))))
+Gene8=(((7.8%cos(x))+(1.3-abs(y)))%(1.3-abs(y)))
+Gene9=((7.8%cos(x))-(((7.8%cos(x))+(1.3-abs(y)))-((2.1%3.2)+sin((x*arctan(y))))))
+Gene10=((((7.8%cos(x))-(((7.8%cos(x))+(1.3-abs(y)))-((2.1%3.2)+sin((x*arctan(y))))))%(((7.8%cos(x))+(1.3-abs(y)))*((2.1%4.1)+sin((x*int(y))))))%(((5.8%cos(x))+(1.3-abs(y)))%((2.1%4.1)+sin((x*int(y))))))
+Gene11=((7.8%cos(x))/(((9.7%cos(x))+(0-abs(y)))-((2.1%2.5)+sin((x*arctan(y))))))
+Gene12=(((7.8%cos(x))-(((7.8%cos(x))+(1.3-abs(y)))-((2.1%3.2)+sin((x*arctan(y))))))%(((7.8%cos(x))-(((7.8%cos(x))+(1.3-abs(y)))-((2.1%3.2)+sin((x*arctan(y))))))%(((7.8%cos(x))+(1.3-abs(y)))*((2.1%4.1)+sin((x*int(y)))))))
+Gene13=(((7.8%cos(x))-(((7.8%cos(x))+(1.3-abs(y)))-((2.1%3.2)+sin((x*arctan(y))))))+(1.3-abs(y)))
+Gene14=(((7.8%cos(x))-(((7.8%cos(y))/(1.3-abs(y)))-((7.4%5.2)+sin((x*arctan(y))))))+(1.3-abs(y)))

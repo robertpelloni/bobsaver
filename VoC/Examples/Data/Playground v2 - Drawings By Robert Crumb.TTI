@@ -1,0 +1,46 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=84926560
+Iterations=100
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Model Version=v2
+Playgroundv2NegativePrompt=blurry, out of focus, tiltshift, low depth of field, low quality
+Playgroundv2GuidanceScale=3
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.2
+PlaygroundV2Scheduler=DDPMScheduler
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Movie Rotate=0:0,30:-0.219,60:-0.516,90:-0.737,120:0.641,150:0.499,180:-0.269,210:0.169,240:0.797,270:-0.499,300:-0.290,330:0.599,360:-0.231,390:0.621,420:0.356,450:-0.512,480:-0.371,510:0.760,540:-0.593,570:0.318,600:-0.815,630:0.115,660:0.942,690:-0.823,720:-0.193,750:0.824,780:-0.922,810:-0.516,840:0.343,870:-0.408,900:0.721
+In Script Movie Pan X=0:0,30:0.653,60:0.031,90:-0.981,120:0.593,150:-0.933,180:0.821,210:0.286,240:-0.359,270:0.587,300:-0.730,330:-0.586,360:0.930,390:-0.041,420:-0.527,450:-0.956,480:0.421,510:-0.542,540:0.699,570:-0.441,600:0.251,630:0.028,660:-0.073,690:0.821,720:-0.426,750:0.303,780:0.267,810:-0.701,840:0.642,870:0.526,900:0.941
+In Script Movie Pan Y=0:0,30:0.557,60:-0.893,90:0.276,120:0.193,150:-0.858,180:-0.882,210:0.471,240:0.098,270:-0.910,300:0.133,330:0.782,360:-0.375,390:0.346,420:0.869,450:-0.022,480:-0.124,510:0.759,540:-0.001,570:-0.795,600:0.814,630:-0.500,660:0.997,690:-0.320,720:0.931,750:0.033,780:-0.822,810:0.819,840:0.699,870:-0.860,900:0.934
+In Script Movie Contrast=1
+In Script Movie Sharpness=0
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Noise=35
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+In Script Movie Color Matching=1
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:highly detailed ink drawings by Robert Crumb

@@ -1,0 +1,60 @@
+[Eye]
+X=0
+Y=0
+Z=0.9
+[Look At]
+X=0
+Y=0
+Z=-0.1
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=60
+[Light]
+X=0
+Y=-3
+Z=-10
+[Rotation]
+X=140
+Y=0
+Z=0
+[Settings]
+Iterations=5
+Epsilon=0.0001
+Power=8
+Gamma=0
+Contrast=0
+Shading=1
+Formula=4
+Formula Variation=7
+Bailout=4
+Palette=JACCO270.MAP
+Spikes=0
+Spikes Y Maximum=0.0629401176702231
+Juliabulb=0
+Julia Real=-1.41622631434129
+Julia Imaginary=-0.0844828495579103
+Julia Imaginary 2=-0.653611922170967
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=clYellow
+Glow Threshold=150
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.4
+Ambient Occlusion Max Orbit=1.0
+Supersample=0
+Supersample Pixels=0
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Phase=0
+Theta Scale=0.989489852450788
+Phi Scale=-0.68069500150159

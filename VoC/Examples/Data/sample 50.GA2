@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos(y/x)%frac((x/9.4)%int((pi*2.9)))
+Palette=kuler cumulonimbus.MAP
+Xmin=-9.47222222222222
+Xmax=9.16666666666667
+Ymin=-9.54861111111111
+Ymax=9.16666666666667

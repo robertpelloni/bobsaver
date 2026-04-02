@@ -1,0 +1,22 @@
+[Settings]
+Formula=(((((x/3.6)-9.1)%(((x+y)%(pi/sin(x)))*abs(((y/ln(pi))*(y*x)))))+((pi/(y/sqr(x)))%(2.7-(0.3-5.8))))-((((((pi-cos(y))*(y/pi))%((pi/(y/sqr(x)))%(2.7-(0.3-5.8))))+(((pi/sqr(6.6))+arctan((y/4.9)))-((pi/y)%(x-arctan(8)))))-((((x/3.6)-9.1)%(((x+y)%(pi/sin(x)))*abs(((y/ln(pi))*(y*x)))))-sgn((y%(pi%y)))))-((((pi-cos(y))*(y/pi))%((pi/(y/sqr(x)))%(2.7-(0.3-5.8))))+(((pi/sqr(6.6))+arctan((y/4.9)))-((pi/y)%(x-arctan(8)))))))
+Color Palette=kuler i salute king tut.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((((x/3.6)-9.1)%(((x+y)%(pi/sin(x)))*abs(((y/ln(pi))*(y*x)))))+(((x%sqrt(7.5))%tan((y-log2(pi))))-(pi*(y-int(pi)))))
+Gene1=((pi-cos(y))*(y/pi))
+Gene2=((pi/(y/sqr(x)))%(2.7-(0.3-5.8)))
+Gene3=((pi-y)-sgn((y%(pi%y))))
+Gene4=(((pi/sqr(6.6))+arctan((y/4.9)))-((pi/y)%(x-arctan(8))))
+Gene5=((((x/3.6)-9.1)%(((x+y)%(pi/sin(x)))*abs(((y/ln(pi))*(y*x)))))-sgn((y%(pi%y))))
+Gene6=(((pi-cos(y))*(y/pi))%((pi/(y/sqr(x)))%(2.7-(0.3-5.8))))
+Gene7=(((pi/(y/sqr(x)))%(2.7-(0.3-5.8)))+((pi-y)-sgn((y%(pi%y)))))
+Gene8=((((pi-cos(y))*(y/pi))%((pi/(y/sqr(x)))%(2.7-(0.3-5.8))))+(((pi/sqr(6.6))+arctan((y/4.9)))-((pi/y)%(x-arctan(8)))))
+Gene9=((((x/3.6)-9.1)%(((x+y)%(pi/sin(x)))*abs(((y/ln(pi))*(y*x)))))+((pi/(y/sqr(x)))%(2.7-(0.3-5.8))))
+Gene10=(((((pi-cos(y))*(y/pi))%((pi/(y/sqr(x)))%(2.7-(0.3-5.8))))+(((pi/sqr(6.6))+arctan((y/4.9)))-((pi/y)%(x-arctan(8)))))-((((x/3.6)-9.1)%(((x+y)%(pi/sin(x)))*abs(((y/ln(pi))*(y*x)))))-sgn((y%(pi%y)))))
+Gene11=(((((x/3.6)-9.1)%(((x+y)%(pi/sin(x)))*abs(((y/ln(pi))*(y*x)))))+((pi/(y/sqr(x)))%(2.7-(0.3-5.8))))-((((pi-cos(y))*(y/pi))%((pi/(y/sqr(x)))%(2.7-(0.3-5.8))))+(((pi/sqr(6.6))+arctan((y/4.9)))-((pi/y)%(x-arctan(8))))))
+Gene12=((((((pi-cos(y))*(y/pi))%((pi/(y/sqr(x)))%(2.7-(0.3-5.8))))+(((pi/sqr(6.6))+arctan((y/4.9)))-((pi/y)%(x-arctan(8)))))-((((x/3.6)-9.1)%(((x+y)%(pi/sin(x)))*abs(((y/ln(pi))*(y*x)))))-sgn((y%(pi%y)))))-((((pi-cos(y))*(y/pi))%((pi/(y/sqr(x)))%(2.7-(0.3-5.8))))+(((pi/sqr(6.6))+arctan((y/4.9)))-((pi/y)%(x-arctan(8))))))
+Gene13=(((((x/3.6)-9.1)%(((x+y)%(pi/sin(x)))*abs(((y/ln(pi))*(y*x)))))+((pi/(y/sqr(x)))%(2.7-(0.3-5.8))))*((((((pi-cos(y))*(y/pi))%((pi/(y/sqr(x)))%(2.7-(0.3-5.8))))+(((pi/sqr(6.6))+arctan((y/4.9)))-((pi/y)%(x-arctan(8)))))-((((x/3.6)-9.1)%(((x+y)%(pi/sin(x)))*abs(((y/ln(pi))*(y*x)))))-sgn((y%(pi%y)))))-((((pi-cos(y))*(y/pi))%((pi/(y/sqr(x)))%(2.7-(0.3-5.8))))+(((pi/sqr(6.6))+arctan((y/4.9)))-((pi/y)%(x-arctan(8)))))))

@@ -1,0 +1,9 @@
+[Settings]
+Aggregation Threshold=1
+Threshold Growth Rate=0.1
+Accretion Amount=75
+Max Particle Velocity=20
+Blur Frequency=50
+Random Seed=2022384445
+Start Pattern=0
+Palette=colorschemer bearded iris.MAP

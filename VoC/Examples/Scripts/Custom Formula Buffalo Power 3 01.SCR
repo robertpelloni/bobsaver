@@ -1,0 +1,181 @@
+Global Script Settings
+	Palette=Flame 363_vchira_0015.jpg.map
+	Fractal Type=Custom Formula
+	Bailout=8
+	Samplepixels=2
+	Total Shader Lines=84
+	Line 0=#version 400
+	Line 1=
+	Line 2=//the following uniform values are set by Visions of Chaos prior to shader execution
+	Line 3=uniform vec2 resolution;
+	Line 4=uniform vec3 palette[256];
+	Line 5=uniform double xmin;
+	Line 6=uniform double xmax;
+	Line 7=uniform double ymin;
+	Line 8=uniform double ymax;
+	Line 9=uniform double bailout;
+	Line 10=uniform int maxiters;
+	Line 11=uniform int samplepixels;
+	Line 12=
+	Line 13=
+	Line 14=
+	Line 15=double sqrsamplepixels=double(samplepixels*samplepixels);
+	Line 16=double bailout_squared=double(bailout*bailout);
+	Line 17=double magnitude,r1,r2,g1,g2,b1,b2,tweenval;
+	Line 18=float realiters;
+	Line 19=vec4 finalcol,col;
+	Line 20=int superx,supery;
+	Line 21=double stepx=(xmax-xmin)/resolution.x/double(samplepixels);
+	Line 22=double stepy=(ymax-ymin)/resolution.y/double(samplepixels);
+	Line 23=int index,colval,colval2;
+	Line 24=dvec2 z,c;
+	Line 25=
+	Line 26=void main(void)
+	Line 27={
+	Line 28=    finalcol=vec4(0,0,0,0);
+	Line 29=    for (supery=0;supery<samplepixels;supery++)
+	Line 30=    {
+	Line 31=        for (superx=0;superx<samplepixels;superx++)
+	Line 32=        {
+	Line 33=            c.x = xmin+gl_FragCoord.x/resolution.x*(xmax-xmin)+(stepx*double(superx));
+	Line 34=            
+	Line 35=            c.y = ymin+gl_FragCoord.y/resolution.y*(ymax-ymin)+(stepy*double(supery));
+	Line 36=            int i;
+	Line 37=            z = dvec2(0.0,0.0);
+	Line 38=            for(i=0; i<maxiters; i++) 
+	Line 39=            {
+	Line 40=                ////////////////////////////////////////////////////////////////////
+	Line 41=                //START OF FRACTAL FORMULA
+	Line 42=                ////////////////////////////////////////////////////////////////////
+	Line 43=		    double zisqr = z.y * z.y;
+	Line 44=		    double zrsqr = z.x * z.x;
+	Line 45=                double x = abs((zrsqr-(zisqr*3.0))*z.x)+c.x;
+	Line 46=                double y = abs(((zrsqr*3.0)-zisqr)*z.y)+c.y;
+	Line 47=                ////////////////////////////////////////////////////////////////////
+	Line 48=                //END OF FRACTAL FORMULA
+	Line 49=                ////////////////////////////////////////////////////////////////////
+	Line 50=                
+	Line 51=                magnitude=(x * x + y * y);
+	Line 52=                if(magnitude>bailout_squared) break;
+	Line 53=                z.x = x;
+	Line 54=                z.y = y;
+	Line 55=            }
+	Line 56=
+	Line 57=            if (i==maxiters) {
+	Line 58=                col=vec4(0.0,0.0,0.0,1.0);
+	Line 59=            } else {
+	Line 60=		  //iteration bands
+	Line 61=                //index=int(mod(double(i),256.0));
+	Line 62=                //col=vec4(vec3(palette[index].rgb),1.0);
+	Line 63=
+	Line 64=		  //CPM smooth colors
+	Line 65=		  //note that double precision does not support log so it needs to be cast as float
+	Line 66=                realiters=float(i+1-((log(log(sqrt(float(magnitude))))/log(3.0))));
+	Line 67=                colval=int(mod(realiters,255));
+	Line 68=                colval2=int(mod(colval+1,255));
+	Line 69=                tweenval=realiters-int(realiters);
+	Line 70=                r1=palette[colval].r;
+	Line 71=                g1=palette[colval].g;
+	Line 72=                b1=palette[colval].b;
+	Line 73=                r2=palette[colval2].r;
+	Line 74=                g2=palette[colval2].g;
+	Line 75=                b2=palette[colval2].b;
+	Line 76=                col=vec4(r1+((r2-r1)*tweenval),g1+((g2-g1)*tweenval),b1+((b2-b1)*tweenval),1.0);
+	Line 77=            }
+	Line 78=
+	Line 79=            finalcol+=col;
+	Line 80=        }
+	Line 81=    }
+	Line 82=    gl_FragColor = vec4(finalcol/double(sqrsamplepixels));
+	Line 83=}
+Point 1
+	XMin=-2.45157414215138
+	XMax=2.08966338797209
+	YMin=-1.56188141367431
+	YMax=1.06919808034098
+	Iterations=256
+	Tween Steps=0
+Point 2
+	XMin=-1.56551247364364
+	XMax=-1.09776500804093
+	YMin=-0.147968527807093
+	YMax=0.123032660076481
+	Iterations=256
+	Tween Steps=120
+Point 3
+	XMin=-1.36072191399002
+	XMax=-1.31254392503294
+	YMin=-0.0705876515853001
+	YMax=-0.0426745292332919
+	Iterations=256
+	Tween Steps=120
+Point 4
+	XMin=-1.33939010567117
+	XMax=-1.33442777280859
+	YMin=-0.0668690033964048
+	YMax=-0.0639939517941479
+	Iterations=256
+	Tween Steps=120
+Point 5
+	XMin=-1.33731569546171
+	XMax=-1.33680457517686
+	YMin=-0.0659176275245395
+	YMax=-0.065621497209507
+	Iterations=256
+	Tween Steps=120
+Point 6
+	XMin=-1.33689026236295
+	XMax=-1.33683761697361
+	YMin=-0.0658274503597174
+	YMax=-0.065796948937269
+	Iterations=256
+	Tween Steps=120
+Point 7
+	XMin=-1.33686804929899
+	XMax=-1.33686262682388
+	YMin=-0.06581843041129
+	YMax=-0.0658152887647778
+	Iterations=256
+	Tween Steps=120
+Point 8
+	XMin=-1.3368642970027
+	XMax=-1.33686373848776
+	YMin=-0.0658173631823341
+	YMax=-0.0658170395927433
+	Iterations=256
+	Tween Steps=120
+Point 9
+	XMin=-1.33686394251443
+	XMax=-1.3368638849874
+	YMin=-0.0658172520592716
+	YMax=-0.0658172187295438
+	Iterations=256
+	Tween Steps=120
+Point 10
+	XMin=-1.33686390388982
+	XMax=-1.33686389796454
+	YMin=-0.0658172375429407
+	YMax=-0.0658172341099788
+	Iterations=256
+	Tween Steps=120
+Point 11
+	XMin=-1.33686390175697
+	XMax=-1.33686390114666
+	YMin=-0.0658172369425538
+	YMax=-0.0658172365889588
+	Iterations=256
+	Tween Steps=120
+Point 12
+	XMin=-1.33686390148023
+	XMax=-1.33686390141736
+	YMin=-0.0658172367782369
+	YMax=-0.0658172367418166
+	Iterations=256
+	Tween Steps=120
+Point 13
+	XMin=-1.33686390145236
+	XMax=-1.33686390144588
+	YMin=-0.0658172367624251
+	YMax=-0.0658172367586738
+	Iterations=256
+	Tween Steps=120

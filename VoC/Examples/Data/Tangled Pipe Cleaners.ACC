@@ -1,0 +1,11 @@
+[Settings]
+Cell Shading=1
+Maximum States=4
+Color Palette=design-seeds paper tones.MAP
+Random Seed=-1882230851
+Rule Fill Probability=5
+State 1 Color=clWhite
+State 2 Color=clBlue
+State 3 Color=clRed
+State 4 Color=clGreen
+Seed Style=0

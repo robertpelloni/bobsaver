@@ -1,0 +1,10 @@
+[Effects Order]
+Effect0=Contrast 100
+Effect1=Gaussian 3 1
+Effect2=Sharpen 10 1
+Effect3=Convolution 0 -1 0 -1 5 -1 0 -1 0 1
+Effect4=Contrast 100
+Effect5=Convolution 1 2 1 2 4 2 1 2 1 1
+Effect6=Emboss 1 5
+[Settings]
+Passes=1

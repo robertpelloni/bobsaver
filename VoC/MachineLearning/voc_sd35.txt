@@ -1,0 +1,27 @@
+python -m pip install --upgrade pip==24.3.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts safetensors==0.4.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==1.1.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pytorch_lightning==2.4.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts omegaconf==2.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv_python==4.10.0.84
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy==1.14.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torchsde==0.2.6
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pillow==11.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/huggingface/diffusers.git@b756ec6e80b3d94c3ae7dc356bdbbdb426a05dca
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts color_matcher==0.5.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts peft==0.13.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts sentencepiece==0.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts protobuf==5.28.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts bitsandbytes==0.44.1
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.27
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.30
+pip uninstall -y torch
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.3.1+cu121 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y numpy
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.24.1
+pip uninstall -y transformers
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.50.1

@@ -1,0 +1,14 @@
+[Settings]
+Model=caffe-nin nin_imagenet.pth
+Optimizer=adam
+Backend=cudnn
+Iterations=1
+Octaves=2
+Iterations Per Octave=30
+Octave Scale=0.6
+[Layers]
+1=relu2
+2=relu4
+3=relu9
+4=relu11
+5=relu14

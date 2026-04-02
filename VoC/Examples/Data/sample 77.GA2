@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos((y-4.6)-cos(x*y)%sin(pi*pi))
+Palette=kuler phoenix flame.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

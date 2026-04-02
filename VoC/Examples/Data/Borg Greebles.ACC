@@ -1,0 +1,9 @@
+[Settings]
+Cell Shading=2
+Maximum States=5
+Color Palette=Flame 658_Sunny_Field.map
+Random Seed=-320189364
+State 1 Color=clGreen
+State 2 Color=$0000FF80
+State 3 Color=clTeal
+State 4 Color=$00AFFADE

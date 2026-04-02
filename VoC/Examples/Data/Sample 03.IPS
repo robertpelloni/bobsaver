@@ -1,0 +1,8 @@
+[Effects Order]
+Effect0=Sharpen 1 1
+Effect1=Gaussian 10 1
+Effect2=Blend 5
+Effect3=Color 500
+Effect4=Brightness 500
+[Settings]
+Passes=1

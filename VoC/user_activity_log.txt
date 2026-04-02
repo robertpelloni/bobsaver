@@ -1,0 +1,4 @@
+CLICKED Form1.Image1
+CLICKED Form1.Image1
+CLICKED Form1.Image1
+CLICKED Form1.Image1

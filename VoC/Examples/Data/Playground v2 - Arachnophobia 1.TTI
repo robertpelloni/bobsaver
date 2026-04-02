@@ -1,0 +1,46 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=1790250461
+Iterations=50
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1088
+Model Version=v2
+Playgroundv2NegativePrompt=blurry, out of focus, tiltshift, low depth of field
+Playgroundv2GuidanceScale=3
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.2
+PlaygroundV2Scheduler=DDPMScheduler
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Factor=1
+In Script Movie Zoom Method=INTER_LANCZOS4
+In Script Movie Rotate=0:0,30:-0.772,60:0.735,90:0.104,120:-0.266,150:-0.819,180:0.154,210:0.273,240:-0.197,270:0.269,300:-0.023,330:-0.783,360:-0.187,390:0.152,420:0.708,450:-0.517,480:-0.988,510:0.562,540:-0.268,570:0.862,600:-0.057,630:-0.365,660:0.186,690:0.825,720:0.438,750:-0.219,780:0.896,810:0.457,840:-0.455,870:0.912,900:-0.145
+In Script Movie Pan X=0:0,30:0.911,60:-0.844,90:0.728,120:-0.783,150:-0.304,180:-0.616,210:-0.127,240:0.588,270:-0.200,300:0.002,330:-0.424,360:-0.753,390:0.855,420:-0.669,450:0.011,480:-0.942,510:0.635,540:-0.212,570:0.606,600:-0.092,630:-0.899,660:0.176,690:-0.789,720:0.844,750:0.694,780:-0.389,810:0.354,840:-0.282,870:0.256,900:-0.610
+In Script Movie Pan Y=0:0,30:-0.190,60:-0.408,90:0.251,120:-0.410,150:0.217,180:-0.412,210:0.561,240:0.440,270:-0.638,300:0.479,330:-0.694,360:0.085,390:-0.378,420:-0.506,450:0.358,480:0.581,510:-0.918,540:0.860,570:0.619,600:-0.726,630:0.415,660:-0.454,690:0.803,720:-0.488,750:0.889,780:-0.384,810:0.466,840:0.175,870:-0.471,900:0.133
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.3
+In Script Movie Sharpness Radius=5
+In Script Movie Sharpness Method=Gaussian
+In Script Movie Noise=10
+In Script Movie Correct Noise=1
+In Script Movie Blur Noise=0
+In Script Movie Blur Noise Amount=3
+In Script Movie Auto-Contrast=0
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+In Script Movie Color Matching=1
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:a hyperrealistic oil painting depocting arachnophobia

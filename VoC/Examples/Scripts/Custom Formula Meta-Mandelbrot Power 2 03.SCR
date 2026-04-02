@@ -1,0 +1,192 @@
+Global Script Settings
+	Palette=Flame 531_Dark_Rainbow.map
+	Fractal Type=Custom Formula
+	Bailout=4
+	Samplepixels=2
+	Total Shader Lines=95
+	Line 0=#version 400
+	Line 1=
+	Line 2=uniform vec2 resolution;
+	Line 3=uniform vec3 palette[256];
+	Line 4=uniform double xmin;
+	Line 5=uniform double xmax;
+	Line 6=uniform double ymin;
+	Line 7=uniform double ymax;
+	Line 8=uniform double bailout;
+	Line 9=uniform int maxiters;
+	Line 10=uniform int samplepixels;
+	Line 11=
+	Line 12=double sqrsamplepixels=double(samplepixels*samplepixels);
+	Line 13=double bailout_squared=double(bailout*bailout);
+	Line 14=double magnitude,r1,r2,g1,g2,b1,b2,tweenval,x,y;
+	Line 15=double realiters;
+	Line 16=vec4 finalcol,col;
+	Line 17=int superx,supery;
+	Line 18=double stepx=(xmax-xmin)/resolution.x/double(samplepixels);
+	Line 19=double stepy=(ymax-ymin)/resolution.y/double(samplepixels);
+	Line 20=int colval,colval2;
+	Line 21=dvec2 z,c,lastz,lastz2,s1,s2,n,d,a,d2,temp,temp2,temp3;
+	Line 22=
+	Line 23=//------------------------------------------------------------
+	Line 24=// complex number operations
+	Line 25=dvec2 cadd( dvec2 a, dvec2 b ) { return dvec2( a.x+b.x, a.y+b.y ); }
+	Line 26=dvec2 csub( dvec2 a, dvec2 b ) { return dvec2( a.x-b.x, a.y-b.y ); }
+	Line 27=dvec2 cmul( dvec2 a, dvec2 b )  { return dvec2( a.x*b.x - a.y*b.y, a.x*b.y + a.y*b.x ); }
+	Line 28=dvec2 cdiv( dvec2 a, dvec2 b )  { double d = dot(b,b); return dvec2( dot(a,b), a.y*b.x - a.x*b.y ) / d; }
+	Line 29=dvec2 csqr( dvec2 a ) { return dvec2(a.x*a.x-a.y*a.y, 2.0*a.x*a.y ); }
+	Line 30=dvec2 csqrt( dvec2 z ) { double m = length(z); return sqrt( 0.5*dvec2(m+z.x, m-z.x) ) * dvec2( 1.0, sign(z.y) ); }
+	Line 31=dvec2 conj( dvec2 z ) { return dvec2(z.x,-z.y); }
+	Line 32=dvec2 cpow( dvec2 z, double n ) { double r = length( z ); float a = atan( float(z.y), float(z.x) ); return pow( float(r), float(n) )*vec2( cos(float(a*n)), sin(float(a*n)) ); }
+	Line 33=//------------------------------------------------------------
+	Line 34=
+	Line 35=void main(void)
+	Line 36={
+	Line 37=	finalcol=vec4(0,0,0,0);
+	Line 38=
+	Line 39=	//C is constant
+	Line 40=	c.x = -0.2;
+	Line 41=	c.y = 0.0;
+	Line 42=
+	Line 43=	for (supery=0;supery<samplepixels;supery++)
+	Line 44=	{
+	Line 45=		for (superx=0;superx<samplepixels;superx++)
+	Line 46=		{
+	Line 47=			//z from current pixel
+	Line 48=			z.x = xmin+gl_FragCoord.x/resolution.x*(xmax-xmin)+(stepx*double(superx));
+	Line 49=			z.y = ymin+gl_FragCoord.y/resolution.y*(ymax-ymin)+(stepy*double(supery));
+	Line 50=			int i;
+	Line 51=
+	Line 52=			for(i=0; i<maxiters; i++) 
+	Line 53=			{
+	Line 54=				// http://www.fractalforums.com/images-showcase-(rate-my-fractal)/meta-mandelbrot-(mandeljulia)/?PHPSESSID=b5fd43c3acfd4c3472a92524915f0100
+	Line 55=				dvec2 ztmp=cmul((cmul((csqr((csqr(z)+c))+(csqr(c)+z)),(csqr((csqr(z)+c))+(csqr(c)+z)))+(csqr((csqr(c)+z))+(csqr(z)+c))),(cmul((csqr((csqr(z)+c))+(csqr(c)+z)),(csqr((csqr(z)+c))+(csqr(c)+z)))+(csqr((csqr(c)+z))+(csqr(z)+c))))+(cmul((csqr((csqr(c)+z))+(csqr(z)+c)),(csqr((csqr(c)+z))+(csqr(z)+c)))+(csqr((csqr(z)+c))+(csqr(c)+z)));
+	Line 56=
+	Line 57=				magnitude=(ztmp.x*ztmp.x+ztmp.y*ztmp.y);
+	Line 58=				if (magnitude>bailout_squared) break;
+	Line 59=				z=ztmp;
+	Line 60=			}
+	Line 61=
+	Line 62=			if (i==maxiters) {
+	Line 63=				col=vec4(0.0,0.0,0.0,1.0);
+	Line 64=			} else {
+	Line 65=				/*
+	Line 66=				//iteration bands
+	Line 67=				colval=int(mod(i,255));
+	Line 68=				r1=palette[colval].r;
+	Line 69=				g1=palette[colval].g;
+	Line 70=				b1=palette[colval].b;
+	Line 71=				col=vec4(r1,g1,b1,1.0);
+	Line 72=				*/
+	Line 73=
+	Line 74=				//CPM smooth colors
+	Line 75=				//note that double precision does not support log so it needs to be cast as float
+	Line 76=				realiters=float(i+1-((log(log(sqrt(float(magnitude))))/log(16)))); //normally log is the power factor, needs to be raised here to smooth colors
+	Line 77=				colval=int(mod(realiters,255));
+	Line 78=				colval2=int(mod(colval+1,255));
+	Line 79=				tweenval=realiters-int(realiters);
+	Line 80=				r1=palette[colval].r;
+	Line 81=				g1=palette[colval].g;
+	Line 82=				b1=palette[colval].b;
+	Line 83=				r2=palette[colval2].r;
+	Line 84=				g2=palette[colval2].g;
+	Line 85=				b2=palette[colval2].b;
+	Line 86=				col=vec4(r1+((r2-r1)*tweenval),g1+((g2-g1)*tweenval),b1+((b2-b1)*tweenval),1.0);
+	Line 87=			}
+	Line 88=
+	Line 89=			finalcol+=col;
+	Line 90=		}
+	Line 91=	}
+	Line 92=	gl_FragColor = vec4(finalcol/double(sqrsamplepixels));
+	Line 93=}
+	Line 94=	
+Point 1
+	XMin=-0.882620655815972
+	XMax=0.881620655815973
+	YMin=-0.511179686458333
+	YMax=0.510179686458334
+	Iterations=256
+	Tween Steps=0
+Point 2
+	XMin=-0.159531686663628
+	XMax=0.0221851684344621
+	YMin=-0.331846003230382
+	YMax=-0.226645987819965
+	Iterations=256
+	Tween Steps=120
+Point 3
+	XMin=-0.0797339427736625
+	XMax=-0.0610171066985592
+	YMin=-0.283567962824951
+	YMax=-0.272732361237678
+	Iterations=256
+	Tween Steps=120
+Point 4
+	XMin=-0.0721503585794339
+	XMax=-0.0702225244636983
+	YMin=-0.276134740136082
+	YMax=-0.275018673172593
+	Iterations=256
+	Tween Steps=120
+Point 5
+	XMin=-0.0715633872692004
+	XMax=-0.0713648203552796
+	YMin=-0.27540167015223
+	YMax=-0.275286715254991
+	Iterations=256
+	Tween Steps=120
+Point 6
+	XMin=-0.0714729349246026
+	XMax=-0.0714524825324687
+	YMin=-0.275347478497757
+	YMax=-0.275335638143341
+	Iterations=256
+	Tween Steps=120
+Point 7
+	XMin=-0.0714633548948028
+	XMax=-0.071461248298413
+	YMin=-0.275341452744055
+	YMax=-0.275340233187551
+	Iterations=256
+	Tween Steps=120
+Point 8
+	XMin=-0.0714626197592648
+	XMax=-0.0714624027798366
+	YMin=-0.275340801602512
+	YMax=-0.275340675988192
+	Iterations=256
+	Tween Steps=120
+Point 9
+	XMin=-0.0714625244765854
+	XMax=-0.0714625021277043
+	YMin=-0.275340721711804
+	YMax=-0.275340708773529
+	Iterations=256
+	Tween Steps=120
+Point 10
+	XMin=-0.0714625146362998
+	XMax=-0.071462512334365
+	YMin=-0.275340715855078
+	YMax=-0.275340714522436
+	Iterations=256
+	Tween Steps=120
+Point 11
+	XMin=-0.071462513558059
+	XMax=-0.0714625133209597
+	YMin=-0.275340715310139
+	YMax=-0.275340715172877
+	Iterations=256
+	Tween Steps=120
+Point 12
+	XMin=-0.0714625134508871
+	XMax=-0.0714625134264658
+	YMin=-0.275340715250578
+	YMax=-0.27534071523644
+	Iterations=256
+	Tween Steps=120
+Point 13
+	XMin=-0.0714625134396767
+	XMax=-0.0714625134371614
+	YMin=-0.275340715244974
+	YMax=-0.275340715243518
+	Iterations=256
+	Tween Steps=120

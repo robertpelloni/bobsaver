@@ -1,0 +1,10 @@
+[Settings]
+Range=1
+Threshold=30
+States=3
+Shading=0
+4D Threshold=5
+Color Palette=Movie Blade Runner.MAP
+State 1 Color=clYellow
+Final State Color=clRed
+4D High Threshold=5

@@ -1,0 +1,40 @@
+[Settings]
+Version=2
+Fractal Type=Mandelbrot
+Re min=0.0644973172839508
+Re max=0.485504349382716
+Im min=-0.724544235722222
+Im max=-0.4806232865
+Julia X=0
+Julia Y=1
+Angle=0
+Maximum Iterations=1024
+Supersample Pixels=1
+Display Style=1
+Fake Emboss=0
+Interior Color=clBlack
+Color Palette=C:\code\delphi\Chaos\Examples\Palettes\Flame 581_Lemon_Grass.map
+[Orbit Traps]
+Style=0
+Num Pals=1
+Palette 1=orbit traps silver 01.MAP
+Palette 2=orbit traps gold 01.MAP
+Palette 3=orbit traps red 01.MAP
+Palette 4=orbit traps green 01.MAP
+Palette 5=orbit traps blue 01.MAP
+Only Show Traps=0
+[Buddhabrot]
+Enable=1
+Rendering Style=3
+Minimum Iterations=256
+Maximum Iterations=8192
+Bailout=512
+R Start=64
+R Finish=100
+G Start=30
+G Finish=100
+B Start=0
+B Finish=48
+Contrast=100
+Brightness=100
+Sqrt Gamma=2

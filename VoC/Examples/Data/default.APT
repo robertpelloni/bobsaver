@@ -1,0 +1,21 @@
+[Settings]
+headprompt=
+tailprompt=
+negativeprompt=
+motionmodule=mm_sd_v15_v2.ckpt
+lora=epicphotogasm_v4One4All.safetensors
+seed=573668030
+steps=25
+frames=16
+guidancescale=7.5
+w=512
+h=512
+format=mp4
+controlnet=
+scheduler=k_dpmpp_2m_sde
+motionlora=v2_lora_ZoomIn.ckpt
+motionlorastrength=1.0
+lengthparameter=400
+loopmovie=0
+[Prompt]
+Line0="0": "fractals"

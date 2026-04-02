@@ -1,0 +1,22 @@
+[Settings]
+Formula=12
+Root Finding Method=3
+Palette Step Amount=9
+Genralized Newton Factor=1.9
+Genralized Newton I=0
+Coloring=2
+Palette=image frequency starry night.MAP
+Xmin=-1.91169082689639
+Xmax=-0.313186923103609
+Ymin=-0.446778865
+Ymax=0.480211864999999
+[Orbit Traps]
+Style=0
+Palette Count=1
+Palette 1=fadeblue.MAP
+Palette 2=fadewhite.MAP
+Palette 3=fadered.MAP
+Palette 4=fadegreen.MAP
+Palette 5=fadeyellow.MAP
+Only Show Traps=0
+Perlin Shading=0

@@ -1,0 +1,14 @@
+[Settings]
+Attractor Name=Symmetric Icon
+Palette=design-seeds color terrain.MAP
+L=-2.34
+A=2
+B=0.2
+G=0.1
+O=0
+D=5
+[Coordinates]
+Xmin=-1.38209737141927
+Xmax=1.3732432047526
+Ymin=-1.0744729546441
+Ymax=1.06535316297743

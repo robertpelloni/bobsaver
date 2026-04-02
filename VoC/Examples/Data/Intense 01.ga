@@ -1,0 +1,41 @@
+[GA Rule]
+Rule=amWHRytDFhemFbv
+
+[Image Options]
+Palette File=Genetic11.MAP
+Smooth Colors=0
+Random Offsets=1
+Overlay Mode=0
+Coordinate Width=5
+
+[Gene Character Offsets]
+Xoffset1=-7
+Yoffset1=-4
+Xoffset2=1
+Yoffset2=-4
+Xoffset3=4
+Yoffset3=4
+Xoffset4=-4
+Yoffset4=-1
+Xoffset5=3
+Yoffset5=-5
+Xoffset6=-1
+Yoffset6=0
+Xoffset7=4
+Yoffset7=-4
+Xoffset8=-1
+Yoffset8=-1
+Xoffset9=2
+Yoffset9=-1
+Xoffset10=-5
+Yoffset10=-2
+Xoffset11=4
+Yoffset11=-2
+Xoffset12=2
+Yoffset12=0
+Xoffset13=2
+Yoffset13=-5
+Xoffset14=-2
+Yoffset14=0
+Xoffset15=1
+Yoffset15=-1

@@ -1,0 +1,44 @@
+[Eye]
+X=0
+Y=0
+Z=1
+[Look At]
+X=0
+Y=0
+Z=0
+[Zoom]
+Zoom=0.1
+[Light]
+X=5
+Y=-5
+Z=-10
+[Rotation]
+X=146
+Y=353
+Z=30
+[Settings]
+Iterations=7
+Epsilon=0.00001
+Power=4
+Brightness=100
+Shading=2
+Negative SIN=1
+Bailout=4
+Palette=droz8.map
+Spikes=0
+Spikes Y Maximum=0.5
+Juliabulb=1
+Julia Real=0.394074101862601
+Julia Imaginary=-0.361514210886296
+Julia Imaginary 2=0.202978459186852
+Shadows=1
+Specularity=0.45
+Glow Effect=1
+Glow Color=$00FF0080
+Glow Threshold=251
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.5
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=0

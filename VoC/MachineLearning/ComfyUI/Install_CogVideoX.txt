@@ -1,0 +1,1 @@
+ComfyUI\models\clip\t5\google_t5-v1_1-xxl_encoderonly-fp8_e4m3fn.safetensors	4893934904	https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors	a3e720ed91f439ecc3dfd15e56b137bc

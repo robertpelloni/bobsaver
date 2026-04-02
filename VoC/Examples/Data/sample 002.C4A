@@ -1,0 +1,9 @@
+[Settings]
+Range=1
+Threshold=24
+States=5
+Shading=0
+4D Threshold=0
+Color Palette=Movie Spirited Away.MAP
+State 1 Color=clYellow
+Final State Color=clRed

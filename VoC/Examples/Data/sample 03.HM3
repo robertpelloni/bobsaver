@@ -1,0 +1,11 @@
+[Settings]
+Q=100
+K1=3
+K2=31
+G=43
+Min Visible State=0
+Max Visible State=99
+Coloring=0
+Color Palette=coolors echoo.MAP
+State 1 Color=clYellow
+Final State Color=clRed

@@ -1,0 +1,7 @@
+[Settings]
+Formula=sin(x-y)-x-cos(y+x)-cos(pi)+y+cos(pi)+sin(y-x)+cos(((y))-cos(x+y+pi)+x+sin(pi)-cos(((y))-y-sin(x-y)+sin((x+y)-sin(y+x))+cos(pi-1.1)-sin(x-pi)-cos(y-x)+sin(y-pi))-cos((x-pi)+sin(y)-cos(y+x+pi)-sin(y)+sin(y-x+pi)-sin(x-y))-cos(pi))+sin(y-x)-sin(x+y)+sin(x+y)+sin(pi)-sin(y+x-pi)-x+cos(x-y-8.3)+sin(((y)-y+sin(x))+sin(((y+x-pi)-sin(((y-x-1.1))+sin(x+y-pi))-cos(pi)-sin((y+x-pi)-sin(((y+2.7))-cos(y)-cos(((y+x)+cos(x-y))-x+cos(x-y)+sin(x-y+2.5)-sin(y-x))-cos(((y)+sin(((x)+sin((x+y)+x-cos(x))-x+cos(((y-pi))+sin(y+x)+sin(x)))))))))))
+Palette=rainfade.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

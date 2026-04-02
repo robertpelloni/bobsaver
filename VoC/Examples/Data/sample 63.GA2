@@ -1,0 +1,7 @@
+[Settings]
+Formula=arctan(((y-x)-tan(x)*sin(y*pi)*sqr(x*y-pi)-arctan(y-x)))
+Palette=kuler earthica.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

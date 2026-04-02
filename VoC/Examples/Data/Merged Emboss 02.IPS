@@ -1,0 +1,6 @@
+[Effects Order]
+Effect0=Emboss 0 0
+Effect1=Blend 23
+Effect2=Contrast 38
+[Settings]
+Passes=1

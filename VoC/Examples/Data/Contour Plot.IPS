@@ -1,0 +1,6 @@
+[Effects Order]
+Effect0=Convolution 0 -1 0 -1 4 -1 0 -1 0 1
+Effect1=Color 0
+Effect2=Blend 0
+[Settings]
+Passes=1

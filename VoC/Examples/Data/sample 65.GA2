@@ -1,0 +1,7 @@
+[Settings]
+Formula=y%sin((1*x*pi)*arctan(y*pi)/abs(y))
+Palette=colorschemer samhain.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

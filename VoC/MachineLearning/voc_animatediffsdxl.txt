@@ -1,0 +1,33 @@
+python -m pip install -U pip
+python -m pip install pip==24.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.41.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts setuptools==63.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts absl-py==1.4.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==0.21.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts av==10.0.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts beautifulsoup4==4.12.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/Keith-Hon/bitsandbytes-windows.git@fdb1ba729fa1936f2ef69e5ff1084d09189fdc2a
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts colorama==0.4.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts decord==0.6.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts diffusers==0.20.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts easydict==1.10
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.7.0rc1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gdown==4.7.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio==2.27.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts omegaconf==2.3.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts tqdm==4.65.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.30.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wandb==0.15.8
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.21
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy==1.11.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts imageio[ffmpeg]==2.32.0
+pip uninstall -y torch
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 --index-url https://download.pytorch.org/whl/cu118
+pip uninstall -y charset-normalizer
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts charset-normalizer==3.3.2
+pip uninstall -y typing_extensions
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts typing_extensions==4.8.0
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.25.0

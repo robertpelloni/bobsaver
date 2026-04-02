@@ -1,0 +1,9 @@
+[Settings]
+Aggregation Threshold=1
+Threshold Growth Rate=0.4
+Accretion Amount=200
+Max Particle Velocity=10
+Blur Frequency=99
+Random Seed=1
+Start Pattern=1
+Palette=ROYGBIV1.MAP

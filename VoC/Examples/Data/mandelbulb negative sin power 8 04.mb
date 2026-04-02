@@ -1,0 +1,36 @@
+[Eye]
+X=0
+Y=0
+Z=1
+[Look At]
+X=0
+Y=0
+Z=0
+[Zoom]
+Zoom=0
+[Light]
+X=3
+Y=-2
+Z=0
+[Rotation]
+X=270
+Y=8
+Z=0
+[Settings]
+Iterations=8
+Epsilon=0.000001
+Power=8
+Brightness=100
+Shading=1
+Negative SIN=1
+Bailout=4
+Palette=lindaa16.map
+Spikes=0
+Spikes Y Maximum=0.5
+Juliabulb=0
+Julia Real=0
+Julia Imaginary=0
+Julia Imaginary 2=0
+Shadows=1
+Supersample=1
+Supersample Pixels=1

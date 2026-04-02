@@ -1,0 +1,22 @@
+[Settings]
+Formula=((((pi*cos(7))+abs((y+cos(x))))%(x+sin(y)))+((((pi*cos(9))+abs((y+cos(x))))-abs(x))%(x+sin(y))))
+Color Palette=kuler archeron.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=(y+abs(x))
+Gene1=(y*tan(4.9))
+Gene2=(y+x)
+Gene3=(x+sin(y))
+Gene4=(((pi*cos(7))+abs((y+cos(x))))%((pi/7.9)/exp((x+cos(9.6)))))
+Gene5=(((pi*cos(7))+abs((y+cos(x))))%abs(x))
+Gene6=((x+sin(y))%(((pi*cos(7))+abs((y+cos(x))))%((pi/7.9)/exp((x+cos(9.6))))))
+Gene7=(((pi*cos(7))+abs((y+cos(x))))+abs(x))
+Gene8=((((pi*cos(7))+abs((y+cos(x))))%abs(x))%(x+sin(y)))
+Gene9=(((pi*cos(6.4))-abs((y+cos(x))))-abs(x))
+Gene10=(((pi*cos(7))+abs((y+cos(x))))%(x+sin(y)))
+Gene11=((((pi*cos(9))+abs((y+cos(x))))-abs(x))%(x+sin(y)))
+Gene12=(((pi*cos(6.4))-abs((y+cos(x))))%(x+sin(y)))
+Gene13=((((pi*cos(7))+abs((y+cos(x))))%(x+sin(y)))+((((pi*cos(9))+abs((y+cos(x))))-abs(x))%(x+sin(y))))

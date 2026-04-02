@@ -1,0 +1,7 @@
+[Settings]
+Formula=sin(x-y-pi)+sin(((pi*3.8)*y+sin(pi)+sin(x-y)+x+sin(x-y)+sin(x+y)+sin(((x-y-5.3))+y+sin(y))+x-sin(((y)-sin(y-x)+sin(x))+sin(y-pi))-sin(y-x))+y-sin(((y-x))+sin(y+x-5.9)+sin(y-0.5))-sin(((x-1.8))-y-sin(x)-sin(y))-sin(x+y))+sin((pi)-sin(x)+sin((pi)+sin(y+x+pi)-sin(((y-pi)))))
+Palette=kuler ml67.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

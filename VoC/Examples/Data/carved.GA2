@@ -1,0 +1,7 @@
+[Settings]
+Formula=arctan((pi-3.9)/arctan(y*x*8)*tan(((y-x))))
+Palette=kuler archeron.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

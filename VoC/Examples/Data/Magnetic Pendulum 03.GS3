@@ -1,0 +1,56 @@
+[Objects]
+Count=5
+[Object Settings]
+Object 1 X=50
+Object 1 Y=10
+Object 1 Z=50
+Object 1 Mass=1
+Object 2 X=50
+Object 2 Y=30
+Object 2 Z=50
+Object 2 Mass=1
+Object 3 X=50
+Object 3 Y=50
+Object 3 Z=50
+Object 3 Mass=1
+Object 4 X=50
+Object 4 Y=70
+Object 4 Z=50
+Object 4 Mass=1
+Object 5 X=50
+Object 5 Y=90
+Object 5 Z=50
+Object 5 Mass=1
+Object 1 Show=Yes
+Object 1 Color=$0094CF7B
+Object 2 Show=Yes
+Object 2 Color=$00217D00
+Object 3 Show=No
+Object 3 Color=$00F7FFF7
+Object 4 Show=No
+Object 4 Color=$0021087B
+Object 5 Show=Yes
+Object 5 Color=$0080FFFF
+[Settings]
+Grid Size=100
+Iterations=80
+Mingravdist=0
+Algorithm=1
+Only State 0=1
+Color palette=kuler napoli.MAP
+Simulation Space Width=50
+Slice Open=0
+Slice=0
+Cell Shape=0
+Hide Surrounded=1
+[MGS]
+Gravity Constant=0.36
+Delta Time=2.5
+Escape Velocity=0
+Escape Radius=10000
+[Magnetic Pendulum]
+Friction=0.99
+Field Strength=15
+Gravitation=1
+Distance Above Magnets=0
+Pendulum Mass=50

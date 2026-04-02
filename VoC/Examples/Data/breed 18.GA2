@@ -1,0 +1,7 @@
+[Settings]
+Formula=sin((x/pi)-round(((y-6.3)+sin((x+x-sin(pi)-cos(y+x+1.5)+x-sin((x+y+7.8)+x+sin(x*y/pi)*sin(((y*x+3.1))))))
+Palette=Jason14.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

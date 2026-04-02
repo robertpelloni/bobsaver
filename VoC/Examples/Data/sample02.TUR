@@ -1,0 +1,30 @@
+[Settings]
+Layers=4
+Variation Radius=1
+Color Palette=Gray Scale 1.MAP
+[Grid]
+Activator 1=100
+Inhibitor 1=200
+Small Amount 1=0.05
+Weight 1=1
+Symmetry 1=3
+Activator 2=20
+Inhibitor 2=40
+Small Amount 2=0.04
+Weight 2=1
+Symmetry 2=2
+Activator 3=10
+Inhibitor 3=20
+Small Amount 3=0.03
+Weight 3=1
+Symmetry 3=2
+Activator 4=5
+Inhibitor 4=10
+Small Amount 4=0.02
+Weight 4=1
+Symmetry 4=2
+Activator 5=1
+Inhibitor 5=2
+Small Amount 5=0.01
+Weight 5=1
+Symmetry 5=2

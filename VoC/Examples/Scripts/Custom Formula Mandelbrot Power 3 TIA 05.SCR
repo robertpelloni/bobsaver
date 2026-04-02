@@ -1,0 +1,213 @@
+Global Script Settings
+	Palette=matrix10.MAP
+	Fractal Type=Custom Formula
+	Bailout=8000000
+	Samplepixels=2
+	Total Shader Lines=116
+	Line 0=#version 400
+	Line 1=
+	Line 2=//the following uniform values are set by Visions of Chaos prior to shader execution
+	Line 3=uniform vec2 resolution;
+	Line 4=uniform vec3 palette[256];
+	Line 5=uniform double xmin;
+	Line 6=uniform double xmax;
+	Line 7=uniform double ymin;
+	Line 8=uniform double ymax;
+	Line 9=uniform double bailout;
+	Line 10=uniform int maxiters;
+	Line 11=uniform int samplepixels;
+	Line 12=
+	Line 13=double sqrsamplepixels=double(samplepixels*samplepixels);
+	Line 14=double bailout_squared=double(bailout*bailout);
+	Line 15=double magnitude,r1,r2,g1,g2,b1,b2,tweenval;
+	Line 16=double realiters;
+	Line 17=vec4 finalcol,col;
+	Line 18=int superx,supery;
+	Line 19=double stepx=(xmax-xmin)/resolution.x/samplepixels;
+	Line 20=double stepy=(ymax-ymin)/resolution.y/samplepixels;
+	Line 21=int colval,colval1,colval2;
+	Line 22=dvec2 z,c;
+	Line 23=//triangle inequality average coloring
+	Line 24=double sum,sum2,ac,il,lp,az2,lowbound,f,index,tr,ti;
+	Line 25=int mandelbrotPower;
+	Line 26=double rval,gval,bval,rval1,gval1,bval1,rval2,gval2,bval2;
+	Line 27=
+	Line 28=void main(void)
+	Line 29={
+	Line 30=	sum=0;
+	Line 31=	sum2=0;
+	Line 32=	ac=0;
+	Line 33=	il=0;
+	Line 34=	lp=0;
+	Line 35=	mandelbrotPower=3;
+	Line 36=
+	Line 37=	finalcol=vec4(0,0,0,0);
+	Line 38=	for (supery=0;supery<samplepixels;supery++)
+	Line 39=	{
+	Line 40=		for (superx=0;superx<samplepixels;superx++)
+	Line 41=		{
+	Line 42=			c.x = xmin+gl_FragCoord.x/resolution.x*(xmax-xmin)+(stepx*superx);
+	Line 43=			c.y = ymin+gl_FragCoord.y/resolution.y*(ymax-ymin)+(stepy*supery);
+	Line 44=			int i;
+	Line 45=			z = dvec2(0.0,0.0);
+	Line 46=
+	Line 47=				//triangle inequality average coloring
+	Line 48=				sum = 0;
+	Line 49=				sum2 = 0;
+	Line 50=				ac = sqrt(c.x * c.x + c.y * c.y);
+	Line 51=				il = 1.0 / log(mandelbrotPower);
+	Line 52=				lp = log(float(log(float(bailout)) / mandelbrotPower));
+	Line 53=				az2 = 0.0;
+	Line 54=				lowbound = 0.0;
+	Line 55=				f = 0.0;
+	Line 56=				index = 0.0;
+	Line 57=
+	Line 58=			for(i=0; i<maxiters; i++) 
+	Line 59=			{
+	Line 60=				//START OF FRACTAL FORMULA
+	Line 61=				double zisqr=z.y*z.y;
+	Line 62=				double zrsqr=z.x*z.x;
+	Line 63=				double x = (zrsqr-(zisqr*3.0)) * z.x + c.x;
+	Line 64=				double y = ((zrsqr*3.0)-zisqr)*z.y+c.y;				
+	Line 65=				//END OF FRACTAL FORMULA
+	Line 66=				
+	Line 67=				magnitude=(x * x + y * y);
+	Line 68=				if(magnitude>bailout_squared) break;
+	Line 69=				z.x = x;
+	Line 70=				z.y = y;
+	Line 71=
+	Line 72=					//tia
+	Line 73=					sum2=sum;
+	Line 74=					if ((i!=0)&&(i!=maxiters-1)) {
+	Line 75=						tr=z.x-c.x;
+	Line 76=						ti=z.y-c.y;
+	Line 77=						az2=sqrt(tr * tr + ti * ti);
+	Line 78=						lowbound=abs(az2 - ac);
+	Line 79=						sum+=((sqrt(z.x * z.x + z.y * z.y)-lowbound)/(az2+ac-lowbound));
+	Line 80=					}
+	Line 81=
+	Line 82=			}
+	Line 83=
+	Line 84=			if (i==maxiters) {
+	Line 85=				col=vec4(0.0,0.0,0.0,1.0);
+	Line 86=			} else {
+	Line 87=				//triangle inequality average
+	Line 88=				sum=sum/i;
+	Line 89=				sum2=sum2/(i-1.0);
+	Line 90=				f=il*lp - il*log(log(float(length(z))));
+	Line 91=				index=sum2+(sum-sum2)*(f+1.0);
+	Line 92=				realiters=255*index;
+	Line 93=				colval1= int(mod(realiters,255));
+	Line 94=				colval2=int(mod((colval1+1),255));
+	Line 95=				tweenval=fract(realiters);
+	Line 96=				if (colval1<0) { colval1=colval1+255; }
+	Line 97=				if (colval2<0) { colval2=colval2+255; }
+	Line 98=				rval1 =palette[colval1].r;
+	Line 99=				gval1 =palette[colval1].g;
+	Line 100=				bval1 =palette[colval1].b;
+	Line 101=				rval2 =palette[colval2].r;
+	Line 102=				gval2 =palette[colval2].g;
+	Line 103=				bval2 =palette[colval2].b;
+	Line 104=				rval =rval1 +((rval2 - rval1)*tweenval);
+	Line 105=				gval =gval1 +((gval2 - gval1)*tweenval);
+	Line 106=				bval =bval1 +((bval2 - bval1)*tweenval);
+	Line 107=				col=vec4(rval,gval,bval,1.0);
+	Line 108=			}
+	Line 109=			finalcol+=col;
+	Line 110=		}
+	Line 111=	}
+	Line 112=	gl_FragColor = vec4(finalcol/sqrsamplepixels);
+	Line 113=}
+	Line 114=	
+	Line 115=	
+Point 1
+	XMin=-3.73472222222222
+	XMax=3.73372222222222
+	YMin=-2.164015
+	YMax=2.163015
+	Iterations=512
+	Tween Steps=0
+Point 2
+	XMin=0.186677888888889
+	XMax=0.955927666666667
+	YMin=-0.776240322777778
+	YMax=-0.330556232777778
+	Iterations=512
+	Tween Steps=120
+Point 3
+	XMin=0.589981123944444
+	XMax=0.669213851055556
+	YMin=-0.494023252898889
+	YMax=-0.448117791628889
+	Iterations=512
+	Tween Steps=120
+Point 4
+	XMin=0.633316473628778
+	XMax=0.641477444521222
+	YMin=-0.468206531541322
+	YMax=-0.463478269030511
+	Iterations=512
+	Tween Steps=120
+Point 5
+	XMin=0.638251820775984
+	XMax=0.639092400777905
+	YMin=-0.466992156119795
+	YMax=-0.466505145081182
+	Iterations=512
+	Tween Steps=120
+Point 6
+	XMin=0.63865049211002
+	XMax=0.638737071850218
+	YMin=-0.466731118203098
+	YMax=-0.466680956066121
+	Iterations=512
+	Tween Steps=120
+Point 7
+	XMin=0.638703527612125
+	XMax=0.638712445325365
+	YMin=-0.4667241568132
+	YMax=-0.466718990113091
+	Iterations=512
+	Tween Steps=120
+Point 8
+	XMin=0.638705005165737
+	XMax=0.638705923690201
+	YMin=-0.466721251118467
+	YMax=-0.466720718948355
+	Iterations=512
+	Tween Steps=120
+Point 9
+	XMin=0.638705306613985
+	XMax=0.638705401222005
+	YMin=-0.466720925223404
+	YMax=-0.466720870409882
+	Iterations=512
+	Tween Steps=120
+Point 10
+	XMin=0.638705349045682
+	XMax=0.638705358790308
+	YMin=-0.466720901324708
+	YMax=-0.466720895678916
+	Iterations=512
+	Tween Steps=120
+Point 11
+	XMin=0.638705353431373
+	XMax=0.638705354435069
+	YMin=-0.466720898800412
+	YMax=-0.466720898218895
+	Iterations=512
+	Tween Steps=120
+Point 12
+	XMin=0.638705353649426
+	XMax=0.638705353752806
+	YMin=-0.466720898390992
+	YMax=-0.466720898331095
+	Iterations=512
+	Tween Steps=120
+Point 13
+	XMin=0.638705353696761
+	XMax=0.638705353707409
+	YMin=-0.466720898363795
+	YMax=-0.466720898357626
+	Iterations=512
+	Tween Steps=120

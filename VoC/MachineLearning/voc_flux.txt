@@ -1,0 +1,38 @@
+python -m pip install --upgrade pip==24.3.1
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts wheel==0.38.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts transformers==4.49.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts sentencepiece==0.2.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts protobuf==5.27.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts accelerate==1.4.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts git+https://github.com/huggingface/diffusers.git@1450c2ac4f384bbca65d6b7a132fa876b511b4e4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts optimum-quanto==0.2.4
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts matplotlib==3.9.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts gradio==4.43.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts opencv_python==4.10.0.84
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts loguru==0.7.2
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts color_matcher==0.5.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts scipy==1.14.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts peft==0.12.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts einops==0.8.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts onnxruntime==1.19.0
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts timm==1.0.8
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts bitsandbytes==0.45.3
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pydash==8.0.5
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pybase64==1.4.0
+pip uninstall -y xformers
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.28.post3 --index-url https://download.pytorch.org/whl/cu124
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts xformers==0.0.30
+pip uninstall -y torch
+pip uninstall -y torch
+rem pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.5.1+cu124 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip uninstall -y charset-normalizer
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts charset-normalizer==3.3.0
+pip uninstall -y huggingface_hub
+pip uninstall -y huggingface_hub
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts huggingface_hub==0.29.1
+pip uninstall -y numpy
+pip uninstall -y numpy
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts numpy==1.26.4
+pip uninstall -y pydantic
+pip install --no-cache-dir --ignore-installed --force-reinstall --no-warn-conflicts pydantic==2.10.6

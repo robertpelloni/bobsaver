@@ -1,0 +1,7 @@
+[Settings]
+Formula=frac(y)-frac(y)*frac(x)*frac(y)-frac(y)
+Palette=Jason38.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

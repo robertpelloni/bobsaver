@@ -1,0 +1,11 @@
+[Settings]
+Cell Shading=1
+Maximum States=4
+Color Palette=IFS20.MAP
+Random Seed=383068024
+Rule Fill Probability=20
+Seed Style=0
+State 1 Color=clWhite
+State 2 Color=clBlue
+State 3 Color=clRed
+State 4 Color=clGreen

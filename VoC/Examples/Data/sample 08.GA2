@@ -1,0 +1,7 @@
+[Settings]
+Formula=cos(x)-(x-y)%sin(x*y)*sqr(y)%arctan(x)
+Palette=SEA2.MAP
+Xmin=-5
+Xmax=5
+ymin=-5
+ymax=5

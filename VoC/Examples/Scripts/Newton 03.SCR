@@ -1,0 +1,25 @@
+Global Script Settings
+	Palette=sinpal28.MAP
+	Fractal Type=Newton
+	Formula=3
+	Coloring=2
+	Root Method=2
+	Palette Step=2
+Point 1
+	XMin=-2.187428125
+	XMax=2.187528125
+	YMin=-2.2499275
+	YMax=2.166695
+	Newtona=1
+	Newtoni=0
+	Iterations=1000
+	Tween Steps=0
+Point 2
+	XMin=-1.10736080078125
+	XMax=1.10746080078125
+	YMin=-1.12736928125
+	YMax=1.11774715625
+	Newtona=1.2
+	Newtoni=0.5
+	Iterations=1000
+	Tween Steps=100

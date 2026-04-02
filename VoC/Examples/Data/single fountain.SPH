@@ -1,0 +1,44 @@
+[Settings]
+Particle Count=50000
+Rest Density=70
+Stiffness=0.08
+Near Stiffness=0.18
+Surface Tension=0.00023
+Linear Viscosity=0.07
+Quadratic Viscosity=0.18
+Particle Radius=0.04
+Delta Time=0.001
+Sub Steps=10
+View Width=71.68
+Gravity=9.8
+View Width Scale=1.0
+[Emitter 1]
+Color=clWhite
+Mass=1
+Position=13
+X Direction=0
+Y Direction=2.7
+Size=0.9
+Speed=9
+[Emitter 2]
+Color=clWhite
+Enabled=0
+Mass=1
+Position=3
+X Direction=4
+Y Direction=1
+Size=0.9
+Speed=8
+[Emitter 3]
+Color=clWhite
+Enabled=0
+Mass=1
+Position=3
+X Direction=4
+Y Direction=1
+Size=0.9
+Speed=8
+[Rayleigh-Taylor]
+Enabled=0
+Clamped=0
+Clamp Amount=10

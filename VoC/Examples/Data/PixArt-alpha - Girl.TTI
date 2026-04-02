@@ -1,0 +1,12 @@
+[Settings]
+Input Phrase=a portrait of a beautiful young girl in a garden
+Script=PixArt-alpha *
+Random seed=449047475
+Iterations=20
+Image Size=1024
+[PixArt-alpha]
+Custom Image Size=0
+Custom Resolution=1120x480 21:9 480p
+DALL-E 3=0
+Guidance Scale=4.5
+Style=

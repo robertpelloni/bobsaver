@@ -1,0 +1,32 @@
+[Rule Table]
+s0r0=C
+s0r1=
+s0r2=
+s0r3=25,26
+s0r4=3
+s1r0=
+s1r1=7,0,19
+s1r2=C
+s1r3=2,20,12,3,18
+s1r4=26,11
+s2r0=A
+s2r1=
+s2r2=
+s2r3=
+s2r4=
+s3r0=C
+s3r1=
+s3r2=16,7,10
+s3r3=
+s3r4=24,6,23
+s4r0=
+s4r1=12,26,16,20,0
+s4r2=
+s4r3=C
+s4r4=
+[Settings]
+Starting Pattern=2
+Cell Shading=0
+Color Palette=ROYGBIV6.MAP
+State 1 Color=clYellow
+Final State Color=clRed

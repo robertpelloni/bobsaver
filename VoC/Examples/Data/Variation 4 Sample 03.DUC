@@ -1,0 +1,11 @@
+[Settings]
+Xmin=-8
+Xmax=8
+Ymin=-5.15
+Ymax=5.15
+CX=0.329411764705882
+CY=0.262814070351759
+Maximum Iterations=22
+Color Scale Factor=66
+Color Palette=Flame 657_Sunbathing.map
+Variation=4

@@ -1,0 +1,27 @@
+[Settings]
+Formula=((((y-1.8)-(pi/cos(x)))%(0.6*2.9))%(((x-cos(y))%pi)/abs((pi%8.3))))
+Color Palette=kuler neon nights.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((y/floor(8.7))*(y-sin(x)))
+Gene1=((3.7*(x%pi))-((pi-8.8)%1.6))
+Gene2=(((3.9*y)*arctan((x/pi)))*frac(((7.1*8.9)/exp((pi+cos(pi))))))
+Gene3=(((y/1.8)-(pi-round(pi)))%(0.6*2.9))
+Gene4=(((x-arctan(y))%pi)/abs((pi%8.3)))
+Gene5=(((3.7*(x%pi))-((pi-8.8)%1.6))%(((x-arctan(y))%pi)/abs((pi%8.3))))
+Gene6=((((y/1.8)-(pi-round(pi)))%(0.6*2.9))*(((3.7*(x%pi))-((pi-8.8)%1.6))%(((x-arctan(y))%pi)/abs((pi%8.3)))))
+Gene7=((((3.9*y)*arctan((x/pi)))*frac(((7.1*8.9)/exp((pi+cos(pi))))))+(((x-arctan(y))%pi)/abs((pi%8.3))))
+Gene8=((((3.9*y)*arctan((x/pi)))*frac(((7.1*8.9)/exp((pi+cos(pi))))))*(((x-ceil(x))%pi)/abs((pi%8.3))))
+Gene9=((((y/1.8)-(pi-round(pi)))%(0.6*2.9))%(((3.7*(x%pi))-((pi-8.8)-1.6))%(((x+arctan(y))%pi)/abs((pi%8.3)))))
+Gene10=((((y/1.8)-(pi-round(pi)))%(0.6*2.9))-(((x-ceil(x))%pi)/abs((pi%8.3))))
+Gene11=((((y/1.8)-(pi-round(pi)))%(0.6*2.9))*(((x-arctan(y))%pi)/abs((pi%8.3))))
+Gene12=((((y-1.8)-(pi/cos(pi)))%(0.6*2.9))%(((x-cos(y))%pi)/abs((pi%8.3))))
+Gene13=((((y/1.8)-(pi-round(pi)))%(0.6*2.9))*(((x-cos(y))%pi)/abs((pi%8.3))))
+Gene14=((((y/1.8)-(pi-round(pi)))%(0.6*2.9))%(((x-cos(y))%pi)/abs((pi%8.3))))
+Gene15=((((y/1.8)-(x-round(x)))%(0.6*2.9))*(((x-cos(y))%pi)/abs((pi%8.3))))
+Gene16=((((y-1.8)-(pi/cos(x)))%(0.6*2.9))%(((x-cos(y))%pi)*abs((pi%8.3))))
+Gene17=((((y-1.8)-(pi/cos(x)))/(0.6*2.9))%(((x-cos(y))%pi)*abs((pi%8.3))))
+Gene18=((((y-1.8)-(pi/cos(x)))%(0.6*2.9))*(((x-cos(y))%pi)/abs((pi%8.3))))

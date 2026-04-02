@@ -1,0 +1,13 @@
+[Settings]
+Stick Method=0
+The Edit=20
+Min Neighbors=4
+Diagonal Neighbors=1
+Display Style=1
+Grid Size=1000
+Update Count=1000
+Palette Shading=1
+Ambient Occlusion=1
+Ambient Occlusion Radius=5
+Color Palette=kuler drholwegneu.MAP
+Particle Color=clWhite

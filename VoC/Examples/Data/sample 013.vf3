@@ -1,0 +1,25 @@
+[Settings]
+Rotataion=0
+Zoom=8
+HSL Pixel Flow=0
+Angle Formula=h-317*h*521
+Length Formula=s/18
+Zoom Style=9
+Blend Mode=5
+Sharpening Strength=7
+Blur Strength=2
+Random Seed=1
+Contrast=-14
+Brightness=43
+Noise=0
+[Effects Order]
+0=Blur
+1=HSL Flow
+2=Noise
+3=Brightness
+4=Stretch
+5=Sharpen
+6=Histogram
+7=Contrast
+8=Rotate
+9=Blend

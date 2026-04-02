@@ -1,0 +1,32 @@
+Global Script Settings
+	Palette=Genetic11.MAP
+	Fractal Type=Lyapunov
+	RulString=ABBBABAAB
+Point 1
+	XMin=1
+	XMax=4
+	YMin=1
+	YMax=4
+	Iterations=256
+	Tween Steps=0
+Point 2
+	XMin=3.1
+	XMax=3.4
+	YMin=3.1
+	YMax=3.4
+	Iterations=256
+	Tween Steps=30
+Point 3
+	XMin=3.2209375
+	XMax=3.2509375
+	YMin=3.22125
+	YMax=3.25125
+	Iterations=256
+	Tween Steps=30
+Point 4
+	XMin=3.23453125
+	XMax=3.23753125
+	YMin=3.234625
+	YMax=3.237625
+	Iterations=256
+	Tween Steps=30

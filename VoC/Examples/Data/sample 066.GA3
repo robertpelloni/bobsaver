@@ -1,0 +1,16 @@
+[Settings]
+Formula=(((pi-cos(x))/abs((3.4-pi)))-exp(((y%x)%sin((1-abs(x))))))
+Color Palette=colorschemer lagoon nebula.MAP
+Xmin=-10
+Xmax=10
+Ymin=-10
+Ymax=10
+[Gene Pool]
+Gene0=((y*cos(x))%(y*2.8))
+Gene1=((x*y)-int((pi-5.3)))
+Gene2=(((9.5/y)%(9.6+y))/exp(((y%x)%sin((3.6-abs(x))))))
+Gene3=(((pi-cos(x))/abs((3.4-pi)))*round(((y*floor(pi))+(y-ceil(y)))))
+Gene4=((pi*round(y))*cos((x*int(pi))))
+Gene5=(((6.8/y)%(9.6+y))*exp(((y%x)%sin((1-abs(x))))))
+Gene6=((pi*round(y))*exp(((y%x)%sin((3.6-abs(x))))))
+Gene7=(((pi-cos(x))/abs((3.4-pi)))-exp(((y%x)%sin((1-abs(x))))))

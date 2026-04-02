@@ -1,0 +1,59 @@
+[Eye]
+X=-0.03
+Y=0
+Z=0.9
+[Look At]
+X=-0.03
+Y=0
+Z=-0.1
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=24
+[Light]
+X=-5
+Y=-4.91197644359554
+Z=-5.08650050796837
+[Rotation]
+X=179
+Y=0
+Z=270
+[Settings]
+Iterations=7
+Epsilon=0.00001
+Power=7
+Gamma=0
+Contrast=0
+Shading=2
+Formula=1
+Bailout=4
+Palette=lindaa12.map
+Spikes=0
+Spikes Y Maximum=0.157687233528122
+Juliabulb=1
+Julia Real=0.340188832934805
+Julia Imaginary=0.0636799243256726
+Julia Imaginary 2=0.722103625535965
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=clYellow
+Glow Threshold=416
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.3
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=1
+Anaglyph=0
+Anaglyph Style=0
+Anaglyph Tilt=3
+Background Color=clBlack
+Phase=0.152116738026962
+Theta Scale=1
+Phi Scale=1

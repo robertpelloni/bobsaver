@@ -1,0 +1,7 @@
+[Settings]
+Formula=x+arctan(pi-4.9)-arctan(((y-pi)-y-arctan(y+x+8.8)+arctan(y)-tan(((y+x)-tan(((y+x+3.3)+tan(y)+arctan(pi-pi)-tan(y))+tan(x+pi)-arctan(pi+5.5))+tan(y-x))+tan(pi)-arctan((y-x)+tan((y)-tan((y-7.1))-arctan(pi-pi)+arctan(((pi)+arctan(y-x)+tan(y+x-pi))-tan(x+y-1.7)-arctan(x)+tan(pi-1.7))+arctan(x-y+pi)-y-arctan(x+y))))))
+Palette=test.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

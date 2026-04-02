@@ -1,0 +1,7 @@
+[Settings]
+Formula=sin((y-cos(y%6.3)%x+abs(pi+3.7)
+Palette=colorschemer asian garden.MAP
+Xmin=-5
+Xmax=5
+Ymin=-5
+Ymax=5

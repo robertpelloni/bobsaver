@@ -1,0 +1,37 @@
+[Settings]
+Xmin=-8
+Xmax=8
+Ymin=-5.15
+Ymax=5.15
+CX=-0.287450980392157
+CY=0.0328140703517588
+Power=1
+Maximum Iterations=20
+Color Scale Factor=140
+Color Palette=Jason40.MAP
+Variation=10
+Symmetry=0
+Smooth Shading=1
+Julia Set Hybrid=0
+Kali Scale=1
+Kali Min Scale=0
+[Hybrids]
+Enable Hybrids=1
+Enable Hybrid 3=1
+Enable Hybrid 4=1
+Enable Hybrid 5=1
+Variation 1=6
+Symmetry 1=0
+Power 1=1
+Variation 2=10
+Symmetry 2=0
+Power 2=1
+Variation 3=8
+Symmetry 3=0
+Power 3=-2
+Variation 4=10
+Symmetry 4=0
+Power 4=1
+Variation 5=10
+Symmetry 5=0
+Power 5=1

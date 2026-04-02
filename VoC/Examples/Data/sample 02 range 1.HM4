@@ -1,0 +1,12 @@
+[Settings]
+Q=50
+K1=2
+K2=3
+G=13
+Range=1
+Min Visible State=0
+Max Visible State=99
+Cell Shading=0
+Color Palette=colourlovers old recording.MAP
+State 1 Color=clYellow
+Final State Color=clRed

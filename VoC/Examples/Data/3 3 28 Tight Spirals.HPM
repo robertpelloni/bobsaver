@@ -1,0 +1,6 @@
+[Settings]
+Max States=200
+K1=3
+K2=3
+G=28
+Palette=fadewhite.MAP

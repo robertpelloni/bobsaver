@@ -1,0 +1,30 @@
+[Faction 1]
+Color=$00D9D697
+Lifespan=30
+Neighbors=1
+Spread chance=30
+Attack=20
+Defense=20
+[Faction 2]
+Color=$0097D5B7
+Lifespan=30
+Neighbors=1
+Spread chance=30
+Attack=20
+Defense=20
+[Faction 3]
+Color=$00AB7845
+Lifespan=30
+Neighbors=1
+Spread chance=30
+Attack=20
+Defense=20
+[Faction 4]
+Color=$00009B00
+Lifespan=30
+Neighbors=1
+Spread chance=30
+Attack=20
+Defense=20
+[Settings]
+Background=clWhite

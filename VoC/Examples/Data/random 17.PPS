@@ -1,0 +1,12 @@
+[Settings]
+Particle Count=30000
+Sense Angle=61
+Sense Distance=9.540
+Turn Angle=68
+Move Speed=6.800
+Deposit Amount=0.385
+Eat Amount=0
+Evaporation Rate=0.764
+Blur Radius=4
+Show Trails=1
+Show Particles=0

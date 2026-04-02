@@ -1,0 +1,72 @@
+#version 420
+
+// original https://www.shadertoy.com/view/msKBzD
+
+uniform float time;
+uniform vec2 mouse;
+uniform vec2 resolution;
+
+out vec4 glFragColor;
+
+vec3 palette( float t ) {
+    vec3 a = vec3(0.5,0.5,0.5);
+    vec3 b = vec3(0.5,0.5,0.5);
+    vec3 c = vec3(2.000,1.000,0.000);
+    vec3 d = vec3(0.5,0.2,0.25);
+
+    return a + b*cos( 6.28318*(c*t+d) );
+}
+
+float SDF_Triangle( in vec2 p, in float r )
+{
+    const float k = sqrt(3.0);
+    p.x = abs(p.x) - r;
+    p.y = p.y + r/k;
+    if( p.x+k*p.y>0.0 ) p = vec2(p.x-k*p.y,-k*p.x-p.y)/2.0;
+    p.x -= clamp( p.x, -2.0*r, 0.0 );
+    return -length(p)/sign(p.y);
+}
+
+float spiral(in vec2 p)
+{
+    float x = p.x*3.;
+    float m = min (fract (x), fract (3. -x)) ;
+    return smoothstep (-0.2, .5, m*.5+.2-p.y) ;
+}
+
+void main(void) {
+    vec2 uv = (gl_FragCoord.xy-.5*resolution.xy) / resolution.y;
+    
+    vec2 st = vec2 (atan(uv.x, uv.y), length (uv)) ;
+    uv = vec2 (st.x / 6.2831+.5 - sin(-time + st.y), st.y);
+    float c = 0.0;
+    
+    float triangle = SDF_Triangle((gl_FragCoord.xy-.5*resolution.xy) / resolution.y, .3);
+    
+    c = spiral(uv) * 2. * spiral(vec2(spiral(uv / 0.6), triangle));
+    
+    
+    c += triangle * 0.6;
+
+    
+    vec3 col = palette(length(st.y) + .4 + time*.4);
+    col *= c;
+    
+    
+    uv = (gl_FragCoord.xy-.5*resolution.xy) / resolution.y;
+    c *= smoothstep(0.0, 0.05, length(uv));
+
+    col *= c;
+
+    st.x=fract(9.*sin(8.*(ceil(st.x*384.)/128.)));
+
+    float
+        t=time*2.*((st.x+.5)/2.), 
+        b=pow(1.-fract(st.y+st.x+t),4.);
+
+    b=(b*.5)+step(1.-b,.05);
+    col += st.y * b*vec3(0.,.5,1.);
+    
+    
+    glFragColor = vec4 (col, 1.) ;
+}

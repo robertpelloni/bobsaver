@@ -1,0 +1,19 @@
+[GA Rule]
+Rule=ehlfH
+[Image Options]
+Palette File=JACCO200.MAP
+Smooth Colors=0
+Random Offsets=1
+Overlay Mode=0
+Coordinate Width=10
+[Gene Character Offsets]
+Xoffset1=-2
+Yoffset1=-5
+Xoffset2=6
+Yoffset2=9
+Xoffset3=-3
+Yoffset3=-9
+Xoffset4=3
+Yoffset4=1
+Xoffset5=-1
+Yoffset5=2

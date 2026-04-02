@@ -1,0 +1,15 @@
+[Settings]
+model=stablediffusionapi/copax-timelessxl-sdxl10
+interpolation=lerp
+num_interpolation_steps=100
+num_inference_steps=4
+guidance_scale=1.0
+resolution=1024x1024
+randomseed=0
+[Prompts]
+Line0=a tabby kitten
+Line1=a ginger kitten
+Line2=a black and white kitten
+Line3=a persian kitten
+Line4=a calico kitten
+Line5=a siamese kitten

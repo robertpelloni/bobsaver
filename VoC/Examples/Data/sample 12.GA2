@@ -1,0 +1,7 @@
+[Settings]
+Formula=sin(x)%tan(x)-cos(x%y)+sin(x)+sin(y)
+Palette=Gravity 2D 03.MAP
+Xmin=-5
+Xmax=5
+ymin=-5
+ymax=5

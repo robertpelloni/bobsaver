@@ -1,0 +1,16 @@
+[Settings]
+Sense Angle=14
+Sense Distance=5.150
+Turn Angle=45
+Move Speed=9.690
+Deposit Amount=1.925
+Evaporation Rate=0.414
+Blur Radius=3
+Display=0
+Trail Shading=0
+Particles Move Towards=0
+Blur Particles=0
+Particle Color=clYellow
+Correct Angles=1
+Start Pattern=1
+Palette=kuler nothing gold.MAP

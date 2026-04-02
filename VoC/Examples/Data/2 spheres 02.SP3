@@ -1,0 +1,13 @@
+[Settings]
+Spheres=1
+Display Mode=2
+Line Width=1
+Time Step=0.01
+Calculation Mode=0
+[Grid]
+Radius 1=51
+Rotation 1 1=-10
+Rotation 2 1=-6
+Radius 2=53
+Rotation 1 2=1
+Rotation 2 2=-3

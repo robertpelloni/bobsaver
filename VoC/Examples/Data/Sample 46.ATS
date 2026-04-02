@@ -1,0 +1,16 @@
+[Settings]
+Rule number=10114
+Universe Size=4
+Flip Probability=0
+Total States=1
+Show State 1 Cells=1
+State 1 Color=$008CB4D2
+Show State 2 Cells=1
+State 2 Color=$0079978F
+Show State 3 Cells=1
+State 3 Color=$001283E9
+Start Pattern=1
+Brightness=90
+Contrast=40
+Color Method=0
+Color Palette=skydye10.map

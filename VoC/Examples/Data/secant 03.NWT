@@ -1,0 +1,12 @@
+[Settings]
+Formula=1
+Root Finding Method=4
+Palette Step Amount=9
+Genralized Newton Factor=1.1
+Genralized Newton I=0
+Coloring=2
+Palette=image u mona lisa.MAP
+Xmin=1.07826884940011
+Xmax=1.19540867501395
+Ymin=-1.49747966741071
+Ymax=-1.37803641741071

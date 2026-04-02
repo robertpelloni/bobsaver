@@ -1,0 +1,60 @@
+[Eye]
+X=0
+Y=-0.1
+Z=1.3
+[Look At]
+X=0
+Y=-0.1
+Z=0.3
+[Up]
+X=0
+Y=1
+Z=0
+[Zoom]
+Zoom=0.9
+[FOV]
+FOV=53
+[Light]
+X=-1.0918519236797
+Y=9.60267372766957
+Z=2.02398534003622
+[Rotation]
+X=126
+Y=73
+Z=162
+[Settings]
+Iterations=5
+Epsilon=0.0001
+Power=8
+Gamma=0
+Contrast=0
+Shading=0
+Formula=5
+Formula Variation=0
+Bailout=4
+Palette=kuler day dream.MAP
+Spikes=0
+Spikes Y Maximum=0.904366925591603
+Juliabulb=0
+Julia Real=-0.800757164193621
+Julia Imaginary=-0.203612241901726
+Julia Imaginary 2=-0.894063765648753
+Shadows=1
+Specularity=0.45
+Glow Effect=0
+Glow Color=clBlue
+Glow Threshold=150
+Outside Glow=0
+Specular Exponent=10
+Ambient Occlusion=1
+Ambient Occlusion Min Orbit=0.4
+Ambient Occlusion Max Orbit=1.0
+Supersample=1
+Supersample Pixels=1
+Anaglyph=0
+Anaglyph Style=2
+Anaglyph Tilt=3
+Background Color=clBlack
+Phase=0.648089417489246
+Theta Scale=1
+Phi Scale=1

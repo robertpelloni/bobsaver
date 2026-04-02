@@ -1,0 +1,8 @@
+[Settings]
+Rule Number=985420860
+Initial Population=0
+States=3
+[Colors]
+Background=clWhite
+State 1=clBlack
+Final=$00D4D4D4

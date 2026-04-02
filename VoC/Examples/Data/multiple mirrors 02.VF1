@@ -1,0 +1,47 @@
+[Settings]
+Layers=2
+Rotation=239
+Zoom=1.07
+Brightness=78
+Contrast=100
+Noise=30
+Color Noise=1
+Blend Mode=0
+Interlacing=0
+Invert=0
+Zoom Style=3
+X Offset=0
+Y Offset=0
+Camera X Offset=0
+Camera Y Offset=0
+Blurring Radius=1
+Sharpening=7
+Seamless Tile=0
+Mirror Image=1
+Mirror Angle=120
+Mirror Distance=10
+Mirror Image 2=1
+Mirror 2 Angle=60
+Mirror 2 Distance=10
+Brush Mode=1
+Brush File=vfbrush07.bmp
+Auto Inject=1
+Auto Inject Frames=1
+Color=120
+Camera Color=100
+Motion Blur=0
+Warp=0
+Warp Style=0
+[Effects Order]
+0=Brightness
+1=Noise
+2=Offset
+3=Seamless Tile
+4=Mirror
+5=Blur
+6=Sharpen
+7=Screen Color
+8=Invert
+9=Contrast
+10=Warp
+

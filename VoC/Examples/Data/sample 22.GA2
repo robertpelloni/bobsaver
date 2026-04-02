@@ -1,0 +1,7 @@
+[Settings]
+Formula=sqrt((pi)+arctan(((x*pi)*y-ceil(y)-ceil(1*y-pi))*tan(y*pi)))
+Palette=JACCO289.MAP
+Xmin=-5
+Xmax=5
+ymin=-5
+ymax=5

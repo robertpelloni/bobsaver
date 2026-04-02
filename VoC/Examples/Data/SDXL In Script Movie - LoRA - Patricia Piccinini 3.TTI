@@ -1,0 +1,43 @@
+[Settings]
+Input Phrase=
+Script=SDXL v1.0 *
+Random seed=20858961
+Iterations=100
+Image Size=1024
+[SDXL]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1088
+SDXLNegativePrompt=smooth, blurry, plastic, shiny, low res, low detail, simple, plain
+SDXLModel=sd_xl_base_1.0_0.9vae.safetensors
+SDXLLora=Realistic Film Photgraphy_realistic film photography.safetensors
+SDXLLoraWeight=2
+SDXLScheduler=DPMSolverSDEScheduler
+SDXLImg2ImgModel=sd_xl_refiner_1.0_0.9vae.safetensors
+SDXLGuidanceScale=20
+SDXLInitImage=
+SDXLInitImageStrength=0.1
+SDXLZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.02
+In Script Movie Zoom Method=INTER_AREA
+In Script Movie Rotate=0:0,30:-0.252,60:-0.731,90:-0.214,120:-0.410,150:-0.731,180:-0.492,210:0.884,240:0.853,270:-0.825,300:-0.658,330:0.066,360:0.369,390:-0.567,420:0.799,450:0.917,480:-0.629,510:0.170,540:-0.064,570:0.116,600:-0.548,630:-0.046,660:-0.713,690:0.297,720:0.976,750:-0.140,780:0.468,810:0.785,840:-0.205,870:0.577,900:-0.678
+In Script Movie Pan X=0:0,30:0.061,60:0.966,90:-0.824,120:0.185,150:-0.799,180:0.267,210:-0.217,240:-0.168,270:0.385,300:-0.674,330:-0.578,360:0.683,390:-0.901,420:0.628,450:-0.791,480:0.845,510:-0.076,540:-0.928,570:0.761,600:0.374,630:-0.981,660:0.059,690:-0.761,720:-0.342,750:0.538,780:0.847,810:0.594,840:-0.221,870:0.834,900:-0.410
+In Script Movie Pan Y=0:0,30:0.282,60:-0.162,90:0.691,120:-0.604,150:0.922,180:-0.496,210:0.179,240:0.066,270:-0.678,300:-0.519,330:-0.736,360:0.650,390:-0.334,420:0.191,450:-0.248,480:0.639,510:-0.133,540:0.548,570:0.141,600:-0.515,630:0.960,660:-0.344,690:0.354,720:0.131,750:-0.593,780:0.245,810:0.362,840:0.442,870:-0.013,900:0.601
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.5
+In Script Movie Sharpness Radius=9
+In Script Movie Noise=0
+In Script Movie Auto-Contrast=1
+In Script Movie Auto-Color=0
+In Script Movie Equalize=0
+In Script Hard Cuts=0
+In Script Randomize Seed=1
+In Script Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+SDXLTween=easeInOutElastic
+[SDXL In Script Movie Prompts]
+Line0=0:Patricia Piccinini sculpture, realistic film photography

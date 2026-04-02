@@ -1,0 +1,38 @@
+[Settings]
+Input Phrase=
+Script=Playground v2 *
+Random seed=188952161
+Iterations=50
+Image Size=1024
+[Playground v2]
+Render Every=1
+Custom Image Size=0
+Custom Resolution=1920x1080 16:9 1080p
+Playgroundv2NegativePrompt=blurry, out of focus
+Playgroundv2GuidanceScale=7
+Playgroundv2InitImage=
+Playgroundv2InitImageStrength=0.2
+Playgroundv2ZoomMovie=0
+In Script Movie=1
+In Script Movie Zoom=0:1.03
+In Script Movie Zoom Method=INTER_NEAREST
+In Script Movie Rotate=0:0,30:-0.989,60:-0.891,90:0.727,120:0.255,150:-0.158,180:-0.058,210:0.698,240:-0.793,270:0.194,300:-0.405,330:0.210,360:-0.252,390:-0.884,420:-0.639,450:-0.186,480:0.852,510:-0.582,540:-0.858,570:0.436,600:-0.093,630:0.674,660:0.023,690:-0.519,720:0.378,750:0.344,780:0.250,810:0.925,840:-0.464,870:0.665,900:0.905
+In Script Movie Pan X=0:0,30:0.863,60:-0.592,90:0.657,120:-0.553,150:-0.700,180:0.621,210:-0.029,240:0.485,270:-0.936,300:0.362,330:0.343,360:-0.334,390:-0.173,420:-0.620,450:0.903,480:0.060,510:0.692,540:-0.383,570:0.784,600:0.030,630:-0.088,660:0.598,690:0.119,720:0.197,750:-0.713,780:0.254,810:-0.199,840:0.589,870:-0.933,900:0.777
+In Script Movie Pan Y=0:0,30:-0.426,60:0.279,90:-0.966,120:-0.937,150:-0.161,180:0.858,210:0.885,240:0.534,270:-0.128,300:0.242,330:-0.339,360:0.049,390:-0.898,420:0.961,450:-0.325,480:-0.463,510:0.075,540:-0.926,570:0.050,600:-0.610,630:0.164,660:0.261,690:-0.585,720:0.529,750:-0.510,780:0.686,810:-0.579,840:0.391,870:0.293,900:0.471
+In Script Movie Contrast=1
+In Script Movie Sharpness=0.9
+In Script Movie Sharpness Radius=5
+In Script Movie Noise=30
+In Script Movie Auto-Contrast=1
+In Script Movie Auto-Color=1
+In Script Movie Equalize=1
+In Script Hard Cuts=0
+Randomize Seed=1
+Zoom After Sharpen=1
+In Script Total Frames=900
+In Script Red Scale=1
+In Script Green Scale=1
+In Script Blue Scale=1
+Playgroundv2Tween=easeInOutQuad
+[Playgroundv2 In Script Movie Prompts]
+Line0=0:fractals, cellular automata, reaction diffusion, vivd coloring, highly detailed, hd, 4k, 8k, photorealistic, hyperrealistic

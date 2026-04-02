@@ -1,0 +1,20 @@
+[Settings]
+Number of objects=1000000
+Object Style=3
+Display Style=2
+Start Pattern=2
+Initial Speed Scale=1
+Time Step=0.02
+Object Size=0.2
+World Grid Size=250
+Minimum Gravity Distance=5
+Force Scale Factor=1
+Wrap Edges=0
+Leave Trails=1
+Trail Length=10
+Trail Thickness=1
+Color Palette=C:\code\Delphi\Chaos\Palettes\Gravity 3D 01.MAP
+Black Hole=0
+Fixed Black Hole=1
+Black Hole Mass=100
+Speed Limit=0
