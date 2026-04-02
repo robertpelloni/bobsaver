@@ -2,6 +2,16 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.8] - 2026-04-02
+
+### Added
+- **Visions of Chaos Integration**:
+    - Conducted comprehensive analysis of Visions of Chaos features (ML, CA, ABM, Fluid Dynamics, Fractals).
+    - Documented findings in `JWildfire/VOC_ANALYSIS.md`.
+    - Updated `JWildfire/INTEGRATION_PLAN.md` with a dedicated phase for Visions of Chaos assimilation.
+- **Documentation**:
+    - Updated `VERSION.md` and `CHANGELOG.md` to reflect integration planning.
+
 ## [1.0.7] - 2026-04-01
 
 ### Added
