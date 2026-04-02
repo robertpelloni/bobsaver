@@ -2,6 +2,13 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.4] - 2026-04-01
+
+### Added
+- **Visions of Chaos Integration (JWildfire)**:
+    - Implemented **3D Cellular Automata framework** (`CellularAutomata3DEngine`).
+    - Implemented **3D Game of Life** engine (B56/S45 Moore 3D).
+
 ## [1.0.3] - 2026-04-01
 
 ### Added

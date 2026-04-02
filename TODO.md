@@ -15,6 +15,8 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
 - [x] **Visions of Chaos - Complex CA:**
     - Implement the **Hodgepodge machine** (chemical reaction simulation) engine.
     - Implement **Cyclic CA** and **Multi-scale Turing Patterns**.
+- [x] **Visions of Chaos - 3D CA:**
+    - Implement the 3D version of the CA framework to support voxel-based simulations.
 - [ ] **FFM Native Bridge Implementation (Geiss):**
     - Examine `geiss/main.cpp` or equivalent entry point.
     - Expose `extern "C"` rendering functions for initialization and frame capture.
@@ -23,8 +25,8 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
 ## Short Term tasks
 - [x] Update `README.md` in root to point to the new `VISION.md` and `DASHBOARD.md`.
 - [x] Connect the new `AudioListener` Pub/Sub model in JWildfire to the existing Swing-based Music Visualizer to ensure backward compatibility during the JavaFX rewrite.
-- [ ] **Visions of Chaos - 3D CA:**
-    - Implement the 3D version of the CA framework to support voxel-based simulations.
+- [ ] **Visions of Chaos - Agent Based Modeling:**
+    - Implement the Boids (flocking) simulation engine.
 - [ ] Extract the local FFT processing code from `AudioCapture.java` into a standalone modular service so that it can be applied to recorded `.wav`/`.mp3` files (for `Easy Movie Maker`), not just live microphone inputs.
 
 ## Backlog / Needs Refactoring
