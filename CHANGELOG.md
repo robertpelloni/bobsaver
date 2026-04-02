@@ -2,6 +2,13 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.5] - 2026-04-01
+
+### Added
+- **Visions of Chaos Integration (JWildfire)**:
+    - Implemented **Boids (Flocking)** simulation engine in `org.jwildfire.ca.abm`.
+    - Added Agent-Based Modeling (ABM) package structure.
+
 ## [1.0.4] - 2026-04-01
 
 ### Added
