@@ -2,6 +2,15 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.6] - 2026-04-01
+
+### Added
+- **Visions of Chaos Integration (JWildfire)**:
+    - Implemented **Physarum (Slime Mold)** simulation engine in `org.jwildfire.ca.abm`.
+    - Implemented **Strange Attractor** library in `org.jwildfire.ca.math`:
+        - **Lorenz Attractor** solver.
+        - **Rossler Attractor** solver.
+
 ## [1.0.5] - 2026-04-01
 
 ### Added
