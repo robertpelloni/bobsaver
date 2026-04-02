@@ -2,6 +2,14 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.3] - 2026-04-01
+
+### Added
+- **Visions of Chaos Integration (JWildfire)**:
+    - Implemented **Multi-scale Turing Patterns** CA engine based on Jonathan McCabe's algorithm.
+- **Documentation**:
+    - Created a comprehensive `README.md` for the root workspace, unifying the Vision, Project Structure, and Hub details.
+
 ## [1.0.2] - 2026-04-01
 
 ### Added
