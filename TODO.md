@@ -8,6 +8,9 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
     - *Result:* Successfully merged AI feature branches in BeatDrop and projectm using `-X theirs`.
 - [x] **LLM Instruction Normalization:**
     - Rewrite `CLAUDE.md`, `GEMINI.md`, `GPT.md`, and `copilot-instructions.md` in all repos to contain ONLY the single line: `> PLEASE READ docs/UNIVERSAL_LLM_INSTRUCTIONS.md`. Remove redundancy.
+- [x] **Visions of Chaos - Comprehensive Analysis:**
+    - Conduct deep-dive analysis of Softology's Visions of Chaos algorithms, revision history, and ML architecture.
+    - *Result:* Documented in `JWildfire/VOC_ANALYSIS.md`. Updated `INTEGRATION_PLAN.md`.
 - [x] **Visions of Chaos - Cellular Automata Scaffold:**
     - Create the `org.jwildfire.ca` package within the `JWildfire` submodule.
     - Implement a basic `CellularAutomataEngine` interface.
@@ -23,6 +26,10 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
     - Implement the Lorenz and Rossler attractor engines in `org.jwildfire.ca.math`.
 - [x] **Visions of Chaos - Reaction Diffusion:**
     - Implement the Gray-Scott reaction-diffusion simulation.
+- [ ] **Visions of Chaos - Boids:**
+    - Implement the flocking simulation using Reynolds' Separation/Alignment/Cohesion rules.
+- [ ] **Visions of Chaos - 3D Hub:**
+    - Implement OBJ/MTL export for 3D CA and Attractors.
 - [ ] **FFM Native Bridge Implementation (Geiss):**
     - Examine `geiss/main.cpp` or equivalent entry point.
     - Expose `extern "C"` rendering functions for initialization and frame capture.

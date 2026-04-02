@@ -9,31 +9,38 @@
     - [ ] Create `geiss_ffi` headless texture extractor.
     - [ ] Create `milkdrop3_ffi` headless texture extractor.
 
-## Phase 2: "Visions of Chaos" (VoC) Assimilation (Planned)
+## Phase 2: "Visions of Chaos" (VoC) Assimilation (In Progress)
 We are adopting the massive computational library of *Visions of Chaos* (softology.pro) to transform JWildfire into the ultimate laboratory.
+- [x] **Comprehensive Analysis:** Analyzed VoC's architecture, ML installer, and algorithmic catalog (documented in `JWildfire/VOC_ANALYSIS.md`).
 - [ ] **Cellular Automata Engine:**
-    - [ ] Port VoC's 1D, 2D, and 3D CA rulesets into JWildfire `org.jwildfire.ca`.
-    - [ ] Implement Hodgepodge (chemical reactions) and Multi-scale Turing Patterns.
+    - [x] Port VoC's 1D and 2D CA rulesets into JWildfire `org.jwildfire.ca`.
+    - [x] Implement Hodgepodge (chemical reactions) and Multi-scale Turing Patterns.
+    - [x] Port 3D Cellular Automata (B56/S45 Moore 3D).
 - [ ] **Agent-Based Modeling (ABM):**
-    - [ ] Boids (Flocking) integration.
-    - [ ] Physarum (Slime Mold) network generation.
-    - [ ] Particle Life simulations.
+    - [x] Boids (Flocking) integration (Separation/Alignment/Cohesion).
+    - [x] Physarum (Slime Mold) network generation.
+    - [ ] Particle Life simulations (2D/3D).
 - [ ] **Fluid Dynamics (Grid & Particle):**
-    - [ ] Port Lattice Boltzmann Method (LBM) simulations.
+    - [x] Port Lattice Boltzmann Method (LBM) D2Q9 simulations.
     - [ ] Implement Multiphase Smoothed Particle Hydrodynamics (SPH).
 - [ ] **Fractals & Physics:**
     - [ ] Integrate Mandelbulb and Hypercomplex 3D/4D fractals into the `RaymarchingVisualizer`.
-    - [ ] Add pendulum (Double/Triple) and strange attractor visualizations.
+    - [x] Add Strange Attractor (Lorenz, Rossler) visualizations.
 
-## Phase 3: Machine Learning & Generative AI (Planned)
+## Phase 3: Machine Learning & Generative AI Orchestration (Planned)
 Sourced from VoC's local execution philosophy, integrated directly into JWildfire's pipeline (requiring local GPU).
+- [ ] **Hybrid Native Orchestration:**
+    - [ ] Establish an ONNX Runtime or local Python RPC bridge to JWildfire.
+    - [ ] Implement isolated virtual environments (following VoC's `voc_base`, `voc_sd` pattern) to manage model dependencies.
 - [ ] **Text-to-Image / Video Pipeline:**
-    - [ ] Integrate Stable Diffusion (SDXL/Flux) local inference for fractal upscaling and texturing.
-    - [ ] Implement Google Lumiere-style video interpolation for Easy Movie Maker.
-- [ ] **Audio Reactivity Generation:**
-    - [ ] Integrate local LLMs to autonomously write `.milk` preset code based on user prompt.
-    - [ ] Integrate Kokoro / Bark for procedural Text-to-Speech generation.
+    - [ ] Integrate Stable Diffusion (SDXL/Flux/SD3.5) local inference.
+    - [ ] Implement video interpolation (FILM, RIFE) for Easy Movie Maker.
+- [ ] **Audio & Speech Architecture:**
+    - [ ] Integrate MusicGen and Riffusion for procedural audio.
+    - [ ] Implement F5-TTS / Zonos for high-quality speech.
 
-## Phase 4: Autonomous "Vibe DJ" & Network
+## Phase 4: 3D Visualization Hub & Autonomous DJ
+- [ ] **3D Visualization Hub:**
+    - [ ] Implement high-quality OBJ/MTL export for all JWildfire and VoC generative outputs to bridge into professional renderers (Blender, Cinema 4D).
 - [ ] **Computer Vision Analysis:** AI agent running locally analyzes JWildfire's current frame and system audio to autonomously adjust chaos parameters.
 - [ ] **Electric Sheep Network Revival:** Fully decentralized client/server for rendering hyper-complex VoC Mandelbulbs across the bobsaver node network.
