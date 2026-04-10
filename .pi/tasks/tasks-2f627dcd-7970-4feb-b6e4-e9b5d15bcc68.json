@@ -1,0 +1,16 @@
+{
+  "nextId": 2,
+  "tasks": [
+    {
+      "id": "1",
+      "subject": "Fix BeatDrop Submodule Clone Failure",
+      "description": "The user provided an error message indicating that cloning the 'BeatDrop' submodule failed due to a password prompt/authentication error for a private or unreachable git server (http://git@192.168.0.1:8080). \n\nI need to:\n1. Investigate the `.gitmodules` file to see how submodules are configured.\n2. Check if the URL for 'BeatDrop' is incorrect or points to an internal resource that should be public.\n3. Fix the submodule URL if possible.\n4. Attempt to sync/update submodules again.",
+      "status": "in_progress",
+      "metadata": {},
+      "blocks": [],
+      "blockedBy": [],
+      "createdAt": 1775863418786,
+      "updatedAt": 1775863419941
+    }
+  ]
+}
