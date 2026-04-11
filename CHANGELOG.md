@@ -2,6 +2,23 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.10] - 2026-04-02
+
+### Added
+- **Visions of Chaos Integration (JWildfire)**:
+    - Implemented 3D Lattice Boltzmann Method (D3Q19) fluid simulation (`LatticeBoltzmann3DEngine.java`).
+    - Added 3D model exporters for Cellular Automata grids (`OBJExporter.java`) and Strange Attractors (`AttractorOBJExporter.java`).
+- **Audio Processing Architecture**:
+    - Refactored `AudioCapture` to extract FFT/PCM processing into a standalone `AudioProcessor` service, enabling support for both live mic input and recorded file processing (.wav/.mp3).
+- **Geiss Integration**:
+    - Created `GeissBinding.java` via the Java FFM API to bridge the Geiss native visualizer into JWildfire.
+- **Apophysis-J Ingestion Planning**:
+    - Created `APOPHYSIS_MAPPING.md` to document the overlap between Apophysis-J variations and JWildfire's `org.jwildfire.transform` package.
+
+### Changed
+- Evaluated merging ProjectM upstream `v4.1.x` into `master`, but postponed due to significant merge conflicts to maintain focus on VoC and JavaFX integration.
+
+
 ## [1.0.9] - 2026-04-02
 
 ### Added

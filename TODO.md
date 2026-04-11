@@ -26,11 +26,11 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
     - Implement the Lorenz and Rossler attractor engines in `org.jwildfire.ca.math`.
 - [x] **Visions of Chaos - Reaction Diffusion:**
     - Implement the Gray-Scott reaction-diffusion simulation.
-- [ ] **Visions of Chaos - Boids:**
+- [x] **Visions of Chaos - Boids:**
     - Implement the flocking simulation using Reynolds' Separation/Alignment/Cohesion rules.
-- [ ] **Visions of Chaos - 3D Hub:**
+- [x] **Visions of Chaos - 3D Hub:**
     - Implement OBJ/MTL export for 3D CA and Attractors.
-- [ ] **FFM Native Bridge Implementation (Geiss):**
+- [x] **FFM Native Bridge Implementation (Geiss):**
     - Examine `geiss/main.cpp` or equivalent entry point.
     - Expose `extern "C"` rendering functions for initialization and frame capture.
     - Create `GeissBinding.java` in `JWildfire/src/org/jwildfire/visualizer/geiss/`.
@@ -38,10 +38,10 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
 ## Short Term tasks
 - [x] Update `README.md` in root to point to the new `VISION.md` and `DASHBOARD.md`.
 - [x] Connect the new `AudioListener` Pub/Sub model in JWildfire to the existing Swing-based Music Visualizer to ensure backward compatibility during the JavaFX rewrite.
-- [ ] **Visions of Chaos - 3D LBM:**
+- [x] **Visions of Chaos - 3D LBM:**
     - Implement the 3D version of the Lattice Boltzmann fluid engine.
-- [ ] Extract the local FFT processing code from `AudioCapture.java` into a standalone modular service so that it can be applied to recorded `.wav`/`.mp3` files (for `Easy Movie Maker`), not just live microphone inputs.
+- [x] Extract the local FFT processing code from `AudioCapture.java` into a standalone modular service so that it can be applied to recorded `.wav`/`.mp3` files (for `Easy Movie Maker`), not just live microphone inputs.
 
 ## Backlog / Needs Refactoring
-- [ ] Re-examine the `JWildfire/src/org/jwildfire/transform/` package. Prepare it for the mass ingestion of `apophysis-j` fractal formulas. Create a mapping document to identify which formulas exist in both, and which are unique to Apophysis.
-- [ ] The `projectm` submodule's upstream has released version 4.1.x. Evaluate merging the `origin/v4.1.x` branch into `master` to gain the new `projectm_pcm_add_float` optimizations.
+- [x] Re-examine the `JWildfire/src/org/jwildfire/transform/` package. Prepare it for the mass ingestion of `apophysis-j` fractal formulas. Create a mapping document to identify which formulas exist in both, and which are unique to Apophysis.
+- [x] The `projectm` submodule's upstream has released version 4.1.x. Evaluate merging the `origin/v4.1.x` branch into `master` to gain the new `projectm_pcm_add_float` optimizations. (Evaluated, huge merge conflicts, aborted for now to keep focus on VoC and JavaFX.)
