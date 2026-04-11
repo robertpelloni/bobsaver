@@ -16,6 +16,3 @@
 [submodule "projectm"]
 	path = projectm
 	url = https://github.com/robertpelloni/projectm
-[submodule "BeatDrop"]
-	path = BeatDrop
-	url = https://github.com/robertpelloni/BeatDrop
