@@ -2,6 +2,14 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.14] - 2026-04-02
+
+### Added
+- **Apophysis-J Ingestion**:
+    - Ported `rings`, `fan`, `blob`, `pdj`, and `fan2` fractal variations from `apophysis-j` to JWildfire as `VariationFunc` implementations.
+    - Updated `APOPHYSIS_MAPPING.md` to reflect the newly ported variations.
+
+
 ## [1.0.13] - 2026-04-02
 
 ### Added
