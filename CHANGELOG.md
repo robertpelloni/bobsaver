@@ -2,6 +2,15 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.19] - 2026-04-03
+
+### Added
+- **MilkDrop3 Integration (Phase 1)**:
+    - Created Java 21 FFM bridge `MilkDropBinding.java` in JWildfire to initialize and interact with a local `MilkDrop3` rendering instance.
+    - Created `jw_md_bridge.cpp` stub in the `MilkDrop3` submodule to act as the `extern "C"` headless interface required by JWildfire.
+- **Machine Learning Orchestration (Phase 3)**:
+    - Created `PythonRPCBridge.java` scaffolding in JWildfire's `org.jwildfire.ml` package to communicate with local Python ML servers (e.g., Stable Diffusion, audio generation).
+
 ## [1.0.18] - 2026-04-03
 
 ### Added

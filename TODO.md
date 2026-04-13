@@ -45,3 +45,8 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
 ## Backlog / Needs Refactoring
 - [x] Re-examine the `JWildfire/src/org/jwildfire/transform/` package. Prepare it for the mass ingestion of `apophysis-j` fractal formulas. Create a mapping document to identify which formulas exist in both, and which are unique to Apophysis.
 - [x] The `projectm` submodule's upstream has released version 4.1.x. Evaluate merging the `origin/v4.1.x` branch into `master` to gain the new `projectm_pcm_add_float` optimizations. (Evaluated, huge merge conflicts, aborted for now to keep focus on VoC and JavaFX.)
+- [x] **FFM Native Bridge Implementation (MilkDrop3):**
+    - Create `MilkDropBinding.java` via Java 21 FFM.
+    - Create native C++ stub `jw_md_bridge.cpp` to expose headless endpoints.
+- [x] **ML Orchestration Scaffolding (Phase 3):**
+    - Implement `PythonRPCBridge.java` to act as the communication layer with local Python virtual environments running Stable Diffusion / Audio generative tasks.
