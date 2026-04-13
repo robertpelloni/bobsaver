@@ -2,6 +2,14 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.16] - 2026-04-02
+
+### Added
+- **Apophysis-J Ingestion**:
+    - Ported `juliaN` (`JulianFunc`), `juliaScope` (`JuliascopeFunc`), and `gaussian_blur` (`GaussianblurFunc`) fractal variations from `apophysis-j` to JWildfire.
+    - Updated `APOPHYSIS_MAPPING.md` to reflect the newly ported variations. This marks the conclusion of porting the major standard Apophysis variations.
+
+
 ## [1.0.15] - 2026-04-02
 
 ### Added
