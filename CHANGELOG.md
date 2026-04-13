@@ -2,6 +2,13 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.17] - 2026-04-03
+
+### Added
+- **Visions of Chaos Integration (JWildfire)**:
+    - Implemented **Particle Life Engine (2D)** (`ParticleLifeEngine.java`) in `org.jwildfire.ca.abm` as part of the Agent-Based Modeling assimilation.
+
+
 ## [1.0.16] - 2026-04-02
 
 ### Added
