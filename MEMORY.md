@@ -61,6 +61,6 @@ JWildfire generates fractals by chaining "Variations" (non-linear functions).
 - **Syncing**: The `scripts/sync_all.py` script exists to merge AI-generated branches across the monorepo automatically.
 
 ## Short-Term Trajectory
-1. Complete the ingestion of `apophysis-j` fractal formulas. (We have ported 10 variations already).
+1. Complete the ingestion of `apophysis-j` fractal formulas. (We have ported 15 variations already).
 2. Polish the JavaFX rewrite of JWildfire's UI.
 3. Advance Phase 3: Establish local GPU execution for Generative AI (Stable Diffusion, MusicGen) orchestrated directly from JWildfire.
