@@ -2,6 +2,14 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.18] - 2026-04-03
+
+### Added
+- **Electric Sheep Integration (Phase 1)**:
+    - Created Java 21 FFM bridge `ElectricSheepBinding.java` in JWildfire to initialize and interact with a local `electricsheep` rendering instance.
+    - Created `jw_es_bridge.cpp` stub in the `electricsheep` submodule to act as the `extern "C"` headless interface required by JWildfire.
+
+
 ## [1.0.17] - 2026-04-03
 
 ### Added
