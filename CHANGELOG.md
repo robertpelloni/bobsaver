@@ -2,6 +2,20 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.23] - 2026-04-14
+
+### Added
+- **Visions of Chaos Integration (JWildfire)**:
+    - Implemented **Smoothed Particle Hydrodynamics (SPH)** fluid simulation (`SPHEngine.java`) in `org.jwildfire.ca.fluid`. This provides a Lagrangian particle-based fluid solver as an alternative to the Eulerian grid-based LBM solver, fulfilling the VoC Fluid Dynamics roadmap.
+
+
+## [1.0.22] - 2026-04-14
+
+### Added
+- **Apophysis-J Ingestion**:
+    - Ported `julian` (`JulianFunc`) and `juliascope` (`JuliascopeFunc`) fractal variations from `apophysis-j` to JWildfire as `VariationFunc` implementations, continuing the Phase 1 fractal parity goal.
+
+
 ## [1.0.21] - 2026-04-14
 
 ### Added

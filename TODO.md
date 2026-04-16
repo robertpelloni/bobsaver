@@ -53,3 +53,6 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
 
 - [x] **Visions of Chaos - Particle Life (3D):**
     - Implement the `ParticleLife3DEngine.java` to support particle interaction matrices in 3D space.
+
+- [x] **Visions of Chaos - Smoothed Particle Hydrodynamics (SPH):**
+    - Implement the `SPHEngine.java` to support 2D multiphase fluid simulation using SPH.

@@ -22,7 +22,7 @@ We are adopting the massive computational library of *Visions of Chaos* (softolo
     - [x] Particle Life simulations (2D/3D).
 - [ ] **Fluid Dynamics (Grid & Particle):**
     - [x] Port Lattice Boltzmann Method (LBM) D2Q9 simulations.
-    - [ ] Implement Multiphase Smoothed Particle Hydrodynamics (SPH).
+    - [x] Implement Multiphase Smoothed Particle Hydrodynamics (SPH).
 - [ ] **Fractals & Physics:**
     - [ ] Integrate Mandelbulb and Hypercomplex 3D/4D fractals into the `RaymarchingVisualizer`.
     - [x] Add Strange Attractor (Lorenz, Rossler) visualizations.
