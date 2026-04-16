@@ -19,7 +19,7 @@ We are adopting the massive computational library of *Visions of Chaos* (softolo
 - [ ] **Agent-Based Modeling (ABM):**
     - [x] Boids (Flocking) integration (Separation/Alignment/Cohesion).
     - [x] Physarum (Slime Mold) network generation.
-    - [ ] Particle Life simulations (2D/3D).
+    - [x] Particle Life simulations (2D/3D).
 - [ ] **Fluid Dynamics (Grid & Particle):**
     - [x] Port Lattice Boltzmann Method (LBM) D2Q9 simulations.
     - [ ] Implement Multiphase Smoothed Particle Hydrodynamics (SPH).

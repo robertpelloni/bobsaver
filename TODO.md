@@ -50,3 +50,6 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
     - Create native C++ stub `jw_md_bridge.cpp` to expose headless endpoints.
 - [x] **ML Orchestration Scaffolding (Phase 3):**
     - Implement `PythonRPCBridge.java` to act as the communication layer with local Python virtual environments running Stable Diffusion / Audio generative tasks.
+
+- [x] **Visions of Chaos - Particle Life (3D):**
+    - Implement the `ParticleLife3DEngine.java` to support particle interaction matrices in 3D space.
