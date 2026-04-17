@@ -24,7 +24,7 @@ We are adopting the massive computational library of *Visions of Chaos* (softolo
     - [x] Port Lattice Boltzmann Method (LBM) D2Q9 simulations.
     - [x] Implement Multiphase Smoothed Particle Hydrodynamics (SPH).
 - [ ] **Fractals & Physics:**
-    - [ ] Integrate Mandelbulb and Hypercomplex 3D/4D fractals into the `RaymarchingVisualizer`.
+    - [x] Integrate Mandelbulb and Hypercomplex 3D/4D fractals into the `RaymarchingVisualizer`.
     - [x] Add Strange Attractor (Lorenz, Rossler) visualizations.
 
 ## Phase 3: Machine Learning & Generative AI Orchestration (Planned)
