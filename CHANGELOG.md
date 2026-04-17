@@ -2,6 +2,13 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.25] - 2026-04-18
+
+### Added
+- **Machine Learning Orchestration (Phase 3)**:
+    - Implemented `PythonRPCBridge.java` scaffolding in JWildfire's `org.jwildfire.ml` package to act as the foundational communication layer with local Python virtual environments running generative AI models (e.g., Stable Diffusion, audio generation).
+
+
 ## [1.0.23] - 2026-04-14
 
 ### Added

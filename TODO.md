@@ -56,3 +56,6 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
 
 - [x] **Visions of Chaos - Smoothed Particle Hydrodynamics (SPH):**
     - Implement the `SPHEngine.java` to support 2D multiphase fluid simulation using SPH.
+
+- [x] **ML Orchestration Scaffolding (Phase 3):**
+    - Implement `PythonRPCBridge.java` to act as the communication layer with local Python virtual environments running Stable Diffusion / Audio generative tasks.
