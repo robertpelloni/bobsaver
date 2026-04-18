@@ -2,6 +2,13 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.31] - 2026-04-18
+
+### Added
+- **Audio Processing Architecture**:
+    - Created `StandaloneAudioProcessor.java` in JWildfire's `org.jwildfire.visualizer` package. This extracts the core FFT computation and PCM float normalization logic away from the hardware-dependent `AudioCapture.java`. This modular service can now be injected into file-reading streams (like `.wav` or `.mp3` processing) to drive Native Visualizers offline, which is critical for the Easy Movie Maker pipeline.
+
+
 ## [1.0.28] - 2026-04-18
 
 ### Added
