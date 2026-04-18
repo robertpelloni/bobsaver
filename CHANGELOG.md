@@ -2,6 +2,13 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.28] - 2026-04-18
+
+### Added
+- **Machine Learning Orchestration (Phase 3)**:
+    - Implemented `PythonEnvironmentManager.java` in JWildfire to manage isolated Python virtual environments (`voc_base`, `voc_sd`) dynamically. This utility ensures robust lifecycle management (creation, process control) of the external generative models without causing dependency conflicts on the host system.
+
+
 ## [1.0.25] - 2026-04-18
 
 ### Added

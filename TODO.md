@@ -59,3 +59,6 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
 
 - [x] **ML Orchestration Scaffolding (Phase 3):**
     - Implement `PythonRPCBridge.java` to act as the communication layer with local Python virtual environments running Stable Diffusion / Audio generative tasks.
+
+- [x] **ML Orchestration Scaffolding (Phase 3):**
+    - Implement Python virtual environment manager (`PythonEnvironmentManager.java`) to handle the setup and lifecycle of `voc_base`, `voc_sd` environments from Java.

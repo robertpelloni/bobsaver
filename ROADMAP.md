@@ -6,7 +6,7 @@
 - [ ] **FFM Native Bridging Pipeline:**
     - [x] Create universal `AudioListener` and capture pipeline in JWildfire.
     - [x] Implement `ProjectMBinding.java` mapping for `libprojectM`.
-    - [ ] Create `geiss_ffi` headless texture extractor.
+    - [x] Create `geiss_ffi` headless texture extractor.
     - [x] Create `milkdrop3_ffi` headless texture extractor.
 
 ## Phase 2: "Visions of Chaos" (VoC) Assimilation (In Progress)
@@ -31,7 +31,7 @@ We are adopting the massive computational library of *Visions of Chaos* (softolo
 Sourced from VoC's local execution philosophy, integrated directly into JWildfire's pipeline (requiring local GPU).
 - [ ] **Hybrid Native Orchestration:**
     - [x] Establish an ONNX Runtime or local Python RPC bridge to JWildfire.
-    - [ ] Implement isolated virtual environments (following VoC's `voc_base`, `voc_sd` pattern) to manage model dependencies.
+    - [x] Implement isolated virtual environments (following VoC's `voc_base`, `voc_sd` pattern) to manage model dependencies.
 - [ ] **Text-to-Image / Video Pipeline:**
     - [ ] Integrate Stable Diffusion (SDXL/Flux/SD3.5) local inference.
     - [ ] Implement video interpolation (FILM, RIFE) for Easy Movie Maker.
