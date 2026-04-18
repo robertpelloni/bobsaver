@@ -33,7 +33,7 @@ Sourced from VoC's local execution philosophy, integrated directly into JWildfir
     - [x] Establish an ONNX Runtime or local Python RPC bridge to JWildfire.
     - [x] Implement isolated virtual environments (following VoC's `voc_base`, `voc_sd` pattern) to manage model dependencies.
 - [ ] **Text-to-Image / Video Pipeline:**
-    - [ ] Integrate Stable Diffusion (SDXL/Flux/SD3.5) local inference.
+    - [x] Integrate Stable Diffusion (SDXL/Flux/SD3.5) local inference.
     - [ ] Implement video interpolation (FILM, RIFE) for Easy Movie Maker.
 - [ ] **Audio & Speech Architecture:**
     - [ ] Integrate MusicGen and Riffusion for procedural audio.
