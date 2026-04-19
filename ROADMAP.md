@@ -34,7 +34,7 @@ Sourced from VoC's local execution philosophy, integrated directly into JWildfir
     - [x] Implement isolated virtual environments (following VoC's `voc_base`, `voc_sd` pattern) to manage model dependencies.
 - [ ] **Text-to-Image / Video Pipeline:**
     - [x] Integrate Stable Diffusion (SDXL/Flux/SD3.5) local inference.
-    - [ ] Implement video interpolation (FILM, RIFE) for Easy Movie Maker.
+    - [x] Implement video interpolation (FILM, RIFE) for Easy Movie Maker.
 - [ ] **Audio & Speech Architecture:**
     - [ ] Integrate MusicGen and Riffusion for procedural audio.
     - [ ] Implement F5-TTS / Zonos for high-quality speech.
