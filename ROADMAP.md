@@ -37,7 +37,7 @@ Sourced from VoC's local execution philosophy, integrated directly into JWildfir
     - [x] Implement video interpolation (FILM, RIFE) for Easy Movie Maker.
 - [ ] **Audio & Speech Architecture:**
     - [x] Integrate MusicGen and Riffusion for procedural audio.
-    - [ ] Implement F5-TTS / Zonos for high-quality speech.
+    - [x] Implement F5-TTS / Zonos for high-quality speech.
 
 ## Phase 4: 3D Visualization Hub & Autonomous DJ
 - [ ] **3D Visualization Hub:**

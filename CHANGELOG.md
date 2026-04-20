@@ -2,6 +2,13 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.34] - 2026-04-18
+
+### Added
+- **3D Visualization Hub & Autonomous DJ (Phase 4)**:
+    - Implemented `AutonomousDJ.java` in JWildfire's `org.jwildfire.ml` package. This agent analyzes real-time audio input (via the `AudioListener` Pub/Sub model) to detect beats and sustained energy, autonomously adjusting global chaos and speed parameters. This begins the transition into Phase 4, turning JWildfire into a self-driving, endless generative art installation.
+
+
 ## [1.0.30] - 2026-04-18
 
 ### Added
