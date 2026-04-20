@@ -36,7 +36,7 @@ Sourced from VoC's local execution philosophy, integrated directly into JWildfir
     - [x] Integrate Stable Diffusion (SDXL/Flux/SD3.5) local inference.
     - [x] Implement video interpolation (FILM, RIFE) for Easy Movie Maker.
 - [ ] **Audio & Speech Architecture:**
-    - [ ] Integrate MusicGen and Riffusion for procedural audio.
+    - [x] Integrate MusicGen and Riffusion for procedural audio.
     - [ ] Implement F5-TTS / Zonos for high-quality speech.
 
 ## Phase 4: 3D Visualization Hub & Autonomous DJ

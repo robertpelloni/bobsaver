@@ -2,6 +2,13 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.30] - 2026-04-18
+
+### Added
+- **Machine Learning Orchestration (Phase 3)**:
+    - Implemented `AudioGenerationWrapper.java` in JWildfire to serve as the high-level Java interface for local procedural audio inference (e.g., MusicGen, Riffusion). It uses the existing `PythonEnvironmentManager` and `PythonRPCBridge` infrastructure to start the appropriate local Python server, send text-to-audio generation requests, and retrieve the resulting `.wav` file paths for subsequent visualizer synchronization.
+
+
 ## [1.0.31] - 2026-04-18
 
 ### Added
