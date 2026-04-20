@@ -65,3 +65,6 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
 
 - [x] **Video Interpolation Pipeline (Phase 3):**
     - Integrate local video interpolation tools (FILM, RIFE) by creating `VideoInterpolationWrapper.java` using the `PythonEnvironmentManager` and `PythonRPCBridge` scaffolding to support Easy Movie Maker.
+
+- [x] **Audio & Speech Architecture (Phase 3):**
+    - Implement `SpeechGenerationWrapper.java` using `PythonEnvironmentManager` and `PythonRPCBridge` to interface with F5-TTS/Zonos.
