@@ -68,3 +68,6 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
 
 - [x] **Audio & Speech Architecture (Phase 3):**
     - Implement `SpeechGenerationWrapper.java` using `PythonEnvironmentManager` and `PythonRPCBridge` to interface with F5-TTS/Zonos.
+
+- [x] **Electric Sheep Network Revival (Phase 4):**
+    - Implement `DecentralizedClient.java` to handle NIO socket connections, polling for fractal rendering jobs, and submitting finished frame results to the tracking server.
