@@ -71,3 +71,6 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
 
 - [x] **Electric Sheep Network Revival (Phase 4):**
     - Implement `DecentralizedClient.java` to handle NIO socket connections, polling for fractal rendering jobs, and submitting finished frame results to the tracking server.
+
+- [ ] **Advanced ML Features:**
+    - Extend `StableDiffusionWrapper.java` to support "Real-time Latent Space Audio Reactivity" using FFT spectrum arrays to perturb generation parameters.
