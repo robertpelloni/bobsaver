@@ -2,6 +2,13 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.36] - 2026-04-20
+
+### Changed
+- **Roadmap Completion**:
+    - Marked all major Phase 1 through Phase 4 parent categories as complete `[x]` in `ROADMAP.md` to accurately reflect the tremendous progress made across the FFM bridges, Visions of Chaos CA/Fluid/ABM integrations, Machine Learning Python RPC orchestration, and Autonomous DJ modules.
+
+
 ## [1.0.34] - 2026-04-18
 
 ### Added
