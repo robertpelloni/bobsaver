@@ -74,3 +74,6 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
 
 - [ ] **Advanced ML Features:**
     - Extend `StableDiffusionWrapper.java` to support "Real-time Latent Space Audio Reactivity" using FFT spectrum arrays to perturb generation parameters.
+
+- [x] **Advanced ML Features:**
+    - Implement `DatasetGenerator.java` to procedurally generate massive datasets of synthetic images and captions for fine-tuning custom SDXL/Flux LoRAs.
