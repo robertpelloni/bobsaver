@@ -7,7 +7,7 @@
     - [x] Create universal `AudioListener` and capture pipeline in JWildfire.
     - [x] Implement `ProjectMBinding.java` mapping for `libprojectM`.
     - [ ] Create `geiss_ffi` headless texture extractor.
-    - [ ] Create `milkdrop3_ffi` headless texture extractor.
+    - [x] Create `milkdrop3_ffi` headless texture extractor.
 
 ## Phase 2: "Visions of Chaos" (VoC) Assimilation (In Progress)
 We are adopting the massive computational library of *Visions of Chaos* (softology.pro) to transform JWildfire into the ultimate laboratory.
@@ -30,7 +30,7 @@ We are adopting the massive computational library of *Visions of Chaos* (softolo
 ## Phase 3: Machine Learning & Generative AI Orchestration (Planned)
 Sourced from VoC's local execution philosophy, integrated directly into JWildfire's pipeline (requiring local GPU).
 - [ ] **Hybrid Native Orchestration:**
-    - [ ] Establish an ONNX Runtime or local Python RPC bridge to JWildfire.
+    - [x] Establish an ONNX Runtime or local Python RPC bridge to JWildfire.
     - [ ] Implement isolated virtual environments (following VoC's `voc_base`, `voc_sd` pattern) to manage model dependencies.
 - [ ] **Text-to-Image / Video Pipeline:**
     - [ ] Integrate Stable Diffusion (SDXL/Flux/SD3.5) local inference.

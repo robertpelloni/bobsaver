@@ -2,6 +2,95 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.19] - 2026-04-03
+
+### Added
+- **MilkDrop3 Integration (Phase 1)**:
+    - Created Java 21 FFM bridge `MilkDropBinding.java` in JWildfire to initialize and interact with a local `MilkDrop3` rendering instance.
+    - Created `jw_md_bridge.cpp` stub in the `MilkDrop3` submodule to act as the `extern "C"` headless interface required by JWildfire.
+- **Machine Learning Orchestration (Phase 3)**:
+    - Created `PythonRPCBridge.java` scaffolding in JWildfire's `org.jwildfire.ml` package to communicate with local Python ML servers (e.g., Stable Diffusion, audio generation).
+
+## [1.0.18] - 2026-04-03
+
+### Added
+- **Electric Sheep Integration (Phase 1)**:
+    - Created Java 21 FFM bridge `ElectricSheepBinding.java` in JWildfire to initialize and interact with a local `electricsheep` rendering instance.
+    - Created `jw_es_bridge.cpp` stub in the `electricsheep` submodule to act as the `extern "C"` headless interface required by JWildfire.
+
+
+## [1.0.17] - 2026-04-03
+
+### Added
+- **Visions of Chaos Integration (JWildfire)**:
+    - Implemented **Particle Life Engine (2D)** (`ParticleLifeEngine.java`) in `org.jwildfire.ca.abm` as part of the Agent-Based Modeling assimilation.
+
+
+## [1.0.16] - 2026-04-02
+
+### Added
+- **Apophysis-J Ingestion**:
+    - Ported `juliaN` (`JulianFunc`), `juliaScope` (`JuliascopeFunc`), and `gaussian_blur` (`GaussianblurFunc`) fractal variations from `apophysis-j` to JWildfire.
+    - Updated `APOPHYSIS_MAPPING.md` to reflect the newly ported variations. This marks the conclusion of porting the major standard Apophysis variations.
+
+
+## [1.0.15] - 2026-04-02
+
+### Added
+- **Apophysis-J Ingestion**:
+    - Ported `eyefish`, `rings2`, `bubble`, `cylinder`, and `perspective` fractal variations from `apophysis-j` to JWildfire as `VariationFunc` implementations.
+    - Updated `APOPHYSIS_MAPPING.md` to reflect the newly ported variations.
+
+
+## [1.0.14] - 2026-04-02
+
+### Added
+- **Apophysis-J Ingestion**:
+    - Ported `rings`, `fan`, `blob`, `pdj`, and `fan2` fractal variations from `apophysis-j` to JWildfire as `VariationFunc` implementations.
+    - Updated `APOPHYSIS_MAPPING.md` to reflect the newly ported variations.
+
+
+## [1.0.13] - 2026-04-02
+
+### Added
+- **Apophysis-J Ingestion**:
+    - Ported `fisheye`, `popcorn`, `exponential`, `power`, and `cosine` fractal variations from `apophysis-j` to JWildfire as `VariationFunc` implementations.
+    - Updated `APOPHYSIS_MAPPING.md` to reflect the newly ported variations.
+
+
+## [1.0.12] - 2026-04-02
+
+### Added
+- **Apophysis-J Ingestion**:
+    - Ported `hyperbolic`, `diamond`, `ex`, `julia`, and `bent` fractal variations from `apophysis-j` to JWildfire as `VariationFunc` implementations.
+    - Updated `APOPHYSIS_MAPPING.md` to reflect the newly ported variations.
+
+
+## [1.0.11] - 2026-04-02
+
+### Added
+- **Apophysis-J Ingestion**:
+    - Ported `horseshoe`, `handkerchief`, `heart`, `disc`, and `spiral` fractal variations from `apophysis-j` to JWildfire as `VariationFunc` implementations.
+    - Updated `APOPHYSIS_MAPPING.md` to reflect the newly ported variations.
+
+
+## [1.0.10] - 2026-04-02
+
+### Added
+- **Visions of Chaos Integration (JWildfire)**:
+    - Implemented 3D Lattice Boltzmann Method (D3Q19) fluid simulation (`LatticeBoltzmann3DEngine.java`).
+    - Added 3D model exporters for Cellular Automata grids (`OBJExporter.java`) and Strange Attractors (`AttractorOBJExporter.java`).
+- **Audio Processing Architecture**:
+    - Refactored `AudioCapture` to extract FFT/PCM processing into a standalone `AudioProcessor` service, enabling support for both live mic input and recorded file processing (.wav/.mp3).
+- **Geiss Integration**:
+    - Created `GeissBinding.java` via the Java FFM API to bridge the Geiss native visualizer into JWildfire.
+- **Apophysis-J Ingestion Planning**:
+    - Created `APOPHYSIS_MAPPING.md` to document the overlap between Apophysis-J variations and JWildfire's `org.jwildfire.transform` package.
+
+### Changed
+- Evaluated merging ProjectM upstream `v4.1.x` into `master`, but postponed due to significant merge conflicts to maintain focus on VoC and JavaFX integration.
+
+
 ## [1.0.9] - 2026-04-02
 
 ### Added
