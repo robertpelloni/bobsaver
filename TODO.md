@@ -72,5 +72,11 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
 - [x] **Electric Sheep Network Revival (Phase 4):**
     - Implement `DecentralizedClient.java` to handle NIO socket connections, polling for fractal rendering jobs, and submitting finished frame results to the tracking server.
 
-- [ ] **Advanced ML Features:**
+- [x] **Advanced ML Features:**
     - Extend `StableDiffusionWrapper.java` to support "Real-time Latent Space Audio Reactivity" using FFT spectrum arrays to perturb generation parameters.
+
+- [x] **Advanced ML Features:**
+    - Implement `DatasetGenerator.java` to procedurally generate massive datasets of synthetic images and captions for fine-tuning custom SDXL/Flux LoRAs.
+
+- [ ] **UI/UX Enhancements:**
+    - Build an OpenXR bridge prototype (`OpenXRBridge.java`) to render 3D elements (Mandelbulbs, 3D CA) natively in VR/XR headsets via LWJGL.
