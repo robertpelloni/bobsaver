@@ -1,0 +1,13 @@
+
+# Large binary files (11GB+)
+VoC/**/*.exe
+VoC/**/*.dll
+VoC/**/*.bak
+VoC/MachineLearning/Abogen/
+.jules/
+
+# Large binary files
+VoC/**/*.exe
+VoC/**/*.dll
+VoC/**/*.bak
+.jules/
