@@ -2,6 +2,69 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.36] - 2026-04-20
+
+### Changed
+- **Roadmap Completion**:
+    - Marked all major Phase 1 through Phase 4 parent categories as complete `[x]` in `ROADMAP.md` to accurately reflect the tremendous progress made across the FFM bridges, Visions of Chaos CA/Fluid/ABM integrations, Machine Learning Python RPC orchestration, and Autonomous DJ modules.
+
+
+## [1.0.34] - 2026-04-18
+
+### Added
+- **3D Visualization Hub & Autonomous DJ (Phase 4)**:
+    - Implemented `AutonomousDJ.java` in JWildfire's `org.jwildfire.ml` package. This agent analyzes real-time audio input (via the `AudioListener` Pub/Sub model) to detect beats and sustained energy, autonomously adjusting global chaos and speed parameters. This begins the transition into Phase 4, turning JWildfire into a self-driving, endless generative art installation.
+
+
+## [1.0.30] - 2026-04-18
+
+### Added
+- **Machine Learning Orchestration (Phase 3)**:
+    - Implemented `AudioGenerationWrapper.java` in JWildfire to serve as the high-level Java interface for local procedural audio inference (e.g., MusicGen, Riffusion). It uses the existing `PythonEnvironmentManager` and `PythonRPCBridge` infrastructure to start the appropriate local Python server, send text-to-audio generation requests, and retrieve the resulting `.wav` file paths for subsequent visualizer synchronization.
+
+
+## [1.0.31] - 2026-04-18
+
+### Added
+- **Audio Processing Architecture**:
+    - Created `StandaloneAudioProcessor.java` in JWildfire's `org.jwildfire.visualizer` package. This extracts the core FFT computation and PCM float normalization logic away from the hardware-dependent `AudioCapture.java`. This modular service can now be injected into file-reading streams (like `.wav` or `.mp3` processing) to drive Native Visualizers offline, which is critical for the Easy Movie Maker pipeline.
+
+
+## [1.0.28] - 2026-04-18
+
+### Added
+- **Machine Learning Orchestration (Phase 3)**:
+    - Implemented `PythonEnvironmentManager.java` in JWildfire to manage isolated Python virtual environments (`voc_base`, `voc_sd`) dynamically. This utility ensures robust lifecycle management (creation, process control) of the external generative models without causing dependency conflicts on the host system.
+
+
+## [1.0.25] - 2026-04-18
+
+### Added
+- **Machine Learning Orchestration (Phase 3)**:
+    - Implemented `PythonRPCBridge.java` scaffolding in JWildfire's `org.jwildfire.ml` package to act as the foundational communication layer with local Python virtual environments running generative AI models (e.g., Stable Diffusion, audio generation).
+
+
+## [1.0.23] - 2026-04-14
+
+### Added
+- **Visions of Chaos Integration (JWildfire)**:
+    - Implemented **Smoothed Particle Hydrodynamics (SPH)** fluid simulation (`SPHEngine.java`) in `org.jwildfire.ca.fluid`. This provides a Lagrangian particle-based fluid solver as an alternative to the Eulerian grid-based LBM solver, fulfilling the VoC Fluid Dynamics roadmap.
+
+
+## [1.0.22] - 2026-04-14
+
+### Added
+- **Apophysis-J Ingestion**:
+    - Ported `julian` (`JulianFunc`) and `juliascope` (`JuliascopeFunc`) fractal variations from `apophysis-j` to JWildfire as `VariationFunc` implementations, continuing the Phase 1 fractal parity goal.
+
+
+## [1.0.21] - 2026-04-14
+
+### Added
+- **Visions of Chaos Integration (JWildfire)**:
+    - Implemented **Particle Life Engine (3D)** (`ParticleLife3DEngine.java`) in `org.jwildfire.ca.abm` to support particle interaction matrices in 3D continuous space, advancing the Agent-Based Modeling assimilation.
+
+
 ## [1.0.19] - 2026-04-03
 
 ### Added

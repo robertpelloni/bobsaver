@@ -50,3 +50,27 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
     - Create native C++ stub `jw_md_bridge.cpp` to expose headless endpoints.
 - [x] **ML Orchestration Scaffolding (Phase 3):**
     - Implement `PythonRPCBridge.java` to act as the communication layer with local Python virtual environments running Stable Diffusion / Audio generative tasks.
+
+- [x] **Visions of Chaos - Particle Life (3D):**
+    - Implement the `ParticleLife3DEngine.java` to support particle interaction matrices in 3D space.
+
+- [x] **Visions of Chaos - Smoothed Particle Hydrodynamics (SPH):**
+    - Implement the `SPHEngine.java` to support 2D multiphase fluid simulation using SPH.
+
+- [x] **ML Orchestration Scaffolding (Phase 3):**
+    - Implement `PythonRPCBridge.java` to act as the communication layer with local Python virtual environments running Stable Diffusion / Audio generative tasks.
+
+- [x] **ML Orchestration Scaffolding (Phase 3):**
+    - Implement Python virtual environment manager (`PythonEnvironmentManager.java`) to handle the setup and lifecycle of `voc_base`, `voc_sd` environments from Java.
+
+- [x] **Video Interpolation Pipeline (Phase 3):**
+    - Integrate local video interpolation tools (FILM, RIFE) by creating `VideoInterpolationWrapper.java` using the `PythonEnvironmentManager` and `PythonRPCBridge` scaffolding to support Easy Movie Maker.
+
+- [x] **Audio & Speech Architecture (Phase 3):**
+    - Implement `SpeechGenerationWrapper.java` using `PythonEnvironmentManager` and `PythonRPCBridge` to interface with F5-TTS/Zonos.
+
+- [x] **Electric Sheep Network Revival (Phase 4):**
+    - Implement `DecentralizedClient.java` to handle NIO socket connections, polling for fractal rendering jobs, and submitting finished frame results to the tracking server.
+
+- [ ] **Advanced ML Features:**
+    - Extend `StableDiffusionWrapper.java` to support "Real-time Latent Space Audio Reactivity" using FFT spectrum arrays to perturb generation parameters.
