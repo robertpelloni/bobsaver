@@ -2,6 +2,13 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.40] - 2026-04-22
+
+### Added
+- **UI/UX Enhancements**:
+    - Implemented the `NodeEditorFrame.java` prototype in JWildfire. This fulfills the `IDEAS.md` concept of "Node-Based Visual Scripting". It provides a drag-and-drop, node-and-wire visual interface intended to replace the legacy linear list of fractal variations, allowing users to build complex generative pipelines visually.
+
+
 ## [1.0.38] - 2026-04-21
 
 ### Changed
