@@ -77,3 +77,6 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
 
 - [x] **Advanced ML Features:**
     - Implement `DatasetGenerator.java` to procedurally generate massive datasets of synthetic images and captions for fine-tuning custom SDXL/Flux LoRAs.
+
+- [ ] **UI/UX Enhancements:**
+    - Build an OpenXR bridge prototype (`OpenXRBridge.java`) to render 3D elements (Mandelbulbs, 3D CA) natively in VR/XR headsets via LWJGL.
