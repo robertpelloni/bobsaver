@@ -11,3 +11,5 @@ VoC/**/*.exe
 VoC/**/*.dll
 VoC/**/*.bak
 .jules/
+
+.jules/sessions/
