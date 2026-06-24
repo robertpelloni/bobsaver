@@ -12,7 +12,7 @@
 	url = https://github.com/robertpelloni/geiss
 [submodule "MilkDrop3"]
 	path = MilkDrop3
-	url = https://github.com/robertpelloni/MilkDrop3
+	url = https://github.com/robertpelloni/MilkDrop3.git
 [submodule "projectm"]
 	path = projectm
 	url = https://github.com/robertpelloni/projectm
