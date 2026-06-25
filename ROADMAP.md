@@ -6,7 +6,7 @@
 - [x] **FFM Native Bridging Pipeline:**
     - [x] Create universal `AudioListener` and capture pipeline in JWildfire.
     - [x] Implement `ProjectMBinding.java` mapping for `libprojectM`.
-    - [ ] Create `geiss_ffi` headless texture extractor.
+    - [x] Create `geiss_ffi` headless texture extractor.
     - [x] Create `geiss_ffi` headless texture extractor.
     - [x] Create `milkdrop3_ffi` headless texture extractor.
 
