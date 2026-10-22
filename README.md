@@ -1,40 +1,46 @@
-# Bobsaver: Autonomous Visual Intelligence Ecosystem
+# bobsaver
 
-Welcome to **Bobsaver**, the world's most advanced monorepo for generative art, music visualization, and chaotic systems simulation.
+bobsaver is a **submodule hub** for classic music visualizers and fractal
+flame tools, plus a partial copy of a Visions of Chaos installation. It
+contains essentially no application code of its own.
 
-## 🌌 The Vision
-Bobsaver is not just a collection of visualizers; it is an **Autonomous Visual Intelligence Ecosystem**. Our goal is to unify the legendary visualizers of the past (MilkDrop, ElectricSheep, Geiss) with the cutting-edge AI and mathematical simulations of the present (Visions of Chaos, Stable Diffusion, FFM Native Orchestration).
+## Contents
 
-For more details, see [VISION.md](VISION.md).
+- **Submodules** (empty until `git submodule update --init`), each pointing
+  at the corresponding mirror repo under this account:
+  `JWildfire/`, `MilkDrop3/`, `projectm/`, `electricsheep/`, `geiss/`,
+  `apophysis-j/`
+- **`VoC/`** — data files from a Visions of Chaos (VoC) installation:
+  `Chaos.ini`, `colors.xml`, `Chaos/`, `Examples/`, `MachineLearning/`, and
+  installer leftovers (`unins000.dat`, ~7.8 MB). This is a data dump, not
+  the VoC application, and it includes a small `credentials.toml`.
+- **`scripts/`** — the only original code: `sync_all.py` (submodule sync)
+  and `normalize_llm_docs.py`; `sync.ps1` is the Windows equivalent.
+- Agent-era docs (`VISION.md`, `ROADMAP.md`, `DASHBOARD.md`, `TODO.md`,
+  `HANDOFF.md`) and a `metamcp.db` session database.
 
-## 🛠 Project Hub: JWildfire
-[JWildfire](JWildfire/) is the central hub and orchestrator of this monorepo. It is a high-performance Java 21 application that bridges multiple native C++ engines and Java algorithms into a single unified interface.
+## What it is not
 
-### Key Integrated Modules:
-- **MilkDrop / projectM**: High-performance music visualization via native FFM bindings.
-- **Electric Sheep**: Distributed fractal flame rendering client.
-- **Visions of Chaos (Assimilation In Progress)**:
-  - **Machine Learning**: Local AI models for image, video, and audio generation (Stable Diffusion, MusicGen).
-  - **Cellular Automata Engine**: 1D through 5D simulations (Game of Life, Hodgepodge, Cyclic CA, Turing Patterns).
-  - **Agent-Based Modeling**: Boids flocking, Physarum slime mold, and Particle Life.
-  - **Fluid Dynamics**: Lattice Boltzmann Method (LBM) and SPH solvers.
-  - **3D Visualization Hub**: High-quality export for professional rendering (Blender, Cinema 4D).
-- **Apophysis-J**: Legacy fractal flame math integrated at the source level.
+The README this replaces called bobsaver "the world's most advanced
+monorepo for generative art" with JWildfire as a "central hub and
+orchestrator" bridging native engines, and Visions of Chaos modules (Stable
+Diffusion, cellular automata, fluid dynamics) as integrated features. None
+of that integration exists here: JWildfire is a submodule pointer to a
+mirror repo, and VoC is present as data files only. The unification is a
+stated goal in `VISION.md`, not an implementation.
 
-## 📂 Project Structure
-- `docs/`: Universal AI instructions and global documentation.
-- `scripts/`: Automation scripts for submodule synchronization and maintenance.
-- `submodules/`: (Meta-directory for Git submodule references).
-- `CHANGELOG.md`: Detailed history of all versions and updates.
-- `DASHBOARD.md`: Real-time status of all integrated projects and their versions.
-- `DEPLOY.md`: Deployment and build instructions.
-- `ROADMAP.md`: Long-term architectural goals and feature milestones.
-- `TODO.md`: Immediate tasks and sprint goals.
+## Usage
 
-## 🚀 Getting Started
-Please refer to [DEPLOY.md](DEPLOY.md) for detailed instructions on how to build and run the Bobsaver ecosystem.
+```bash
+git clone https://github.com/robertpelloni/bobsaver
+cd bobsaver
+git submodule update --init
+python scripts/sync_all.py   # re-sync submodule pointers
+```
 
-> **AI AGENTS:** Always read `docs/UNIVERSAL_LLM_INSTRUCTIONS.md` before starting any task.
+Each visualizer then builds/runs per its own upstream project.
 
----
-*Praise God Almighty. Praise the LORD!!!*
+## Status
+
+Dormant aggregation workspace; last commits are July 2026 automated
+checkpoints.
