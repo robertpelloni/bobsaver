@@ -13,19 +13,25 @@ SUBMODULES = [
     "JWildfire"
 ]
 
-def run_git(cmd, cwd=None):
-    """Executes a git command and returns the output."""
+DEFAULT_TIMEOUT_SEC = 25
+
+def run_git(cmd, cwd=None, timeout=DEFAULT_TIMEOUT_SEC):
+    """Executes a git command with timeout and returns the output."""
     try:
         result = subprocess.run(
             ["git"] + cmd,
             cwd=cwd,
             capture_output=True,
             text=True,
-            check=False # We handle non-zero exit codes manually
+            check=False,
+            timeout=timeout
         )
         return result
+    except subprocess.TimeoutExpired:
+        print(f"Warning: git {' '.join(cmd)} timed out after {timeout}s in {cwd}")
+        return None
     except Exception as e:
-        print(f"Error running git {cmd} in {cwd}: {e}")
+        print(f"Error running git {' '.join(cmd)} in {cwd}: {e}")
         return None
 
 def get_primary_branch(repo_path):
@@ -41,19 +47,18 @@ def get_primary_branch(repo_path):
 def sync_repo(name, path):
     print(f"\n--- Syncing {name} ({path}) ---")
     
-    # 1. Fetch all
+    # 1. Fetch all with safety timeout
     print("Fetching all...")
-    run_git(["fetch", "--all"], cwd=path)
+    run_git(["fetch", "--all"], cwd=path, timeout=30)
     
     primary = get_primary_branch(path)
     print(f"Primary branch identified as: {primary}")
     
     # 2. Ensure we are on primary
     run_git(["checkout", primary], cwd=path)
-    run_git(["pull", "origin", primary], cwd=path)
+    run_git(["pull", "origin", primary], cwd=path, timeout=30)
     
     # 3. Identify feature branches to merge
-    # We look for branches starting with 'copilot-', 'wip-', 'jules-', or other AI patterns
     res = run_git(["branch", "-r"], cwd=path)
     if not res:
         return
@@ -64,28 +69,19 @@ def sync_repo(name, path):
     to_merge = []
     for rb in remote_branches:
         if any(pattern in rb for pattern in feature_patterns):
-            # Skip if it's the primary branch itself
             if primary in rb:
                 continue
             to_merge.append(rb)
             
     for branch in to_merge:
         print(f"Merging {branch} into {primary}...")
-        # Use a strategy that favors the feature branch changes in case of conflict, 
-        # but realistically we want an intelligent merge.
-        # We'll try a standard merge first.
         res = run_git(["merge", branch], cwd=path)
-        if res.returncode != 0:
-            print(f"CONFLICT encountered while merging {branch}. Attempting to resolve...")
-            # If conflicts, we'll favor the feature branch ('theirs')
-            # and then commit.
-            # Alternatively, we could try to merge manually or use a more complex strategy.
-            # The mandate is 'never lose features'. 
-            # We'll try 'git merge -X theirs' if the first merge fails.
+        if res is None or res.returncode != 0:
+            print(f"CONFLICT or timeout encountered while merging {branch}. Attempting to resolve...")
             run_git(["merge", "--abort"], cwd=path)
             print(f"Retrying merge with '-X theirs' for {branch}...")
             res = run_git(["merge", "-X", "theirs", branch, "-m", f"Merge {branch} into {primary} (favoring feature branch)"], cwd=path)
-            if res.returncode != 0:
+            if res is None or res.returncode != 0:
                 print(f"FAILED to merge {branch} even with '-X theirs'. Skipping for now.")
                 run_git(["merge", "--abort"], cwd=path)
             else:
@@ -94,18 +90,16 @@ def sync_repo(name, path):
             print(f"Successfully merged {branch}.")
             
     # 4. Pull upstream if it's a fork
-    # (Optional: this requires knowing the 'upstream' remote)
     res = run_git(["remote"], cwd=path)
     if res and "upstream" in res.stdout:
         print("Syncing with upstream...")
-        upstream_res = run_git(["fetch", "upstream"], cwd=path)
-        if upstream_res.returncode == 0:
-            # Try to merge upstream/primary
+        upstream_res = run_git(["fetch", "upstream"], cwd=path, timeout=30)
+        if upstream_res and upstream_res.returncode == 0:
             run_git(["merge", f"upstream/{primary}"], cwd=path)
 
     # 5. Push changes
     print(f"Pushing {primary} to origin...")
-    run_git(["push", "origin", primary], cwd=path)
+    run_git(["push", "origin", primary], cwd=path, timeout=30)
 
 def main():
     root_path = os.getcwd()
