@@ -2,6 +2,18 @@
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.
 
+## [1.0.41] - 2026-11-08
+
+### Added
+- **Single-Page Consolidated Dashboard**: Reorganized UI into a single cohesive page prioritizing high-value core services (Tray & Server supervisor, submodules health, shadow diff monitor, queue telemetry) followed by AI routing, CI/CD pipeline generation, conflict/drift scanning, refactoring tools, and live logs. Added tooltip guidance icons across all inputs.
+- **Backend API Endpoints**:
+  - Registered `/api/system/pipeline` and `/api/system/refactor` in `geiss/backend-go/main.go`.
+  - Added `/api/system/server/status` and `/api/system/server/shutdown` in `geiss/backend-go/server_control.go`.
+- **System Tray Supervisor**:
+  - Created `scripts/system_tray.py` providing OS system tray icon support with server status introspection, log viewing, and graceful server shutdown, with fallback to CLI supervisor.
+- **Submodule Sync Hardening**:
+  - Added execution timeouts and exception handling to `scripts/sync_all.py`.
+
 ## [1.0.40] - 2026-04-22
 
 ### Added
