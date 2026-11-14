@@ -19,3 +19,6 @@
 - Other submodule pointers (JWildfire, MilkDrop3, apophysis-j, electricsheep, projectm) were dirty/detached on arrival - left untouched, not committed.
 - npm install: registry reachable but TLS (ERR_SSL_TLSV1_ALERT_PROTOCOL_VERSION) makes fetches crawl (~130s each); frontend build pending node_modules.
 - Security: ~/.npmrc holds an npm auth token - rotate it; it surfaced in a local session log.
+
+## Nested submodules (2026-11-14)
+- geiss nested aios/bobmani/borg/fwber all initialised and Synchronized (fwber needed --depth 50; full clone fails). borg re-pinned earlier (stale pin). Dashboard merged upstream v1.0.40 + strict single-page; both shutdown route families live.
