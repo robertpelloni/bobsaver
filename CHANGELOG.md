@@ -1,3 +1,12 @@
+## [1.0.42] - 2026-11-14
+
+### Fixed
+- Backend build broken: removed write-only gorm/sqlite layer (archived as geiss/backend-go/db.go.bak); queue was always in-memory, and go-sqlite3 fails under current Go/GCC (cgo parse error). Backend + go test now pass pure-Go.
+- Missing routes registered: /api/system/pipeline, /api/system/refactor, /api/system/server/status, /api/system/server/shutdown (server_control.go); tray can now actually quit servers.
+
+### Changed
+- Dashboard consolidated to one page (geiss/src/App.jsx): all backend routes wired with labelled forms, descriptions and tooltips, value-ordered; purple accent removed.
+- scripts/sync_all.py: dropped stale BeatDrop entry (not a submodule).
 # Omni-Workspace Root Changelog
 
 All notable changes to the root workspace and submodule architecture will be documented in this file.

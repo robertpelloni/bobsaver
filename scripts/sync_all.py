@@ -5,7 +5,6 @@ import sys
 # Submodules to process
 SUBMODULES = [
     "apophysis-j",
-    "BeatDrop",
     "electricsheep",
     "geiss",
     "MilkDrop3",
