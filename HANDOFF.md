@@ -12,3 +12,10 @@
 - JWildfire/native visualizers (projectm, MilkDrop3, geiss C++, electricsheep) are submodule pointers; not built in this hub session.
 - VoC/ is data only (includes credentials.toml - do not commit secrets from it).
 - Submodule pointers were already modified/dirty on arrival; not blindly committed.
+## Sync state (2026-11-14)
+- Root main: ahead 2 (v1.0.42 commits), push blocked - GITHUB_TOKEN invalid (401). Renew via gh auth login.
+- geiss main: ahead 2, behind 5 upstream - fetch/merge also blocked by same auth.
+- Local branch jules-17743220499720909756-2032f7d7: no diff vs main (already merged); remote dashboard-consolidation branch merged in 32684413.
+- Other submodule pointers (JWildfire, MilkDrop3, apophysis-j, electricsheep, projectm) were dirty/detached on arrival - left untouched, not committed.
+- npm install: registry reachable but TLS (ERR_SSL_TLSV1_ALERT_PROTOCOL_VERSION) makes fetches crawl (~130s each); frontend build pending node_modules.
+- Security: ~/.npmrc holds an npm auth token - rotate it; it surfaced in a local session log.
