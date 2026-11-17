@@ -44,3 +44,7 @@ Backend pure Go (no sqlite), bun frontend, root VERSION.md=1.0.43 source of trut
 
 ## JWildfire compile root cause (2026-11-17)
 - master HEAD has 0 files under src/org/jwildfire/create/tina/base (jules branch: 99). Commit 6d851b50 'sync uncommitted changes' deleted the whole base package + Delphi/ + Denoiser DLLs - looks like an accidental mass-deletion in a sync commit, not a refactor. 28 errors are all in the 6 merged *ControllerFX files referencing tina.base/TinaController. Decision: restore tina/base (+TinaController) from 308e1f8d/6d851b50^ OR drop the 6 ControllerFX files. Compile log: %TEMP%\jwildfire-compile.log.
+
+## JWildfire restore attempt reverted (2026-11-17)
+- Restore of tina/base+TinaController from 308e1f8d attempted, compile still failed (mathlib/animate/edit/palette/variation also missing), restore fully reverted - master clean at e2539122.
+- TRUE SCOPE: master HEAD src/ has 8 files; branch 308e1f8d src/ has 2137. Master is a skeleton (docs/config); the real code tree lives on the jules branch (and local main ahead-11). Owner decision: promote branch tree to master, or keep master docs-only. Do not piecemeal-restore.
