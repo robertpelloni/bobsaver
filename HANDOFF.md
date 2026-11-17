@@ -34,3 +34,7 @@ Backend pure Go (no sqlite), bun frontend, root VERSION.md=1.0.43 source of trut
 ## Telemetry stash + fwber advance (2026-11-17)
 - aios + fwber telemetry-stub injections preserved as stash@{0} in each repo ('telemetry-stub injection 2026-11-14 (preserved by muse-wonder-1.0 autopilot)'); restore with git -C geiss/<repo> stash pop, or drop after owner review.
 - fwber pointer advanced f3417993 -> 55130b326 (fwber lane main, v2.3.108). geiss fd3a9bc, root a5f11c7.
+
+## Conflict triage (2026-11-17)
+- projectm: aborted stuck interactive rebase (pick d2831fede onto ba052dcc6, UU vendor/projectm-eval); main restored at d2831fede [ahead1, behind2], vendor/projectm-eval still modified.
+- JWildfire: merge of origin/jules-9169863700792038266 into master ABORTED by muse-wonder-1.0: conflicts in HANDOFF.md (union-resolvable) PLUS src/org/jwildfire/create/tina/swing/MainEditorFrame.java + TinaController.java (lane code, not mechanical). Master restored clean at 76e74136. Owner/lane to complete that merge.
