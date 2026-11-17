@@ -25,3 +25,8 @@
 
 ## 2026-11-16 1.0.43 handoff [muse-wonder-1.0 in Muse Code in C:/Users/hyper/workspace/bobsaver on laptop]
 Backend pure Go (no sqlite), bun frontend, root VERSION.md=1.0.43 source of truth. Do NOT run sync.ps1; dirty JWildfire/projectm/aios/fwber left untouched pending owner decisions. See geiss/MANUAL.md.
+
+## 1.0.44 (2026-11-16)
+- Workflow consolidation (1.0.43) pushed: geiss 6c40ee5, root a2a3ff3d. This cycle: backup [] fix, shadow warning-line fix, card relocation, suite 62.6s green, backend PID 40668 on :8080 (BelowNormal, session-scoped).
+- OWNER-GATED (do not auto-run): aios/fwber telemetry disposition (fwber still dirty), JWildfire UU merge, projectm rebase, AI-branch deletions, sync.ps1. See workflow synthesis in session log.
+- Edge CDP 9222: two muse.ai Bobbi threads; no gemini/chatgpt tabs present. Identity: [muse-wonder-1.0 in Muse Code in C:\Users\hyper\workspace\bobsaver on laptop].

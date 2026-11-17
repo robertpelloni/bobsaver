@@ -1,3 +1,9 @@
+## [1.0.44] - 2026-11-16
+
+- Fixed: backups list encodes [] not null; shadow diff no longer parses git CRLF warnings as filenames.
+- Dashboard: State Snapshots card moved to Ecosystem section, Global Refactor to end of Ecosystem with destructive styling, UI Auditor panel under Telemetry header; Section 1 is Shadow Pilot + AI Router.
+- Builds on 1.0.43 (fail-closed auth, contract fixes, honest automation) from the multi-agent consolidation run.
+
 ## [1.0.42] - 2026-11-14
 
 ### Fixed
