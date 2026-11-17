@@ -6,6 +6,7 @@ and graceful multi-service termination.
 Falls back to a headless CLI supervisor when GUI/display is unavailable.
 """
 
+import argparse
 import sys
 import os
 import time
@@ -147,6 +148,9 @@ def run_cli_supervisor():
             elif choice in ['4', 'quit']:
                 quit_servers()
                 break
+            elif choice in ['5', 'monitor']:
+                online, info = get_server_status()
+                print(f"Online: {online} -> {info}")
             elif choice in ['q', 'exit']:
                 print("[SUPERVISOR] Exiting supervisor without stopping backend.")
                 break
@@ -157,6 +161,9 @@ def run_cli_supervisor():
             break
 
 def main():
+    ap = argparse.ArgumentParser(description='Jules Autopilot system tray supervisor')
+    ap.add_argument('--cli', action='store_true', help='run headless CLI supervisor')
+    ap.parse_args()
     has_display = bool(os.environ.get("DISPLAY") or os.name == 'nt')
     if has_display:
         try:

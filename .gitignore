@@ -13,3 +13,5 @@ VoC/**/*.bak
 .jules/
 
 .jules/sessions/
+.hypernexus/
+scripts/__pycache__/

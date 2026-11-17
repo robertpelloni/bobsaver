@@ -287,3 +287,11 @@ All notable changes to the root workspace and submodule architecture will be doc
 - Initial creation of the Bobsaver Monorepo.
 - Added JWildfire, projectm, MilkDrop3, geiss, electricsheep, BeatDrop, and apophysis-j as git submodules.
 - Established `docs/UNIVERSAL_LLM_INSTRUCTIONS.md` for AI cross-model continuity.
+
+## 1.0.43 (2026-11-16) — synthesis pass [muse-wonder-1.0 in Muse Code in C:/Users/hyper/workspace/bobsaver on laptop]
+- Fail-closed auth (401 when JULES_API_KEY unset/wrong) on all mutating backend routes; telemetry target_dir traversal rejected.
+- Fixed UI contract mismatches (reasoning, drift status/hashes, conflict file/blocks/strategy, audit status/file counts); removed dead tab state; single-page dashboard with backend PID/uptime polling.
+- Honest automation: CI auto-fix is simulation-only (501); pipeline deploy is simulation-only except local dry-run and reports missing build/tests as failures.
+- Unified shutdown/tray on one handler and one start time; shadow report mutex; drift fetch timeout + parallel scan; logs labelled commit history.
+- Backup tests use temp dirs; state-snapshot (no-DB) test added; legacy db.go.bak archived to docs/archive/.
+- Version unified at 1.0.43 (root VERSION.md is source of truth); bun is canonical frontend tool; added geiss/MANUAL.md and scripts/build.ps1.

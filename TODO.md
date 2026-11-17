@@ -84,3 +84,5 @@ This list represents the immediate, atomic tasks for AI agents (Gemini, Claude, 
 - [x] **Dashboard (1.0.42):** consolidate all backend routes onto one value-ordered page; fix backend build (drop dead sqlite) and register pipeline/refactor/server routes so tray quit works.
 - [ ] Build/run native submodules (projectm/MilkDrop3/geiss C++) and JWildfire hub; verify FFM bindings end-to-end.
 - [ ] Add auth to read-only-but-sensitive scans if backend is ever exposed beyond localhost.
+
+- [x] 1.0.43 synthesis: fail-closed auth, contract fixes, honest automation, unified shutdown, version/docs truth (see geiss/MANUAL.md). Open owner decisions: aios/fwber telemetry disposition, JWildfire/projectm merge/rebase resolution (do not run sync.ps1).

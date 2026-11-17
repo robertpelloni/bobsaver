@@ -22,3 +22,6 @@
 
 ## Nested submodules (2026-11-14)
 - geiss nested aios/bobmani/borg/fwber all initialised and Synchronized (fwber needed --depth 50; full clone fails). borg re-pinned earlier (stale pin). Dashboard merged upstream v1.0.40 + strict single-page; both shutdown route families live.
+
+## 2026-11-16 1.0.43 handoff [muse-wonder-1.0 in Muse Code in C:/Users/hyper/workspace/bobsaver on laptop]
+Backend pure Go (no sqlite), bun frontend, root VERSION.md=1.0.43 source of truth. Do NOT run sync.ps1; dirty JWildfire/projectm/aios/fwber left untouched pending owner decisions. See geiss/MANUAL.md.
