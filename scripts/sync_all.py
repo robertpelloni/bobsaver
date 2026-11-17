@@ -1,3 +1,4 @@
+import argparse
 import os
 import subprocess
 import sys
@@ -14,8 +15,17 @@ SUBMODULES = [
 
 DEFAULT_TIMEOUT_SEC = 25
 
+DRY_RUN = False
+
 def run_git(cmd, cwd=None, timeout=DEFAULT_TIMEOUT_SEC):
-    """Executes a git command with timeout and returns the output."""
+    """Executes a git command with timeout and returns the output.
+
+    In dry-run mode nothing is executed: the planned command is printed
+    and an empty successful result is returned so planning can continue.
+    """
+    if DRY_RUN:
+        print(f"[dry-run] git {' '.join(cmd)}  (cwd={cwd})")
+        return subprocess.CompletedProcess(["git"] + cmd, 0, "", "")
     try:
         result = subprocess.run(
             ["git"] + cmd,
@@ -40,6 +50,10 @@ def get_primary_branch(repo_path):
         return "main"
     branches = res.stdout
     if "* main" in branches or "remotes/origin/main" in branches:
+        return "main"
+    if DRY_RUN:
+        # No command was executed, so branch discovery is unavailable;
+        # assume the common default for planning purposes.
         return "main"
     return "master"
 
@@ -101,6 +115,21 @@ def sync_repo(name, path):
     run_git(["push", "origin", primary], cwd=path, timeout=30)
 
 def main():
+    global DRY_RUN
+    ap = argparse.ArgumentParser(
+        description="Fetch, merge feature branches, and push every submodule repo."
+    )
+    ap.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="print planned git commands without executing them",
+    )
+    args = ap.parse_args()
+    DRY_RUN = args.dry_run
+    if DRY_RUN:
+        print("[dry-run] Planning only; no git commands will be executed.")
+        print("[dry-run] Merge candidates require a real fetch and are not listed.")
+
     root_path = os.getcwd()
     
     # Sync root repo

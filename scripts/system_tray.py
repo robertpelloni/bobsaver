@@ -160,10 +160,33 @@ def run_cli_supervisor():
             print("\n[SUPERVISOR] Interrupted.")
             break
 
+def run_one_shot(command):
+    """Execute a single supervisor command and return."""
+    if command == 'status':
+        online, info = get_server_status()
+        print(f"Online: {online} -> {info}")
+    elif command == 'logs':
+        print(get_recent_logs())
+    elif command == 'open':
+        open_dashboard()
+    elif command == 'quit':
+        quit_servers()
+    elif command == 'monitor':
+        online, info = get_server_status()
+        print(f"Online: {online} -> {info}")
+
 def main():
     ap = argparse.ArgumentParser(description='Jules Autopilot system tray supervisor')
     ap.add_argument('--cli', action='store_true', help='run headless CLI supervisor')
-    ap.parse_args()
+    ap.add_argument('command', nargs='?', choices=['status', 'logs', 'open', 'quit', 'monitor'],
+                    help='one-shot supervisor command (implies --cli)')
+    args = ap.parse_args()
+    if args.command:
+        run_one_shot(args.command)
+        return
+    if args.cli:
+        run_cli_supervisor()
+        return
     has_display = bool(os.environ.get("DISPLAY") or os.name == 'nt')
     if has_display:
         try:
