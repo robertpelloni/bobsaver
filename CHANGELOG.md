@@ -1,3 +1,8 @@
+## [1.0.45] - 2026-11-17
+
+- Fixed (found by exhaustive probe tests, promoted to regression tests): pipeline workspace-escape traversal, state-snapshot/DB-backup filename collisions, queue duplicate task IDs (atomic seq), null-vs-[] JSON in conflicts/prune/shadow/submodule lists.
+- MCP/skills probe: kernel :7778 healthy; repograph is HyperNexus-scoped (native rg authoritative for bobsaver); billing figures are local preview - unverified.
+
 ## [1.0.44] - 2026-11-16
 
 - Fixed: backups list encodes [] not null; shadow diff no longer parses git CRLF warnings as filenames.
