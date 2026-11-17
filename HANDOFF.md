@@ -30,3 +30,7 @@ Backend pure Go (no sqlite), bun frontend, root VERSION.md=1.0.43 source of trut
 - Workflow consolidation (1.0.43) pushed: geiss 6c40ee5, root a2a3ff3d. This cycle: backup [] fix, shadow warning-line fix, card relocation, suite 62.6s green, backend PID 40668 on :8080 (BelowNormal, session-scoped).
 - OWNER-GATED (do not auto-run): aios/fwber telemetry disposition (fwber still dirty), JWildfire UU merge, projectm rebase, AI-branch deletions, sync.ps1. See workflow synthesis in session log.
 - Edge CDP 9222: two muse.ai Bobbi threads; no gemini/chatgpt tabs present. Identity: [muse-wonder-1.0 in Muse Code in C:\Users\hyper\workspace\bobsaver on laptop].
+
+## Telemetry stash + fwber advance (2026-11-17)
+- aios + fwber telemetry-stub injections preserved as stash@{0} in each repo ('telemetry-stub injection 2026-11-14 (preserved by muse-wonder-1.0 autopilot)'); restore with git -C geiss/<repo> stash pop, or drop after owner review.
+- fwber pointer advanced f3417993 -> 55130b326 (fwber lane main, v2.3.108). geiss fd3a9bc, root a5f11c7.
