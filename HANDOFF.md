@@ -38,3 +38,6 @@ Backend pure Go (no sqlite), bun frontend, root VERSION.md=1.0.43 source of trut
 ## Conflict triage (2026-11-17)
 - projectm: aborted stuck interactive rebase (pick d2831fede onto ba052dcc6, UU vendor/projectm-eval); main restored at d2831fede [ahead1, behind2], vendor/projectm-eval still modified.
 - JWildfire: merge of origin/jules-9169863700792038266 into master ABORTED by muse-wonder-1.0: conflicts in HANDOFF.md (union-resolvable) PLUS src/org/jwildfire/create/tina/swing/MainEditorFrame.java + TinaController.java (lane code, not mechanical). Master restored clean at 76e74136. Owner/lane to complete that merge.
+
+## Branch cleanup (2026-11-17)
+- Deleted fully-merged (0 unique commits, verified by rev-list) AI branches: root jules-17743220499720909756 + jules-dashboard-consolidation-v1041 (local+remote), geiss jules-4513212691906134133 + jules-ui-improvements-7018479838332640361 + chore/init-core-docs-v1 (local+remote). Both repos now carry only main.
