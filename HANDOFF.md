@@ -41,3 +41,6 @@ Backend pure Go (no sqlite), bun frontend, root VERSION.md=1.0.43 source of trut
 
 ## Branch cleanup (2026-11-17)
 - Deleted fully-merged (0 unique commits, verified by rev-list) AI branches: root jules-17743220499720909756 + jules-dashboard-consolidation-v1041 (local+remote), geiss jules-4513212691906134133 + jules-ui-improvements-7018479838332640361 + chore/init-core-docs-v1 (local+remote). Both repos now carry only main.
+
+## JWildfire compile root cause (2026-11-17)
+- master HEAD has 0 files under src/org/jwildfire/create/tina/base (jules branch: 99). Commit 6d851b50 'sync uncommitted changes' deleted the whole base package + Delphi/ + Denoiser DLLs - looks like an accidental mass-deletion in a sync commit, not a refactor. 28 errors are all in the 6 merged *ControllerFX files referencing tina.base/TinaController. Decision: restore tina/base (+TinaController) from 308e1f8d/6d851b50^ OR drop the 6 ControllerFX files. Compile log: %TEMP%\jwildfire-compile.log.
