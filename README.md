@@ -4,7 +4,9 @@ bobsaver is a **submodule hub** for classic music visualizers and fractal flame 
 
 ## Status
 
-**Aggregation workspace, intermittently maintained.** Last significant activity: **2026-11-12** — merge of a dashboard-consolidation branch (Protocol #281). Nov 8, 2026 work consolidated a super-dashboard UI, system tray supervisor, and backend control (v1.0.41) and re-pinned stale submodules to published commits.
+**Aggregation workspace, intermittently maintained. v1.0.45.** Last significant activity: **2026-11-17** — projectM submodule pointer re-pin (11ad1cee), after the Nov 17 JWildfire / projectM conflict triage. Earlier: Nov 12, 2026 merge of a dashboard-consolidation branch (Protocol #281); Nov 8, 2026 work consolidated a super-dashboard UI, system tray supervisor, and backend control (v1.0.41) and re-pinned stale submodules to published commits.
+
+**Blocker (2026-11-19):** The JWildfire submodule — the supposed central hub in `VISION.md` — is currently a skeleton on its master branch: 8 files under `src/` vs 2,137 on the branch carrying the real code tree, after `src/org/jwildfire/create/tina/base` was mass-deleted in commit 6d851b50. It does not compile as pinned. Restoring / re-pinning JWildfire, or dropping it as the centerpiece, is an owner decision pending in that repo — bobsaver itself contains no code to fix it. See `HANDOFF.md`.
 
 ## Contents
 
