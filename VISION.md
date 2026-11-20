@@ -1,5 +1,16 @@
 # Omni-Workspace Global Vision & Design Architecture
 
+> **ASPIRATIONAL — NOT IMPLEMENTED (truth pass, 2026-11-19)**
+>
+> Everything below is a stated ambition, not an implementation, not a roadmap of record, and not a description of this repository. As of v1.0.45 (2026-11-17, head 11ad1cee):
+>
+> - bobsaver contains essentially no application code of its own — only `scripts/` sync tooling, submodule pointers, and a Visions of Chaos *data* dump (see `README.md`).
+> - No VoC assimilation, FFM native-visualizer bridge, ML orchestration, 3D export hub, autonomous DJ, or Electric Sheep rendering network exists in this repo. Any code bearing those names lives, if at all, in a submodule repo and is **unverified from here**.
+> - The supposed central hub, JWildfire, is currently a skeleton on master (8 `src/` files vs 2,137 on its real code branch) and does not compile as pinned.
+>
+> This document is kept as a record of the original ambition. Do not cite it as current capability.
+
+---
 ## Ultimate Goal
 The Bobsaver project is a colossal ambition to create the ultimate generative art, physics simulation, artificial life, and machine learning visualization environment. It serves as a unified laboratory where code, algorithms, and deep learning models converge into a singular, highly extensible platform.
 
