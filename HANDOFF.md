@@ -1,5 +1,18 @@
 # Session Handoff
 
+## Current summary (2026-11-19, v1.0.45, head 11ad1cee)
+
+- bobsaver is a submodule hub with essentially no application code of its own (see `README.md`). The only hub-native work in the record below is the single-page dashboard in `geiss/src/App.jsx`, its pure-Go backend, and `scripts/system_tray.py`.
+- **Blocker:** JWildfire master is a skeleton — `src/` has 8 files vs 2,137 on the branch carrying the real tree; `tina/base` was mass-deleted in 6d851b50, a restore attempt was reverted, and a merge was aborted 2026-11-17. Owner decision pending: promote the branch tree to master, or keep master docs-only. Do not piecemeal-restore.
+- projectM: stuck interactive rebase aborted 2026-11-17; main restored, `vendor/projectm-eval` still modified at last record.
+- Native visualizers (projectM, MilkDrop3, geiss C++, electricsheep) are submodule pointers, not built in any hub session. `VoC/` is data only.
+- Owner-gated, do not auto-run: JWildfire / projectM merge and rebase resolution, telemetry disposition for nested aios/fwber, `sync.ps1`.
+- Everything below this summary is the **archived lane log, 2026-11-14 to 2026-11-17**. It records blocked pushes, aborted merges, dirty pointers, and session-local state (PIDs, cron IDs, local paths) that are **historical, not current state**. Do not act on it as if it were live.
+
+---
+
+## Archived lane log (2026-11-14 to 2026-11-17, historical)
+
 ## Summary (1.0.42, 2026-11-14)
 - Dashboard: single page in geiss/src/App.jsx covering every backend route; see CHANGELOG 1.0.42.
 - Backend: pure-Go (no cgo/sqlite), go test ./... passes; server_control.go provides tray/dashboard status+shutdown.
